@@ -14,6 +14,7 @@ content:
   filters:
     folders:
       - post
+      - project
     tag: ''
     category: ''
     publication_type: ''
