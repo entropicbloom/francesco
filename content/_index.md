@@ -23,9 +23,9 @@ sections:
       columns: '2'
       view: card
   - block: experience
+    id: job-experience
     content:
       title: Experience
-      id: job-experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
