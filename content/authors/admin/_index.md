@@ -1,7 +1,7 @@
 ---
 title: Francesco Lässig
 role: MSc Neural Systems and Computation, ETH Zürich
-avatar_filename: 6f39922b-e29e-47b0-86be-4541bfb8c62a.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 social:
