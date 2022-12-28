@@ -3,7 +3,7 @@ title: "Darts: User-friendly modern machine learning for time series"
 authors:
 - Julien Herzen
 - Francesco Lässig
-- and others
+- et al.
 date: "2022-03-22T00:00:00Z"
 doi: ""
 
@@ -60,7 +60,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
