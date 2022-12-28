@@ -82,5 +82,46 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+- block: experience
+  id: education
+    content:
+      title: Education
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
 
+      items:
+        - title: MSc Neural Systems and Computation
+          company: Institute of Neuroinformatics, ETH Zürich & University of Zürich
+          company_url: ''
+          location: Zürich
+          date_start: '2020-09-01'
+          date_end: '2022-10-30'
+          description: |2-
+              * Developed a novel, bio-inspired continual learning algorithm called sparse-recurrent DFC as part of my master thesis, which received the maximum grade.
+              * Showcased poster about my master thesis at the AI+X Summit 2022. 
+              * Presented my work at an [IROS 2022 workshop]((https://link-url-here.org)) on continual learning.
+              * Took courses on both neuroscience and machine learning topics.
+              * Finished degree with a weighted GPA of 5.9 out of 6.
+        - title: Computer Science Program
+          company: University of Pennsylvania
+          company_url: ''
+          location: Philadelphia
+          date_start: '2018-08-01'
+          date_end: '2018-12-31'
+          description: |2-
+              * Took courses at the computer science department and the Wharton business school
+              * Received honorable mention for Facebook-sponsored award in a project-based coding competition as part of the NETS 212 course (among top 4 of 54 teams).
+              * Finished the semester with a GPA of 3.75 out of 4.
+        - title: BSc Computer Science
+          company: ETH Zürich
+          location: Zürich
+          date_start: '2016-09-01'
+          date_end: '2020-04-01'
+          description: |2-
+              * Worked as a student assistant teaching calculus.
+              * Received a scholarship for a selective exchange program to the University of Pennsylvania.
+              * Completed degree with a GPA of 5.36 out of 6.
+    design:
+      columns: '2'
 ---
