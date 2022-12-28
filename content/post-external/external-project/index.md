@@ -1,14 +1,15 @@
 ---
-title: External Project
-summary: An example of linking directly to an external project website using `external_link`.
+title: Probabilistic Forecasting in Darts
+summary: An introduction to probabilistic forecasting in the 'Darts' open source time series library.
 tags:
-  - Demo
-date: "2016-04-27T00:00:00Z"
+  - Darts
+  - Machine Learning
+date: "2021-12-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://example.org
+external_link: https://medium.com/unit8-machine-learning-publication/probabilistic-forecasting-in-darts-e88fbe83344e
 
 image:
-  caption: Photo by Toa Heftiba on Unsplash
+  caption: Photo by Maarten van den Heuvel on Unsplash
   focal_point: Smart
 ---
