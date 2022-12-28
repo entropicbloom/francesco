@@ -1,35 +1,21 @@
 ---
-widget: kjhkjhgkjh
-widget_id: recent-posts
-weight: 20
-title: ""
-subtitle: ""
-active: true
+block: collection
+id: section-1
 content:
-  offset: 0
-  order: desc
+  title: Section 1
+  subtitle: A subtitle
+  text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+  # Display content from the `content/post/` folder
   filters:
     folders:
       - post
       - project
       - publication
-    tag: ""
-    category: ""
-    publication_type: ""
-    author: ""
-    exclude_featured: false
-  archive:
-    enable: false
-headless: true
 design:
-  columns: "1"
-  view: card
+  # Choose how many columns the section has. Valid values: '1' or '2'.
+  columns: '1'
+  # Choose your content listing view - here we use the `showcase` view
+  view: showcase
+  # For the Showcase view, do you want to flip alternate rows?
   flip_alt_rows: true
-  background: {}
-  spacing:
-    padding:
-      - 0
-      - 0
-      - 0
-      - 0
 ---
