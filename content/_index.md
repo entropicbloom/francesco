@@ -42,7 +42,7 @@ sections:
           date_start: '2022-11-01'
           description: |2-
               * Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis.
-              * Currently awaiting feedback from the reviewers at the Biological Cybernetics journal
+              * Currently awaiting feedback from the reviewers at the *Biological Cybernetics* journal.
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
@@ -50,7 +50,7 @@ sections:
           date_start: '2020-04-01'
           date_end: '2022-02-01'
           description: |2-
-              * Developed a significant part of Darts, an open source library for time series forecasting, including statistical and deep learning-based forecasting tools. Presented Darts at the EuroPython 2021 conference and the PyData Global 2021 conference. During the time I worked on Darts, its GitHub page went from 0 to over 3.3k stars.
+              * Developed a significant part of *Darts*, an open source library for time series forecasting, including statistical and deep learning-based forecasting tools. Presented Darts at the [EuroPython 2021 conference](https://www.youtube.com/watch?v=thg10qDqpRE) and the [PyData Global 2021 conference](https://www.youtube.com/watch?v=Kf6b5falv0M). During the time I worked on Darts, its [GitHub page](https://github.com/unit8co/darts) went from 0 to over 3.3k stars.
               * Built a ML-based predictive maintenance tool for a Swiss hydro power plant, all the way from exploratory data analysis and model development to backtesting and deployment.
               * Developed a demand forecasting solution for a Swiss manufacturer of laboratory and industry equipment which improved their existing forecasts by 10% - 50% (depending on the metric).
               * Co-hosted multiple technical public webinars revolving around topics in data science and machine learning.
