@@ -35,6 +35,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Assistant
+          company: Institute of Neuroinformatics, ETH Zürich
+          company_url: ''
+          location: Zürich
+          date_start: '2022-11-01'
+          description: |2-
+              * Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis.
+              * Currently awaiting feedback from the reviewers at the Biological Cybernetics journal
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
@@ -110,7 +118,7 @@ sections:
           date_start: '2018-08-01'
           date_end: '2018-12-31'
           description: |2-
-              * Took courses at the computer science department and the Wharton business school
+              * Took courses at the computer science department and the Wharton business school.
               * Received honorable mention for Facebook-sponsored award in a project-based coding competition as part of the NETS 212 course (among top 4 of 54 teams).
               * Finished the semester with a GPA of 3.75 out of 4.
         - title: BSc Computer Science
