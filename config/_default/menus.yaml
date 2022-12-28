@@ -10,8 +10,8 @@ main:
   - name: Publications
     url: '#publications'
     weight: 20
-  - name: Blog Posts and Presentations
-    url: '#portfolio'
+  - name: Blog Posts & Presentations
+    url: '#posts-and-presentations'
     weight: 30
 
 # Link to a PDF of your resume/CV from the menu.

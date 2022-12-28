@@ -57,9 +57,9 @@ sections:
     design:
       columns: '2'
   - block: portfolio
-    id: projects
+    id: posts-and-presentations
     content:
-      title: Blog Posts, Presentations
+      title: Blog Posts & Presentations
       filters:
         folders:
           - post-external
