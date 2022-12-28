@@ -1,5 +1,5 @@
 ---
-widget: collection
+widget: kjhkjhgkjh
 widget_id: recent-posts
 weight: 20
 title: ""
