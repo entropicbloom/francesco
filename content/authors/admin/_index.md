@@ -11,14 +11,14 @@ last_name: Lässig
 superuser: true
 
 # Role/position/tagline
-role: MSc Neural Systems and Computation
+role: Research Assistant
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: ETH Zürich
 
 # Short bio (displayed in user profile at end of posts)
-bio: MSc Neural Systems and Computation, former data scientist.
+bio: Research Assistant, MSc Neural Systems and Computation
 
 # Interests to show in About widget
 interests:
@@ -44,22 +44,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-    label: Follow me on Twitter
-    display:
-      header: true
+    link: "mailto:laessig.francesco@gmail.com"
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com/citations?user=xyr8NGIAAAAJ&hl=en&authuser=1
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/pennfranc
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/francesco-laessig/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -74,4 +68,8 @@ email: ''
 highlight_name: true
 ---
 
-Some text
+I am interested in intelligence (artificial and biological), existential risks, and consciousness.
+
+I have a formal background in computer science, deep learning and computational neuroscience, and practical experience as a data scientist in industry. In addition to solving technical problems, I like to communicate technical topics to specialized and general audiences.
+
+Currently I am looking to enter the field of AI alignment.
