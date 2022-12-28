@@ -34,27 +34,26 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Data Scientist
+          company: Unit8
+          company_url: 'https://unit8.com'
+          company_logo: Unit8
+          location: Zürich
+          date_start: '2020-04-01'
+          date_end: '2022-02-01'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Developed a significant part of Darts, an open source library for time series forecasting, including statistical and deep learning-based forecasting tools. Presented Darts at the EuroPython 2021 conference and the PyData Global 2021 conference. During the time I worked on Darts, its GitHub page went from 0 to over 3.3k stars.
+              * Built a ML-based predictive maintenance tool for a Swiss hydro power plant, all the way from exploratory data analysis and model development to backtesting and deployment.
+              * Developed a demand forecasting solution for a Swiss manufacturer of laboratory and industry equipment which improved their existing forecasts by 10% - 50% (depending on the metric).
+              * Co-hosted multiple technical public webinars revolving around topics in data science and machine learning.
+        - title: Machine Learning Engineer
+          company: Araneum Technologies
+          company_url: 'https://www.araneum.ch'
+          company_logo: araneum
+          location: Zürich
+          date_start: '2019-09-01'
+          date_end: '2019-12-31'
+          description: Devised and built machine learning solutions for small and medium-sized Swiss banks.
     design:
       columns: '2'
   - block: portfolio
