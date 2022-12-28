@@ -82,8 +82,8 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
-- block: experience
-  id: education
+  - block: experience
+    id: education
     content:
       title: Education
       # Date format for experience
