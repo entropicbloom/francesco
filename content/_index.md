@@ -38,7 +38,7 @@ sections:
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
-          company_logo: Unit8
+          company_logo: Unit8.jpg
           location: Zürich
           date_start: '2020-04-01'
           date_end: '2022-02-01'
@@ -50,7 +50,7 @@ sections:
         - title: Machine Learning Engineer
           company: Araneum Technologies
           company_url: 'https://www.araneum.ch'
-          company_logo: araneum
+          company_logo: araneum.jpg
           location: Zürich
           date_start: '2019-09-01'
           date_end: '2019-12-31'
