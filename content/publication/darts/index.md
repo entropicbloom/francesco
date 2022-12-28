@@ -3,7 +3,7 @@ title: "Darts: User-friendly modern machine learning for time series"
 authors:
 - Julien Herzen
 - Francesco Lässig
-- et al.
+- and others
 date: "2022-03-22T00:00:00Z"
 doi: ""
 
