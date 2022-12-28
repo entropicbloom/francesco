@@ -15,6 +15,7 @@ content:
     folders:
       - post
       - project
+      - publication
     tag: ''
     category: ''
     publication_type: ''
