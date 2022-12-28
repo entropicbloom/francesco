@@ -102,24 +102,7 @@ sections:
               * Presented my work at an [IROS 2022 workshop]((https://link-url-here.org)) on continual learning.
               * Took courses on both neuroscience and machine learning topics.
               * Finished degree with a weighted GPA of 5.9 out of 6.
-        - title: Computer Science Program
-          company: University of Pennsylvania
-          location: Philadelphia
-          date_start: '2018-08-01'
-          date_end: '2018-12-31'
-          description: |2-
-              * Took courses at the computer science department and the Wharton business school
-              * Received honorable mention for Facebook-sponsored award in a project-based coding competition as part of the NETS 212 course (among top 4 of 54 teams).
-              * Finished the semester with a GPA of 3.75 out of 4.
-        - title: BSc Computer Science
-          company: ETH Zürich
-          location: Zürich
-          date_start: '2016-09-01'
-          date_end: '2020-04-01'
-          description: |2-
-              * Worked as a student assistant teaching calculus.
-              * Received a scholarship for a selective exchange program to the University of Pennsylvania.
-              * Completed degree with a GPA of 5.36 out of 6.
+        
     design:
       columns: '2'
 ---
