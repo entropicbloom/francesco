@@ -11,6 +11,10 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
+    design:
+      background:
+        image:
+          filename: buddhabrot.png
   - block: collection
     id: publications
     content:
@@ -22,8 +26,6 @@ sections:
     design:
       columns: '2'
       view: card
-      image:
-        filename: buddhabrot.png
   - block: experience
     id: job-experience
     content:
