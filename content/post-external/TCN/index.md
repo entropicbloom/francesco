@@ -1,6 +1,6 @@
 ---
 title: Temporal Convolutional Networks and Forecasting
-summary: How a convolutional network with some simple adaptations can become a powerful tool for sequence modeling and forecasting.
+summary: \[Blog Post\] How a convolutional network with some simple adaptations can become a powerful tool for sequence modeling and forecasting.
 tags:
   - Darts
   - Machine Learning
