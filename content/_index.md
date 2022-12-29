@@ -64,11 +64,12 @@ sections:
           description: Devised and built machine learning solutions for small and medium-sized Swiss banks.
     design:
       columns: '2'
-  - block: collection
+  - block: portfolio
     id: contents
     content:
       title: Contents
       text: 'All types of publicly available contents that I produced other than academic publications: blog posts, presentations and other projects.'
+      count: 5
       filters:
         folders:
           - post-external
