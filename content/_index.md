@@ -20,7 +20,7 @@ sections:
       <br />
       <br />
       
-      (image: https://en.wikipedia.org/wiki/Buddhabrot#/media/Datei:Buddhabrot_20000.png)'
+      (image: wikipedia.org/wiki/Buddhabrot#/media/File:Buddhabrot_20000.png)'
 
       
 
