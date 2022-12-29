@@ -5,6 +5,11 @@ summary: A presentation of the *Darts* open source library from the PyData Globa
 tags:
   - Darts
   - Machine Learning
+
+categories:
+  - Presentations
+  - Darts
+
 date: "2021-12-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).

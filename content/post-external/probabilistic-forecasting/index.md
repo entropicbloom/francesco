@@ -6,6 +6,10 @@ tags:
   - Machine Learning
 date: "2021-12-10T00:00:00Z"
 
+categories:
+  - Posts
+  - Darts
+
 # Optional external URL for project (replaces project detail page).
 external_link: https://medium.com/unit8-machine-learning-publication/probabilistic-forecasting-in-darts-e88fbe83344e
 

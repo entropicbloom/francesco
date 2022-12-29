@@ -7,6 +7,10 @@ tags:
   - Deep Learning
 date: "2020-10-28T00:00:00Z"
 
+categories:
+  - Posts
+  - Darts
+
 # Optional external URL for project (replaces project detail page).
 external_link: https://medium.com/unit8-machine-learning-publication/temporal-convolutional-networks-and-forecasting-5ce1b6e97ce4
 

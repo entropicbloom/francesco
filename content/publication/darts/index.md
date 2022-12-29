@@ -7,6 +7,10 @@ authors:
 date: "2022-03-22T00:00:00Z"
 doi: ""
 
+categories:
+  - Publications
+  - Darts
+
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
 
