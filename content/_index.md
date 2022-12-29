@@ -28,7 +28,10 @@ sections:
       background:
         image:
           filename: buddhabrot.png
-        text_color_light: false
+        text_color_light: true
+        filters:
+          # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
+          brightness: 0.6
   - block: collection
     id: publications
     content:
