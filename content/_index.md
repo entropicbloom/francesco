@@ -66,9 +66,9 @@ sections:
       columns: '2'
   - block: portfolio
     id: contents
+    text: 'All types of publicly available contents that I produced other than academic publications: blog posts, presentations and other projects.'
     content:
       title: Contents
-      text: 'All types of publicly available contents that I produced other than academic publications: blog posts, presentations and other projects.'
       count: 5
       filters:
         folders:
