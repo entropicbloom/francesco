@@ -1,8 +1,6 @@
 # Theme metadata
 name = "Red Minimal"
 
-# Is theme light or dark?
-light = true
 
 # Primary
 primary = "#BE0000"
