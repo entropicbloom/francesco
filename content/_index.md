@@ -8,12 +8,13 @@ sections:
   - block: about.avatar
     id: about
     content:
-      image:
-        filename: buddhabrot.png
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
+    design:
+      image:
+        filename: buddhabrot.png
   - block: collection
     id: publications
     content:
