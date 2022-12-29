@@ -129,7 +129,7 @@ sections:
           description: |2-
               * Developed a novel, bio-inspired continual learning algorithm called sparse-recurrent DFC as part of my master thesis, which received the maximum grade.
               * Showcased poster about my master thesis at the AI+X Summit 2022. 
-              * Presented my work at an [IROS 2022 workshop]((https://link-url-here.org)) on continual learning.
+              * Presented my work at an [IROS 2022 workshop](https://lifelongrobotics.github.io) on continual learning.
               * Took courses on both neuroscience and machine learning topics.
               * Finished degree with a weighted GPA of 5.9 out of 6.
         - title: Computer Science Program
