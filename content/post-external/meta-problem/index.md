@@ -1,6 +1,6 @@
 ---
 title: The Meta-Problem of Consciousness
-summary: \[Presentation\] A presentation about the meta-problem of consciousness as described by David Chalmers.
+summary: A presentation about the meta-problem of consciousness as described by David Chalmers.
 tags:
   - Consciousness
 date: "2021-12-10T00:00:00Z"

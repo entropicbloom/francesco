@@ -1,6 +1,6 @@
 ---
 title: Probabilistic Forecasting in Darts
-summary: \[Blog Post\] An introduction to probabilistic forecasting in the *Darts* open source time series library.
+summary: An introduction to probabilistic forecasting in the *Darts* open source time series library.
 tags:
   - Darts
   - Machine Learning
