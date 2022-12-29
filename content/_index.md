@@ -17,7 +17,8 @@ sections:
       
       Currently I am looking to enter the field of AI alignment. 
       
-      \n\n˙
+      &nbsp;
+      &nbsp;
       
       (image: http://benedikt-bitterli.me/buddhabrot/)'
 
