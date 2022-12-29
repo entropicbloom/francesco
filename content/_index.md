@@ -11,9 +11,6 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-    design:
-      image:
-        filename: buddhabrot.png
   - block: collection
     id: publications
     content:
@@ -25,6 +22,8 @@ sections:
     design:
       columns: '2'
       view: card
+      image:
+        filename: buddhabrot.png
   - block: experience
     id: job-experience
     content:
@@ -91,7 +90,7 @@ sections:
           tag: Consciousness
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
+      columns: '2'
       view: compact
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
