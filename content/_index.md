@@ -16,6 +16,7 @@ sections:
     id: publications
     content:
       title: Publications
+      text: All my academic publications, whether arXiv preprints or journal articles.
       filters:
         folders:
           - publication
@@ -63,10 +64,11 @@ sections:
           description: Devised and built machine learning solutions for small and medium-sized Swiss banks.
     design:
       columns: '2'
-  - block: portfolio
-    id: posts-and-presentations
+  - block: collection
+    id: contents
     content:
-      title: Blog Posts & Presentations
+      title: Contents
+      text: 'All types of publicly available contents that I produced other than academic publications: blog posts, presentations and other projects.'
       filters:
         folders:
           - post-external

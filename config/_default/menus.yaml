@@ -13,7 +13,7 @@ main:
   - name: Experience
     url: '#job-experience'
     weight: 30
-  - name: Blog Posts & Presentations
+  - name: Contents
     url: '#posts-and-presentations'
     weight: 40
   - name: Education
