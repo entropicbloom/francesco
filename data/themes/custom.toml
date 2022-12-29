@@ -17,7 +17,7 @@ name = "Starter Blog"
 
 [dark]
   # Primary
-  primary = "#2962ff"
+  primary_dark = "#2962ff"
 
   # Menu
   menu_primary = "rgb(247, 250, 252)"
