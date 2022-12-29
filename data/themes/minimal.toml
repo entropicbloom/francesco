@@ -5,6 +5,8 @@ name = "Red Minimal"
 # Primary
 primary = "#BE0000"
 
+light = "true"
+
 # Menu
 menu_primary = "#fff"
 menu_text = "#34495e"
