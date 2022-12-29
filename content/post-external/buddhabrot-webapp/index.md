@@ -4,7 +4,6 @@ summary: A very simple webapp that generates Buddhabrot live, with a few adjusta
 tags:
   - Other
   - Fractals
-date: "2020-10-28T00:00:00Z"
 
 categories:
   - Apps

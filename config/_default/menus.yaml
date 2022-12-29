@@ -14,7 +14,7 @@ main:
     url: '#job-experience'
     weight: 30
   - name: Contents
-    url: '#posts-and-presentations'
+    url: '#contents'
     weight: 40
   - name: Education
     url: '#education'
