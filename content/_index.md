@@ -28,7 +28,7 @@ sections:
       background:
         image:
           filename: buddhabrot.png
-          text_color_light: false
+      text_color_light: true
   - block: collection
     id: publications
     content:
