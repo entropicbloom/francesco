@@ -16,7 +16,7 @@ sections:
     id: publications
     content:
       title: Publications
-      text: All my academic publications, whether arXiv preprints or journal articles.
+      subtitle: All my academic publications, whether arXiv preprints or journal articles.
       filters:
         folders:
           - publication
@@ -66,9 +66,9 @@ sections:
       columns: '2'
   - block: portfolio
     id: contents
-    text: 'All types of publicly available contents that I produced other than academic publications: blog posts, presentations and other projects.'
     content:
       title: Contents
+      subtitle: 'All types of publicly available contents that I produced other than academic publications, including blog posts, presentations and other projects.'
       count: 5
       filters:
         folders:
