@@ -15,9 +15,13 @@ sections:
       
       I have a formal background in computer science, deep learning and computational neuroscience, and practical experience as a data scientist in industry. In addition to solving technical problems, I like to communicate technical topics to specialized and general audiences.
       
-      Currently I am looking to enter the field of AI alignment.'
+      Currently I am looking to enter the field of AI alignment. 
+      
+      \n\n˙
+      
+      (image: http://benedikt-bitterli.me/buddhabrot/)'
 
-      (image: http://benedikt-bitterli.me/buddhabrot/)
+      
 
     design:
       background:
