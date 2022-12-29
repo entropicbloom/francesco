@@ -20,7 +20,7 @@ sections:
       <br />
       <br />
       
-      (image: http://benedikt-bitterli.me/buddhabrot/)'
+      (image: https://en.wikipedia.org/wiki/Buddhabrot#/media/Datei:Buddhabrot_20000.png)'
 
       
 
