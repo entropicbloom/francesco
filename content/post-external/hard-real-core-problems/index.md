@@ -3,7 +3,7 @@ title: Hard, Real, and Core Problems of Consciousness
 summary: A look at three formulations of the problem of consciousness, their metaphysical assumptions, and their implication for science.
 tags:
   - Consciousness
-date: "2021-12-10T00:00:00Z"
+date: "2023-01-07T00:00:00Z"
 
 categories:
   - Posts
