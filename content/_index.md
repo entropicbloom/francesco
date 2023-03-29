@@ -11,9 +11,8 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 
-      '
-      PhD Candidate in Computational Neuroscience
+      text: 'PhD Candidate in Computational Neuroscience
+      <br />
       
       I am interested in the science and philosophy of phenomenal consciousness. To me the most interesting question in the universe is how neural activity relates to subjective experience, basically the modern version of the mind-body problem.
       
