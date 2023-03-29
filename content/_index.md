@@ -11,11 +11,13 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 'I am interested in intelligence (artificial and biological), consciousness, and existential risks.
+      text: 
+      '
+      PhD Candidate in Computational Neuroscience
+      
+      I am interested in the science and philosophy of phenomenal consciousness. To me the most interesting question in the universe is how neural activity relates to subjective experience, basically the modern version of the mind-body problem.
       
       I have a formal background in computer science, deep learning and computational neuroscience, and practical experience as a data scientist in industry. In addition to solving technical problems, I like to communicate technical topics to specialized and general audiences.
-      
-      Currently I am looking to enter the field of AI alignment. 
       
       <br />
       <br />
