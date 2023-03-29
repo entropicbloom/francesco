@@ -56,11 +56,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: PhD Candidate
+          company: University of Amsterdam
+          company_url: ''
+          location: Amsterdam
+          date_start: '2023-03-15'
+          description: |2-
+              * Working on the ARC-INTREPID project: an adversarial collaboration between three neuroscientific theories of consciousness.
         - title: Research Assistant
-          company: Institute of Neuroinformatics, ETH Zürich
+          company: Institute of Neuroinformatics, ETH/UZH
           company_url: ''
           location: Zürich
           date_start: '2022-11-01'
+          date_end: '2022-02-01'
           description: |2-
               * Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis.
               * Currently awaiting feedback from the reviewers at the *Biological Cybernetics* journal.
