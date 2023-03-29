@@ -11,20 +11,20 @@ last_name: Lässig
 superuser: true
 
 # Role/position/tagline
-role: Research Assistant
+role: PhD Candidate in Computational Neuroscience
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: ETH Zürich
+  - name: University of Amsterdam
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research Assistant, MSc Neural Systems and Computation
+bio: PhD Candidate in Computational Neuroscience
 
 # Interests to show in About widget
 interests:
+  - Consciousness
   - Artificial Intelligence
   - Biological Brains
-  - Consciousness
   - AI Alignment
 
 # Education to show in About widget
