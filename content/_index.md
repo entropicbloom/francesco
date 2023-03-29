@@ -62,7 +62,7 @@ sections:
           location: Amsterdam
           date_start: '2023-03-15'
           description: |2-
-              * Working on the ARC-INTREPID project: an adversarial collaboration between three neuroscientific theories of consciousness.
+              * Working on the [ARC-INTREPID project](https://arc-intrepid.com): an adversarial collaboration between three neuroscientific theories of consciousness.
         - title: Research Assistant
           company: Institute of Neuroinformatics, ETH/UZH
           company_url: ''
