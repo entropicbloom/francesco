@@ -56,7 +56,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: PhD Candidate
+        - title: PhD Candidate in Computational Neuroscience
           company: University of Amsterdam
           company_url: ''
           location: Amsterdam
