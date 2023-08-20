@@ -11,12 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 'I am interested in the science and philosophy of phenomenal consciousness. To me the most interesting question in the universe is how neural activity relates to subjective experience, basically the modern version of the mind-body problem.
-
-      <br />
-      <br />
-      
-      I have a formal background in computer science, deep learning and computational neuroscience, and practical experience as a data scientist in industry. In addition to solving technical problems, I like to communicate technical topics to specialized and general audiences.
+      text: 'I have a background in computer science, deep learning and computational neuroscience and practical experience as a data scientist in industry. In addition to solving technical problems, I like to communicate technical topics to specialized and general audiences.
       
       <br />
       <br />
@@ -62,8 +57,10 @@ sections:
           company_url: ''
           location: Amsterdam
           date_start: '2023-03-15'
+          date_end: '2023-08-31'
           description: |2-
-              * Working on the [ARC-INTREPID project](https://arc-intrepid.com): an adversarial collaboration between three neuroscientific theories of consciousness.
+              * Involved in the [ARC-INTREPID project](https://arc-intrepid.com): an adversarial collaboration between three neuroscientific theories of consciousness.
+              * Quit PhD candidacy because I decided not to pursue a career in academia.
         - title: Research Assistant
           company: Institute of Neuroinformatics, ETH/UZH
           company_url: ''
@@ -72,7 +69,7 @@ sections:
           date_end: '2022-02-01'
           description: |2-
               * Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis.
-              * Currently awaiting feedback from the reviewers at the *Biological Cybernetics* journal.
+              * The paper was accepted for a special issue of the Biological Cybernetics journal.
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
@@ -110,10 +107,10 @@ sections:
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
-        - name: Consciousness
-          tag: Consciousness
         - name: Darts
           tag: Darts
+        - name: Consciousness
+          tag: Consciousness
         - name: Other
           tag: Other
     design:
@@ -163,5 +160,7 @@ sections:
               * Received a scholarship for a selective exchange program to the University of Pennsylvania.
               * Completed degree with a GPA of 5.36 out of 6.
     design:
+      columns: '2'
+---    design:
       columns: '2'
 ---
