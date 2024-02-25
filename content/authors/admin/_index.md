@@ -11,14 +11,14 @@ last_name: Lässig
 superuser: true
 
 # Role/position/tagline
-role: Research Assistant
+role: Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: ETH Zürich
+  - name: Unit8
 
 # Short bio (displayed in user profile at end of posts)
-bio: Research Assistant, MSc Neural Systems and Computation
+bio: Data Scientist
 
 # Interests to show in About widget
 interests:
@@ -68,8 +68,3 @@ email: ''
 highlight_name: true
 ---
 
-I am interested in intelligence (artificial and biological), consciousness, and existential risks.
-
-I have a formal background in computer science, deep learning and computational neuroscience, and practical experience as a data scientist in industry. In addition to solving technical problems, I like to communicate technical topics to specialized and general audiences.
-
-Currently I am looking to enter the field of AI alignment.
