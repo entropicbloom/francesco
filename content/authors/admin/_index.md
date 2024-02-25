@@ -22,9 +22,9 @@ bio: Data Scientist
 
 # Interests to show in About widget
 interests:
+  - Consciousness
   - Artificial Intelligence
   - Biological Brains
-  - Consciousness
   - AI Alignment
 
 # Education to show in About widget
