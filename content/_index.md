@@ -106,10 +106,10 @@ sections:
       # To filter by a specific tag, set `tag` to an existing tag name.
       # To remove the toolbar, delete the entire `filter_button` block.
       buttons:
-        - name: Consciousness
-          tag: Consciousness
         - name: Darts
           tag: Darts
+        - name: Consciousness
+          tag: Consciousness
         - name: Other
           tag: Other
     design:
