@@ -11,7 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 'I'm interested in AI, brains, consciousness and other things.
+      text: 'I am interested in AI, brains, consciousness and other things.
       
       <br />
       <br />
@@ -57,7 +57,7 @@ sections:
           company_url: ''
           location: Amsterdam
           date_start: '2023-03-15'
-          date_end: '2022-08-31'
+          date_end: '2022-08-01'
           description: |2-
               * Worked as part of the [ARC-INTREPID project](https://arc-intrepid.com): an adversarial collaboration between three neuroscientific theories of consciousness.
         - title: Research Assistant
