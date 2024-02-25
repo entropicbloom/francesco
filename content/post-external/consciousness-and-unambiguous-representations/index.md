@@ -8,7 +8,7 @@ date: "2023-08-01T00:00:00Z"
 categories:
   - Articles
 
-link: uploads/consciousness-and-unambigous-representations.pdf
+external_link: https://github.com/pennfranc/francesco/blob/main/static/uploads/consciousness-and-unambigous-representations.pdf 
 
 image:
   caption: ''
