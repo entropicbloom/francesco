@@ -8,7 +8,7 @@ date: "2023-08-01T00:00:00Z"
 categories:
   - Articles
 
-external_link: https://qualiaheads.github.io/blog/assets/pdf/consciousness-and-unambigous-representations.pdf 
+external_link: https://www.flaessig.com/uploads/consciousness-and-unambigous-representations.pdf 
 
 image:
   caption: ''
