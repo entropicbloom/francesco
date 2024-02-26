@@ -11,12 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 'I am interested in AI, brains, consciousness and other things.
-      
-      <br />
-      <br />
-      
-      (image: wikipedia.org/wiki/Buddhabrot)'
+      text: "I'm interested in AI, brains, consciousness and other things."
 
       
 
