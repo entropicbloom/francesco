@@ -44,6 +44,13 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Data Scientist
+          company: Unit8
+          company_url: 'https://unit8.com'
+          location: Zürich
+          date_start: '2024-03-01'
+          description: |2-
+            Working on LLM and other data science / engineering projects in various industries like tech, finance, energy.
         - title: PhD Candidate in Computational Neuroscience
           company: University of Amsterdam
           company_url: ''
