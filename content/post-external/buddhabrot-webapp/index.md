@@ -9,7 +9,7 @@ categories:
   - Apps
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://pennfranc.github.io
+external_link: https://pennfranc.github.io/buddhabrot
 
 image:
   caption: ''
