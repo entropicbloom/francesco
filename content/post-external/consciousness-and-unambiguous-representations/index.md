@@ -8,7 +8,7 @@ date: "2023-08-01T00:00:00Z"
 categories:
   - Articles
 
-external_link: https://qualiahead.github.io/consciousness/ 
+external_link: https://pennfranc.github.io/consciousness/
 
 image:
   caption: ''
