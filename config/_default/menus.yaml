@@ -10,12 +10,12 @@ main:
   - name: Publications
     url: '#publications'
     weight: 20
-  - name: Experience
-    url: '#job-experience'
-    weight: 30
   - name: Contents
     url: '#contents'
     weight: 40
+  - name: Experience
+    url: '#job-experience'
+    weight: 30
   - name: Education
     url: '#education'
     weight: 50
