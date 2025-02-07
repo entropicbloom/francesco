@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: Francesco's Findings
 date: 2022-10-24
 type: landing
 
@@ -31,6 +31,35 @@ sections:
     design:
       columns: '2'
       view: card
+  - block: portfolio
+    id: contents
+    content:
+      title: Contents
+      subtitle: 'All types of publicly available contents that I produced other than academic publications, including blog posts, presentations and other projects.'
+      count: 5
+      filters:
+        folders:
+          - post-external
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      buttons:
+        - name: Darts
+          tag: Darts
+        - name: Consciousness
+          tag: Consciousness
+        - name: Other
+          tag: Other
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '2'
+      view: compact
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
   - block: experience
     id: job-experience
     content:
@@ -88,35 +117,6 @@ sections:
           description: Devised and built machine learning solutions for small and medium-sized Swiss banks.
     design:
       columns: '2'
-  - block: portfolio
-    id: contents
-    content:
-      title: Contents
-      subtitle: 'All types of publicly available contents that I produced other than academic publications, including blog posts, presentations and other projects.'
-      count: 5
-      filters:
-        folders:
-          - post-external
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: Darts
-          tag: Darts
-        - name: Consciousness
-          tag: Consciousness
-        - name: Other
-          tag: Other
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
-      view: compact
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
   - block: experience
     id: education
     content:
