@@ -24,7 +24,7 @@ sections:
     id: publications
     content:
       title: Publications
-      subtitle: All my academic publications, whether arXiv preprints or journal articles.
+      subtitle: My peer-reviewed academic publications.
       filters:
         folders:
           - publication
