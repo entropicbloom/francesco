@@ -6,10 +6,10 @@
 main:
   - name: About
     url: '#about'
-    weight: 10
+    weight: 5
   - name: Contents
     url: '#contents'
-    weight: 5
+    weight: 10
   - name: Papers
     url: '#papers'
     weight: 20
