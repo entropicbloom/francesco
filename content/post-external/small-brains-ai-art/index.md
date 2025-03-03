@@ -1,6 +1,6 @@
 ---
 title: On Small Brains, AI and Art
-summary: A presentation about the meta-problem of consciousness as described by David Chalmers.
+summary: The Aesthetic Value of Representational Limitations in (Human) Cognition
 tags:
   - AI
   - Art
