@@ -21,10 +21,10 @@ sections:
           # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
           brightness: 0.6
   - block: collection
-    id: publications
+    id: papers
     content:
-      title: Publications
-      subtitle: My peer-reviewed academic publications.
+      title: Papers
+      subtitle: My peer-reviewed academic papers.
       filters:
         folders:
           - publication

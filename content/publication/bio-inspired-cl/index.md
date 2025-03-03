@@ -9,7 +9,7 @@ date: "2022-12-08T00:00:00Z"
 doi: "10.48550/ARXIV.2212.04316"
 
 categories:
-  - Publications
+  - Papers
   - Deep Learning
 
 # Publication type.
