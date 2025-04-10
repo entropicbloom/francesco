@@ -39,7 +39,7 @@ links:
 - name: arXiv
   url: https://arxiv.org/abs/2212.04316
 url_pdf: https://arxiv.org/pdf/2212.04316.pdf
-url_code: 'https://github.com/pennfranc/bio-inspired-continual-learning'
+url_code: 'https://github.com/entropicbloom/bio-inspired-continual-learning'
 url_dataset: ''
 url_poster: ''
 url_project: ''

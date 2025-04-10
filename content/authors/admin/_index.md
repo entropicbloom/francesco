@@ -50,7 +50,7 @@ social:
     link: https://scholar.google.com/citations?user=xyr8NGIAAAAJ&hl=en&authuser=1
   - icon: github
     icon_pack: fab
-    link: https://github.com/pennfranc
+    link: https://github.com/entropicbloom
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/francesco-laessig/
