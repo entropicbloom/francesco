@@ -19,3 +19,8 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[headers]]
+  for = "/uploads/consciousness-and-unambigous-representations.pdf"
+  [headers.values]
+    Link = "<https://consciousness-is-unambiguous.com/>; rel=\"canonical\""
