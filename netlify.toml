@@ -21,6 +21,6 @@
     debug = true
 
 [[headers]]
-  for = "/uploads/consciousness-and-unambigous-representations.pdf"
+  for = "/uploads/consciousness-and-unambiguous-representations.pdf"
   [headers.values]
     Link = "<https://consciousness-is-unambiguous.com/>; rel=\"canonical\""
