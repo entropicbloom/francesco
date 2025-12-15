@@ -11,14 +11,15 @@ last_name: Lässig
 superuser: true
 
 # Role/position/tagline
-role: Data Scientist
+role: AI Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Unit8
+  - name: LLMify
+    url: https://llmify.ch
 
 # Short bio (displayed in user profile at end of posts)
-bio: Data Scientist
+bio: AI Engineer
 
 # Interests to show in About widget
 interests:
