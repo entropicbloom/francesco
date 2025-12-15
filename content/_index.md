@@ -11,7 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 'Interested in consciousness, AI, brains, fractals and other silly stuff.'
+      text: 'Working on LLMs and thinking about consciousness. Sometimes both at once.'
     design:
       background:
         image:
@@ -73,13 +73,21 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: AI Engineer
+          company: LLMify
+          company_url: 'https://llmify.ch'
+          location: Zürich
+          date_start: '2025-10-01'
+          description: |2-
+            Building LLM-powered applications and AI solutions for businesses and non-profits.
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
           location: Zürich
           date_start: '2024-03-01'
+          date_end: '2025-09-30'
           description: |2-
-            Working on LLM and other data science / engineering projects in various industries like tech, finance, energy.
+            Built LLM applications including workflow automation, talk-to-your-data tools (RAG, text2sql), and multi-agent systems. Also worked on data engineering with Spark.
         - title: PhD Candidate in Computational Neuroscience
           company: University of Amsterdam
           company_url: ''
