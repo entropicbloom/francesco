@@ -20,35 +20,6 @@ sections:
         filters:
           # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
           brightness: 0.6
-  - block: portfolio
-    id: contents
-    content:
-      title: Contents
-      subtitle: 'All types of publicly available contents that I produced other than academic publications, including blog posts, presentations and other projects.'
-      count: 5
-      filters:
-        folders:
-          - post-external
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: Consciousness
-          tag: Consciousness
-        - name: Darts
-          tag: Darts
-        - name: Other
-          tag: Other
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '2'
-      view: compact
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
   - block: collection
     id: papers
     content:
@@ -141,9 +112,9 @@ sections:
           date_end: '2022-10-30'
           description: |2-
               * Developed a novel, bio-inspired continual learning algorithm called sparse-recurrent DFC as part of my master thesis, which received the maximum grade.
-              * Showcased poster about my master thesis at the AI+X Summit 2022. 
+              * Showcased poster about my master thesis at the AI+X Summit 2022.
               * Presented my work at an [IROS 2022 workshop](https://lifelongrobotics.github.io) on continual learning.
-              * Took courses on both neuroscience and machine learning topics.
+              * Founded [Qualiaheads](https://qualiaheads.github.io/blog/), a student club and reading group on consciousness science. Conducted interviews with researchers such as Anil Seth and Pedro Mediano.
               * Finished degree with a weighted GPA of 5.8 out of 6.
         - title: Computer Science Program
           company: University of Pennsylvania
@@ -166,4 +137,25 @@ sections:
               * Completed degree with a GPA of 5.36 out of 6.
     design:
       columns: '2'
+  - block: portfolio
+    id: other-contents
+    content:
+      title: Other Contents
+      subtitle: 'Some of my projects, talks, and writings.'
+      count: 5
+      filters:
+        folders:
+          - post-external
+      default_button_index: 0
+      buttons:
+        - name: Consciousness
+          tag: Consciousness
+        - name: Darts
+          tag: Darts
+        - name: Other
+          tag: Other
+    design:
+      columns: '2'
+      view: compact
+      flip_alt_rows: false
 ---
