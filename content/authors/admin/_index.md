@@ -54,7 +54,7 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/francesco-laessig/
-  - icon: blog
+  - icon: pen
     icon_pack: fas
     link: https://entropicbloom.com
   # Link to a PDF of your resume/CV.
