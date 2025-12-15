@@ -53,7 +53,7 @@ sections:
     id: papers
     content:
       title: Papers
-      subtitle: My peer-reviewed academic papers.
+      subtitle: My academic papers and preprints.
       filters:
         folders:
           - publication

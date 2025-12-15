@@ -10,6 +10,16 @@ categories:
 
 external_link: https://consciousness-is-unambiguous.com/
 
+links:
+  - icon: file-pdf
+    icon_pack: fas
+    name: arXiv
+    url: https://arxiv.org/abs/2512.11000
+  - icon: chalkboard-teacher
+    icon_pack: fas
+    name: MoC6 Talk
+    url: https://amcs-community.org/moc6-schedule-information/#parallel-attribution-representation
+
 image:
   caption: ''
   focal_point: Smart
