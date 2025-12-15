@@ -11,9 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: |
-        Working on LLMs and thinking about consciousness.
-        Sometimes both at once.
+      text: 'Working on LLMs and thinking about consciousness.<br>Sometimes both at once.'
     design:
       background:
         image:
@@ -94,19 +92,18 @@ sections:
           company: University of Amsterdam
           company_url: ''
           location: Amsterdam
-          date_start: '2023-03-15'
-          date_end: '2022-08-01'
+          date_start: '2022-08-01'
+          date_end: '2023-03-15'
           description: |2-
               * Worked as part of the [ARC-INTREPID project](https://arc-intrepid.com): an adversarial collaboration between three neuroscientific theories of consciousness.
         - title: Research Assistant
           company: Institute of Neuroinformatics, ETH/UZH
           company_url: ''
           location: Zürich
-          date_start: '2022-11-01'
-          date_end: '2022-02-01'
+          date_start: '2022-02-01'
+          date_end: '2022-11-01'
           description: |2-
-              * Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis.
-              * Currently awaiting feedback from the reviewers at the *Biological Cybernetics* journal.
+              * Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis, published in *Biological Cybernetics*.
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'

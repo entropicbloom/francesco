@@ -34,6 +34,8 @@ tags:
 featured: true
 
 links:
+- name: "arXiv"
+  url: "https://arxiv.org/abs/2512.11000"
 - name: "MoC6 Talk"
   url: "https://amcs-community.org/moc6-schedule-information/#parallel-attribution-representation"
 url_pdf: https://arxiv.org/pdf/2512.11000
@@ -42,7 +44,7 @@ url_dataset: ''
 url_poster: ''
 url_project: 'https://consciousness-is-unambiguous.com/'
 url_slides: ''
-url_source: 'https://arxiv.org/abs/2512.11000'
+url_source: ''
 url_video: ''
 
 # Featured image
