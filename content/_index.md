@@ -147,8 +147,8 @@ sections:
           - post-external
       default_button_index: 0
       buttons:
-        - name: Projects
-          tag: Projects
+        - name: LLMs
+          tag: LLMs
         - name: Consciousness
           tag: Consciousness
         - name: Darts
