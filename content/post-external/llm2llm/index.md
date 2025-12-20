@@ -2,8 +2,7 @@
 title: LLM2LLM
 summary: An experiment letting LLMs converse freely with each other to explore emergent trajectories from different model pairings. Features qualitative and quantitative analysis of the resulting dialogues, with tools to search and inspect conversations.
 tags:
-  - Projects
-  - LLM
+  - LLMs
 
 categories:
   - Apps
