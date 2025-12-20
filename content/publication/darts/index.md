@@ -30,7 +30,9 @@ abstract: We present Darts, a Python machine learning library for time series, w
 summary: We present Darts, a Python machine learning library for time series, with a focus on forecasting. Darts offers a variety of models, from classics such as ARIMA to state-of-the-art deep neural networks.
 
 tags:
-- Source Themes
+- Darts
+- Machine Learning
+- Time Series
 featured: false
 
 # links:

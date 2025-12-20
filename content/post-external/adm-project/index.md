@@ -5,7 +5,8 @@ tags:
   - Other
 date: "2021-05-01T00:00:00Z"
 
-categories: []
+categories:
+  - Projects
 
 # Optional external URL for project (replaces project detail page).
 external_link: https://drive.google.com/file/d/1FTCXCEGMnLjnoaBqokSJKgthBdCblNdH/view?usp=share_link
