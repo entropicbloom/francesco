@@ -25,7 +25,7 @@ publication_short: "arXiv"
 abstract: This paper explores how neural representations differ from conventional ones by proposing that conscious experience involves unambiguous encoding. Using information theory, representational ambiguity is defined as conditional entropy. The concept is demonstrated through MNIST classification experiments, achieving perfect accuracy for dropout-trained networks in identifying neuron class identity and up to 0.844 R² for decoding spatial position information from network connectivity, suggesting neural networks can exhibit low-ambiguity representations theoretically linked to consciousness.
 
 # Summary. An optional shortened abstract.
-summary: An information-theoretic approach to understanding intentionality in neural networks, proposing that conscious experience involves unambiguous encoding and demonstrating this through experiments on artificial neural networks.
+summary: An information-theoretic approach to intentionality proposing that conscious representations must be unambiguous, with experiments on artificial neural networks demonstrating a method for measuring representational ambiguity.
 
 tags:
 - Consciousness
