@@ -8,6 +8,7 @@ doi: ""
 categories:
   - Papers
   - Consciousness
+  - Deep Learning
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-12-10T00:00:00Z"
