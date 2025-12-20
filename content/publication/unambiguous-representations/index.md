@@ -37,7 +37,7 @@ links:
 - name: "arXiv"
   url: "https://arxiv.org/abs/2512.11000"
 - name: "MoC6 Talk"
-  url: "https://amcs-community.org/moc6-schedule-information/#parallel-attribution-representation"
+  url: "https://amcs-community.org/moc6-schedule-information/#abstract-36"
 url_pdf: https://arxiv.org/pdf/2512.11000
 url_code: ''
 url_dataset: ''

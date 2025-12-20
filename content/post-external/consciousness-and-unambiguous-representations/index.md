@@ -18,7 +18,7 @@ links:
   - icon: chalkboard-teacher
     icon_pack: fas
     name: MoC6 Talk
-    url: https://amcs-community.org/moc6-schedule-information/#parallel-attribution-representation
+    url: https://amcs-community.org/moc6-schedule-information/#abstract-36
 
 image:
   caption: ''

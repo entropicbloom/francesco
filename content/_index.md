@@ -58,7 +58,7 @@ sections:
           date_start: '2024-03-01'
           date_end: '2025-09-30'
           description: |2-
-            Built LLM applications including workflow automation, talk-to-your-data tools (RAG, text2sql), and multi-agent systems. Also worked on data engineering with Spark.
+            Built LLM applications for clients in tech, finance, and energy, including a major US tech company. Projects included workflow automation, talk-to-your-data tools (RAG, text2sql), and multi-agent systems. Also worked on data engineering with Spark.
         - title: PhD Candidate in Computational Neuroscience
           company: University of Amsterdam
           company_url: ''
@@ -66,7 +66,7 @@ sections:
           date_start: '2022-08-01'
           date_end: '2023-03-15'
           description: |2-
-              * Worked as part of the [ARC-INTREPID project](https://arc-intrepid.com): an adversarial collaboration between three neuroscientific theories of consciousness.
+            Worked as part of the [ARC-INTREPID project](https://arc-intrepid.com): an adversarial collaboration between three neuroscientific theories of consciousness.
         - title: Research Assistant
           company: Institute of Neuroinformatics, ETH/UZH
           company_url: ''
@@ -74,7 +74,7 @@ sections:
           date_start: '2022-02-01'
           date_end: '2022-11-01'
           description: |2-
-              * Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis, published in *Biological Cybernetics*.
+            Wrote an [original research article](https://arxiv.org/abs/2212.04316) based on my master thesis, published in *Biological Cybernetics*.
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
@@ -82,10 +82,13 @@ sections:
           date_start: '2020-04-01'
           date_end: '2022-02-01'
           description: |2-
-              * Developed a significant part of *Darts*, an open source library for time series forecasting, including statistical and deep learning-based forecasting tools. Presented Darts at the [EuroPython 2021 conference](https://www.youtube.com/watch?v=thg10qDqpRE) and the [PyData Global 2021 conference](https://www.youtube.com/watch?v=Kf6b5falv0M). During the time I worked on Darts, its [GitHub page](https://github.com/unit8co/darts) went from 0 to over 3.3k stars.
-              * Built a ML-based predictive maintenance tool for a Swiss hydro power plant, all the way from exploratory data analysis and model development to backtesting and deployment.
-              * Developed a demand forecasting solution for a Swiss manufacturer of laboratory and industry equipment which improved their existing forecasts by 10% - 50% (depending on the metric).
-              * Co-hosted multiple technical public webinars revolving around topics in data science and machine learning.
+            Developed a significant part of *Darts*, an open source library for time series forecasting, including statistical and deep learning-based forecasting tools. Presented Darts at the [EuroPython 2021 conference](https://www.youtube.com/watch?v=thg10qDqpRE) and the [PyData Global 2021 conference](https://www.youtube.com/watch?v=Kf6b5falv0M). During the time I worked on Darts, its [GitHub page](https://github.com/unit8co/darts) went from 0 to over 3.3k stars.
+
+            Built a ML-based predictive maintenance tool for a Swiss hydro power plant, all the way from exploratory data analysis and model development to backtesting and deployment.
+
+            Developed a demand forecasting solution for a Swiss manufacturer of laboratory and industry equipment which improved their existing forecasts by 10% - 50% (depending on the metric).
+
+            Co-hosted multiple technical public webinars revolving around topics in data science and machine learning.
         - title: Machine Learning Engineer
           company: Araneum Technologies
           company_url: 'https://www.araneum.ch'
@@ -111,11 +114,13 @@ sections:
           date_start: '2020-09-01'
           date_end: '2022-10-30'
           description: |2-
-              * Developed a novel, bio-inspired continual learning algorithm called sparse-recurrent DFC as part of my master thesis, which received the maximum grade.
-              * Showcased poster about my master thesis at the AI+X Summit 2022.
-              * Presented my work at an [IROS 2022 workshop](https://lifelongrobotics.github.io) on continual learning.
-              * Founded [Qualiaheads](https://qualiaheads.github.io/blog/), a student club and reading group on consciousness science. Conducted interviews with researchers such as Anil Seth and Pedro Mediano.
-              * Finished degree with a weighted GPA of 5.8 out of 6.
+            Developed a novel, bio-inspired continual learning algorithm called sparse-recurrent DFC as part of my master thesis, which received the maximum grade.
+
+            Showcased poster about my master thesis at the AI+X Summit 2022. Presented my work at an [IROS 2022 workshop](https://lifelongrobotics.github.io) on continual learning.
+
+            Founded [Qualiaheads](https://qualiaheads.github.io/blog/), a student club and reading group on consciousness science. Conducted interviews with researchers such as Anil Seth and Pedro Mediano.
+
+            Finished degree with a weighted GPA of 5.8 out of 6.
         - title: Computer Science Program
           company: University of Pennsylvania
           company_url: ''
@@ -123,18 +128,22 @@ sections:
           date_start: '2018-08-01'
           date_end: '2018-12-31'
           description: |2-
-              * Took courses at the computer science department and the Wharton business school.
-              * Received honorable mention for Facebook-sponsored award in a project-based coding competition as part of the NETS 212 course (among top 4 of 54 teams).
-              * Finished the semester with a GPA of 3.75 out of 4.
+            Took courses at the computer science department and the Wharton business school.
+
+            Received honorable mention for Facebook-sponsored award in a project-based coding competition as part of the NETS 212 course (among top 4 of 54 teams).
+
+            Finished the semester with a GPA of 3.75 out of 4.
         - title: BSc Computer Science
           company: ETH Zürich
           location: Zürich
           date_start: '2016-09-01'
           date_end: '2020-04-01'
           description: |2-
-              * Worked as a student assistant teaching calculus.
-              * Received a scholarship for a selective exchange program to the University of Pennsylvania.
-              * Completed degree with a GPA of 5.36 out of 6.
+            Worked as a student assistant teaching calculus.
+
+            Received a scholarship for a selective exchange program to the University of Pennsylvania.
+
+            Completed degree with a GPA of 5.36 out of 6.
     design:
       columns: '2'
   - block: portfolio
@@ -148,6 +157,8 @@ sections:
           - post-external
       default_button_index: 0
       buttons:
+        - name: Projects
+          tag: Projects
         - name: Consciousness
           tag: Consciousness
         - name: Darts
