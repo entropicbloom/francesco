@@ -47,7 +47,7 @@ sections:
         - title: AI Engineer
           company: LLMify
           company_url: 'https://llmify.ch'
-          location: Zürich
+          location: Zug
           date_start: '2025-10-01'
           description: |2-
             Building LLM-powered applications and AI solutions for businesses and non-profits.
