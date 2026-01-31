@@ -45,6 +45,27 @@
             opacity: 0.9;
         }
 
+        .note {
+            font-size: 0.75rem;
+            opacity: 0.7;
+            margin-top: 0.5rem;
+        }
+
+        .refusals {
+            background: #f5f5f5;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .refusals-title {
+            font-weight: 600;
+            color: #888;
+            margin-bottom: 0.5rem;
+        }
+
         .results {
             display: flex;
             flex-direction: column;
@@ -177,6 +198,7 @@
         <header>
             <h1>Pokemon LLM Survey</h1>
             <p class="subtitle">Which Pokemon do AI models identify with?</p>
+            <p class="note">Each model was asked 20 times. Percentage shows how often they chose their top pick.</p>
         </header>
 
         <main class="results" id="results">
@@ -230,12 +252,17 @@
 
                 // Get top pokemon per model with provider and sample explanations
                 const rows = [];
+                const refusals = [];
                 for (const [model, info] of Object.entries(byModel)) {
                     const sorted = Object.entries(info.pokemon).sort((a, b) => b[1] - a[1]);
                     const [topPokemon, count] = sorted[0];
                     const pct = Math.round((count / info.total) * 100);
-                    // Skip models where top pokemon is unknown
-                    if (topPokemon === 'unknown') continue;
+
+                    // Track models that mostly refused
+                    if (topPokemon === 'unknown') {
+                        refusals.push(model);
+                        continue;
+                    }
 
                     // Get sample explanations (up to 3 responses for the top pokemon)
                     const explanations = data.responses
@@ -334,6 +361,17 @@
                         });
                     }
                     }
+                }
+
+                // Show models that refused
+                if (refusals.length > 0) {
+                    const refusalDiv = document.createElement('div');
+                    refusalDiv.className = 'refusals';
+                    refusalDiv.innerHTML = `
+                        <div class="refusals-title">Models that declined to choose:</div>
+                        ${refusals.join(', ')}
+                    `;
+                    results.appendChild(refusalDiv);
                 }
 
                 footer.textContent = `${data.responses.length} responses from ${Object.keys(byModel).length} models`;
