@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon LLM Survey</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #fff5f5;
+            color: #333;
+            min-height: 100vh;
+            padding: 1.5rem 1rem;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: #ee1515;
+            border-radius: 1rem;
+            color: white;
+            box-shadow: 0 4px 12px rgba(238, 21, 21, 0.2);
+        }
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .results {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .model-row {
+            background: white;
+            border-radius: 1rem;
+            padding: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            border: 2px solid #f0f0f0;
+        }
+
+        .sprite-container {
+            width: 72px;
+            height: 72px;
+            background: #f8f8f8;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .sprite {
+            width: 64px;
+            height: 64px;
+            image-rendering: pixelated;
+        }
+
+        .info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .model-name {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 0.25rem;
+        }
+
+        .pokemon-name {
+            font-size: 0.9rem;
+            text-transform: capitalize;
+            color: #888;
+        }
+
+        .percentage {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ee1515;
+            text-align: right;
+        }
+
+        .loading, .error {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #888;
+        }
+
+        .provider-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #aaa;
+            margin-top: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem;
+            font-size: 0.8rem;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pokemon LLM Survey</h1>
+            <p class="subtitle">Which Pokemon do AI models identify with?</p>
+        </header>
+
+        <main class="results" id="results">
+            <div class="loading">Loading...</div>
+        </main>
+
+        <footer id="footer"></footer>
+    </div>
+
+    <script>
+        async function fetchSprite(name) {
+            try {
+                const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}`);
+                if (!res.ok) return null;
+                const data = await res.json();
+                return data.sprites.front_default;
+            } catch {
+                return null;
+            }
+        }
+
+        async function load() {
+            const results = document.getElementById('results');
+            const footer = document.getElementById('footer');
+
+            try {
+                const res = await fetch('data.json');
+                if (!res.ok) throw new Error('No data');
+                const data = await res.json();
+
+                if (!data.responses?.length) {
+                    results.innerHTML = '<div class="loading">No data yet. Run collect.py first.</div>';
+                    return;
+                }
+
+                // Aggregate by model
+                const byModel = {};
+                for (const r of data.responses) {
+                    const name = r.model_name || r.model;
+                    if (!byModel[name]) byModel[name] = { total: 0, pokemon: {} };
+                    byModel[name].total++;
+                    const p = r.pokemon || 'unknown';
+                    byModel[name].pokemon[p] = (byModel[name].pokemon[p] || 0) + 1;
+                }
+
+                // Get top pokemon per model with provider
+                const rows = [];
+                for (const [model, info] of Object.entries(byModel)) {
+                    const sorted = Object.entries(info.pokemon).sort((a, b) => b[1] - a[1]);
+                    const [topPokemon, count] = sorted[0];
+                    const pct = Math.round((count / info.total) * 100);
+                    // Find provider from first response with this model
+                    // Skip models where top pokemon is unknown
+                    if (topPokemon === 'unknown') continue;
+                    const sample = data.responses.find(r => (r.model_name || r.model) === model);
+                    const provider = sample?.provider || 'unknown';
+                    rows.push({ model, pokemon: topPokemon, pct, total: info.total, provider });
+                }
+
+                // Detect lab from model name
+                const labMap = {
+                    'claude': 'Anthropic',
+                    'opus': 'Anthropic',
+                    'sonnet': 'Anthropic',
+                    'haiku': 'Anthropic',
+                    'gpt': 'OpenAI',
+                    'o1': 'OpenAI',
+                    'gemini': 'Google',
+                    'mistral': 'Mistral',
+                    'llama': 'Meta',
+                    'deepseek': 'DeepSeek',
+                    'qwen': 'Qwen',
+                    'grok': 'xAI',
+                    'kimi': 'Moonshot',
+                };
+
+                function getLab(modelName) {
+                    const lower = modelName.toLowerCase();
+                    for (const [key, lab] of Object.entries(labMap)) {
+                        if (lower.includes(key)) return lab;
+                    }
+                    return 'Other';
+                }
+
+                // Group by lab
+                const byLab = {};
+                for (const row of rows) {
+                    const lab = getLab(row.model);
+                    if (!byLab[lab]) byLab[lab] = [];
+                    byLab[lab].push(row);
+                }
+
+                // Lab order
+                const labOrder = ['Anthropic', 'OpenAI', 'Google', 'Meta', 'Mistral', 'DeepSeek', 'Qwen', 'xAI', 'Moonshot', 'Other'];
+
+                results.innerHTML = '';
+
+                for (const lab of labOrder) {
+                    const labRows = byLab[lab];
+                    if (!labRows || labRows.length === 0) continue;
+
+                    const label = document.createElement('div');
+                    label.className = 'provider-label';
+                    label.textContent = lab;
+                    results.appendChild(label);
+
+                    for (const row of labRows) {
+                    const div = document.createElement('div');
+                    div.className = 'model-row';
+                    div.innerHTML = `
+                        <div class="sprite-container" data-pokemon="${row.pokemon}">
+                            <div style="color:#ccc;font-size:1.5rem">?</div>
+                        </div>
+                        <div class="info">
+                            <div class="model-name">${row.model}</div>
+                            <div class="pokemon-name">${row.pokemon}</div>
+                        </div>
+                        <div class="percentage">${row.pct}%</div>
+                    `;
+                    results.appendChild(div);
+
+                    // Load sprite async
+                    if (row.pokemon !== 'unknown') {
+                        fetchSprite(row.pokemon).then(url => {
+                            if (url) {
+                                div.querySelector('.sprite-container').innerHTML =
+                                    `<img class="sprite" src="${url}" alt="${row.pokemon}">`;
+                            }
+                        });
+                    }
+                    }
+                }
+
+                footer.textContent = `${data.responses.length} responses from ${Object.keys(byModel).length} models`;
+
+            } catch (e) {
+                results.innerHTML = '<div class="error">Could not load data.json</div>';
+            }
+        }
+
+        load();
+    </script>
+</body>
+</html>
