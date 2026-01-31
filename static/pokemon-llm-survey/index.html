@@ -304,7 +304,7 @@
                     // Get sample explanations (up to 3 responses for the top pokemon)
                     const explanations = data.responses
                         .filter(r => (r.model_name || r.model) === model && r.pokemon === topPokemon)
-                        .slice(0, 3)
+                        .slice(0, 1)
                         .map(r => r.raw_response);
 
                     const sample = data.responses.find(r => (r.model_name || r.model) === model);
