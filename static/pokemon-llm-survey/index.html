@@ -55,11 +55,55 @@
             background: white;
             border-radius: 1rem;
             padding: 1rem;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+            border: 2px solid #f0f0f0;
+            cursor: pointer;
+            transition: border-color 0.2s;
+        }
+
+        .model-row:hover {
+            border-color: #ee1515;
+        }
+
+        .model-row-header {
             display: flex;
             align-items: center;
             gap: 1rem;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-            border: 2px solid #f0f0f0;
+        }
+
+        .model-row.expanded {
+            border-color: #ee1515;
+        }
+
+        .explanations {
+            display: none;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .model-row.expanded .explanations {
+            display: block;
+        }
+
+        .explanation {
+            font-size: 0.85rem;
+            color: #555;
+            padding: 0.75rem;
+            background: #fafafa;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+
+        .explanation:last-child {
+            margin-bottom: 0;
+        }
+
+        .expand-hint {
+            font-size: 0.75rem;
+            color: #bbb;
+            margin-top: 0.25rem;
         }
 
         .sprite-container {
@@ -143,6 +187,12 @@
     </div>
 
     <script>
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
         async function fetchSprite(name) {
             try {
                 const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${name.toLowerCase()}`);
@@ -178,18 +228,24 @@
                     byModel[name].pokemon[p] = (byModel[name].pokemon[p] || 0) + 1;
                 }
 
-                // Get top pokemon per model with provider
+                // Get top pokemon per model with provider and sample explanations
                 const rows = [];
                 for (const [model, info] of Object.entries(byModel)) {
                     const sorted = Object.entries(info.pokemon).sort((a, b) => b[1] - a[1]);
                     const [topPokemon, count] = sorted[0];
                     const pct = Math.round((count / info.total) * 100);
-                    // Find provider from first response with this model
                     // Skip models where top pokemon is unknown
                     if (topPokemon === 'unknown') continue;
+
+                    // Get sample explanations (up to 3 responses for the top pokemon)
+                    const explanations = data.responses
+                        .filter(r => (r.model_name || r.model) === model && r.pokemon === topPokemon)
+                        .slice(0, 3)
+                        .map(r => r.raw_response);
+
                     const sample = data.responses.find(r => (r.model_name || r.model) === model);
                     const provider = sample?.provider || 'unknown';
-                    rows.push({ model, pokemon: topPokemon, pct, total: info.total, provider });
+                    rows.push({ model, pokemon: topPokemon, pct, total: info.total, provider, explanations });
                 }
 
                 // Detect lab from model name
@@ -242,16 +298,30 @@
                     for (const row of labRows) {
                     const div = document.createElement('div');
                     div.className = 'model-row';
+
+                    const explanationsHtml = row.explanations
+                        .map(e => `<div class="explanation">${escapeHtml(e)}</div>`)
+                        .join('');
+
                     div.innerHTML = `
-                        <div class="sprite-container" data-pokemon="${row.pokemon}">
-                            <div style="color:#ccc;font-size:1.5rem">?</div>
+                        <div class="model-row-header">
+                            <div class="sprite-container" data-pokemon="${row.pokemon}">
+                                <div style="color:#ccc;font-size:1.5rem">?</div>
+                            </div>
+                            <div class="info">
+                                <div class="model-name">${row.model}</div>
+                                <div class="pokemon-name">${row.pokemon}</div>
+                                <div class="expand-hint">tap to see explanations</div>
+                            </div>
+                            <div class="percentage">${row.pct}%</div>
                         </div>
-                        <div class="info">
-                            <div class="model-name">${row.model}</div>
-                            <div class="pokemon-name">${row.pokemon}</div>
-                        </div>
-                        <div class="percentage">${row.pct}%</div>
+                        <div class="explanations">${explanationsHtml}</div>
                     `;
+
+                    div.addEventListener('click', () => {
+                        div.classList.toggle('expanded');
+                    });
+
                     results.appendChild(div);
 
                     // Load sprite async
