@@ -8,7 +8,7 @@ categories:
   - Apps
 
 # Optional external URL for project (replaces project detail page).
-external_link: http://51.159.11.203:8000
+external_link: /pokemon-llm-survey/
 
 image:
   caption: ''
