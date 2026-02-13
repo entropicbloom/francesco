@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Souls Fact Recall - LLM Benchmark Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Masthead -->
+        <header class="masthead" data-animate>
+            <div class="masthead-title">
+                <h1>Dark Souls Fact Recall</h1>
+                <p class="subtitle">LLM fact recall benchmark for Dark Souls game knowledge</p>
+            </div>
+            <div class="masthead-stats">
+                <div class="masthead-stat">
+                    <div class="stat-value">February 13, 2026</div>
+                    <div class="stat-label">Last Updated</div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Toolbar: Legend + Filters -->
+        <div class="toolbar" data-animate>
+            <div class="legend">
+                <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> >=90%</div>
+                <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div> 75-89%</div>
+                <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div> <75%</div>
+            </div>
+            <div class="filters">
+                <button class="filter-btn" data-filter="all">All</button>
+                <button class="filter-btn active" data-filter="open">Open Weight</button>
+                <button class="filter-btn" data-filter="proprietary">Proprietary</button>
+                <span class="filter-separator"></span>
+                <button class="filter-btn size-filter" data-size="150" title="Only show models with <150B total parameters">&lt;150B</button>
+                <button class="filter-btn type-filter" data-type="MoE" title="Only show Mixture-of-Experts models">MoE</button>
+            </div>
+        </div>
+
+        <!-- Main Table -->
+        <div class="card" data-animate>
+            <h2>Overall Comparison</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Model</th>
+                            <th>Parameters</th>
+                            <th>Type</th>
+                            <th>License</th>
+                            <th style="width:30%">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody id="model-table-body">
+                        <!-- Generated dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Section Divider -->
+        <div class="section-divider" data-animate><span class="cross">+</span> Detailed Analysis <span class="cross">+</span></div>
+
+        <div class="grid">
+            <!-- Categories -->
+            <div class="card" data-animate>
+                <h2>Scores by Category (%)</h2>
+                <div class="table-wrap">
+                    <table class="category-table">
+                        <thead>
+                            <tr id="category-header">
+                                <th>Model</th>
+                                <!-- Category headers generated dynamically -->
+                            </tr>
+                        </thead>
+                        <tbody id="category-table-body">
+                            <!-- Generated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Critical Questions -->
+            <div class="card critical-section" data-animate>
+                <h2>Critical Questions</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr id="critical-header">
+                                <th>Model</th>
+                                <!-- Critical question headers generated dynamically -->
+                            </tr>
+                        </thead>
+                        <tbody id="critical-table-body">
+                            <!-- Generated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+                <p class="critical-note">>=80% = PASS | <80% = FAIL</p>
+            </div>
+        </div>
+
+        <!-- Example Questions -->
+        <div class="section-divider" data-animate><span class="cross">+</span> Example Questions <span class="cross">+</span></div>
+
+        <div class="card" data-animate>
+            <div id="example-questions">
+                <!-- Generated dynamically -->
+            </div>
+        </div>
+
+        <p class="footer">Generated: February 13, 2026 | 13 Models</p>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
