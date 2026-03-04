@@ -11,7 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 'Working on LLMs and thinking about consciousness,<br>sometimes both at once.'
+      text: 'Building LLM applications. Interested in consciousness and intelligence.'
     design:
       background:
         image:
