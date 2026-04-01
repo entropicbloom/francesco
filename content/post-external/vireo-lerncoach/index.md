@@ -2,7 +2,6 @@
 title: AI Learning Coach (Vireo)
 summary: A multi-agent AI system for Entlastungsdienst Bern that assesses care workers' competencies through conversation, creates personalised learning paths, and enables interactive training. Semi-finalist, GenAI Awards 2026.
 tags:
-  - LLMs
   - Current Work
 
 categories:
