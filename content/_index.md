@@ -44,13 +44,17 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: AI Engineer
+        - title: AI Engineer & Co-Founder
           company: LLMify
           company_url: 'https://llmify.ch'
-          location: Zug
+          location: Cham
           date_start: '2025-10-01'
           description: |2-
-            Building LLM-powered applications and AI solutions for businesses and non-profits.
+            Building sovereign AI infrastructure for Swiss companies — open-source models, on-premise & Swiss cloud.
+
+            - **AI Learning Coach** for [Entlastungsdienst Bern](https://vireo-empower.ch): multi-agent system (5 specialised agents) for scenario-based competency assessment, personalised learning paths, interactive training, and a confidential reflection space for care workers. Delivered in 14 weeks (Nov 2025 – Feb 2026).
+            - **Sovereign AI Platform**: co-developed and rolled out an on-premise / Swiss-cloud platform based on open-source LLMs, deployed across multiple client industries.
+            - Semi-finalist, GenAI Awards 2026.
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
@@ -58,7 +62,11 @@ sections:
           date_start: '2024-03-01'
           date_end: '2025-09-30'
           description: |2-
-            Built LLM applications for clients in tech, finance, and energy, including a major US tech company. Projects included workflow automation, talk-to-your-data tools (RAG, text2sql), and multi-agent systems. Also worked on data engineering with Spark.
+            Built LLM applications for clients in tech, finance, and energy.
+
+            - **Text-to-Data Chatbot** (major US tech company): multi-agent conversational analytics system for querying business and sales data in natural language — identified the correct database, executed queries, generated grounded answers and dynamic charts.
+            - **Data Quality Monitoring** (Swiss energy company): end-to-end anomaly detection pipeline for operational data; led stakeholder requirements workshops and a comparative evaluation of candidate solutions.
+            - **LLM Due Diligence Assistant** (Swiss asset manager): semantic document retrieval system for due diligence workflows with full source traceability — every answer linked to its origin document.
         - title: PhD Candidate in Computational Neuroscience
           company: University of Amsterdam
           company_url: ''

@@ -11,7 +11,7 @@ last_name: Lässig
 superuser: true
 
 # Role/position/tagline
-role: AI Engineer
+role: AI Engineer & Co-Founder
 
 # Organizations/Affiliations to show in About widget
 organizations:

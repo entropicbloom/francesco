@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Francesco Lässig | CV (Short)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --sidebar-bg: #0f172a;
+      --sidebar-text: #cbd5e1;
+      --sidebar-muted: #64748b;
+      --sidebar-heading: #94a3b8;
+      --accent: #38bdf8;
+      --accent-dark: #0284c7;
+      --main-bg: #ffffff;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --timeline-dot: #38bdf8;
+      --tag-bg: #f1f5f9;
+      --tag-text: #475569;
+    }
+
+    html { font-size: 13.5px; }
+
+    body {
+      font-family: "Inter", "Helvetica Neue", sans-serif;
+      background: #e2e8f0;
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── LAYOUT ──────────────────────────────────────────── */
+    .cv {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      min-height: 100vh;
+      max-width: 960px;
+      margin: 2rem auto;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.18);
+    }
+
+    /* ── SIDEBAR ─────────────────────────────────────────── */
+    .sidebar {
+      background: var(--sidebar-bg);
+      color: var(--sidebar-text);
+      padding: 2.4rem 1.8rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .sidebar > div, .sidebar > nav {
+      padding: 1.9rem 0;
+      border-bottom: 1px solid #1e2d40;
+    }
+
+    .sidebar > div:first-child { padding-top: 0; }
+    .sidebar > div:last-child { border-bottom: none; }
+
+    .sidebar-name {
+      padding-bottom: 0;
+    }
+
+    .sidebar-name h1 {
+      font-size: 1.45rem;
+      font-weight: 700;
+      color: #f8fafc;
+      letter-spacing: -0.3px;
+      line-height: 1.2;
+    }
+
+    .sidebar-name .tagline {
+      margin-top: 0.5rem;
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--accent);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .sidebar-section-title {
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--sidebar-heading);
+      margin-bottom: 0.7rem;
+    }
+
+    /* Contact */
+    .contact-list { list-style: none; display: flex; flex-direction: column; gap: 0.45rem; }
+    .contact-list li { font-size: 0.8rem; display: flex; align-items: center; gap: 0.5rem; }
+    .contact-list a { color: var(--sidebar-text); text-decoration: none; }
+    .contact-list a:hover { color: var(--accent); }
+
+    .contact-icon {
+      width: 14px;
+      height: 14px;
+      opacity: 0.5;
+      flex-shrink: 0;
+    }
+
+    /* Skills */
+    .skill-group { margin-bottom: 0.9rem; }
+    .skill-group:last-child { margin-bottom: 0; }
+    .skill-group-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #94a3b8;
+      margin-bottom: 0.35rem;
+    }
+    .skill-tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .skill-tag {
+      font-size: 0.72rem;
+      background: rgba(56,189,248,0.1);
+      color: #93c5fd;
+      border: 1px solid rgba(56,189,248,0.2);
+      border-radius: 3px;
+      padding: 0.1rem 0.45rem;
+    }
+
+    /* Education sidebar */
+    .edu-item { margin-bottom: 0.9rem; }
+    .edu-item:last-child { margin-bottom: 0; }
+    .edu-degree-s { font-size: 0.8rem; font-weight: 600; color: #e2e8f0; line-height: 1.3; }
+    .edu-inst-s { font-size: 0.75rem; color: var(--sidebar-muted); margin-top: 0.1rem; }
+    .edu-year-s { font-size: 0.7rem; color: var(--accent); margin-top: 0.1rem; }
+
+    /* Interests */
+    .interest-list { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .interest-tag {
+      font-size: 0.72rem;
+      background: rgba(255,255,255,0.05);
+      color: var(--sidebar-muted);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 3px;
+      padding: 0.1rem 0.45rem;
+    }
+
+    /* ── MAIN ────────────────────────────────────────────── */
+    .main {
+      background: var(--main-bg);
+      padding: 2.4rem 2.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .main-section-title {
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-dark);
+      border-bottom: 1.5px solid var(--border);
+      padding-bottom: 0.35rem;
+      margin-bottom: 1.1rem;
+    }
+
+    /* ── TIMELINE ────────────────────────────────────────── */
+    .timeline { display: flex; flex-direction: column; gap: 0; }
+
+    .tl-entry {
+      display: grid;
+      grid-template-columns: 14px 1fr;
+      gap: 0 0.9rem;
+      position: relative;
+    }
+
+    .tl-spine {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .tl-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--timeline-dot);
+      flex-shrink: 0;
+      margin-top: 0.3rem;
+      box-shadow: 0 0 0 3px rgba(56,189,248,0.15);
+    }
+
+    .tl-line {
+      width: 1.5px;
+      flex: 1;
+      background: var(--border);
+      margin-top: 4px;
+    }
+
+    .tl-entry:last-child .tl-line { display: none; }
+
+    .tl-body { padding-bottom: 1.6rem; }
+    .tl-entry:last-child .tl-body { padding-bottom: 0; }
+
+    .tl-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .tl-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .tl-org {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--accent-dark);
+    }
+
+    .tl-org a { color: inherit; text-decoration: none; }
+    .tl-org a:hover { text-decoration: underline; }
+
+    .tl-period {
+      font-size: 0.73rem;
+      color: var(--text-muted);
+      white-space: nowrap;
+      background: var(--tag-bg);
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    .tl-meta {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+
+    .tl-meta a { color: var(--accent-dark); text-decoration: none; }
+    .tl-meta a:hover { text-decoration: underline; }
+
+    ul.bullets { padding-left: 1rem; margin-top: 0.45rem; }
+    ul.bullets li {
+      font-size: 0.83rem;
+      color: var(--text);
+      margin-bottom: 0.35rem;
+      line-height: 1.55;
+    }
+    ul.bullets li strong { color: var(--text); font-weight: 600; }
+    ul.bullets li a { color: var(--accent-dark); text-decoration: none; }
+    ul.bullets li a:hover { text-decoration: underline; }
+
+    .chip {
+      display: inline-block;
+      font-size: 0.7rem;
+      color: var(--accent-dark);
+      border: 1px solid #bae6fd;
+      background: #f0f9ff;
+      border-radius: 3px;
+      padding: 0.08rem 0.45rem;
+      margin-top: 0.4rem;
+      text-decoration: none;
+    }
+    .chip:hover { background: var(--accent-dark); color: #fff; border-color: var(--accent-dark); }
+
+    /* ── PUBLICATIONS ────────────────────────────────────── */
+    .pub-list { display: flex; flex-direction: column; gap: 0.9rem; }
+
+    .pub-entry {
+      padding-left: 0.8rem;
+      border-left: 2px solid var(--border);
+    }
+
+    .pub-title { font-size: 0.86rem; font-weight: 600; color: var(--text); line-height: 1.4; }
+    .pub-authors { font-size: 0.78rem; color: var(--text-muted); margin-top: 0.1rem; }
+    .pub-venue { font-size: 0.78rem; color: var(--text-muted); font-style: italic; }
+
+    .pub-links { margin-top: 0.3rem; display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .pub-links a {
+      font-size: 0.7rem;
+      color: var(--accent-dark);
+      border: 1px solid #bae6fd;
+      background: #f0f9ff;
+      border-radius: 3px;
+      padding: 0.08rem 0.45rem;
+      text-decoration: none;
+    }
+    .pub-links a:hover { background: var(--accent-dark); color: #fff; border-color: var(--accent-dark); }
+
+    /* ── PROJECTS ────────────────────────────────────────── */
+    .project-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.7rem;
+    }
+
+    .project-card {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 0.75rem 0.9rem;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    .project-card:hover {
+      border-color: #bae6fd;
+      box-shadow: 0 2px 8px rgba(56,189,248,0.1);
+    }
+
+    .project-name {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .project-desc {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+      line-height: 1.45;
+    }
+
+    .project-link-row { margin-top: 0.4rem; }
+    .project-link-row a {
+      font-size: 0.7rem;
+      color: var(--accent-dark);
+      text-decoration: none;
+    }
+    .project-link-row a:hover { text-decoration: underline; }
+
+    /* ── PRINT ───────────────────────────────────────────── */
+    @page { size: A4; margin: 0; }
+
+    @media print {
+      body { background: white; }
+      .cv { margin: 0; box-shadow: none; max-width: 100%; min-height: 100vh; }
+      .sidebar { padding: 1.3rem 1.2rem; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+      .sidebar > div, .sidebar > nav { padding: 1.4rem 0; }
+      .main { padding: 1.3rem 1.7rem; gap: 1.1rem; }
+      .tl-body { padding-bottom: 0.75rem; }
+      ul.bullets li { margin-bottom: 0.15rem; line-height: 1.45; }
+      .tl-meta { margin-bottom: 0.3rem; }
+      .chip { display: none; }
+      .sidebar-name img { width: 64px; height: 64px; margin-bottom: 0.6rem; }
+    }
+
+    @media (max-width: 700px) {
+      .cv { grid-template-columns: 1fr; }
+      .sidebar { padding: 1.5rem; }
+      .main { padding: 1.5rem; }
+      .project-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="cv">
+
+  <!-- ═══════════════════════════════════════════════════════
+       SIDEBAR
+  ════════════════════════════════════════════════════════ -->
+  <aside class="sidebar">
+
+    <!-- Name & tagline -->
+    <div class="sidebar-name">
+      <img src="profile-pic.jpeg" alt="Francesco Lässig" style="width:80px;height:80px;border-radius:50%;object-fit:cover;object-position:center top;margin-bottom:0.9rem;border:2px solid rgba(56,189,248,0.3);" />
+      <h1>Francesco<br/>Lässig</h1>
+      <div class="tagline">AI Engineer</div>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <div class="sidebar-section-title">Contact</div>
+      <ul class="contact-list">
+        <li>
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+          <a href="mailto:francesco.laessig@proton.me">francesco.laessig@proton.me</a>
+        </li>
+        <li>
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+          <a href="https://flaessig.com" target="_blank">flaessig.com</a>
+        </li>
+        <li>
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <a href="https://www.linkedin.com/in/francesco-laessig/" target="_blank">linkedin/francesco-laessig</a>
+        </li>
+        <li>
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          <a href="https://github.com/entropicbloom" target="_blank">github/entropicbloom</a>
+        </li>
+        <li>
+          <svg class="contact-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0z"/><path d="M15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/><path d="M22 20v-1a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v1"/></svg>
+          <a href="https://scholar.google.com/citations?user=xyr8NGIAAAAJ" target="_blank">Google Scholar</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Skills -->
+    <div>
+      <div class="sidebar-section-title">Skills</div>
+      <div class="skill-tags" style="gap:0.35rem;">
+        <span class="skill-tag">LLM application development</span>
+        <span class="skill-tag">Multi-agent systems</span>
+        <span class="skill-tag">Software engineering</span>
+        <span class="skill-tag">Deep learning</span>
+        <span class="skill-tag">Research &amp; publication</span>
+        <span class="skill-tag">Public speaking</span>
+        <span class="skill-tag">Technical consulting</span>
+      </div>
+    </div>
+
+
+    <!-- Publications -->
+    <div>
+      <div class="sidebar-section-title">Publications</div>
+
+      <div style="margin-bottom:0.9rem;">
+        <div style="font-size:0.78rem;font-weight:600;color:#e2e8f0;line-height:1.4;">Unambiguous Representations in Neural Networks</div>
+        <div style="font-size:0.73rem;color:var(--sidebar-muted);margin-top:0.1rem;">Francesco Lässig &nbsp;·&nbsp; MoC6 2025</div>
+        <div style="margin-top:0.25rem;display:flex;gap:0.4rem;flex-wrap:wrap;">
+          <a href="https://arxiv.org/abs/2512.11000" target="_blank" style="font-size:0.68rem;color:var(--accent);text-decoration:none;border:1px solid rgba(56,189,248,0.3);border-radius:3px;padding:0.05rem 0.35rem;">arXiv ↗</a>
+          <a href="https://amcs-community.org/moc6-schedule-information/#abstract-36" target="_blank" style="font-size:0.68rem;color:var(--accent);text-decoration:none;border:1px solid rgba(56,189,248,0.3);border-radius:3px;padding:0.05rem 0.35rem;">MoC6 ↗</a>
+        </div>
+      </div>
+
+      <div style="margin-bottom:0.9rem;">
+        <div style="font-size:0.78rem;font-weight:600;color:#e2e8f0;line-height:1.4;">Darts: Modern ML for Time Series</div>
+        <div style="font-size:0.73rem;color:var(--sidebar-muted);margin-top:0.1rem;">Herzen, Lässig et al. &nbsp;·&nbsp; JMLR 2022</div>
+        <div style="margin-top:0.25rem;display:flex;gap:0.4rem;flex-wrap:wrap;">
+          <a href="https://www.jmlr.org/papers/volume23/21-1177/21-1177.pdf" target="_blank" style="font-size:0.68rem;color:var(--accent);text-decoration:none;border:1px solid rgba(56,189,248,0.3);border-radius:3px;padding:0.05rem 0.35rem;">Journal ↗</a>
+          <a href="https://github.com/unit8co/darts" target="_blank" style="font-size:0.68rem;color:var(--accent);text-decoration:none;border:1px solid rgba(56,189,248,0.3);border-radius:3px;padding:0.05rem 0.35rem;">GitHub ↗</a>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-size:0.78rem;font-weight:600;color:#e2e8f0;line-height:1.4;">Bio-Inspired, Task-Free Continual Learning</div>
+        <div style="font-size:0.73rem;color:var(--sidebar-muted);margin-top:0.1rem;">Lässig et al. &nbsp;·&nbsp; Biological Cybernetics 2023</div>
+        <div style="margin-top:0.25rem;display:flex;gap:0.4rem;flex-wrap:wrap;">
+          <a href="https://arxiv.org/abs/2212.04316" target="_blank" style="font-size:0.68rem;color:var(--accent);text-decoration:none;border:1px solid rgba(56,189,248,0.3);border-radius:3px;padding:0.05rem 0.35rem;">arXiv ↗</a>
+          <a href="https://link.springer.com/article/10.1007/s00422-023-00973-w" target="_blank" style="font-size:0.68rem;color:var(--accent);text-decoration:none;border:1px solid rgba(56,189,248,0.3);border-radius:3px;padding:0.05rem 0.35rem;">Journal ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Languages -->
+    <div>
+      <div class="sidebar-section-title">Languages</div>
+      <div class="skill-group">
+        <div class="skill-tags">
+          <span class="skill-tag">German (native)</span>
+          <span class="skill-tag">English (fluent)</span>
+          <span class="skill-tag">Italian (fluent)</span>
+        </div>
+      </div>
+    </div>
+
+  </aside>
+
+  <!-- ═══════════════════════════════════════════════════════
+       MAIN CONTENT
+  ════════════════════════════════════════════════════════ -->
+  <main class="main">
+
+    <!-- ── EXPERIENCE ──────────────────────────────────── -->
+    <section>
+      <div class="main-section-title">Experience</div>
+      <div class="timeline">
+
+        <!-- LLMify -->
+        <div class="tl-entry">
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <div>
+                <span class="tl-title">AI Engineer &amp; Co-Founder</span>
+                <span style="color:#94a3b8;margin:0 0.3rem;">·</span>
+                <span class="tl-org"><a href="https://llmify.ch" target="_blank">LLMify AG</a></span>
+              </div>
+              <span class="tl-period">Oct 2025 – Present &nbsp;·&nbsp; Cham, CH</span>
+            </div>
+            <div class="tl-meta">Sovereign AI infrastructure for Swiss companies: open-source models, on-premise &amp; Swiss cloud.</div>
+            <ul class="bullets">
+              <li>
+                <strong>AI Learning Coach</strong> for
+                <a href="https://vireo-empower.ch" target="_blank">Entlastungsdienst Bern</a>:
+                multi-agent system for scenario-based competency assessment, personalised learning paths, interactive training (quizzes, role-play, case studies), and a confidential reflection space.
+                Delivered in 14 weeks; hosted in CH/EU with Microsoft Entra ID &amp; Azure AI Foundry.
+                <br/><a class="chip" href="https://vireo-empower.ch" target="_blank">vireo-empower.ch ↗</a>
+              </li>
+              <li>
+                <strong>Sovereign AI Platform:</strong> co-developed and rolled out an on-premise / Swiss-cloud platform for open-source LLMs, deployed across multiple client industries.
+                Ran strategy workshops, set up demo environments, configured hardware and software.
+                <br/><a class="chip" href="https://chat.llmify.ch" target="_blank">chat.llmify.ch ↗</a>
+              </li>
+              <li>Semi-finalist, <strong>GenAI Awards 2026</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Unit8 recent -->
+        <div class="tl-entry">
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <div>
+                <span class="tl-title">AI / ML Engineer</span>
+                <span style="color:#94a3b8;margin:0 0.3rem;">·</span>
+                <span class="tl-org"><a href="https://unit8.com" target="_blank">Unit8</a></span>
+              </div>
+              <span class="tl-period">Mar 2024 – Sep 2025 &nbsp;·&nbsp; Zurich, CH</span>
+            </div>
+            <div class="tl-meta">Data science &amp; AI consultancy. LLM &amp; data engineering for clients in tech, finance, and energy.</div>
+            <ul class="bullets">
+              <li><strong>Text-to-Data Chatbot (major US tech company):</strong> multi-agent analytics system for querying business and sales data in natural language; identified the correct database, executed queries, generated grounded answers and dynamic charts.</li>
+              <li><strong>Data Quality Monitoring (Swiss energy company):</strong> end-to-end anomaly detection pipeline for operational data built on Spark, with automatic alerting; led stakeholder requirements workshops and a comparative evaluation of candidate solutions.</li>
+              <li><strong>LLM Due Diligence Assistant (Swiss asset manager):</strong> semantic document retrieval system for due diligence workflows; AI-powered lookup with full source traceability, every answer linked to its origin document.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Amsterdam -->
+        <div class="tl-entry">
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <div>
+                <span class="tl-title">Researcher</span>
+                <span style="color:#94a3b8;margin:0 0.3rem;">·</span>
+                <span class="tl-org">University of Amsterdam</span>
+              </div>
+              <span class="tl-period">Aug 2022 – Mar 2023 &nbsp;·&nbsp; Amsterdam, NL</span>
+            </div>
+            <div class="tl-meta">
+              Part of the <a href="https://arc-intrepid.com" target="_blank">ARC-INTREPID project</a>, an adversarial collaboration between three leading neuroscientific theories of consciousness.
+            </div>
+          </div>
+        </div>
+
+        <!-- Unit8 early -->
+        <div class="tl-entry">
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <div>
+                <span class="tl-title">Data Scientist</span>
+                <span style="color:#94a3b8;margin:0 0.3rem;">·</span>
+                <span class="tl-org"><a href="https://unit8.com" target="_blank">Unit8</a></span>
+              </div>
+              <span class="tl-period">Apr 2020 – Feb 2022 &nbsp;·&nbsp; Zurich, CH</span>
+            </div>
+            <ul class="bullets">
+              <li><strong>Darts:</strong> core contributor to an open-source Python time series library (JMLR 2022); the <a href="https://github.com/unit8co/darts" target="_blank">GitHub repo</a> grew from 0 to 3.3k+ stars. Presented at <a href="https://www.youtube.com/watch?v=thg10qDqpRE" target="_blank">EuroPython 2021</a> and <a href="https://www.youtube.com/watch?v=Kf6b5falv0M" target="_blank">PyData Global 2021</a>.</li>
+              <li>ML-based predictive maintenance tool for a Swiss hydro power plant: EDA, model development, backtesting, and deployment.</li>
+              <li>Demand forecasting solution for a Swiss industrial equipment manufacturer; improved forecasts by 10–50% across metrics.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Araneum -->
+        <div class="tl-entry">
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <div>
+                <span class="tl-title">Machine Learning Engineer</span>
+                <span style="color:#94a3b8;margin:0 0.3rem;">·</span>
+                <span class="tl-org"><a href="https://www.araneum.ch" target="_blank">Araneum Technologies</a></span>
+              </div>
+              <span class="tl-period">Sep 2019 – Dec 2019 &nbsp;·&nbsp; Zurich, CH</span>
+            </div>
+            <div class="tl-meta">Devised and built machine learning solutions for small and medium-sized Swiss banks.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── EDUCATION ────────────────────────────────────── -->
+    <section>
+      <div class="main-section-title">Education</div>
+      <div class="timeline">
+
+        <div class="tl-entry">
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <div>
+                <span class="tl-title">MSc Neural Systems &amp; Computation</span>
+                <span style="color:#94a3b8;margin:0 0.3rem;">·</span>
+                <span class="tl-org">ETH Zürich &amp; University of Zürich</span>
+              </div>
+              <span class="tl-period">2020 – 2022</span>
+            </div>
+            <ul class="bullets">
+              <li>Thesis on bio-inspired continual learning; maximum grade. Published in <em>Biological Cybernetics</em>.</li>
+              <li>Founded a student reading group on consciousness science; conducted interviews with researchers including Anil Seth.</li>
+              <li>GPA 5.8 / 6</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-entry">
+          <div class="tl-spine"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <div class="tl-header">
+              <div>
+                <span class="tl-title">BSc Computer Science</span>
+                <span style="color:#94a3b8;margin:0 0.3rem;">·</span>
+                <span class="tl-org">ETH Zürich</span>
+              </div>
+              <span class="tl-period">2016 – 2020</span>
+            </div>
+            <ul class="bullets">
+              <li>Exchange semester at the University of Pennsylvania (Wharton &amp; CS); awarded scholarship for a selective exchange program.</li>
+<li>GPA 5.36 / 6</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+</body>
+</html>
