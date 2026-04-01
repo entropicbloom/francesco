@@ -366,11 +366,11 @@ const DASHBOARD_DATA = {
   ],
   "exampleQuestions": [
     {
-      "id": "B1.2",
+      "id": "B1.1",
       "category": "Bosses",
-      "difficulty": "medium",
-      "question": "In Dark Souls 1, which four bosses hold Lord Souls that must be collected to fill the Lordvessel?",
-      "answer": "Gravelord Nito, Seath the Scaleless, The Bed of Chaos, Four Kings"
+      "difficulty": "easy",
+      "question": "What is the name of the very first boss you encounter in Dark Souls 1?",
+      "answer": "Asylum Demon"
     },
     {
       "id": "A2.2",
@@ -380,18 +380,18 @@ const DASHBOARD_DATA = {
       "answer": "Ring the Bell of Awakening in the Undead Parish (above the Bell Gargoyles), Ring the Bell of Awakening in Quelaag's Domain (below Blighttown, after defeating Chaos Witch Quelaag)"
     },
     {
-      "id": "N3.3",
+      "id": "N3.2",
       "category": "NPCs & Questlines",
-      "difficulty": "medium",
-      "question": "In Dark Souls 1, what happens after Knight Lautrec of Carim is freed from his cell in the Undead Parish and both Bells of Awakening have been rung?",
-      "answer": "After being freed, Lautrec moves to Firelink Shrine. Once both Bells of Awakening are rung, he kills Anastacia, the Firekeeper of Firelink Shrine. This disables the Firelink bonfire and the player must invade Lautrec's world in Anor Londo to recover her soul and restore the bonfire."
+      "difficulty": "hard",
+      "question": "What specific steps must the player take to save Solaire of Astora from going mad in Lost Izalith in Dark Souls 1?",
+      "answer": "The player must join the Chaos Servant covenant and reach Rank 2 by offering 30 humanity to the Fair Lady. This opens a shortcut door in the Demon Ruins. The player must go through the shortcut and kill the red-eyed Chaos Bug (which drops the Sunlight Maggot) before Solaire reaches it. If the bug is killed before Solaire encounters it, he survives and can be summoned for the final boss."
     },
     {
-      "id": "I4.2",
+      "id": "I4.1",
       "category": "Items & Weapons",
-      "difficulty": "medium",
-      "question": "List all four types of Black Knight weapons in Dark Souls 1.",
-      "answer": "Black Knight Sword, Black Knight Greatsword, Black Knight Halberd, Black Knight Greataxe"
+      "difficulty": "easy",
+      "question": "How is the Drake Sword obtained in Dark Souls 1?",
+      "answer": "The Drake Sword is obtained by cutting the tail of the Hellkite Wyvern (the red dragon) on the Undead Burg bridge. The most common method is to stand under the bridge and shoot the tail with arrows until it is severed."
     },
     {
       "id": "L5.2",
@@ -401,11 +401,11 @@ const DASHBOARD_DATA = {
       "answer": "Her attempt to recreate the First Flame went catastrophically wrong. She created the Chaos Flame instead, which transformed her into the Bed of Chaos. This event gave birth to all demons in the Dark Souls world and corrupted the land of Izalith."
     },
     {
-      "id": "M6.1",
+      "id": "M6.2",
       "category": "Mechanics & Covenants",
-      "difficulty": "medium",
-      "question": "What does 'kindling' a bonfire do in Dark Souls 1, and what item allows further kindling beyond the default?",
-      "answer": "Kindling a bonfire increases the number of Estus Flask charges the player receives when resting at that bonfire, from the default 5 to 10. The Rite of Kindling (obtained from Pinwheel) allows further kindling in two additional steps: to 15 and then to 20. Each kindling costs 1 Humanity."
+      "difficulty": "hard",
+      "question": "Name at least six of the nine covenants available in Dark Souls 1.",
+      "answer": "Warrior of Sunlight, Darkwraith, Forest Hunter (Forest Hunters), Blade of the Darkmoon, Chaos Servant, Way of White, Princess's Guard, Gravelord Servant, Path of the Dragon"
     }
   ]
 };
