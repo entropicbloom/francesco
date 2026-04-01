@@ -66,7 +66,7 @@ sections:
 
             - **AI Learning Coach** for [Entlastungsdienst Bern](https://vireo-empower.ch): multi-agent system (5 specialised agents) for scenario-based competency assessment, personalised learning paths, interactive training, and a confidential reflection space for care workers. Delivered in 14 weeks (Nov 2025 – Feb 2026).
             - **Sovereign AI Platform**: co-developed and rolled out an on-premise / Swiss-cloud platform based on open-source LLMs, deployed across multiple client industries.
-            - Semi-finalist, GenAI Awards 2026.
+            - [Semi-finalist, GenAI Awards 2026](https://www.genaizurich.ch/award/gaz26--entlastungsdienst).
         - title: Data Scientist
           company: Unit8
           company_url: 'https://unit8.com'
