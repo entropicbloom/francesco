@@ -115,6 +115,17 @@ sections:
           description: Devised and built machine learning solutions for small and medium-sized Swiss banks.
     design:
       columns: '2'
+  - block: collection
+    id: papers
+    content:
+      title: Papers
+      subtitle: My academic papers and preprints.
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      view: card
   - block: experience
     id: education
     content:
@@ -164,7 +175,4 @@ sections:
       filters:
         folders:
           - publication
-    design:
-      columns: '2'
-      view: card
 ---
