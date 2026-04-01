@@ -9,7 +9,7 @@ categories:
   - Projects
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://drive.google.com/file/d/1FTCXCEGMnLjnoaBqokSJKgthBdCblNdH/view?usp=share_link
+external_link: /uploads/ADM-amplitude-normalization.pdf
 
 image:
   caption: ''
