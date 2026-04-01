@@ -3,6 +3,7 @@ title: Sovereign AI Platform (LLMify)
 summary: An on-premise and Swiss-cloud platform for running open-source LLMs, giving businesses full control over their data. Deployed across multiple client industries.
 tags:
   - LLMs
+  - Current Work
 
 categories:
   - Apps

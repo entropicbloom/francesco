@@ -21,6 +21,19 @@ sections:
           # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
           brightness: 0.6
   - block: portfolio
+    id: current-work
+    content:
+      title: Current Work
+      subtitle: ''
+      filters:
+        folders:
+          - post-external
+        tag: Current Work
+    design:
+      columns: '2'
+      view: compact
+      flip_alt_rows: false
+  - block: portfolio
     id: other-contents
     content:
       title: Contents
