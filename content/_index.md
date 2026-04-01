@@ -167,12 +167,4 @@ sections:
             - Completed degree with a GPA of 5.36 out of 6.
     design:
       columns: '2'
-  - block: collection
-    id: papers
-    content:
-      title: Papers
-      subtitle: My academic papers and preprints.
-      filters:
-        folders:
-          - publication
 ---
