@@ -20,17 +20,6 @@ sections:
         filters:
           # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
           brightness: 0.6
-  - block: collection
-    id: papers
-    content:
-      title: Papers
-      subtitle: My academic papers and preprints.
-      filters:
-        folders:
-          - publication
-    design:
-      columns: '2'
-      view: card
   - block: experience
     id: job-experience
     content:
@@ -147,7 +136,7 @@ sections:
   - block: portfolio
     id: other-contents
     content:
-      title: Other Contents
+      title: Contents
       subtitle: 'Some of my projects, talks, and writings.'
       count: 5
       filters:
@@ -167,4 +156,15 @@ sections:
       columns: '2'
       view: compact
       flip_alt_rows: false
+  - block: collection
+    id: papers
+    content:
+      title: Papers
+      subtitle: My academic papers and preprints.
+      filters:
+        folders:
+          - publication
+    design:
+      columns: '2'
+      view: card
 ---

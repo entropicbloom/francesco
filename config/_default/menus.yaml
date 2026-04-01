@@ -7,17 +7,17 @@ main:
   - name: About
     url: '#about'
     weight: 5
-  - name: Papers
-    url: '#papers'
-    weight: 10
   - name: Experience
     url: '#job-experience'
-    weight: 20
+    weight: 10
   - name: Education
     url: '#education'
-    weight: 30
-  - name: Other
+    weight: 20
+  - name: Contents
     url: '#other-contents'
+    weight: 30
+  - name: Papers
+    url: '#papers'
     weight: 40
 
 # Link to a PDF of your resume/CV from the menu.
