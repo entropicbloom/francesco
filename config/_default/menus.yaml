@@ -7,14 +7,14 @@ main:
   - name: About
     url: '#about'
     weight: 5
-  - name: Experience
-    url: '#job-experience'
-    weight: 10
-  - name: Education
-    url: '#education'
-    weight: 20
   - name: Contents
     url: '#other-contents'
+    weight: 10
+  - name: Experience
+    url: '#job-experience'
+    weight: 20
+  - name: Education
+    url: '#education'
     weight: 30
   - name: Papers
     url: '#papers'

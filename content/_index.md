@@ -20,6 +20,29 @@ sections:
         filters:
           # Darken the image? Range 0-1 where 1 is transparent and 0 is opaque.
           brightness: 0.6
+  - block: portfolio
+    id: other-contents
+    content:
+      title: Contents
+      subtitle: 'Some of my projects, talks, and writings.'
+      count: 5
+      filters:
+        folders:
+          - post-external
+      default_button_index: 0
+      buttons:
+        - name: LLMs
+          tag: LLMs
+        - name: Consciousness
+          tag: Consciousness
+        - name: Darts
+          tag: Darts
+        - name: Other
+          tag: Other
+    design:
+      columns: '2'
+      view: compact
+      flip_alt_rows: false
   - block: experience
     id: job-experience
     content:
@@ -133,29 +156,6 @@ sections:
             - Completed degree with a GPA of 5.36 out of 6.
     design:
       columns: '2'
-  - block: portfolio
-    id: other-contents
-    content:
-      title: Contents
-      subtitle: 'Some of my projects, talks, and writings.'
-      count: 5
-      filters:
-        folders:
-          - post-external
-      default_button_index: 0
-      buttons:
-        - name: LLMs
-          tag: LLMs
-        - name: Consciousness
-          tag: Consciousness
-        - name: Darts
-          tag: Darts
-        - name: Other
-          tag: Other
-    design:
-      columns: '2'
-      view: compact
-      flip_alt_rows: false
   - block: collection
     id: papers
     content:
