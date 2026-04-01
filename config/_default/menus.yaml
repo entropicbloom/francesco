@@ -7,12 +7,9 @@ main:
   - name: About
     url: '#about'
     weight: 5
-  - name: Current Work
-    url: '#current-work'
-    weight: 10
   - name: Contents
     url: '#other-contents'
-    weight: 15
+    weight: 10
   - name: Experience
     url: '#job-experience'
     weight: 20
