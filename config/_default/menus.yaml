@@ -20,6 +20,3 @@ main:
     url: '#papers'
     weight: 40
 
-  - name: CV
-    url: uploads/resume.pdf
-    weight: 50
