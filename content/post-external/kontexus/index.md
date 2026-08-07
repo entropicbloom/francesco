@@ -1,6 +1,6 @@
 ---
 title: Kontexus (Sovereign AI Workspace)
-summary: A self-hosted AI workspace with agentic chat over your own documents. Runs in the Swiss cloud, so data never leaves Swiss infrastructure. Deployed across multiple client industries.
+summary: An agentic AI workspace that works directly on your files through a real Linux environment, runs on Swiss cloud infrastructure with Swiss-hosted LLMs, and connects to Swiss business applications.
 tags:
   - Current Work
   - LLMs
