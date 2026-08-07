@@ -1,5 +1,5 @@
 ---
-title: Kontexus (Sovereign AI Workspace)
+title: Sovereign AI Workspace (Kontexus)
 summary: An agentic AI workspace that works directly on your files through a real Linux environment, runs on Swiss cloud infrastructure with Swiss-hosted LLMs, and connects to Swiss business applications.
 tags:
   - Current Work
