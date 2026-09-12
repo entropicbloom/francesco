@@ -11,7 +11,7 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
-      text: 'Building AI applications and sovereign AI infrastructure<br>for Swiss companies.'
+      text: 'Building sovereign AI solutions for Swiss companies and non-profits.<br>On the side: computational models of consciousness and intentionality.'
     design:
       background:
         image:
