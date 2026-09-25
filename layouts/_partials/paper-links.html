@@ -1,0 +1,14 @@
+{{- /* Link row for a publication page. Context: the page. */ -}}
+{{- $links := slice -}}
+{{- with .Params.url_pdf }}{{ $links = $links | append (dict "name" "PDF" "url" .) }}{{ end -}}
+{{- with .Params.url_code }}{{ $links = $links | append (dict "name" "Code" "url" .) }}{{ end -}}
+{{- with .Params.url_project }}{{ $links = $links | append (dict "name" "Project" "url" .) }}{{ end -}}
+{{- range .Params.links }}{{ $links = $links | append (dict "name" .name "url" .url) }}{{ end -}}
+{{- with .Resources.GetMatch "cite.bib" }}{{ $links = $links | append (dict "name" "BibTeX" "url" .RelPermalink) }}{{ end -}}
+{{- with $links }}
+<ul class="chips">
+  {{- range . }}
+  <li><a class="chip" href="{{ .url }}">{{ .name }}</a></li>
+  {{- end }}
+</ul>
+{{- end }}

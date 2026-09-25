@@ -1,0 +1,43 @@
+baseURL: https://www.flaessig.com/
+title: Francesco Lässig
+locale: en-US
+enableRobotsTXT: true
+disableKinds: [taxonomy, term, rss]
+
+mediaTypes:
+  text/netlify:
+    delimiter: ''
+    suffixes: ['']
+
+outputFormats:
+  redirects:
+    mediaType: text/netlify
+    baseName: _redirects
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home: [html, redirects]
+  section: [html]
+  page: [html]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+imaging:
+  resampleFilter: lanczos
+  jpeg:
+    quality: 85
+  webp:
+    quality: 82
+  anchor: smart
+
+params:
+  description: Francesco Lässig is an AI engineer and co-founder of LLMify, building sovereign AI systems for Swiss companies and non-profits.
+  jobTitle: AI Engineer & Co-Founder
+  org:
+    name: LLMify
+    url: https://llmify.ch
+  essays: https://entropicbloom.com

@@ -1,0 +1,18 @@
+{{- /* Experience / education list. Context: slice of items from content/_index.md. */ -}}
+<ol class="timeline">
+  {{- range . }}
+  <li class="timeline__item">
+    <div class="timeline__meta">
+      <span>{{ partial "daterange.html" . }}</span>
+      {{ with .location }}<span>{{ . }}</span>{{ end }}
+    </div>
+    <div class="timeline__body">
+      <h3 class="timeline__title">{{ .title }}</h3>
+      <p class="timeline__org">
+        {{- if .company_url }}<a href="{{ .company_url }}">{{ .company }}</a>{{ else }}{{ .company }}{{ end -}}
+      </p>
+      {{ with .description }}<div class="prose">{{ . | markdownify }}</div>{{ end }}
+    </div>
+  </li>
+  {{- end }}
+</ol>

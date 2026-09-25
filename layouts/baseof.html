@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Locale | default "en" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if .IsHome }}is-home{{ else }}is-page{{ end }}">
+  <a class="skip" href="#main">Skip to content</a>
+  {{ block "main" . }}{{ end }}
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <span>© {{ now.Year }} Francesco Lässig</span>
+      <span>Essays at <a href="{{ site.Params.essays }}">{{ strings.TrimPrefix "https://" site.Params.essays }}</a></span>
+    </div>
+  </footer>
+</body>
+</html>

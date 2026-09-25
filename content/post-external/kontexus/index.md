@@ -15,5 +15,5 @@ external_link: https://kontexus.ch
 
 image:
   caption: ''
-  focal_point: Smart
+  fit: contain
 ---

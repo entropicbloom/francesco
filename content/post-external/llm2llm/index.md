@@ -12,5 +12,5 @@ external_link: https://llm2llm.com
 
 image:
   caption: ''
-  focal_point: Smart
+  fit: contain
 ---

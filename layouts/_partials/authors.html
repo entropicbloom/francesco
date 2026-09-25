@@ -1,0 +1,5 @@
+{{- /* Author list with the site owner highlighted. Context: slice of names. */ -}}
+{{- range $i, $a := . -}}
+{{- if $i }}, {{ end -}}
+{{- if eq $a site.Title }}<strong>{{ $a }}</strong>{{ else }}{{ $a }}{{ end -}}
+{{- end -}}

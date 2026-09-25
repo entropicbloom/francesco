@@ -3,8 +3,8 @@
 
 # Hugo
 resources/
+.hugo_build.lock
 public/
-assets/jsconfig.json
 
 # Other
 *.DS_Store

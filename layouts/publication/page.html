@@ -1,0 +1,27 @@
+{{ define "main" }}
+{{ partial "nav.html" . }}
+<main id="main" class="wrap article">
+  <p class="article__back"><a href="/#papers">← All papers</a></p>
+  <p class="paper__meta">
+    {{ .Date.Format "January 2006" }} · {{ .Params.publication | strings.TrimPrefix "*" }}
+  </p>
+  <h1 class="article__title">{{ .Title }}</h1>
+  <p class="paper__authors">{{ partial "authors.html" .Params.authors }}</p>
+  {{ partial "paper-links.html" . }}
+
+  {{ with .Resources.GetMatch "featured.*" }}
+  {{ $img := .Resize "1400x" }}
+  <img class="article__figure" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="">
+  {{ end }}
+
+  {{ with .Params.abstract }}
+  <h2 class="article__heading">Abstract</h2>
+  <div class="prose">{{ . | markdownify }}</div>
+  {{ end }}
+
+  {{ with .Resources.GetMatch "cite.bib" }}
+  <h2 class="article__heading">Cite</h2>
+  <pre class="bib">{{ .Content | replaceRE `\n\s*\n` "\n" | strings.TrimSpace }}</pre>
+  {{ end }}
+</main>
+{{ end }}

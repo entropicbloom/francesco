@@ -1,11 +1,11 @@
 # Repo overview
 
-Personal academic / portfolio site for **Francesco Lässig** (`flaessig.netlify.app`).
-Built with **Hugo** using the **Wowchemy "Academic" starter v5** (loaded as a Hugo Module — there is no local theme directory).
+Personal professional site for **Francesco Lässig** (`www.flaessig.com`, also `flaessig.netlify.app`).
+Built with **Hugo** and a small set of custom templates in `layouts/`. There is no theme and no Go/npm dependency: the Hugo binary is the only build tool.
 
-- Hugo version is pinned in `netlify.toml` (`HUGO_VERSION = "0.108.0"`). Newer Hugo can break Wowchemy v5 — match the pinned version locally.
-- Theme/module is fetched via `go.mod`; do not vendor it.
+- Hugo version is pinned in `netlify.toml` (`HUGO_VERSION`). Match it locally.
 - Deploy: Netlify auto-builds from `main`. Production runs `hugo --gc --minify -b $URL`; deploy previews additionally pass `--buildFuture` so future-dated content shows up in PR previews only.
+- Consciousness essays and talks live on entropicbloom.com, not here. This site keeps only CV-level consciousness work (the intentionality paper, the ARC-INTREPID PhD entry, Qualiaheads).
 
 ## Local dev
 
@@ -14,20 +14,22 @@ hugo server -D            # local preview
 hugo --gc --minify        # production-equivalent build (output in public/)
 ```
 
-`resources/`, `public/`, and `outfit-app/` are gitignored build artifacts / unused scratch (the `outfit-app/` folder is a leftover Next.js stub, not part of the site).
+`resources/`, `public/`, `.hugo_build.lock`, and `outfit-app/` are gitignored build artifacts / unused scratch (the `outfit-app/` folder is a leftover Next.js stub, not part of the site).
 
 ## Where content lives
 
 | Path | What it is |
 | --- | --- |
-| `content/_index.md` | Landing page — drives every homepage section (about, portfolio filters, experience, papers, education). Edit experience/education entries here. |
-| `content/authors/admin/_index.md` | Bio, role, social links, profile photo (`avatar.jpg`). |
-| `content/post-external/<slug>/index.md` | Portfolio items (talks, projects, articles, apps). Each folder has its own `featured.{png,jpg}`. |
-| `content/publication/<slug>/index.md` | Academic papers (rendered in the "Papers" section). Folders also contain `cite.bib` + `featured.*`. |
-| `config/_default/` | `config.yaml` (Hugo + modules), `params.yaml` (appearance, SEO, footer, etc.), `menus.yaml` (navbar), `languages.yaml`. |
+| `content/_index.md` | Landing page front matter: role, intro, profile links, work filters, experience, education. Edit experience/education entries here. |
+| `content/post-external/<slug>/index.md` | Portfolio cards (talks, projects, articles, apps). Each folder has its own `featured.{png,jpg}`. These have no pages of their own; cards link to `external_link`. |
+| `content/publication/<slug>/index.md` | Papers. Listed on the homepage and rendered at `/publication/<slug>/`. Folders also contain `cite.bib` + optional `featured.*`. |
+| `hugo.yaml` | Site config and `params` (description, job title, essays URL). |
+| `layouts/` | Templates: `home.html` (landing page), `publication/page.html`, `404.html`, `baseof.html`, partials in `_partials/`, and `home.redirects`. |
+| `assets/css/main.css`, `assets/js/filter.js` | All styling (color tokens with light/dark variants at the top) and the work filter script. |
+| `assets/media/` | `buddhabrot.png` (hero background, also the social preview image), `avatar.jpg`, `icon.png` (favicon). |
 | `static/uploads/` | PDFs & files linked as `/uploads/<file>` (e.g. `resume.pdf`, `consciousness-and-unambiguous-representations.pdf`). |
+| `static/{cv,cv-short}.html` | Standalone CV pages, public on purpose but not linked from the site. |
 | `static/{dark-souls-benchmark,pokemon-llm-survey}/` | Standalone static mini-sites served at their own paths. |
-| `assets/media/buddhabrot.png` | Landing-page background; referenced by filename in `_index.md`. |
 
 ## Adding a portfolio item
 
@@ -38,22 +40,26 @@ Create `content/post-external/<slug>/index.md` with frontmatter like:
 title: ...
 summary: ...
 tags:
-  - Current Work     # or LLMs / Consciousness / Darts / Other
+  - Current Work     # or LLMs / Darts / Other
 categories:
   - Apps             # Apps | Articles | Posts | Presentations | Projects
 date: "2026-02-01T00:00:00Z"   # optional; future dates only show in deploy previews
 external_link: https://...     # makes the card link out instead of opening a detail page
 image:
   caption: ''
-  focal_point: Smart
+  fit: contain   # only for logos: show the whole image on a light tile instead of cropping
 ---
 ```
 
-Add a `featured.png` (or `.jpg`) alongside `index.md` — this is the card thumbnail. Transparent PNGs are used for logos that should sit on the card background (see `llm2llm`, `vireo-lerncoach`).
+Add a `featured.png` (or `.jpg`) alongside `index.md` — this is the card thumbnail. Logos use `fit: contain` (see `kontexus`, `llm2llm`, `vireo-lerncoach`). The card label comes from the first category.
 
 ## Portfolio filter buttons
 
-The landing page's "Contents" section shows tag-based filter buttons. The button list and the **default selected filter** are both defined in `content/_index.md` under the `portfolio` block (currently `Current Work`, `LLMs`, `Consciousness`, `Darts`, `Other`). A post is only reachable via a button if it carries the matching `tag`. When adding a new filter, update both the `buttons:` list there and the relevant items' `tags:`.
+The "Work" section shows tag-based filter buttons, listed under `work.filters` in `content/_index.md` (currently `Current Work`, `LLMs`, `Darts`, `Other`). The first one is selected on page load. A card is only reachable via a button if it carries the matching `tag`. When adding a new filter, update both the list there and the relevant items' `tags:`.
+
+## Old URLs
+
+`layouts/home.redirects` generates Netlify's `_redirects`. It sends the old Wowchemy URLs (per-card pages under `/post-external/`, `/tag/`, `/category/`, `/author/` pages) to their targets or the homepage. When removing a card, add a line for its old URL there if it might be indexed.
 
 ## Conventions
 

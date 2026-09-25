@@ -3,12 +3,7 @@
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.108.0"
-  NODE_VERSION = "22"
-  HUGO_ENABLEGITINFO = "true"
-
-[context.production.environment]
-  HUGO_ENV = "production"
+  HUGO_VERSION = "0.166.0"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
@@ -16,11 +11,8 @@
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true
-
+# The paper PDF is also hosted on consciousness-is-unambiguous.com; point
+# search engines at that copy. Keep this if the file is renamed.
 [[headers]]
   for = "/uploads/consciousness-and-unambiguous-representations.pdf"
   [headers.values]

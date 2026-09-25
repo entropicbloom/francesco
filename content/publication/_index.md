@@ -1,16 +1,8 @@
 ---
+# Papers are listed on the homepage; each paper also gets its own page at
+# /publication/<slug>/. The section index itself is not rendered.
 title: Papers
-cms_exclude: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 4
-
-# Optional header image (relative to `static/media/` folder).
-header:
-  caption: ''
-  image: ''
+build:
+  render: never
+  list: local
 ---

@@ -1,0 +1,5 @@
+{{- /* Renders "Mon YYYY – Mon YYYY", or "– present" when date_end is empty. */ -}}
+{{- $start := time.AsTime .date_start | time.Format "Jan 2006" -}}
+{{- $end := "present" -}}
+{{- with .date_end }}{{ $end = time.AsTime . | time.Format "Jan 2006" }}{{ end -}}
+{{ $start }} – {{ $end }}
