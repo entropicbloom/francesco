@@ -8,7 +8,7 @@ org:
   url: https://llmify.ch
 intro: Building sovereign AI solutions for Swiss companies and non-profits.
 essays:
-  text: Research and essays on consciousness and AI
+  text: Writing on consciousness and AI
   url: https://entropicbloom.com
 
 links:
@@ -22,8 +22,6 @@ links:
     url: https://scholar.google.com/citations?user=xyr8NGIAAAAJ&hl=en&authuser=1
   - name: CV
     url: /uploads/resume.pdf
-  - name: Writing
-    url: https://entropicbloom.com
 
 # Tabs of the Work section; the first one is selected on page load.
 # A `tag` tab shows the cards from content/post-external/ carrying that tag
