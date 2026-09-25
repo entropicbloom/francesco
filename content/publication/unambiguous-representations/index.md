@@ -20,8 +20,8 @@ publishDate: "2025-12-10T00:00:00Z"
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv"
-publication_short: "arXiv"
+publication: "Models of Consciousness 6 (MoC6), Hokkaido University"
+publication_short: "Models of Consciousness 6"
 
 abstract: This paper explores how neural representations differ from conventional ones by proposing that conscious experience involves unambiguous encoding. Using information theory, representational ambiguity is defined as conditional entropy. The concept is demonstrated through MNIST classification experiments, achieving perfect accuracy for dropout-trained networks in identifying neuron class identity and up to 0.844 R² for decoding spatial position information from network connectivity, suggesting neural networks can exhibit low-ambiguity representations theoretically linked to consciousness.
 
