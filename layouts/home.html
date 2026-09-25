@@ -25,38 +25,37 @@
         <p class="section__sub">{{ .Params.work.subtitle }}</p>
       </div>
       <div class="section__body">
-        {{- /* Hidden until the script runs, so without JS every card shows. */}}
-        <div class="filters" role="group" aria-label="Filter work" hidden>
-          {{- range $i, $f := .Params.work.filters }}
-          <button type="button" class="filter" data-filter="{{ $f | urlize }}" aria-pressed="{{ cond (eq $i 0) "true" "false" }}">{{ $f }}</button>
-          {{- end }}
-        </div>
         {{- $labels := dict "Apps" "App" "Articles" "Article" "Posts" "Post" "Presentations" "Talk" "Projects" "Project" }}
-        <ul class="cards">
-          {{- range (site.GetPage "/post-external").Pages.ByDate.Reverse }}
-          {{- $p := . }}
-          {{- $tags := slice }}{{ range .Params.tags }}{{ $tags = $tags | append (. | urlize) }}{{ end }}
-          {{- $contain := eq .Params.image.fit "contain" }}
-          <li class="card" data-tags="{{ delimit $tags " " }}">
-            <a class="card__link" href="{{ .Params.external_link }}">
-              {{- with .Resources.GetMatch "featured.*" }}
-              {{- $img := cond $contain (.Fit "800x500") (.Fill (printf "800x500 %s" ($p.Params.image.focal_point | default "Center"))) }}
-              <div class="card__media{{ if $contain }} card__media--logo{{ end }}">
-                <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
-              </div>
-              {{- end }}
-              <div class="card__text">
-                <p class="card__meta">
-                  {{- with index .Params.categories 0 }}{{ index $labels . | default . }}{{ end -}}
-                  {{- if not .Date.IsZero }} · {{ .Date.Year }}{{ end -}}
-                </p>
-                <h3 class="card__title">{{ .Title }}</h3>
-                <p class="card__summary">{{ .Summary | plainify }}</p>
-              </div>
-            </a>
-          </li>
+        {{- $cards := (site.GetPage "/post-external").Pages }}
+        {{- range .Params.work.groups }}
+        <div class="group">
+          <h3 class="group__title">{{ .title }}</h3>
+          <ul class="cards">
+          {{- range where $cards "Params.tags" "intersect" (slice .tag) }}
+            {{- $p := . }}
+            {{- $contain := eq .Params.image.fit "contain" }}
+            <li class="card">
+              <a class="card__link" href="{{ .Params.external_link }}">
+                {{- with .Resources.GetMatch "featured.*" }}
+                {{- $img := cond $contain (.Fit "800x500") (.Fill (printf "800x500 %s" ($p.Params.image.focal_point | default "Center"))) }}
+                <div class="card__media{{ if $contain }} card__media--logo{{ end }}">
+                  <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
+                </div>
+                {{- end }}
+                <div class="card__text">
+                  <p class="card__meta">
+                    {{- with index .Params.categories 0 }}{{ index $labels . | default . }}{{ end -}}
+                    {{- if not .Date.IsZero }} · {{ .Date.Year }}{{ end -}}
+                  </p>
+                  <h4 class="card__title">{{ .Title }}</h4>
+                  <p class="card__summary">{{ .Summary | plainify }}</p>
+                </div>
+              </a>
+            </li>
           {{- end }}
-        </ul>
+          </ul>
+        </div>
+        {{- end }}
       </div>
     </div>
   </section>
@@ -105,6 +104,4 @@
   </section>
 </main>
 
-{{- $js := resources.Get "js/filter.js" | minify | fingerprint }}
-<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
 {{ end }}

@@ -8,6 +8,8 @@ tags:
 categories:
   - Apps
 
+weight: 1
+
 date: "2026-02-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
