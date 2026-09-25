@@ -28,7 +28,7 @@ links:
 # (cards with a `weight` first, then newest first). The `papers` tab shows
 # content/publication/. A tab is also reachable at /#<name-slug>, e.g. /#papers.
 work:
-  title: Work
+  title: Selected work
   tabs:
     - name: Current Work
       tag: Current Work
