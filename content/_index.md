@@ -94,7 +94,6 @@ experience:
       - Co-hosted multiple technical public webinars revolving around topics in data science and machine learning.
   - title: Machine Learning Engineer
     company: Araneum Technologies
-    company_url: 'https://www.araneum.ch'
     location: Zürich
     date_start: '2019-09-01'
     date_end: '2019-12-31'
