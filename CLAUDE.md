@@ -49,6 +49,7 @@ image:
   caption: ''
   focal_point: Center   # crop anchor for the 16:10 card image: Center, Top, Bottom, Left, Right, Smart
   fit: contain          # only for logos: show the whole image on a light tile instead of cropping
+  padding: 11% 16%      # optional, with fit: contain; more padding = smaller logo (default 6% 9%)
 ---
 ```
 

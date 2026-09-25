@@ -18,4 +18,5 @@ external_link: https://vireo-empower.ch
 image:
   caption: ''
   fit: contain
+  padding: 11% 16%
 ---

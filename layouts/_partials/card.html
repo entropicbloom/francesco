@@ -6,7 +6,7 @@
   <a class="card__link" href="{{ .Params.external_link }}">
     {{- with .Resources.GetMatch "featured.*" }}
     {{- $img := cond $contain (.Fit "800x500") (.Fill (printf "800x500 %s" ($p.Params.image.focal_point | default "Center"))) }}
-    <div class="card__media{{ if $contain }} card__media--logo{{ end }}">
+    <div class="card__media{{ if $contain }} card__media--logo{{ end }}"{{ with $p.Params.image.padding }} style="--logo-padding: {{ . }}"{{ end }}>
       <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
     </div>
     {{- end }}
