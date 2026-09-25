@@ -23,16 +23,15 @@ links:
   - name: CV
     url: /uploads/resume.pdf
 
-# Portfolio cards come from content/post-external/. Each group shows the
-# cards whose `tags` contain its tag, ordered by `weight`, then newest first.
+# Portfolio cards come from content/post-external/. A card is shown under a
+# filter when its `tags` contain the filter's tag. The first filter is
+# selected on page load. Cards with a `weight` come first, then newest first.
 work:
   title: Work
   subtitle: Projects, talks, and writing.
-  groups:
-    - title: Current work
-      tag: Current Work
-    - title: Darts, 2020–2021
-      tag: Darts
+  filters:
+    - Current Work
+    - Darts
 
 # Begin multi-line descriptions with YAML's `|2-` prefix. Markdown is allowed.
 # Leave `date_end` empty for a current position.
