@@ -8,7 +8,7 @@ tags:
 categories:
   - Apps
 
-weight: 1
+weight: 2
 
 date: "2026-02-01T00:00:00Z"
 

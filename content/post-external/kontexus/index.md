@@ -8,7 +8,7 @@ tags:
 categories:
   - Apps
 
-weight: 2
+weight: 1
 
 date: "2025-10-01T00:00:00Z"
 
