@@ -40,7 +40,7 @@ Create `content/post-external/<slug>/index.md` with frontmatter like:
 title: ...
 summary: ...
 tags:
-  - Current Work     # or LLMs / Darts / Other
+  - Current Work     # or LLMs / Darts
 categories:
   - Apps             # Apps | Articles | Posts | Presentations | Projects
 date: "2026-02-01T00:00:00Z"   # optional; future dates only show in deploy previews
@@ -56,7 +56,7 @@ Add a `featured.png` (or `.jpg`) alongside `index.md` — this is the card thumb
 
 ## Portfolio filter buttons
 
-The "Work" section shows tag-based filter buttons, listed under `work.filters` in `content/_index.md` (currently `Current Work`, `LLMs`, `Darts`, `Other`). The first one is selected on page load. A card is only reachable via a button if it carries the matching `tag`. When adding a new filter, update both the list there and the relevant items' `tags:`.
+The "Work" section shows tag-based filter buttons, listed under `work.filters` in `content/_index.md` (currently `Current Work`, `LLMs`, `Darts`). The first one is selected on page load. A card is only reachable via a button if it carries the matching `tag`. When adding a new filter, update both the list there and the relevant items' `tags:`.
 
 ## Old URLs
 

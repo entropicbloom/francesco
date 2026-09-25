@@ -2,6 +2,7 @@
 # Keeps URLs from the old Wowchemy site (indexed by search engines) working.
 
 # Portfolio cards used to have their own pages; send them to the linked target.
+# Cards removed from the site are listed by hand below the generated lines.
 {{- range (site.GetPage "/post-external").Pages }}
 /post-external/{{ .File.ContentBaseName | urlize }}/  {{ .Params.external_link }}  301
 {{- end }}
@@ -9,6 +10,10 @@
 /post-external/hard-real-core-problems/  https://entropicbloom.com  301
 /post-external/meta-problem/  https://entropicbloom.com  301
 /post-external/neurons-representations-consciousness/  https://entropicbloom.com  301
+/post-external/adm-project/  /uploads/ADM-amplitude-normalization.pdf  301
+/post-external/buddhabrot-webapp/  https://entropicbloom.github.io/buddhabrot  301
+/post-external/transaction-anomalies/  https://medium.com/unit8-machine-learning-publication/a-guide-to-building-a-financial-transaction-anomaly-detector-480b07190620  301
+/post-external/llm-parrots-humans-gene-propagators/  https://medium.com/@entropicbloom/if-llms-are-just-parrots-humans-are-just-gene-propagators-c35d9c1835f8  301
 
 # Listing, taxonomy and author pages no longer exist.
 /post-external/  /  301

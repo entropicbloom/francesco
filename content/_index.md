@@ -33,7 +33,6 @@ work:
     - Current Work
     - LLMs
     - Darts
-    - Other
 
 # Begin multi-line descriptions with YAML's `|2-` prefix. Markdown is allowed.
 # Leave `date_end` empty for a current position.
