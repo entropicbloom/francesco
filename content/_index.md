@@ -31,7 +31,7 @@ work:
   subtitle: Projects, talks, and writing.
   filters:
     - Current Work
-    - Darts
+    - Talks
 
 # Begin multi-line descriptions with YAML's `|2-` prefix. Markdown is allowed.
 # Leave `date_end` empty for a current position.

@@ -3,6 +3,7 @@ title: PyData Global 2021 - Darts Presentation
 summary: A presentation of the *Darts* open source library from the PyData Global 2021 conference by Francesco Lässig and Julien Herzen.
 
 tags:
+  - Talks
   - Darts
   - Machine Learning
 

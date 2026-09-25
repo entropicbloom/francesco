@@ -40,7 +40,7 @@ Create `content/post-external/<slug>/index.md` with frontmatter like:
 title: ...
 summary: ...
 tags:
-  - Current Work     # or Darts; must match a filter in content/_index.md
+  - Current Work     # or Talks; must match a filter in content/_index.md
 categories:
   - Apps             # Apps | Articles | Posts | Presentations | Projects
 date: "2026-02-01T00:00:00Z"   # optional; future dates only show in deploy previews
@@ -56,7 +56,7 @@ Add a `featured.png` (or `.jpg`) alongside `index.md` — this is the card thumb
 
 ## Work filter tabs
 
-The "Work" section shows tag-based filter tabs, listed under `work.filters` in `content/_index.md` (currently `Current Work`, `Darts`). The first one is selected on page load; without JavaScript all cards show. A card is only reachable via a tab if it carries the matching `tag`. When adding a filter, update both the list there and the relevant items' `tags:`. Cards with a `weight` come first (ascending), then the rest newest first.
+The "Work" section shows tag-based filter tabs, listed under `work.filters` in `content/_index.md` (currently `Current Work`, `Talks`). The first one is selected on page load; without JavaScript all cards show. A card is only reachable via a tab if it carries the matching `tag`. When adding a filter, update both the list there and the relevant items' `tags:`. Cards with a `weight` come first (ascending), then the rest newest first.
 
 ## Old URLs
 

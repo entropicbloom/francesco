@@ -3,6 +3,7 @@ title: EuroPython 2021 - Darts Presentation
 summary: A talk abut the *Darts* open source library from the EuroPython Global 2021 conference by Gael Grosch and Francesco Lässig.
 
 tags:
+  - Talks
   - Darts
   - Machine Learning
 
