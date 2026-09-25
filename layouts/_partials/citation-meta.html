@@ -1,0 +1,36 @@
+{{- /* Google Scholar citation tags and ScholarlyArticle data for a paper page.
+       Context: dict with "page" and "person" (the site owner's Person data). */ -}}
+{{- $p := .page -}}
+{{- $authors := slice -}}
+{{- range $p.Params.authors }}{{ if ne . "and others" }}{{ $authors = $authors | append . }}{{ end }}{{ end -}}
+<meta name="citation_title" content="{{ $p.Title }}">
+{{- range $authors }}
+<meta name="citation_author" content="{{ . }}">
+{{- end }}
+<meta name="citation_publication_date" content="{{ $p.Date.Format "2006/01/02" }}">
+{{- /* Journal name only for journal articles (publication type 2). */}}
+{{- if in $p.Params.publication_types "2" }}
+<meta name="citation_journal_title" content="{{ $p.Params.publication | strings.TrimPrefix "*" }}">
+{{- end }}
+{{- with $p.Params.url_pdf }}
+<meta name="citation_pdf_url" content="{{ . }}">
+{{- end }}
+{{- $people := slice }}
+{{- range $authors }}
+{{- if eq . site.Title }}{{ $people = $people | append $.person }}{{ else }}{{ $people = $people | append (dict "@type" "Person" "name" .) }}{{ end }}
+{{- end }}
+{{- $article := dict
+  "@context" "https://schema.org"
+  "@type" "ScholarlyArticle"
+  "headline" $p.Title
+  "abstract" ($p.Params.abstract | plainify)
+  "author" $people
+  "datePublished" ($p.Date.Format "2006-01-02")
+  "url" $p.Permalink
+}}
+{{- if in $p.Params.publication_types "2" }}
+{{- $article = merge $article (dict "isPartOf" (dict "@type" "Periodical" "name" ($p.Params.publication | strings.TrimPrefix "*"))) }}
+{{- end }}
+<script type="application/ld+json">
+{{ $article | jsonify | safeJS }}
+</script>

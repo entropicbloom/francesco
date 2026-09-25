@@ -10,6 +10,11 @@ mediaTypes:
     suffixes: ['']
 
 outputFormats:
+  llms:
+    mediaType: text/plain
+    baseName: llms
+    isPlainText: true
+    notAlternative: true
   redirects:
     mediaType: text/netlify
     baseName: _redirects
@@ -17,7 +22,7 @@ outputFormats:
     notAlternative: true
 
 outputs:
-  home: [html, redirects]
+  home: [html, redirects, llms]
   section: [html]
   page: [html]
 

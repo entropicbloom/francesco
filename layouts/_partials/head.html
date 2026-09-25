@@ -1,4 +1,4 @@
-{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
+{{- $title := cond .IsHome (printf "%s · %s at %s" site.Title site.Params.jobTitle site.Params.org.name) (printf "%s | %s" .Title site.Title) -}}
 {{- $description := cond .IsHome site.Params.description (.Summary | plainify | default site.Params.description) -}}
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,16 +26,21 @@
 {{- $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 
-{{- if .IsHome }}
-<script type="application/ld+json">
-{{ dict
-  "@context" "https://schema.org"
+{{- $person := dict
   "@type" "Person"
   "name" site.Title
   "url" site.BaseURL
+  "image" ((resources.Get "media/avatar.jpg").Fill "480x480 Center q85").Permalink
+  "description" site.Params.description
   "jobTitle" site.Params.jobTitle
   "worksFor" (dict "@type" "Organization" "name" site.Params.org.name "url" site.Params.org.url)
+  "alumniOf" (slice (dict "@type" "CollegeOrUniversity" "name" "ETH Zürich") (dict "@type" "CollegeOrUniversity" "name" "University of Zürich"))
   "sameAs" (slice "https://www.linkedin.com/in/francesco-laessig/" "https://github.com/entropicbloom" "https://scholar.google.com/citations?user=xyr8NGIAAAAJ" site.Params.essays)
-  | jsonify | safeJS }}
+}}
+{{- if .IsHome }}
+<script type="application/ld+json">
+{{ merge $person (dict "@context" "https://schema.org") | jsonify | safeJS }}
 </script>
+{{- else if and (eq .Section "publication") .IsPage }}
+{{ partial "citation-meta.html" (dict "page" . "person" $person) }}
 {{- end }}

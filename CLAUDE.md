@@ -24,7 +24,7 @@ hugo --gc --minify        # production-equivalent build (output in public/)
 | `content/post-external/<slug>/index.md` | Portfolio cards (talks, projects, articles, apps). Each folder has its own `featured.{png,jpg}`. These have no pages of their own; cards link to `external_link`. |
 | `content/publication/<slug>/index.md` | Papers. Listed in the homepage's "Papers" tab and rendered at `/publication/<slug>/`. Folders also contain `cite.bib` + optional `featured.*`. |
 | `hugo.yaml` | Site config and `params` (description, job title, essays URL). |
-| `layouts/` | Templates: `home.html` (landing page), `publication/page.html`, `404.html`, `baseof.html`, partials in `_partials/`, and `home.redirects`. |
+| `layouts/` | Templates: `home.html` (landing page), `publication/page.html`, `404.html`, `baseof.html`, partials in `_partials/`, `home.redirects`, `home.llms.txt`, `robots.txt`. |
 | `assets/css/main.css`, `assets/js/filter.js` | All styling (color tokens with light/dark variants at the top) and the Work tab script. |
 | `assets/media/` | `buddhabrot.png` (hero background, also the social preview image), `avatar.jpg`, `icon.png` (favicon). |
 | `static/uploads/` | PDFs & files linked as `/uploads/<file>` (e.g. `resume.pdf`, `consciousness-and-unambiguous-representations.pdf`). |
@@ -59,9 +59,16 @@ Add a `featured.png` (or `.jpg`) alongside `index.md` — this is the card thumb
 
 The "Work" section has tabs, listed under `work.tabs` in `content/_index.md` (currently `Current Work`, `Papers`, `Talks`, `Side Projects`). The first one is selected on page load; without JavaScript all panels show. A tab with `tag:` shows the cards carrying that tag; the tab with `papers: true` shows `content/publication/`. Each tab is reachable at `/#<slug>` (old links to `/#papers` and the "← All papers" link on paper pages rely on this). Within a tab, cards with a `weight` come first (ascending), then the rest newest first.
 
+## SEO and agent files
+
+- `layouts/_partials/head.html`: title, description, canonical, Open Graph, `Person` JSON-LD on the homepage.
+- `layouts/_partials/citation-meta.html`: Google Scholar `citation_*` tags and `ScholarlyArticle` JSON-LD on paper pages. Authors listed as "and others" are skipped; the journal name is only emitted for journal articles (`publication_types: ["2"]`).
+- `layouts/home.llms.txt` generates `/llms.txt` (plain-text summary for language models) from the same front matter as the homepage, so it stays in sync.
+- `layouts/robots.txt` points to the sitemap.
+
 ## Old URLs
 
-`layouts/home.redirects` generates Netlify's `_redirects`. It sends the old Wowchemy URLs (per-card pages under `/post-external/`, `/tag/`, `/category/`, `/author/` pages) to their targets or the homepage. When removing a card, add a line for its old URL there if it might be indexed.
+`layouts/home.redirects` generates Netlify's `_redirects`. It redirects flaessig.netlify.app to www.flaessig.com and sends the old Wowchemy URLs (per-card pages under `/post-external/`, `/tag/`, `/category/`, `/author/` pages) to their targets or the homepage. When removing a card, add a line for its old URL there if it might be indexed.
 
 ## Conventions
 

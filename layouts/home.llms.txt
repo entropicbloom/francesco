@@ -1,0 +1,36 @@
+{{- /* /llms.txt: a plain-text summary of the site for language models (llmstxt.org). */ -}}
+{{- $cards := (site.GetPage "/post-external").Pages -}}
+# {{ site.Title }}
+
+> {{ .Params.role }} at {{ .Params.org.name }} ({{ .Params.org.url }}). {{ .Params.intro }}
+
+{{ .Params.essays.text }}: {{ .Params.essays.url }}
+
+## Links
+{{ range .Params.links }}
+- {{ .name }}: {{ .url | absURL }}
+{{- end }}
+{{ range .Params.work.tabs }}
+## {{ .name }}
+{{ if .tag }}
+{{- range where $cards "Params.tags" "intersect" (slice .tag) }}
+- [{{ .Title }}]({{ .Params.external_link | absURL }}){{ if not .Date.IsZero }} ({{ .Date.Year }}){{ end }}: {{ .Summary | plainify | htmlUnescape }}
+{{- end }}
+{{- else if .papers }}
+{{- range (site.GetPage "/publication").Pages.ByDate.Reverse }}
+- [{{ .Title }}]({{ .Permalink }}) ({{ .Date.Year }}, {{ .Params.publication | strings.TrimPrefix "*" }}; {{ delimit .Params.authors ", " }}): {{ .Summary | plainify | htmlUnescape }}
+{{- end }}
+{{- end }}
+{{ end }}
+## Experience
+{{ range .Params.experience }}
+- {{ .title }}, {{ .company }}, {{ .location }} ({{ partial "daterange.html" . | strings.TrimSpace }})
+{{- with .description }}
+  {{ . | replaceRE "\n" "\n  " }}
+{{- end }}
+{{- end }}
+
+## Education
+{{ range .Params.education }}
+- {{ .title }}, {{ .company }} ({{ partial "daterange.html" . | strings.TrimSpace }})
+{{- end }}
