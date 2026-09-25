@@ -92,12 +92,6 @@ experience:
       - Built a ML-based predictive maintenance tool for a Swiss hydro power plant, all the way from exploratory data analysis and model development to backtesting and deployment.
       - Developed a demand forecasting solution for a Swiss manufacturer of laboratory and industry equipment which improved their existing forecasts by 10% - 50% (depending on the metric).
       - Co-hosted multiple technical public webinars revolving around topics in data science and machine learning.
-  - title: Machine Learning Engineer
-    company: Araneum Technologies
-    location: Zürich
-    date_start: '2019-09-01'
-    date_end: '2019-12-31'
-    description: Devised and built machine learning solutions for small and medium-sized Swiss banks.
 
 education:
   - title: MSc Neural Systems and Computation
