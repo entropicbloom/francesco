@@ -24,8 +24,8 @@ bio: AI Engineer
 # Interests to show in About widget
 interests:
   - AI / LLMs
-  - Consciousness
-  - Biological Brains
+  - Sovereign AI
+  - Computational Neuroscience
 
 # Education to show in About widget
 education:

@@ -19,4 +19,6 @@ main:
   - name: Education
     url: '#education'
     weight: 40
-
+  - name: Essays
+    url: 'https://entropicbloom.com'
+    weight: 50
