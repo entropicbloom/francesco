@@ -47,7 +47,8 @@ date: "2026-02-01T00:00:00Z"   # optional; future dates only show in deploy prev
 external_link: https://...     # makes the card link out instead of opening a detail page
 image:
   caption: ''
-  fit: contain   # only for logos: show the whole image on a light tile instead of cropping
+  focal_point: Center   # crop anchor for the 16:10 card image: Center, Top, Bottom, Left, Right, Smart
+  fit: contain          # only for logos: show the whole image on a light tile instead of cropping
 ---
 ```
 

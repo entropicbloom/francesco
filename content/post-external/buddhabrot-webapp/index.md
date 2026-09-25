@@ -13,5 +13,5 @@ external_link: https://entropicbloom.github.io/buddhabrot
 
 image:
   caption: ''
-  focal_point: Smart
+  focal_point: Center
 ---

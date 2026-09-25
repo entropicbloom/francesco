@@ -39,6 +39,12 @@
           {{- $contain := eq .Params.image.fit "contain" }}
           <li class="card" data-tags="{{ delimit $tags " " }}">
             <a class="card__link" href="{{ .Params.external_link }}">
+              {{- with .Resources.GetMatch "featured.*" }}
+              {{- $img := cond $contain (.Fit "800x500") (.Fill (printf "800x500 %s" ($p.Params.image.focal_point | default "Center"))) }}
+              <div class="card__media{{ if $contain }} card__media--logo{{ end }}">
+                <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
+              </div>
+              {{- end }}
               <div class="card__text">
                 <p class="card__meta">
                   {{- with index .Params.categories 0 }}{{ index $labels . | default . }}{{ end -}}
@@ -47,10 +53,6 @@
                 <h3 class="card__title">{{ .Title }}</h3>
                 <p class="card__summary">{{ .Summary | plainify }}</p>
               </div>
-              {{- with .Resources.GetMatch "featured.*" }}
-              {{- $img := cond $contain (.Fit "480x300") (.Fill "480x300 Smart") }}
-              <img class="card__thumb{{ if $contain }} card__thumb--contain{{ end }}" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
-              {{- end }}
             </a>
           </li>
           {{- end }}

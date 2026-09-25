@@ -16,5 +16,5 @@ external_link: https://medium.com/unit8-machine-learning-publication/temporal-co
 
 image:
   caption: Figure from https://www.researchgate.net/publication/353151571_The_predictive_skill_of_convolutional_neural_networks_models_for_disease_forecasting
-  focal_point: Smart
+  focal_point: Center
 ---

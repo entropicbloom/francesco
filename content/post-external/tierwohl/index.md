@@ -13,5 +13,5 @@ external_link: https://tierwohl.flaessig.com
 
 image:
   caption: ''
-  focal_point: Smart
+  focal_point: Top
 ---

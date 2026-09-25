@@ -17,5 +17,5 @@ external_link: https://youtube.com/watch?v=Kf6b5falv0M&si=EnSIkaIECMiOmarE
 
 image:
   caption: ''
-  focal_point: Smart
+  focal_point: Center
 ---

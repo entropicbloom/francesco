@@ -13,5 +13,5 @@ external_link: /uploads/ADM-amplitude-normalization.pdf
 
 image:
   caption: ''
-  focal_point: Smart
+  focal_point: Center
 ---

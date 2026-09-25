@@ -15,5 +15,5 @@ external_link: https://medium.com/unit8-machine-learning-publication/probabilist
 
 image:
   caption: Photo by Maarten van den Heuvel on Unsplash
-  focal_point: Smart
+  focal_point: Center
 ---

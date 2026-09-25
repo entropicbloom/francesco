@@ -13,5 +13,5 @@ external_link: https://medium.com/@entropicbloom/if-llms-are-just-parrots-humans
 
 image:
   caption: ''
-  focal_point: Smart
+  focal_point: Center
 ---

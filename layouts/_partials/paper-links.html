@@ -6,9 +6,7 @@
 {{- range .Params.links }}{{ $links = $links | append (dict "name" .name "url" .url) }}{{ end -}}
 {{- with .Resources.GetMatch "cite.bib" }}{{ $links = $links | append (dict "name" "BibTeX" "url" .RelPermalink) }}{{ end -}}
 {{- with $links }}
-<ul class="chips">
-  {{- range . }}
-  <li><a class="chip" href="{{ .url }}">{{ .name }}</a></li>
-  {{- end }}
-</ul>
+<p class="paper__links">
+  {{- range $i, $l := . }}{{ if $i }}<span aria-hidden="true"> · </span>{{ end }}<a href="{{ $l.url }}">{{ $l.name }}</a>{{ end -}}
+</p>
 {{- end }}
