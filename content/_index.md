@@ -105,7 +105,7 @@ education:
     description: |2-
       - Developed a novel, bio-inspired continual learning algorithm called sparse-recurrent DFC as part of my master thesis, which received the maximum grade.
       - Showcased poster about my master thesis at the AI+X Summit 2022. Presented my work at an [IROS 2022 workshop](https://lifelongrobotics.github.io) on continual learning.
-      - Founded [Qualiaheads](https://qualiaheads.github.io/blog/), a student club and reading group on consciousness science. Conducted interviews with researchers such as Anil Seth and Pedro Mediano.
+      - Founded [Qualiaheads](https://qualiaheads.org), a student club and reading group on consciousness science. Conducted interviews with researchers such as Anil Seth and Pedro Mediano.
       - Finished degree with a weighted GPA of 5.8 out of 6.
   - title: Computer Science Program
     company: University of Pennsylvania
