@@ -13,7 +13,7 @@
   --frost: #b8caff;
   --frost-ink: #e9eefb;
 
-  --font-display: "Bricolage Grotesque", "Helvetica Neue", sans-serif;
+  --font-display: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-body: "IBM Plex Sans", "Helvetica Neue", sans-serif;
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 
@@ -126,11 +126,10 @@ h1, h2, h3 { margin: 0; }
 /* The name is the one large typographic moment on the page. */
 .hero__name {
   font-family: var(--font-display);
-  font-weight: 600;
+  font-weight: 700;
   font-size: clamp(3.25rem, 11vw, 8.5rem);
   line-height: 0.9;
-  letter-spacing: -0.035em;
-  font-variation-settings: "opsz" 96;
+  letter-spacing: -0.04em;
   color: #f4f6fc;
   text-shadow: 0 0 60px rgba(184, 202, 255, 0.25);
 }
