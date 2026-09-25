@@ -203,13 +203,15 @@ h1, h2, h3 { margin: 0; }
 .filter:hover { color: var(--ink); }
 .filter[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--accent); }
 
+.panel[hidden] { display: none; }
+.panel + .panel { margin-top: 3rem; }
+.filters:not([hidden]) ~ .panel { margin-top: 0; }
+
 .cards {
   display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem;
   margin: 0; padding: 0; list-style: none;
 }
 @media (max-width: 640px) { .cards { grid-template-columns: minmax(0, 1fr); } }
-
-.card[hidden] { display: none; }
 
 .card__link {
   display: flex; flex-direction: column;

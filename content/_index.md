@@ -23,15 +23,21 @@ links:
   - name: CV
     url: /uploads/resume.pdf
 
-# Portfolio cards come from content/post-external/. A card is shown under a
-# filter when its `tags` contain the filter's tag. The first filter is
-# selected on page load. Cards with a `weight` come first, then newest first.
+# Tabs of the Work section; the first one is selected on page load.
+# A `tag` tab shows the cards from content/post-external/ carrying that tag
+# (cards with a `weight` first, then newest first). The `papers` tab shows
+# content/publication/. A tab is also reachable at /#<name-slug>, e.g. /#papers.
 work:
   title: Work
-  subtitle: Projects, talks, and writing.
-  filters:
-    - Current Work
-    - Talks
+  tabs:
+    - name: Current Work
+      tag: Current Work
+    - name: Papers
+      papers: true
+    - name: Talks
+      tag: Talks
+    - name: Side Projects
+      tag: Side Projects
 
 # Begin multi-line descriptions with YAML's `|2-` prefix. Markdown is allowed.
 # Leave `date_end` empty for a current position.

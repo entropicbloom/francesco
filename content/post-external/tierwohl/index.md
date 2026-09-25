@@ -2,13 +2,11 @@
 title: Tierwohl
 summary: A mobile web app that maps a photo of an animal-product package to its animal-welfare tier. Uses a vision LLM to read the visible labels, then looks them up against the Schweizer Tierschutz STS welfare database.
 tags:
-  - Current Work
+  - Side Projects
   - LLMs
 
 categories:
   - Apps
-
-weight: 3
 
 date: "2026-05-14T00:00:00Z"
 

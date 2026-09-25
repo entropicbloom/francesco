@@ -22,10 +22,10 @@ hugo --gc --minify        # production-equivalent build (output in public/)
 | --- | --- |
 | `content/_index.md` | Landing page front matter: role, intro, profile links, work filters, experience, education. Edit experience/education entries here. |
 | `content/post-external/<slug>/index.md` | Portfolio cards (talks, projects, articles, apps). Each folder has its own `featured.{png,jpg}`. These have no pages of their own; cards link to `external_link`. |
-| `content/publication/<slug>/index.md` | Papers. Listed on the homepage and rendered at `/publication/<slug>/`. Folders also contain `cite.bib` + optional `featured.*`. |
+| `content/publication/<slug>/index.md` | Papers. Listed in the homepage's "Papers" tab and rendered at `/publication/<slug>/`. Folders also contain `cite.bib` + optional `featured.*`. |
 | `hugo.yaml` | Site config and `params` (description, job title, essays URL). |
 | `layouts/` | Templates: `home.html` (landing page), `publication/page.html`, `404.html`, `baseof.html`, partials in `_partials/`, and `home.redirects`. |
-| `assets/css/main.css`, `assets/js/filter.js` | All styling (color tokens with light/dark variants at the top) and the work filter script. |
+| `assets/css/main.css`, `assets/js/filter.js` | All styling (color tokens with light/dark variants at the top) and the Work tab script. |
 | `assets/media/` | `buddhabrot.png` (hero background, also the social preview image), `avatar.jpg`, `icon.png` (favicon). |
 | `static/uploads/` | PDFs & files linked as `/uploads/<file>` (e.g. `resume.pdf`, `consciousness-and-unambiguous-representations.pdf`). |
 | `static/{cv,cv-short}.html` | Standalone CV pages, public on purpose but not linked from the site. |
@@ -40,7 +40,7 @@ Create `content/post-external/<slug>/index.md` with frontmatter like:
 title: ...
 summary: ...
 tags:
-  - Current Work     # or Talks; must match a filter in content/_index.md
+  - Current Work     # or Talks / Side Projects; must match a tab tag in content/_index.md
 categories:
   - Apps             # Apps | Articles | Posts | Presentations | Projects
 date: "2026-02-01T00:00:00Z"   # optional; future dates only show in deploy previews
@@ -54,9 +54,9 @@ image:
 
 Add a `featured.png` (or `.jpg`) alongside `index.md` — this is the card thumbnail. Logos use `fit: contain` (see `kontexus`, `llm2llm`, `vireo-lerncoach`). The card label comes from the first category.
 
-## Work filter tabs
+## Work tabs
 
-The "Work" section shows tag-based filter tabs, listed under `work.filters` in `content/_index.md` (currently `Current Work`, `Talks`). The first one is selected on page load; without JavaScript all cards show. A card is only reachable via a tab if it carries the matching `tag`. When adding a filter, update both the list there and the relevant items' `tags:`. Cards with a `weight` come first (ascending), then the rest newest first.
+The "Work" section has tabs, listed under `work.tabs` in `content/_index.md` (currently `Current Work`, `Papers`, `Talks`, `Side Projects`). The first one is selected on page load; without JavaScript all panels show. A tab with `tag:` shows the cards carrying that tag; the tab with `papers: true` shows `content/publication/`. Each tab is reachable at `/#<slug>` (old links to `/#papers` and the "← All papers" link on paper pages rely on this). Within a tab, cards with a `weight` come first (ascending), then the rest newest first.
 
 ## Old URLs
 

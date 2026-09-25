@@ -1,0 +1,11 @@
+{{- /* Paper list, newest first. */ -}}
+<ul class="papers">
+  {{- range (site.GetPage "/publication").Pages.ByDate.Reverse }}
+  <li class="paper">
+    <p class="paper__meta">{{ .Date.Year }} · {{ .Params.publication_short | default .Params.publication | strings.TrimPrefix "*" }}</p>
+    <h3 class="paper__title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="paper__authors">{{ partial "authors.html" .Params.authors }}</p>
+    {{ partial "paper-links.html" . }}
+  </li>
+  {{- end }}
+</ul>

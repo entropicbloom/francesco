@@ -1,0 +1,22 @@
+{{- /* Portfolio card. Context: a page from content/post-external/. */ -}}
+{{- $labels := dict "Apps" "App" "Articles" "Article" "Posts" "Post" "Presentations" "Talk" "Projects" "Project" }}
+{{- $p := . }}
+{{- $contain := eq .Params.image.fit "contain" }}
+<li class="card">
+  <a class="card__link" href="{{ .Params.external_link }}">
+    {{- with .Resources.GetMatch "featured.*" }}
+    {{- $img := cond $contain (.Fit "800x500") (.Fill (printf "800x500 %s" ($p.Params.image.focal_point | default "Center"))) }}
+    <div class="card__media{{ if $contain }} card__media--logo{{ end }}">
+      <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
+    </div>
+    {{- end }}
+    <div class="card__text">
+      <p class="card__meta">
+        {{- with index .Params.categories 0 }}{{ index $labels . | default . }}{{ end -}}
+        {{- if not .Date.IsZero }} · {{ .Date.Year }}{{ end -}}
+      </p>
+      <h3 class="card__title">{{ .Title }}</h3>
+      <p class="card__summary">{{ .Summary | plainify }}</p>
+    </div>
+  </a>
+</li>
