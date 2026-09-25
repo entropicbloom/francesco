@@ -8,7 +8,7 @@ org:
   url: https://llmify.ch
 intro: Building sovereign AI solutions for Swiss companies and non-profits.
 essays:
-  text: Essays on AI and consciousness
+  text: Research and essays on consciousness and AI
   url: https://entropicbloom.com
 
 links:
