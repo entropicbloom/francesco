@@ -50,7 +50,7 @@ experience:
     description: |2-
       Building sovereign AI infrastructure for Swiss companies: open-source models, on-premise & Swiss cloud.
 
-      - **AI Learning Coach** for [Entlastungsdienst Bern](https://vireo-empower.ch): multi-agent system (5 specialised agents) for scenario-based competency assessment, personalised learning paths, interactive training, and a confidential reflection space for care workers. Delivered in 14 weeks (Nov 2025 – Feb 2026).
+      - **[AI Learning Coach](https://vireo-empower.ch)** for Entlastungsdienst Bern: multi-agent system (5 specialised agents) for scenario-based competency assessment, personalised learning paths, interactive training, and a confidential reflection space for care workers. Delivered in 14 weeks (Nov 2025 – Feb 2026).
       - **[Kontexus](https://kontexus.ch)**: co-developed and rolled out an on-premise / Swiss-cloud platform based on open-source LLMs, deployed across multiple client industries.
       - [Semi-finalist, GenAI Awards 2026](https://www.genaizurich.ch/award/gaz26--entlastungsdienst).
   - title: Data Scientist
