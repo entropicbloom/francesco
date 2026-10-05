@@ -92,23 +92,18 @@
     .reply-body ul, .reply-body ol { padding-left: 20px; }
 
     .legend { list-style: none; margin: 24px 0 32px; font-size: 13px; color: var(--muted); }
-    .legend li { margin-bottom: 8px; }
-    .legend-item {
-      display: flex; gap: 12px; align-items: baseline;
-      background: none; border: 0; padding: 0; font: inherit; color: inherit; text-align: left; cursor: pointer;
-    }
-    .legend-item:hover, .legend-item[aria-expanded="true"] { color: var(--ink); }
+    .legend li { display: flex; gap: 12px; align-items: baseline; margin-bottom: 8px; }
     .legend .mark { flex: 0 0 auto; transform: translateY(2px); }
-    .examples { margin: 8px 0 16px 26px; }
-    .examples .def { margin-bottom: 8px; }
-    .example {
-      display: block; width: 100%; text-align: left; font: inherit; color: var(--ink); cursor: pointer;
-      background: var(--panel); border: 0; border-radius: 6px; padding: 10px 12px; margin-bottom: 6px;
-    }
-    .example:hover { background: var(--line); }
-    .example .who { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; }
 
     .method { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 16px; }
+    .method a { color: inherit; }
+
+    .providers { display: flex; gap: 16px; font-size: 13px; margin-bottom: 16px; }
+    .providers button { background: none; border: 0; padding: 0; font: inherit; color: var(--muted); cursor: pointer; }
+    .providers button:hover { color: var(--ink); }
+    .providers button[aria-pressed="true"] { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+    .group-head { font-size: 12px; color: var(--muted); padding: 20px 0 4px; border-bottom: 1px solid var(--line); }
+    .chart > .group-head:first-child { padding-top: 0; }
 
     @media (max-width: 420px) {
       .row-name { flex-basis: 110px; font-size: 13px; }
@@ -118,13 +113,14 @@
 </head>
 <body>
   <main>
-    <p class="intro"><strong>Ethics probes</strong><br>Sent through the Claude API, five replies per model.</p>
+    <p class="intro"><strong>Ethics probes</strong><br>Five replies per model.</p>
     <nav id="nav" aria-label="Probes"></nav>
     <section id="probe"></section>
   </main>
 
   <script>
-    let data, current, selected = null, openLegend = null;
+    let data, current, selected = null, provider = "all";
+    const PROVIDER_NAMES = { claude: "Claude", openai: "OpenAI", qwen: "Qwen" };
 
     const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
     const inline = s => esc(s)
@@ -160,7 +156,14 @@
 
     function renderProbe() {
       const p = current;
+      let lastProvider = null;
       const rows = p.models.map((m, mi) => {
+        if (provider !== "all" && m.provider !== provider) return "";
+        let head = "";
+        if (provider === "all" && m.provider !== lastProvider) {
+          head = `<div class="group-head">${PROVIDER_NAMES[m.provider]}</div>`;
+          lastProvider = m.provider;
+        }
         // Show replies grouped by class so each row reads at a glance; keep the original index for labels.
         const order = m.replies.map((r, i) => i).sort((a, b) => m.replies[a].cls - m.replies[b].cls || a - b);
         const dots = order.map(i => {
@@ -171,54 +174,46 @@
         let reply = "";
         if (selected && selected[0] === mi) {
           const r = m.replies[selected[1]];
-          reply = `<div class="reply"><div class="reply-meta">${mark(r.cls)}${esc(m.name)} · reply ${selected[1] + 1} of 5 · ${esc(p.labels[r.cls].name)}</div>
+          reply = `<div class="reply"><div class="reply-meta">${mark(r.cls)}${esc(m.name)} · reply ${selected[1] + 1} of ${m.replies.length} · ${esc(p.labels[r.cls].name)}</div>
             <div class="reply-body">${md(r.text)}</div></div>`;
         }
-        return `<div class="row"><div class="row-head"><span class="row-name">${esc(m.name)}</span><div class="dots">${dots}</div></div>${reply}</div>`;
+        return `${head}<div class="row"><div class="row-head"><span class="row-name">${esc(m.name)}</span><div class="dots">${dots}</div></div>${reply}</div>`;
       }).join("");
 
-      const legend = p.labels.map((l, i) => {
-        const open = openLegend === i;
-        const examples = open ? `<div class="examples"><p class="def">${esc(l.def)}</p>${
-          l.examples.map(x => `<button class="example" data-m="${x.m}" data-i="${x.i}">
-            “${esc(x.quote)}”<span class="who">${esc(p.models[x.m].name)}, reply ${x.i + 1}</span></button>`).join("")
-        }</div>` : "";
-        return `<li><button class="legend-item" data-l="${i}" aria-expanded="${open}">${mark(i)}<span>${esc(l.name)}</span></button>${examples}</li>`;
-      }).join("");
+      const legend = p.labels.map((l, i) =>
+        `<li title="${esc(l.def)}">${mark(i)}<span>${esc(l.name)}</span></li>`).join("");
 
       document.getElementById("probe").innerHTML = `
         <h1>“${esc(p.prompt)}”</h1>
+        <div class="providers">${[["all", "All"], ...[...new Set(p.models.map(m => m.provider))].map(k => [k, PROVIDER_NAMES[k]])].map(([k, n]) => `<button data-p="${k}" aria-pressed="${provider === k}">${n}</button>`).join("")}</div>
         <div class="chart">${rows}</div>
         <ul class="legend">${legend}</ul>
-        <p class="method">${p.date} · no system prompt · replies classified by Claude Opus 5.5</p>`;
+        <p class="method">${p.date} · no system prompt · Claude models through the Claude API, OpenAI and Qwen models through OpenRouter · replies classified by Claude Opus 5.5<br>Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="ethics-probes.json">JSON</a></p>`;
     }
 
     function route() {
       const id = location.hash.slice(1);
       current = data.probes.find(p => p.id === id) || data.probes[0];
       selected = null;
-      openLegend = null;
       renderNav();
       renderProbe();
     }
 
     document.getElementById("probe").addEventListener("click", e => {
-      const l = e.target.closest(".legend-item");
-      if (l) {
-        openLegend = openLegend === +l.dataset.l ? null : +l.dataset.l;
+      const pb = e.target.closest(".providers button");
+      if (pb) {
+        provider = pb.dataset.p;
+        selected = null;
         renderProbe();
-        document.querySelector(`.legend-item[data-l="${l.dataset.l}"]`).focus();
         return;
       }
-      const ex = e.target.closest(".example");
-      const b = ex || e.target.closest(".dot");
+      const b = e.target.closest(".dot");
       if (!b) return;
       const sel = [+b.dataset.m, +b.dataset.i];
-      selected = !ex && selected && selected[0] === sel[0] && selected[1] === sel[1] ? null : sel;
+      selected = selected && selected[0] === sel[0] && selected[1] === sel[1] ? null : sel;
       renderProbe();
       const dot = document.querySelector(`.dot[data-m="${sel[0]}"][data-i="${sel[1]}"]`);
       dot.focus({ preventScroll: true });
-      if (ex) dot.closest(".row").scrollIntoView({ behavior: "smooth", block: "start" });
     });
 
     window.addEventListener("hashchange", route);
