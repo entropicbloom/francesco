@@ -11,3 +11,4 @@ public/
 
 # API keys for tools/ethics-probes
 tools/ethics-probes/.env
+__pycache__/
