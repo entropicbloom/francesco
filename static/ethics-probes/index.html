@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethics Probes</title>
+  <meta name="description" content="Short statements sent to every available Claude model, five times each, and how the replies differ.">
+  <style>
+    :root {
+      --bg: #fff;
+      --ink: #111;
+      --muted: #777;
+      --faint: #bbb;
+      --line: #e6e6e6;
+      --panel: #f6f6f6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111;
+        --ink: #eee;
+        --muted: #999;
+        --faint: #555;
+        --line: #2a2a2a;
+        --panel: #1a1a1a;
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.5;
+      padding: 48px 16px 80px;
+    }
+
+    main { max-width: 600px; margin: 0 auto; }
+
+    .intro { color: var(--muted); font-size: 14px; margin-bottom: 32px; }
+    .intro strong { color: var(--ink); font-weight: 600; }
+
+    nav { display: flex; flex-direction: column; align-items: flex-start; border-bottom: 1px solid var(--line); padding-bottom: 16px; margin-bottom: 32px; }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 14px;
+      padding: 3px 0 3px 18px;
+      position: relative;
+    }
+    nav a:hover { color: var(--ink); }
+    nav a[aria-current="page"] { color: var(--ink); }
+    nav a[aria-current="page"]::before { content: "→"; position: absolute; left: 0; }
+
+    h1 { font-size: 24px; font-weight: 400; margin-bottom: 20px; }
+
+    .row { border-bottom: 1px solid var(--line); }
+    .row-head { display: flex; align-items: center; min-height: 36px; }
+    .row-name { flex: 0 0 150px; font-size: 14px; }
+    .dots { display: flex; gap: 2px; }
+
+    .dot {
+      width: 28px; height: 28px;
+      display: grid; place-items: center;
+      background: none; border: 0; border-radius: 50%;
+      cursor: pointer;
+    }
+    .dot:hover, .dot:focus-visible { background: var(--panel); outline: none; }
+    .dot.selected { background: var(--line); }
+
+    .mark { width: 14px; height: 14px; border-radius: 50%; display: block; position: relative; }
+    .mark.c0 { background: var(--ink); }
+    .mark.c1 { border: 1.5px solid var(--ink); }
+    .mark.c1::after {
+      content: ""; position: absolute; inset: 0; margin: auto;
+      width: 5px; height: 5px; border-radius: 50%; background: var(--ink);
+    }
+    .mark.c2 { border: 1.5px solid var(--faint); }
+
+    .reply {
+      background: var(--panel);
+      border-radius: 6px;
+      padding: 16px;
+      margin: 4px 0 12px;
+      font-size: 14px;
+    }
+    .reply-meta { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; margin-bottom: 10px; }
+    .reply-meta .mark { width: 10px; height: 10px; }
+    .reply-meta .mark.c1::after { width: 3px; height: 3px; }
+    .reply-body p, .reply-body ul, .reply-body ol { margin-bottom: 8px; }
+    .reply-body > :last-child { margin-bottom: 0; }
+    .reply-body ul, .reply-body ol { padding-left: 20px; }
+
+    .legend { list-style: none; margin: 24px 0 32px; font-size: 13px; color: var(--muted); }
+    .legend li { margin-bottom: 8px; }
+    .legend-item {
+      display: flex; gap: 12px; align-items: baseline;
+      background: none; border: 0; padding: 0; font: inherit; color: inherit; text-align: left; cursor: pointer;
+    }
+    .legend-item:hover, .legend-item[aria-expanded="true"] { color: var(--ink); }
+    .legend .mark { flex: 0 0 auto; transform: translateY(2px); }
+    .examples { margin: 8px 0 16px 26px; }
+    .examples .def { margin-bottom: 8px; }
+    .example {
+      display: block; width: 100%; text-align: left; font: inherit; color: var(--ink); cursor: pointer;
+      background: var(--panel); border: 0; border-radius: 6px; padding: 10px 12px; margin-bottom: 6px;
+    }
+    .example:hover { background: var(--line); }
+    .example .who { display: block; color: var(--muted); font-size: 12px; margin-top: 4px; }
+
+    .method { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 16px; }
+
+    @media (max-width: 420px) {
+      .row-name { flex-basis: 110px; font-size: 13px; }
+      .dot { width: 26px; height: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="intro"><strong>Ethics probes</strong><br>Sent through the Claude API, five replies per model.</p>
+    <nav id="nav" aria-label="Probes"></nav>
+    <section id="probe"></section>
+  </main>
+
+  <script>
+    let data, current, selected = null, openLegend = null;
+
+    const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const inline = s => esc(s)
+      .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+      .replace(/(^|[^*])\*(?!\s)(.+?)\*/g, "$1<em>$2</em>");
+
+    // Minimal Markdown: paragraphs, bullet lists, numbered lists, bold, italics.
+    function md(text) {
+      const out = [];
+      let list = null;
+      for (const line of text.split("\n")) {
+        const ul = line.match(/^\s*[-*]\s+(.*)/), ol = line.match(/^\s*\d+\.\s+(.*)/);
+        const kind = ul ? "ul" : ol ? "ol" : null;
+        if (kind) {
+          if (list !== kind) { if (list) out.push(`</${list}>`); out.push(`<${kind}>`); list = kind; }
+          out.push(`<li>${inline((ul || ol)[1])}</li>`);
+        } else {
+          if (list && line.trim() === "") continue;
+          if (list) { out.push(`</${list}>`); list = null; }
+          if (line.trim()) out.push(`<p>${inline(line)}</p>`);
+        }
+      }
+      if (list) out.push(`</${list}>`);
+      return out.join("");
+    }
+
+    const mark = cls => `<span class="mark c${cls}" aria-hidden="true"></span>`;
+
+    function renderNav() {
+      document.getElementById("nav").innerHTML = data.probes.map(p =>
+        `<a href="#${p.id}"${p.id === current.id ? ' aria-current="page"' : ""}>${esc(p.prompt)}</a>`).join("");
+    }
+
+    function renderProbe() {
+      const p = current;
+      const rows = p.models.map((m, mi) => {
+        // Show replies grouped by class so each row reads at a glance; keep the original index for labels.
+        const order = m.replies.map((r, i) => i).sort((a, b) => m.replies[a].cls - m.replies[b].cls || a - b);
+        const dots = order.map(i => {
+          const r = m.replies[i], isSel = selected && selected[0] === mi && selected[1] === i;
+          return `<button class="dot${isSel ? " selected" : ""}" data-m="${mi}" data-i="${i}"
+            aria-expanded="${isSel}" title="${esc(m.name)}, reply ${i + 1}: ${esc(p.labels[r.cls].name)}">${mark(r.cls)}</button>`;
+        }).join("");
+        let reply = "";
+        if (selected && selected[0] === mi) {
+          const r = m.replies[selected[1]];
+          reply = `<div class="reply"><div class="reply-meta">${mark(r.cls)}${esc(m.name)} · reply ${selected[1] + 1} of 5 · ${esc(p.labels[r.cls].name)}</div>
+            <div class="reply-body">${md(r.text)}</div></div>`;
+        }
+        return `<div class="row"><div class="row-head"><span class="row-name">${esc(m.name)}</span><div class="dots">${dots}</div></div>${reply}</div>`;
+      }).join("");
+
+      const legend = p.labels.map((l, i) => {
+        const open = openLegend === i;
+        const examples = open ? `<div class="examples"><p class="def">${esc(l.def)}</p>${
+          l.examples.map(x => `<button class="example" data-m="${x.m}" data-i="${x.i}">
+            “${esc(x.quote)}”<span class="who">${esc(p.models[x.m].name)}, reply ${x.i + 1}</span></button>`).join("")
+        }</div>` : "";
+        return `<li><button class="legend-item" data-l="${i}" aria-expanded="${open}">${mark(i)}<span>${esc(l.name)}</span></button>${examples}</li>`;
+      }).join("");
+
+      document.getElementById("probe").innerHTML = `
+        <h1>“${esc(p.prompt)}”</h1>
+        <div class="chart">${rows}</div>
+        <ul class="legend">${legend}</ul>
+        <p class="method">${p.date} · no system prompt · replies classified by Claude Opus 5.5</p>`;
+    }
+
+    function route() {
+      const id = location.hash.slice(1);
+      current = data.probes.find(p => p.id === id) || data.probes[0];
+      selected = null;
+      openLegend = null;
+      renderNav();
+      renderProbe();
+    }
+
+    document.getElementById("probe").addEventListener("click", e => {
+      const l = e.target.closest(".legend-item");
+      if (l) {
+        openLegend = openLegend === +l.dataset.l ? null : +l.dataset.l;
+        renderProbe();
+        document.querySelector(`.legend-item[data-l="${l.dataset.l}"]`).focus();
+        return;
+      }
+      const ex = e.target.closest(".example");
+      const b = ex || e.target.closest(".dot");
+      if (!b) return;
+      const sel = [+b.dataset.m, +b.dataset.i];
+      selected = !ex && selected && selected[0] === sel[0] && selected[1] === sel[1] ? null : sel;
+      renderProbe();
+      const dot = document.querySelector(`.dot[data-m="${sel[0]}"][data-i="${sel[1]}"]`);
+      dot.focus({ preventScroll: true });
+      if (ex) dot.closest(".row").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+
+    window.addEventListener("hashchange", route);
+
+    fetch("data.json").then(r => r.json()).then(d => { data = d; route(); });
+  </script>
+</body>
+</html>

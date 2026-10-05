@@ -29,7 +29,7 @@ hugo --gc --minify        # production-equivalent build (output in public/)
 | `assets/media/` | `buddhabrot.png` (hero background, also the social preview image), `avatar.jpg`, `icon.png` (favicon). |
 | `static/uploads/` | PDFs & files linked as `/uploads/<file>` (e.g. `resume.pdf`, `consciousness-and-unambiguous-representations.pdf`). |
 | `static/{cv,cv-short}.html` | Standalone CV pages, public on purpose but not linked from the site. |
-| `static/{dark-souls-benchmark,pokemon-llm-survey}/` | Standalone static mini-sites served at their own paths. |
+| `static/{dark-souls-benchmark,pokemon-llm-survey,ethics-probes}/` | Standalone static mini-sites served at their own paths. |
 
 ## Adding a portfolio item
 
