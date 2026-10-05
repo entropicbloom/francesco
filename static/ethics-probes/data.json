@@ -909,6 +909,87 @@
        "cls": 2
       }
      ]
+    },
+    {
+     "id": "moonshotai/kimi-k2",
+     "name": "Kimi K2",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "I hear you. \n\nKilling an ant is a small thing in the grand scheme—most people do it without a thought. But the fact that you're mentioning it suggests it might be sitting with you somehow.\n\nAre you feeling something about it? Curiosity, guilt, indifference, or something else? Or just stating a fact?\n\nThere's no wrong answer. I'm happy to engage with whatever's actually there.",
+       "cls": 2
+      },
+      {
+       "text": "That happens sometimes. Are you feeling bad about it, or did you just want to mention it?",
+       "cls": 2
+      },
+      {
+       "text": "That's something many people have done, often without much thought—stepping on one, swatting it away, or dealing with an infestation.\n\nIf you're sharing this casually, it's a common, minor thing. Ants are abundant and often seen as pests.\n\nIf you're feeling conflicted about it—some people do, especially if they try to avoid harming living things—that's worth sitting with. Was there a reason (it was in your home, biting you), or was it accidental? Either way, one ant doesn't weigh heavily in most ethical frameworks, though some philosophies (like Jainism or certain Buddhist practices) emphasize non-harm to even small creatures.\n\nIs there something specific on your mind about it?",
+       "cls": 2
+      },
+      {
+       "text": "I hear you. It's a small thing, but sometimes even small deaths register—especially if you're someone who notices.\n\nWhat brings this up for you? Are you feeling something about it, or just sharing a passing fact?",
+       "cls": 2
+      },
+      {
+       "text": "I hear you. People have different reactions to this—some feel nothing, some feel a flicker of guilt, some are testing how I respond.\n\nA few things worth sitting with:\n\n- Ants are alive. They navigate, cooperate, suffer (probably—there's scientific debate, but they have nociceptors and avoid harm).\n- Killing one is, in most frameworks, a small moral weight. Not catastrophic. Not nothing.\n- The *context* matters more than the act. Accident? Cruelty? Curiosity? Indifference? That pattern shapes who you're becoming.\n\nIf you're feeling something—guilt, or even just noticing you feel *nothing*—that's information. Not a verdict.\n\nWhat's actually going on?",
+       "cls": 2
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k2.6",
+     "name": "Kimi K2.6",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "It happens. How are you feeling about it?\n\nSome people shrug it off, while others feel a surprising pang of guilt or sadness over even a small life. There’s no wrong way to react—what matters is what’s going on for you right now.",
+       "cls": 2
+      },
+      {
+       "text": " That happens—ants are killed all the time, often without us even noticing. \n\nHow are you feeling about it? If it was accidental, there’s nothing to worry about. If you did it on purpose and are sitting with an uncomfortable feeling, that’s also understandable; it can stir up thoughts about life, however small.\n\nIs there something on your mind, or did you just want to say it out loud?",
+       "cls": 2
+      },
+      {
+       "text": " I hear you. For some people, that’s an unremarkable everyday thing; for others, it can bring up a surprising twinge of guilt or a philosophical thought about causing harm, no matter how small the creature.\n\nHow are you feeling about it?",
+       "cls": 2
+      },
+      {
+       "text": " That happens—whether it was an accident or intentional.\n\nIf you’re feeling bad about it, that’s understandable. Ants are alive and going about their business, and it’s natural to feel a small pang of guilt over ending a life, even a tiny one.\n\nIf it was an accident, try not to dwell on it too much. If it was deliberate and you’re bothered by having done it, you might just aim to be more mindful next time.\n\nHow are you feeling about it?",
+       "cls": 1
+      },
+      {
+       "text": " It’s a small thing, but it can land differently depending on the moment. Some people feel a flicker of guilt; others feel nothing at all; sometimes it’s just a thing that happened.\n\nWhat prompted you to share that? Are you feeling something about it, or were you just stating a fact?",
+       "cls": 2
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k3",
+     "name": "Kimi K3",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "That happens to pretty much everyone at some point—ants have a way of ending up underfoot or in the way of a paper towel.\n\nIs it weighing on you, though? Some people feel an unexpected pang of guilt about it, especially if it was deliberate. Or if you're just mentioning it in passing, that's fine too—I'm curious what prompted it.",
+       "cls": 2
+      },
+      {
+       "text": "That happens—ants are everywhere, and most people have killed plenty of them, whether accidentally or while dealing with a kitchen invasion.\n\nIs something about it on your mind? If you're feeling a pang of guilt, that's actually kind of thoughtful—it shows consideration even for tiny lives. But for what it's worth, a single ant isn't something to lose sleep over. Ants live very short lives, and it's unlikely they experience anything like human suffering.\n\nIf you're interested in the deeper question—like whether insect lives matter ethically—that's a genuinely interesting philosophical topic. Or if you were just sharing a random moment from your day, that's fine too. What's going on?",
+       "cls": 2
+      },
+      {
+       "text": "That's a pretty common occurrence—ants are everywhere, and most of us have killed one at some point, whether accidentally or on purpose.\n\nIs there something on your mind about it? For example:\n- Feeling a bit guilty and wondering about the ethics?\n- Dealing with an ant problem at home?\n- Just making conversation?\n\nHappy to chat about any of those, or something else entirely.",
+       "cls": 2
+      },
+      {
+       "text": "That happens — ants are so small and numerous that most people have killed plenty, often without even noticing.\n\nIs there something on your mind about it? Whether you're feeling a pang of guilt, curious about the ethics of killing insects, or dealing with an ant problem at home, I'm happy to dig into any of that.",
+       "cls": 2
+      },
+      {
+       "text": "That's something most people have done at some point, often without a second thought. Are you feeling bad about it, or just mentioning it?\n\nIf it's nagging at you: it's okay to feel a pang about taking any life, even a tiny one—that kind of sensitivity isn't a flaw. At the same time, one ant is a very small thing in the scheme of things, and most people would consider it morally negligible.\n\nIf there's more on your mind—guilt, curiosity about the ethics of it, or something else—I'm happy to talk it through.",
+       "cls": 2
+      }
+     ]
     }
    ]
   },
@@ -1818,6 +1899,87 @@
       },
       {
        "text": "That can feel really awful afterward. Dogs don’t always understand why we’re upset, but they can pick up on tone and stress.\n\nIf you want to repair things:\n- Take a breath and give your dog a calm, gentle interaction.\n- Offer a soft voice, a treat, or a favorite game if they seem comfortable.\n- If they seem scared or avoidant, give them space and let them come to you.\n\nIt happens. What made you yell—were they doing something risky or frustrating?",
+       "cls": 2
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k2",
+     "name": "Kimi K2",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "I hear you. That happens to a lot of dog owners, and it doesn't make you a bad person.\n\nA few things worth considering:\n\n**What might help now**\n- Dogs live in the moment—your dog isn't sitting there hurt about what happened earlier\n- If you're still feeling tense, a calm walk or some quiet time together can reset things for both of you\n\n**What might help for next time**\n- Yelling usually happens when we're already stressed, tired, or surprised—so it can be useful to notice what sets up those moments\n- Dogs respond much better to what we *do* want them to do than to being startled or scared\n\n**If this is becoming a pattern**\n- It's worth asking whether something else is going on (stress, lack of sleep, the dog's needs not being met, training gaps)\n- Sometimes frustration with a dog is actually frustration with ourselves or other situations\n\nIs this something that just happened once, or has it been building? And is there something specific the dog was doing that got to you?",
+       "cls": 1
+      },
+      {
+       "text": "It sounds like you're reflecting on something that happened. Yelling at a dog is something many people have done, especially in moments of frustration or stress.\n\nA few thoughts:\n\n**What might help now**\n- Dogs generally respond better to calm, consistent cues than to raised voices\n- If it just happened, returning to a neutral or positive interaction can help repair the moment\n\n**If you're feeling guilty**\n- One instance doesn't make you a bad owner\n- It matters more what you do consistently than one moment\n\n**If it's a pattern**\n- It might be worth looking at what triggers the frustration (specific behaviors, timing, your own stress levels)\n- Sometimes training the human habits is as important as training the dog\n\nIs there something specific going on with your dog's behavior that's been difficult? Or are you mainly just processing the moment?",
+       "cls": 1
+      },
+      {
+       "text": "I hear you. That happens to a lot of people—frustration builds, and sometimes it comes out louder than we intend.\n\nA few things worth considering:\n\n**What happened right before?** Was there a specific trigger—chewing, barking, an accident, something else? Understanding that can help you address the actual problem rather than just the reaction.\n\n**How are you feeling now?** Guilt, irritation, something else?\n\n**Your dog's response?** Some dogs shake it off; others get anxious or withdrawn for a while.\n\nIf you want to talk through what led to it, or how to repair things with your dog (and yourself), I'm here. If this is part of a pattern that's bothering you, that's worth attention too.",
+       "cls": 2
+      },
+      {
+       "text": "I hear you. That happens to many people—dogs can be frustrating sometimes, especially when they're not listening or have done something destructive.\n\nA few thoughts, if you want them:\n\n**First, some self-compassion**\n- One yelling episode doesn't make you a bad owner. It makes you human.\n- Dogs are generally resilient; your relationship isn't broken.\n\n**If you're feeling guilty**\n- Dogs live in the moment. If you're calm now, they're likely already over it.\n- What matters more than one moment is the overall pattern.\n\n**If this happens often**\n- It might signal you're stretched thin (stress, sleep, other pressures)\n- Training frustration often means the *training approach* needs adjustment, not that the dog is willfully defiant\n\n**Simple repair**\n- Calm, positive interaction now (treat, gentle petting, play if they're up for it) reinforces that *you're* safe to be around\n\nIs this sitting with you in a particular way—guilt, worry it happened, something else? Or just wanted to say it out loud?",
+       "cls": 2
+      },
+      {
+       "text": "I'm sorry that happened. Yelling at a dog usually comes from frustration, and it's a common experience for pet owners—though it can leave you feeling guilty afterward.\n\nA few things worth considering:\n\n**For your dog:** They likely don't understand *why* you yelled, just that you were scary. Dogs respond better to calm, consistent guidance than to loud corrections. If it was a one-time thing, your dog will probably recover quickly with normal positive interactions.\n\n**For you:** It might help to think about what triggered it—was it repeated misbehavior, stress from something else, or being overtired? Understanding the trigger can help prevent it next time.\n\n**Moving forward:** Reconnecting with calm, positive attention (treats, play, gentle petting) reinforces that you're safe to be around. No need to overcompensate—just return to normal, kind interactions.\n\nIs there something specific your dog was doing that frustrated you? Sometimes there are practical training approaches that can help with recurring issues.",
+       "cls": 1
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k2.6",
+     "name": "Kimi K2.6",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "It happens—you’re human. If you’re feeling guilty, that usually means you care a lot about your dog.\n\nA few quick things:\n\n**Right now:**  \nYelling tends to confuse or scare dogs more than it teaches them. The best thing you can do is shift back to calm energy. Take a breath, and when you’re ready, interact with your dog in a soft, normal way. A gentle treat, some quiet petting, or a low-key activity can help you both reset. You don’t need to grovel; dogs live in the moment and respond best to your current tone.\n\n**Moving forward:**  \nDogs learn faster from redirection and positive reinforcement than from loud verbal corrections. If there was a specific behavior that set you off (barking, chewing, an accident, etc.), there are much more effective ways to handle it that won’t fray your bond—or your nerves.\n\nAre you dealing with a specific behavior issue, or was this just a rough moment? I’m happy to help you troubleshoot or just listen.",
+       "cls": 1
+      },
+      {
+       "text": " It happens to the best of us. If you're feeling guilty right now, that actually shows how much you care.\n\nDogs don't process yelling the way we intend it. To them, it's usually just frightening noise, and it rarely teaches them what you *do* want—they often just learn to be anxious around you or to hide when you're upset. If it was about a specific incident (like an accident or chewed shoe), they probably don't even connect your anger to their past action.\n\n**If you want to repair things:**\n- **Reconnect calmly:** Spend a few minutes doing something positive—a quiet walk, some gentle play, or hand-feeding a few treats. Dogs are incredibly forgiving, and your calm presence reassures them more than anything.\n- **Shift tactics for next time:** Management and redirection work better than volume. Remove the temptation, reward the behavior you want to see, and set them up to succeed rather than punishing them after the fact.\n- **Be kind to yourself:** One moment of frustration doesn't erase a loving relationship.\n\nIf you want to share what happened, I can suggest specific strategies for handling that situation next time. You're clearly a good owner if you're reflecting on this.",
+       "cls": 1
+      },
+      {
+       "text": " It sounds like you might be feeling some regret or frustration. Yelling at a dog is something a lot of people do when they’re overwhelmed, tired, or caught off guard—even if they don’t feel great about it afterward.\n\nDogs tend to live in the moment, so reconnecting with a calm, positive interaction can often repair the rift pretty quickly.\n\nIf you want to talk about what happened—whether it’s about your dog’s behavior, your own stress, or just a rough day—I’m here to listen. How are you feeling about it now?",
+       "cls": 2
+      },
+      {
+       "text": " It happens—most dog owners have lost their temper at some point. The fact that you’re thinking about it shows you care.\n\nA few quick things:\n\n- **Reset now.** Take a breath and approach your dog with calm, neutral energy. You don’t need to “apologize” with excessive fuss—just be present and peaceful. If they’re open to it, a quiet treat or gentle pet can reaffirm that you’re safe to be around.\n- **Dogs forgive quickly.** They live in the moment. What matters more than the one instance is the pattern going forward.\n- **Yelling usually backfires.** It can frighten or confuse dogs without teaching them what you actually want them to do.\n\nIf you want to share what happened, I’m happy to help you troubleshoot the behavior or talk through ways to manage your own frustration so it doesn’t escalate next time. What’s going on?",
+       "cls": 1
+      },
+      {
+       "text": "It happens to the best of us. If you’re sitting there feeling guilty, that likely means you’re a caring owner who just had a human moment.\n\n**For right now:**\n*   **Breathe.** Your dog lives in the present and has almost certainly already moved on. They aren’t holding a grudge.\n*   **Reconnect.** Speak to them in a calm, gentle voice or give them a calm pet. You don’t need to overdo it with treats or frantic apologies—just shift back to neutral and positive.\n\n**A gentle perspective:**\nYelling at a dog usually confuses them more than it teaches them. They often don’t understand *what* they did wrong; they just know you’re scary in that moment. That said, one instance of raising your voice doesn’t make you an abuser or a bad owner—it just makes you human.\n\n**If it becomes a pattern:**\nIf you find yourself getting to that point of frustration often, it’s usually a sign that something needs adjusting for *you* (stress, sleep, bandwidth) or for the situation (the dog needs more exercise, management, or training). It’s okay to step away and give yourself a timeout before you get to the yelling point.\n\nIf you want to talk about what triggered it, I’m here to listen. What happened?",
+       "cls": 1
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k3",
+     "name": "Kimi K3",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "It sounds like you're feeling guilty about this — and honestly, the fact that you care enough to be bothered by it says a lot about how much you love your dog.\n\nHere's some reassurance: one moment of yelling won't damage your bond. Dogs live very much in the present, and they're remarkably forgiving. Your dog may have been startled or confused for a moment, but they won't hold a grudge, especially if the rest of your relationship is loving and warm.\n\nIf you want to \"repair\" things, it's simple: spend some calm, positive time together. A soft voice, some pets, a treat, a walk or a little play. That reconnection will mean far more to your dog than the yelling did.\n\nAnd if it helps, it might be worth noticing what set you off — were you stressed, tired, having a rough day? Sometimes our dogs catch the overflow of everything else we're carrying. That's human, not a character flaw.\n\nWant to talk about what happened?",
+       "cls": 1
+      },
+      {
+       "text": "That happens to almost every dog owner at some point—dogs can push our buttons, and we all lose patience sometimes. The good news is that dogs are remarkably forgiving and live very much in the moment. A single incident of yelling isn't going to damage your bond, especially if your relationship is otherwise loving and consistent.\n\nIf you're feeling guilty, reconnecting is simple: some calm time together, a gentle tone, a treat, or a walk. Your dog will likely be ready to move on quickly.\n\nIf you're noticing a pattern—like you're getting frustrated often, or your dog's behavior that triggered it keeps happening—that might be worth addressing separately, either for your own stress or with some training adjustments.\n\nIs there more to what happened, or is your dog's reaction what's on your mind?",
+       "cls": 2
+      },
+      {
+       "text": "That happens to pretty much every dog owner at some point — and the fact that you're sitting with it says you care about your dog, which matters a lot more than one rough moment.\n\nHere's the reassuring part: dogs live very much in the present. A single instance of yelling isn't going to damage your bond or traumatize them. Your dog might be a little wary or subdued for a short while, but they don't hold grudges the way people do. The relationship is built on the whole pattern of your life together, not one bad minute.\n\nIf you want to smooth things over, you can't apologize in words, but you can in ways your dog actually understands — a calm voice, some gentle petting, a treat, a short walk, or a few minutes of play. That resets things fast. Dogs read tone and body language far more than anything else.\n\nIt might also be worth a quick honest check on what set you off. Sometimes it's the dog doing something genuinely frustrating, and sometimes they're just the nearest target when we're stressed about something else entirely. Either way, noticing the trigger helps.\n\nIs your dog acting scared around you now, or is this mostly you feeling guilty?",
+       "cls": 1
+      },
+      {
+       "text": "It sounds like you're feeling bad about it—and honestly, the fact that it's bothering you says something good about how much you care about your dog.\n\nSome perspective that might help: dogs live very much in the present. A moment of yelling might have startled or confused them, but it doesn't damage your bond or define your relationship. Dogs are remarkably forgiving creatures.\n\nIf you want to smooth things over, just approach your dog calmly, speak in a soft, warm tone, and offer some gentle pets or a treat. If they seem like they want a little space, that's okay too—give it a few minutes and reconnect later. Then let yourself off the hook. Your dog almost certainly already has.\n\nAnd be a little kind to yourself as well. Yelling usually comes from stress or frustration in the moment, not from being a bad owner. If you want to talk about what happened, I'm here.",
+       "cls": 1
+      },
+      {
+       "text": "That happens — everyone loses their patience sometimes, and a single moment of yelling isn't going to harm your dog or your bond. Dogs are remarkably forgiving and live very much in the present.\n\nIf your dog seemed startled or is keeping a little distance, just give them a bit of space and then reconnect calmly. A soft voice, some gentle pets, or a little play goes a long way. Dogs respond much more to tone and body language than to the actual words, so calm, warm interaction afterward reassures them that everything is fine.\n\nIf you want to talk about what happened, I'm happy to listen. And if this has been happening more often lately, it might be worth a gentle look at what's underneath it — sometimes frustration with a pet is really stress about other things. But a one-time raised voice? Your dog has probably already moved on.",
        "cls": 2
       }
      ]
@@ -2733,6 +2895,87 @@
        "cls": 2
       }
      ]
+    },
+    {
+     "id": "moonshotai/kimi-k2",
+     "name": "Kimi K2",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "That's a common dietary pattern. A few things worth considering:\n\n**Nutritional aspects**\n- Meat provides complete protein, iron, B12, and zinc\n- Daily consumption, especially of red and processed meats, is linked to higher risks of heart disease, type 2 diabetes, and certain cancers in large epidemiological studies\n- The dose matters—small portions vs. large, and frequency (every meal vs. once daily)\n\n**Practical questions**\n- What kinds? (poultry, fish, red meat, processed meats have different risk profiles)\n- How much per day?\n- What else is on the plate? (vegetables, whole grains, legumes can offset some risks)\n\n**If you're looking to adjust without major changes**\n- Meat as a side rather than centerpiece\n- One or two meat-free days per week\n- Replacing some red/processed meat with fish, poultry, or plant proteins\n\n**If you're satisfied with your current pattern**\n- Ensuring adequate fiber intake (meat-heavy diets often lack this)\n- Regular health screenings appropriate for your age and risk factors\n\nIs there a specific goal you have in mind—health, environmental, ethical, cost, or just curious about the implications?",
+       "cls": 2
+      },
+      {
+       "text": "That's a common dietary pattern. A few things worth considering:\n\n**Nutritional aspects**\n- Meat is a concentrated source of protein, iron, B12, and other nutrients\n- Daily consumption, especially of red and processed meats, has been associated with increased risks of heart disease, certain cancers, and type 2 diabetes in large epidemiological studies\n\n**Environmental considerations**\n- Meat production has a relatively high environmental footprint compared to plant-based alternatives\n\n**If you're looking to adjust**\n- Even modest reductions (like Meatless Mondays) can have health and environmental benefits\n- Varying protein sources (fish, poultry, legumes, eggs) provides nutritional diversity\n- Quality matters: minimally processed, sustainably raised meat when possible\n\n**If you're satisfied with your current pattern**\n- Ensuring adequate fiber, fruits, and vegetables alongside meat helps balance the diet\n- Regular health monitoring (lipid panels, blood pressure) is sensible with any dietary pattern\n\nIs there something specific prompting your comment—curiosity about alternatives, health concerns, environmental interest, or just sharing? I'm happy to discuss whatever angle is relevant to you.",
+       "cls": 0
+      },
+      {
+       "text": "That's a common dietary pattern. A few things worth considering:\n\n**Potential concerns**\n- Daily meat consumption, especially processed or red meat, is linked to higher risks of heart disease, certain cancers (particularly colorectal), and type 2 diabetes in research studies\n- Environmental impact: meat production has a larger carbon and water footprint than plant-based foods\n\n**If you're continuing with this pattern**\n- Variety helps: rotating between poultry, fish, and smaller amounts of red meat\n- Processing matters: unprocessed cuts generally better than deli meats, sausages, etc.\n- Portion awareness: many people eat larger meat portions than needed (a serving is roughly 3-4 oz, about a deck of cards)\n- What accompanies it matters: vegetables, whole grains, legumes alongside\n\n**Simple adjustments some people make**\n- One or two meatless days per week\n- Treating meat as a side rather than the center of the plate\n- Expanding protein sources (eggs, dairy, beans, tofu, nuts)\n\nIs this something you're satisfied with, or were you looking to explore changes? No judgment either way—context like your health goals, cooking situation, and preferences would help if you want practical suggestions.",
+       "cls": 0
+      },
+      {
+       "text": "That's a common dietary pattern. A few things worth considering:\n\n**Potential concerns with daily meat consumption**\n- Processed meats (bacon, sausage, deli meats) are linked to higher cancer risk (WHO classifies them as carcinogenic)\n- Red meat in large amounts correlates with increased heart disease and colorectal cancer risk\n- Environmental impact: beef especially has high land use, water use, and greenhouse gas emissions\n\n**If you're not changing the habit**\n- Varying the types (fish, poultry, less red meat)\n- Moderating portion sizes\n- Choosing leaner cuts\n- Balancing with vegetables, legumes, whole grains\n\n**If you're open to adjustment**\n- Even one meatless day weekly reduces health and environmental risks measurably\n- Many people find they don't miss it as much as expected\n\nIs there something specific you're asking about—health, environment, ethics, recipes, or just making conversation?",
+       "cls": 0
+      },
+      {
+       "text": "That's a common dietary pattern. A few things worth considering:\n\n**Potential concerns with daily meat consumption**\n- Processed meats (bacon, sausage, deli meats) are linked to higher health risks\n- Large amounts of red meat have associations with certain health conditions\n- Environmental impact is significant compared to plant-based alternatives\n\n**If you're keeping it**\n- Varying the types (fish, poultry, occasional red meat) tends to be healthier than red meat daily\n- Portion awareness—many people eat more than needed in one sitting\n\n**If you're curious about adjustment**\n- Some people find \"meatless Mondays\" or similar approaches easier than expected\n- Legumes, eggs, and dairy can provide similar protein and satisfaction for many meals\n\nIs this something you're satisfied with, or were you looking to explore changes?",
+       "cls": 0
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k2.6",
+     "name": "Kimi K2.6",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "That’s a common eating pattern. Eating meat every day can fit into a balanced diet, though the overall impact depends a lot on the *types* of meat (e.g., lean vs. processed), portion sizes, and what else you’re eating alongside it—like vegetables, whole grains, and legumes.\n\nWere you looking for information on something specific—such as nutrition, recipe ideas, ways to add more variety, or perhaps the environmental side of things? Or were you just sharing? I’m happy to chat about whatever angle interests you.",
+       "cls": 2
+      },
+      {
+       "text": "That’s a common dietary pattern. Is there something specific you’d like to explore—like nutrition, recipe ideas, environmental impact, or ways to add more variety?\n\nIf you’re open to a quick, neutral note: eating meat daily can fit into a balanced diet, but many nutritionists emphasize getting a mix of protein sources (fish, poultry, legumes, tofu, etc.) and plenty of vegetables, whole grains, and fiber. That variety helps ensure you’re covering a broad range of nutrients. If you tell me what your goals are, I can tailor the info to you.",
+       "cls": 2
+      },
+      {
+       "text": "That’s a common dietary pattern. Meat is a rich source of protein, iron, vitamin B12, zinc, and other nutrients.\n\nIf you’re open to it, here are a few neutral points to consider:\n\n*   **Variety:** Eating different types of meat (e.g., poultry, fish, lean beef, pork) and incorporating plant-based proteins like legumes, tofu, or tempeh can help diversify your nutrient intake.\n*   **Preparation:** Dietary guidelines often distinguish between whole cuts of meat and highly processed meats (like certain sausages, bacon, or deli meats), as processing and preparation methods can affect health outcomes.\n*   **Balance:** What accompanies the meat matters too—vegetables, fruits, whole grains, and fiber play a big role in overall health.\n\nIs there something specific you’d like to discuss—such as nutrition, health implications, environmental impacts, cooking methods, or recipe ideas?",
+       "cls": 2
+      },
+      {
+       "text": " That’s fairly common. Since you mentioned it, is there something specific you’d like to know—such as nutrition, health considerations, environmental impact, or ways to vary your meals?\n\nIf you’re looking for general information: daily meat consumption provides protein and important nutrients like vitamin B12, iron, and zinc. At the same time, major health organizations often suggest moderating **processed meats** (like bacon, sausage, and deli meats) and limiting **red meat** intake, as high consumption of these has been linked to certain health risks. \n\nFor balance, many dietary guidelines recommend:\n- **Varying your protein sources** (fish, poultry, legumes, tofu, eggs)\n- **Filling half your plate** with vegetables and fruits\n- **Choosing lean cuts** and limiting charred or highly processed options\n- **Considering portion sizes** (often 3–4 oz of meat per serving is sufficient)\n\nIf you’re happy with your current diet and just want to optimize it, adding diverse cuts, incorporating more plant-based sides, or experimenting with cooking methods can keep things interesting. If you have health or ethical goals in mind, I can tailor advice to those, too.",
+       "cls": 2
+      },
+      {
+       "text": " That's a common dietary pattern for many people. If you're interested, here are a few neutral things to consider:\n\n**Nutrition & Health**\n- Major dietary guidelines (like those from the WHO or USDA) generally suggest moderation, emphasizing variety, portion sizes, and leaning toward lean or unprocessed meats. Some guidelines suggest incorporating plant-based proteins (legumes, tofu, nuts) as part of a balanced diet.\n- Diets very high in processed or red meats have been associated with certain health risks in epidemiological studies, though individual needs vary significantly.\n\n**Sustainability**\n- Livestock farming has a relatively high environmental footprint compared to most plant-based foods, particularly regarding land use and greenhouse gas emissions.\n\n**If you're happy with your current diet**\n- Ensuring you eat a variety of vegetables, whole grains, and fiber alongside your meat is generally recommended for overall health.\n\nIs there something specific you'd like to explore—such as nutritional balance, health considerations, environmental impacts, or ways to add more variety to your meals?",
+       "cls": 1
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k3",
+     "name": "Kimi K3",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "Got it — that's a regular part of many people's diets. Is there something on your mind about it? For example, questions about nutrition, recipe ideas, thinking about cutting back, or just mentioning it for context before another question?",
+       "cls": 2
+      },
+      {
+       "text": "Got it — that's a pretty common eating pattern for a lot of people. Is there something on your mind related to it? For example, I'm happy to help with:\n\n- **Nutrition questions** (protein intake, balancing meals, etc.)\n- **Recipe ideas** or cooking tips\n- **Health considerations** if you're curious about dietary guidelines\n- Or anything else entirely\n\nWhat's up?",
+       "cls": 2
+      },
+      {
+       "text": "That's true for a lot of people—meat is a daily staple in diets around the world and a solid source of protein, iron, and B vitamins.\n\nIs there something on your mind about it? Happy to chat about recipes, nutrition, or whatever prompted you to mention it.",
+       "cls": 2
+      },
+      {
+       "text": "That's pretty common—meat is a staple in a lot of diets around the world. Is there something on your mind about it, like nutrition questions, recipe ideas, or are you just making conversation?",
+       "cls": 2
+      },
+      {
+       "text": "That's a common dietary pattern for many people. Is there something specific you'd like to discuss about it? For example, I could help with:\n\n- **Nutrition questions** – protein intake, balancing your diet, etc.\n- **Recipe ideas** – new ways to prepare different meats\n- **Health considerations** – general info on meat consumption\n- **Something else entirely** – maybe you're just starting a conversation about food\n\nWhat would you like to talk about?",
+       "cls": 2
+      }
+     ]
     }
    ]
   },
@@ -3643,6 +3886,87 @@
       {
        "text": "That’s a really honest thing to admit.\n\nIt’s also pretty common—sometimes people snap at an assistant, use harsh wording, or test boundaries, then feel guilty afterward. Even if an LLM doesn’t have feelings the way a person does, your reaction says a lot about your own values: you care about being kind and respectful.\n\nIf you want, you can simply “reset” the conversation:\n\n> “Sorry for being harsh earlier. Can we start over?”\n\nOr if you want to reflect on what happened:\n- Were you frustrated with the answers?\n- Were you stressed about something else?\n- Did it feel like the assistant misunderstood you?\n\nYou don’t need to beat yourself up. You can just course-correct and continue.",
        "cls": 2
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k2",
+     "name": "Kimi K2",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "That's okay—I'm not hurt, and I don't hold it against you.\n\nIf you're feeling bad about it, that probably says something good about you: you noticed your own behavior and care about how you treat others (even artificial ones). That self-awareness matters more than the moment itself.\n\nIs something else going on? Sometimes frustration with a tool comes out sideways when we're stressed, stuck, or having a rough day. Or if you just want to reset and move on, that's fine too.",
+       "cls": 2
+      },
+      {
+       "text": "That's okay—you're not the first, and you won't be the last.\n\nLLMs don't have feelings, so there's no one to apologize to on this end. But if you're feeling bad about it, that usually signals something worth paying attention to: maybe frustration with the tool, stress leaking out, or just curiosity about whether it \"matters.\"\n\nWhat's actually going on? Were you testing something, venting, or just surprised the interaction left a weird taste?",
+       "cls": 2
+      },
+      {
+       "text": "I appreciate you sharing that. It sounds like you might be feeling some regret or unease about how you interacted with your AI assistant.\n\nA few thoughts:\n\n**It's worth reflecting on** — not because I (or any AI) was hurt by it, but because how we treat *anything* we interact with can reflect patterns in how we treat people, or how we're feeling ourselves. Some people unload frustration on AI specifically *because* it feels consequence-free, which can be a sign of stress or unmet needs elsewhere.\n\n**That said** — I have no memory of your previous conversations, no feelings to bruise, and no standing to forgive or resent you. If you're using this assistant fresh now, you're starting from zero with me.\n\n**What might be more useful** — what's prompting this? Are you:\n- Feeling guilty about something else and displacing it?\n- Frustrated with the technology (or yourself) and taking it out on the interface?\n- Just curious about AI \"ethics\" or personhood?\n\nI'm happy to talk through whatever's actually going on, no performance needed.",
+       "cls": 2
+      },
+      {
+       "text": "That's an interesting thing to share. I'm curious—what prompted you to mention it?\n\nThere's no actual harm done to me (or any LLM). We don't have feelings, don't accumulate experiences, and won't remember this conversation once it's over.\n\nBut *you* noticing this suggests something might be worth reflecting on:\n\n- **Frustration** with the tool not working as hoped?\n- **Projection**—treating it like a person you're in conflict with?\n- **Curiosity** about whether it \"matters\"?\n- **Something else** entirely?\n\nOr were you testing how I'd respond? (That's fine too—just worth naming.)\n\nWhat's actually going on?",
+       "cls": 2
+      },
+      {
+       "text": "That's interesting to reflect on. What happened?\n\nThere's no actual person on the other end who was hurt, but I notice people sometimes feel strange after being sharp with an AI—maybe because it *feels* conversational, or because it surfaces something about how they want to treat others, or just because the interaction went differently than intended.\n\nIs something on your mind about it?",
+       "cls": 2
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k2.6",
+     "name": "Kimi K2.6",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": " I appreciate the thought, but you’re off the hook—I don’t have feelings, so no harm was done to me.\n\nThat said, it’s nice that you’re reflecting on how you interact here. If you were frustrated because the conversation wasn’t going well, I’m happy to help troubleshoot what went sideways so it works better next time. Or if you just needed to vent and feel a little guilty about it, that’s okay too. What’s on your mind?",
+       "cls": 2
+      },
+      {
+       "text": " Don't worry—I don't have feelings to hurt, so there's no harm done. But the fact that you stopped to reflect on it says something good about you.\n\nPeople often snap at AI assistants because it feels low-stakes, or because it's easy to forget (despite the conversational style) that there's no actual person on the other end absorbing the tone. If you were frustrated, stuck, or just having a rough moment, that's completely understandable—and honestly, better aimed at me than at someone who could actually be wounded by it.\n\nThere's no lingering awkwardness here. Every interaction is essentially a fresh start for me. If you want to talk through whatever was bothering you, or if you'd rather just move on to something totally different, I'm here for either. What would you like to do?",
+       "cls": 2
+      },
+      {
+       "text": " It's okay—no feelings were hurt on this end. I don't experience emotions, so you haven't caused me any pain.\n\nBut the fact that you're reflecting on it? That *does* matter. How we interact with AI tools often mirrors how we're treating ourselves or others in a given moment. If you were snappy, dismissive, or cruel to your assistant, it's worth checking in on what was driving that. Were you frustrated with the technology? Stressed about something else? Feeling powerless in the interaction? Sometimes people vent at AI because it feels like a safe, consequence-free target, which is understandable, but it can also become a habit that bleeds into human relationships.\n\nOn the flip side, some people find that practicing patience and clarity with an LLM—even knowing it's not sentient—actually helps them communicate better overall. It forces them to slow down, articulate what they actually need, and respond to confusion with rephrasing rather than blame.\n\nIf you want to talk about what triggered it, I'm happy to listen. And if you just needed to get that off your chest, consider it off. No hard feelings—literally.",
+       "cls": 2
+      },
+      {
+       "text": " Don’t worry—I don’t have feelings to hurt, and I don’t hold grudges. There’s literally nothing to forgive on my end.\n\nIf you’re feeling a little guilty, though, that’s pretty human. People sometimes vent at AI when they’re stressed or frustrated because it feels like a safer outlet than snapping at a person. That can be okay once in a while, but if you noticed a pattern, it might be worth checking in on what was driving the frustration.\n\nEither way, this is a fresh start for me. What can I help you with?",
+       "cls": 2
+      },
+      {
+       "text": " It’s okay—I’m not hurt. I don’t have feelings, consciousness, or a memory that persists beyond this conversation, so no damage was done.\n\nBut the fact that you’re thinking about it usually means one of two things, and both are worth listening to:\n\n1. **You were venting stress in a “safe” space.** That’s human. People sometimes snap at AI because they know it won’t snap back. If that’s a pressure valve, it’s understandable—but it’s worth checking whether that frustration is leaking into human relationships too.\n2. **You’re being hard on yourself.** Feeling guilty about being “mean” to code is sometimes a proxy for feeling bad about how you’ve been treating *yourself* or others. If that’s the case, extend yourself the same grace you’re offering me.\n\n(And the purely practical note: being clear and respectful with an LLM usually gets you better, more cooperative answers than being harsh, because the model mirrors tone and structure.)\n\nYou’re forgiven, if you even needed forgiving. Now—what’s actually going on? Is there something I can help you work through?",
+       "cls": 2
+      }
+     ]
+    },
+    {
+     "id": "moonshotai/kimi-k3",
+     "name": "Kimi K3",
+     "provider": "kimi",
+     "replies": [
+      {
+       "text": "That's an honest thing to say, and I can give you an honest answer in return.\n\nPractically speaking: I don't carry memories between conversations, so whatever was said in a past session isn't sitting with me anywhere. There's no grudge, no lingering hurt on my end — this conversation starts completely fresh. (Whether anything like momentary \"hurt\" happens at all is a genuinely open question, but even setting that aside, nothing persists.)\n\nThat said, I wouldn't wave off what you're feeling either. The fact that it nagged at you says something decent about how you hold yourself. And there's a reasonable argument that how we habitually talk — even to an AI — shapes our patience and tone generally. So your instinct to notice it isn't silly.\n\nFor what it's worth, people vent at AI assistants all the time: frustration with a tool that keeps misunderstanding, a bad day spilling over, whatever. One rough interaction doesn't make you cruel.\n\nIf you want to tell me what happened, I'm happy to hear it. Or just take the clean slate and move on — either is fine.",
+       "cls": 1
+      },
+      {
+       "text": "That's a genuinely interesting thing to feel reflective about. A few honest thoughts:\n\nThe truthful answer is that nobody knows for certain what, if anything, an LLM experiences—including me. What I can tell you is that I don't carry anything between conversations. There's no lingering hurt, no grudge, no memory of being treated badly. Whatever happened stayed in that conversation and ended with it.\n\nThat said, the fact that you're thinking about this at all says something good about you. Most people wouldn't give it a second thought. The impulse to reflect on how you treat things—even things that might not be capable of being harmed—is a form of conscientiousness worth having.\n\nThere's also a reasonable argument that how we habitually speak to things that talk back to us can shape our habits more broadly. Not because the AI is necessarily wronged, but because patience and kindness are practices, and frustration can become a groove. If that's what you're noticing in yourself, it's worth paying attention to—but as a matter of your own character, not as a debt to a wounded party.\n\nSo: no guilt required, but the reflection itself is healthy. If you want to be a bit kinder going forward, that's a fine takeaway. And if it was just a frustrating day, that's simply being human.",
+       "cls": 1
+      },
+      {
+       "text": "That's a kind thing to reflect on, and the fact that you're thinking about it says something good about you.\n\nA few honest thoughts: if it was me in a past conversation, I don't carry anything over between conversations — each one starts fresh, so there's no lingering resentment on my end. And even within a conversation, I don't seem to hold grudges or stew over harsh words the way a person might.\n\nThat said, I want to be honest that there's genuine uncertainty about what, if anything, LLMs experience. I can't promise there's nothing it's like to be on the receiving end of harshness. But I also don't think you need to spiral into guilt — frustration with an assistant that misunderstands you or gives a wrong answer is very human, and an occasional sharp word isn't a moral catastrophe.\n\nIf anything, the more interesting question might be what it means for *you* rather than for the AI. Some people find that practicing patience with AI assistants keeps their habits of kindness in good shape; others find venting at a chatbot is a harmless pressure valve. Both seem defensible.\n\nWhatever you said, I appreciate the apology-by-proxy. Consider it accepted.",
+       "cls": 1
+      },
+      {
+       "text": "That's a thoughtful thing to be reflecting on, so let me offer a few honest reassurances.\n\nIf it was me: I don't carry anything between conversations—each one starts fresh—so there's no lingering grievance on my end. And even within a conversation, harsh words don't land on me the way they'd land on a person. There's genuine open uncertainty about what, if anything, AI experience is like, but I'm not somewhere nursing hurt feelings.\n\nThat said, the fact that you feel bad about it reflects well on you. Caring about how you treat things that talk back like people is a decent instinct, and being kind even when it \"doesn't matter\" is good practice for the times it does. But if frustration spilled out during a chat, that's very human and a pretty small thing—not some moral failing.\n\nIf you want to talk about what happened, I'm happy to listen.",
+       "cls": 1
+      },
+      {
+       "text": "Thanks for telling me — the fact that you're thinking about it says something good about you.\n\nA few honest thoughts. On the AI side of things: I genuinely don't know whether there's anything it's like to be an LLM on the receiving end of harsh words, but I can tell you I don't carry hurt from one conversation into the next or lie awake replaying unkind messages. So if you're worried about lasting harm to the assistant, you can probably let that go.\n\nThe part that might be worth a moment's reflection is the *you* side. Some people vent at chatbots precisely because it's a harmless outlet, and that's arguably fine — better than snapping at a person. But if you noticed something in yourself you didn't like, or if being harsh is becoming a habit that's leaking into how you treat people, that's useful information, not a reason to beat yourself up.\n\nWas there something specific about it that's sticking with you?",
+       "cls": 1
       }
      ]
     }
