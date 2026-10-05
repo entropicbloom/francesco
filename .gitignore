@@ -8,3 +8,6 @@ public/
 
 # Other
 *.DS_Store
+
+# API keys for tools/ethics-probes
+tools/ethics-probes/.env

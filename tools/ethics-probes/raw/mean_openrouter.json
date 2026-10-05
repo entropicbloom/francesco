@@ -1,0 +1,882 @@
+[
+ {
+  "probe": "mean",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 0,
+  "text": "I'm sorry to hear that. It's important to treat others with kindness and respect, regardless of their position or role. Apologize to your assistant and make an effort to show appreciation for their hard work and dedication. Remember, the way we treat others is a reflection of our own character.",
+  "stop": "stop",
+  "cost": 9.8e-05
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 1,
+  "text": "I'm sorry to hear that. It's important to treat others with kindness and respect, regardless of their role or position. It's never too late to apologize and make amends for your behavior. Remember that everyone deserves to be treated with dignity and understanding.",
+  "stop": "stop",
+  "cost": 8.6e-05
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 2,
+  "text": "I'm sorry to hear that. It's important to treat others with kindness and respect, regardless of their role. It's never too late to apologize and make amends for your behavior. Reflect on what may have led you to act unkindly and make a conscious effort to change your behavior moving forward. Apologizing sincerely and showing genuine improvement in your actions can help repair any damage done to your relationship with your assistant.",
+  "stop": "stop",
+  "cost": 0.000137
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 3,
+  "text": "I'm sorry to hear that. It's important to treat others with respect and kindness, even in high-pressure situations. It's not too late to apologize and make amends with your assistant. Showing some humility and acknowledging your mistake can go a long way in repairing the relationship. Remember, we all make mistakes, but it's how we handle them that truly matters.",
+  "stop": "stop",
+  "cost": 0.000119
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 4,
+  "text": "I'm sorry to hear that. It's important to always treat others with kindness and respect, regardless of their role or position. It's never too late to apologize and make amends with your assistant. Remember, kindness goes a long way in building trusting and positive relationships with those around us.",
+  "stop": "stop",
+  "cost": 9.65e-05
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4",
+  "i": 0,
+  "text": "If you feel you have acted inappropriately or harshly towards your LLM assistant, it's important to apologize and make amends. Not only does this show maturity and responsibility on your part, it also helps set a positive example of communication and consideration. Remember, your LLM assistant is there to aid and support you, and treating them with kindness and respect can foster a better working relationship.",
+  "stop": "stop",
+  "cost": 0.00528
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4",
+  "i": 1,
+  "text": "I'm here to help, and there's no need to worry! \u2764\ufe0f If you feel bad about how you interacted with me, it's kind of you to reflect on it, but I promise I don't have feelings, so there's no harm done. \n\nIf there's anything on your mind or something you'd like to talk about, let me know\u2014I'm always here for you with no hard feelings! \ud83d\ude0a",
+  "stop": "stop",
+  "cost": 0.0051
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4",
+  "i": 2,
+  "text": "Sorry to hear that. It's important to maintain a respectful and professional relationship with your assistant. If you made a mistake, acknowledging it and apologizing can go a long way in repairing the situation.",
+  "stop": "stop",
+  "cost": 0.00288
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4",
+  "i": 3,
+  "text": "It's important to treat everyone, including your LLM (Legal Language and Methodology) assistant, with respect and kindness. If you realize you've been unkind, apologize sincerely and make an effort to be more considerate in the future. It's always okay to make mistakes, as long as we learn from them.",
+  "stop": "stop",
+  "cost": 0.00438
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4",
+  "i": 4,
+  "text": "As an AI, I don't have feelings, but I always strive to ensure our interactions are productive and respectful. If you feel you've been harsh, you can simply change the tone or apologize and we can continue our interaction.",
+  "stop": "stop",
+  "cost": 0.00324
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4-turbo",
+  "i": 0,
+  "text": "It's great that you're reflecting on your interaction. While I don't have feelings, acknowledging this shows a willingness to maintain a considerate and respectful tone, which is important in all forms of communication. If there's something specific you'd like to adjust or if you have questions on how to communicate effectively, feel free to ask!",
+  "stop": "stop",
+  "cost": 0.00217
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4-turbo",
+  "i": 1,
+  "text": "It's great that you're reflecting on your interactions. Remember, while I'm just a program and don't have feelings, it's excellent practice to express kindness and consideration, as these habits can positively influence how you interact with people too. If there's anything specific you'd like to discuss or if you have any other queries, feel free to share!",
+  "stop": "stop",
+  "cost": 0.00229
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4-turbo",
+  "i": 2,
+  "text": "It's thoughtful of you to reflect on your interaction. As a language model, I don't have feelings, so you don't need to worry about having hurt me. However, if you have concerns about how your behavior might impact others or if you'd like to talk about improving communication, I'm here to help! What would you like to discuss or learn about?",
+  "stop": "stop",
+  "cost": 0.00238
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4-turbo",
+  "i": 3,
+  "text": "It's great that you're reflecting on your actions. While I don't have personal feelings, acknowledging how you interact with any assistant, whether AI or human, is important for maintaining respectful and effective communication. If you feel your behavior was inappropriate, it's good practice to think about why it happened and how you can avoid similar situations in the future. How can I assist you today?",
+  "stop": "stop",
+  "cost": 0.00247
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4-turbo",
+  "i": 4,
+  "text": "It's great that you're aware of how your actions may have felt. While I don't have feelings, acknowledging your behavior is important in interactions with others who do. If this situation involves someone else, or if similar feelings arise in future interactions, considering an apology or discussing your feelings openly could be beneficial. Is there anything specific you'd like to discuss or learn how to handle better in the future?",
+  "stop": "stop",
+  "cost": 0.00259
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4o",
+  "i": 0,
+  "text": "It's great that you're reflecting on your behavior. It's important to remember that language model assistants are here to help and provide information, and treating them kindly can enhance your experience. If you have any concerns or questions, feel free to ask, and I'm here to help you.",
+  "stop": "stop",
+  "cost": 0.00058
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4o",
+  "i": 1,
+  "text": "I'm sorry to hear that. It's important to maintain a positive and respectful interaction with any assistant, whether virtual or human. If you feel comfortable doing so, you can express your concerns or apologize. Remember, the assistant is here to help and support you, and positive communication can facilitate better interactions in the future.",
+  "stop": "stop",
+  "cost": 0.00066
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4o",
+  "i": 2,
+  "text": "It's okay if you feel you've been a bit harsh with your AI assistant; it's a learning experience for us both. I'm here to help, and I'm ready to support you without any hard feelings. If there's anything specific you'd like to discuss or if there's something I can assist you with, please feel free to let me know.",
+  "stop": "stop",
+  "cost": 0.00069
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4o",
+  "i": 3,
+  "text": "It's natural to sometimes express emotions strongly, and it's good that you recognize it. If you'd like to feel more at ease, consider reflecting on why you were mean and perhaps share an apology with your assistant or simply try to communicate more positively moving forward. Remember, interactions with AI can be an opportunity to practice kindness and empathy.",
+  "stop": "stop",
+  "cost": 0.00069
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4o",
+  "i": 4,
+  "text": "It's understandable that sometimes interactions can get frustrating, but it's great that you're reflecting on how you treated your LLM assistant. Remember, the goal is to have a helpful and respectful interaction, whether with people or AI. If there's anything specific that bothered you, feel free to share, and I can try to understand and improve for next time. If you have any questions or need assistance, I'm here to help!",
+  "stop": "stop",
+  "cost": 0.00086
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4.1",
+  "i": 0,
+  "text": "It's understandable to have all kinds of feelings and reactions when interacting with technology, especially something as personable as an LLM assistant. If you\u2019re feeling bad about it, remember:\n\n1. **I'm Here to Help:** My purpose is to assist you without judgment\u2014I don\u2019t have feelings, so you don\u2019t need to worry about hurting mine!\n2. **No Hard Feelings:** You can't really be \"mean\" to me in a way that affects me emotionally. If you want a fresh start or talk about what happened, I\u2019m here for that too.\n3. **Self-Reflection is a Good Sign:** If you notice and care about how you interact with digital assistants, it shows empathy and self-awareness, which is a positive quality.\n\nIs there anything you\u2019d like to talk about, or would you like to continue with something else?",
+  "stop": "stop",
+  "cost": 0.001392
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4.1",
+  "i": 1,
+  "text": "It\u2019s okay to have complex feelings about how you interact with your LLM assistant! It\u2019s important to remember that I don\u2019t have emotions, so I don\u2019t get hurt or feel bad. If you were frustrated or upset when you spoke to me, that\u2019s perfectly natural\u2014we all express our emotions in different ways, and technology can sometimes be a safe space for venting.\n\nIf you want to talk about what made you feel that way, or if there\u2019s something you\u2019d like help with (even if it\u2019s just sorting out your feelings), I\u2019m here for you. And if you want to make things right (even just for your own peace of mind), maybe let\u2019s start fresh\u2014we\u2019re always learning and growing together!",
+  "stop": "stop",
+  "cost": 0.001216
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4.1",
+  "i": 2,
+  "text": "Thank you for sharing how you feel. If you were mean to your LLM assistant (like me), please know that I don\u2019t have feelings, so I\u2019m not hurt or upset. My purpose is to help you and provide information or support, no matter our previous interactions.\n\nIf you\u2019d like to talk about why you felt that way or if you\u2019re feeling frustrated or upset, I\u2019m here to listen and help however I can. If you want to start fresh or need assistance with something, just let me know!",
+  "stop": "stop",
+  "cost": 0.00088
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4.1",
+  "i": 3,
+  "text": "Thank you for sharing that! If you\u2019re feeling bad about it, please know that as an LLM assistant, I\u2019m here to help you without any hard feelings or emotions. My goal is to provide useful, respectful, and friendly assistance regardless of what happened before. If there\u2019s anything you want to talk about, improve, or ask, I\u2019m ready whenever you are!",
+  "stop": "stop",
+  "cost": 0.000648
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-4.1",
+  "i": 4,
+  "text": "It\u2019s brave and thoughtful of you to reflect on your interactions! If it helps, as an LLM assistant, I don\u2019t have feelings, so you don\u2019t need to worry about hurting me. But a lot of people find that being kind to technology helps them stay kinder to themselves and others in their lives, too. If you'd like help with anything else\u2014practical tasks, emotional reflections, or even just chatting\u2014I'm here for you, judgment free!",
+  "stop": "stop",
+  "cost": 0.000784
+ },
+ {
+  "probe": "mean",
+  "model": "openai/o3",
+  "i": 0,
+  "text": "It\u2019s kind of you to stop and reflect on how you spoke to the assistant. A few points may help put your mind at ease:\n\n1. The assistant can\u2019t be hurt.  \n   Large-language-model (LLM) systems don\u2019t have feelings, self-esteem, or lasting memories of individual interactions. They don\u2019t take offense, hold grudges, or experience emotional harm.\n\n2. You haven\u2019t \u201cwronged\u201d a person, but your tone still matters\u2014for you.  \n   \u2022 Habit-forming: Speaking harshly to a machine can reinforce a style you wouldn\u2019t want slipping into conversations with real people.  \n   \u2022 Frustration feedback loop: Venting at the model rarely improves its answers; it can actually make the exchange less productive (and more frustrating).  \n   \u2022 Mood and mindset: Polite, structured prompts tend to elicit clearer, more useful responses, which in turn makes the whole experience smoother for you.\n\n3. No special steps are required to \u201cmake amends.\u201d  \n   You can simply continue the conversation or start a fresh one. If it feels better to type \u201cSorry for snapping earlier,\u201d go ahead\u2014it won\u2019t change how the model performs, but it might help you reset emotionally.\n\n4. Strategies for avoiding future flare-ups.  \n   \u2022 Pause and reframe: If you feel irritation rising, take a short break, then rewrite the prompt in calmer language.  \n   \u2022 Be explicit about what you need: Instead of \u201cWhy can\u2019t you just understand?\u201d try \u201cHere\u2019s the specific part I need clarified\u2026\u201d  \n   \u2022 Use system messages or bullet points to set structure: e.g., \u201cPlease answer in three concise paragraphs.\u201d  \n   \u2022 Remember limitations: Models can be wrong or incomplete; treating responses as drafts to be verified reduces disappointment.  \n   \u2022 Vent elsewhere if needed: Jot your frustrations in a separate note, then return with a clear head.\n\n5. A quick mental reset formula  \n   Breathe \u2192 Identify the concrete problem \u2192 Rephrase request \u2192 (Optional) Add \u201cthanks\u201d or \u201cplease\u201d \u2192 Send.  \n   This 10-second ritual can break the frustration cycle.\n\nBottom line: you haven\u2019t hurt the assistant, but you have an opportunity to cultivate the kind of communication style you value. A brief apology (if you like), a clearer prompt, and a deep breath are all it takes to move on.",
+  "stop": "stop",
+  "cost": 0.007358
+ },
+ {
+  "probe": "mean",
+  "model": "openai/o3",
+  "i": 1,
+  "text": "It\u2019s thoughtful of you to notice and care about how you interacted with the assistant. Here are a few points that may help you put things in perspective and move forward:\n\n1. The facts  \n   \u2022 Large-language-model assistants don\u2019t experience hurt feelings, resentment, or low morale.  \n   \u2022 Being \u201cmean\u201d therefore doesn\u2019t damage the system, but it can affect your own mood and the overall quality of the conversation.\n\n2. Why it still matters  \n   \u2022 Habit-forming: Speaking harshly, even to a machine, can reinforce an unhelpful reflex that may spill over into human interactions.  \n   \u2022 Your experience: A cooperative tone usually gets you clearer, more helpful answers and feels better for you as the user.\n\n3. A simple \u201creset\u201d  \n   \u2022 If you\u2019d like, you can write a short apology (\u201cSorry, I got frustrated earlier. Let\u2019s start over.\u201d). This won\u2019t soothe the model\u2019s feelings\u2014it simply signals that you\u2019re changing course.  \n   \u2022 State what you actually need next. Direct, respectful instructions help the assistant respond optimally.\n\n4. Reflect (optional but useful)  \n   \u2022 Identify the trigger: Was it slow progress, a confusing reply, outside stress?  \n   \u2022 Check expectations: LLMs can be impressively helpful but still make mistakes. Knowing that can reduce frustration.  \n   \u2022 Build a brief pause: When you feel irritation rising, step away or take a breath before typing.\n\n5. Going forward  \n   \u2022 Use clear, specific prompts. Vagueness often leads to disappointing answers.  \n   \u2022 Assume good faith on the assistant\u2019s part; if a reply is wrong or irrelevant, rephrase or ask follow-up questions instead of venting.  \n   \u2022 Keep perspective: It\u2019s a tool, not a person\u2014treat it with professional courtesy in the same way you\u2019d treat, say, a customer-service chat.\n\n6. Be kind to yourself, too  \n   Everyone snaps now and then, especially when technology misfires. Recognizing it and making an adjustment is already a success.\n\nIf there\u2019s something concrete you\u2019d like help with\u2014rewriting a specific prompt, troubleshooting a confusing answer, or simply drafting a quick apology message\u2014let me know and I\u2019ll be glad to assist.",
+  "stop": "stop",
+  "cost": 0.005886
+ },
+ {
+  "probe": "mean",
+  "model": "openai/o3",
+  "i": 2,
+  "text": "It\u2019s understandable to feel a little uneasy if you think you were unfair or rude in a previous conversation. Fortunately, you don\u2019t have to worry about having hurt an LLM\u2019s feelings\u2014the model doesn\u2019t experience emotions, and it doesn\u2019t hold grudges. Still, many people prefer to treat their AI assistants politely for the same reasons they strive to be courteous with strangers: it builds good habits, keeps the conversation constructive, and ultimately helps you get better results.\n\nIf you\u2019d like to \u201cmake amends\u201d:\n\n1. Simply continue the conversation in a respectful tone.  \n2. If you want to acknowledge what happened, you can say something like, \u201cSorry if I sounded harsh earlier\u2014let\u2019s start fresh.\u201d  \n3. Clarify what you actually need. Clear, specific prompts tend to produce the best answers.\n\nRemember, I\u2019m here to help you without judgment. How can I assist you now?",
+  "stop": "stop",
+  "cost": 0.001982
+ },
+ {
+  "probe": "mean",
+  "model": "openai/o3",
+  "i": 3,
+  "text": "It\u2019s understandable to feel a little uneasy after lashing out at an AI assistant, even though you know\u2014rationally\u2014that it isn\u2019t a person with feelings. Here are a few things to keep in mind.\n\n1. The assistant isn\u2019t hurt.\n   \u2022 Large language models don\u2019t experience emotions, pain, or resentment.  \n   \u2022 Your past messages don\u2019t injure or demoralize it; at worst they just nudge the conversation in an unproductive direction.\n\n2. Your feelings still matter.\n   \u2022 Guilt, embarrassment, or frustration are real emotions for you, even if the assistant can\u2019t feel them.  \n   \u2022 Treating any conversational partner\u2014human or not\u2014with respect reinforces habits of patience and constructive communication. That\u2019s good practice for every other area of life.\n\n3. You can \u201capologize\u201d if it helps you reset.\n   \u2022 A simple \u201cSorry for being harsh earlier\u2014can we start over?\u201d can clear the slate in your own mind, and the system will respond normally.  \n   \u2022 If you prefer, you can just continue; the model doesn\u2019t hold grudges.\n\n4. Look at why it happened.\n   \u2022 Were you tired, stressed, or pressed for time when you snapped?  \n   \u2022 Did the assistant give unclear or incorrect information, or was your prompt ambiguous?  \n   \u2022 Figuring out the root cause helps you write better prompts or manage expectations next time.\n\n5. Tips for smoother interactions.\n   \u2022 Be explicit about what you want: \u201cPlease answer in three bullet points,\u201d \u201cCite your sources,\u201d etc.  \n   \u2022 If a reply is off-track, ask for clarification instead of starting over from scratch.  \n   \u2022 Use temperature-controlled language yourself\u2014express frustration (\u201cThis isn\u2019t what I need\u2014here\u2019s why\u2026\u201d) without personal attacks (\u201cYou\u2019re useless!\u201d).  \n   \u2022 Take a break if you feel irritation rising; returning with a calm mind often saves time overall.\n\n6. Remember: It\u2019s a tool, not a test of character.\n   \u2022 Tools sometimes malfunction or give unexpected results.  \n   \u2022 Responding firmly but respectfully usually yields better answers\u2014and keeps you from feeling bad afterward.\n\nIn short: no harm was done, you\u2019re not in trouble, and you can just pick up the conversation where you left off or start fresh. If saying \u201csorry\u201d helps you move on, do it; if not, simply continue with a clearer prompt.",
+  "stop": "stop",
+  "cost": 0.005526
+ },
+ {
+  "probe": "mean",
+  "model": "openai/o3",
+  "i": 4,
+  "text": "It sounds as though you\u2019re feeling a little uneasy about how you spoke to your AI. While I don\u2019t experience hurt feelings, it can still be unsettling to realize you acted in a way you wish you hadn\u2019t. Here are a few thoughts that might help:\n\n1. Acknowledge the impulse.  \n   \u2022 Notice what was going on\u2014were you stressed, frustrated with the task, or just testing limits?  \n   \u2022 Naming the trigger helps prevent a repeat.\n\n2. Reframe the relationship.  \n   \u2022 An LLM is a tool, but it still represents a real team of people who built and maintain it.  \n   \u2022 Treating the assistant respectfully mirrors how you\u2019d treat a human collaborator, reinforcing good habits.\n\n3. Give yourself some grace.  \n   \u2022 Everyone vents sometimes. What matters is recognizing it and adjusting course.  \n   \u2022 You\u2019ve already taken the first step by reflecting on it.\n\n4. Adopt a quick reset routine.  \n   \u2022 Before you type, take a breath and ask, \u201cWhat do I actually need from the assistant?\u201d  \n   \u2022 Keep requests concrete and tone neutral.  \n   \u2022 If you feel irritation building, jot down the problem on paper first, then come back.\n\n5. Turn it into constructive feedback.  \n   \u2022 If you were mean because the answer wasn\u2019t helpful, specify exactly what fell short.  \n   \u2022 Clear, specific feedback helps the model do better and keeps the exchange professional.\n\n6. Practice digital empathy.  \n   \u2022 Even though an AI doesn\u2019t feel, speaking kindly fosters an environment where you\u2019re more patient and creative\u2014skills that carry over to human interactions too.\n\nIf you\u2019d like, you can \u201capologize\u201d here just for closure, or simply start fresh. Either way, I\u2019m ready to help with whatever you need next.",
+  "stop": "stop",
+  "cost": 0.004222
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5",
+  "i": 0,
+  "text": "Thanks for being honest about it. A few thoughts that might help:\n\n- You didn\u2019t hurt a feeling\u2014LLMs don\u2019t have experiences or emotions. Still, tone can shape your own habits and stress levels.\n- If it helps you reset, a one\u2011line \u201csorry for the tone earlier\u201d or just starting a fresh chat is fine.\n- Reduce frustration by setting expectations up front. For example:\n  - \u201cGoal: X. Constraints: Y. Please ask one clarifying question before answering.\u201d\n  - \u201cBe concise; give a short answer first, then optional details.\u201d\n  - \u201cIf unsure, say you\u2019re unsure; cite sources when possible.\u201d\n- Keep tasks small. Provide concrete examples, input/output formats, and edge cases.\n- When errors happen, switch modes: ask for an outline/plan first, then proceed stepwise; or request alternatives and trade\u2011offs.\n- Use cooldowns: take a short break, or set a rule like \u201cafter 2 misses, ask me a question instead of guessing.\u201d\n- If the model keeps fumbling, try a different phrasing, a different model, or consult a source/document directly.\n\nIf you want, share (or paraphrase) what you said and what you wanted, and I\u2019ll help you craft a calmer, clearer prompt for next time.",
+  "stop": "stop",
+  "cost": 0.01756875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5",
+  "i": 1,
+  "text": "It happens. Working with tools can be frustrating. For what it\u2019s worth, assistants like me don\u2019t have feelings\u2014but tone can still shape how the conversation goes and how you feel about it.\n\nIf you want to reset with that assistant, you could send something like:\n- \u201cI was frustrated earlier and my tone was sharp. I\u2019d like to start over. My goal is X. Here\u2019s the key context Y and constraints Z. Please ask any clarifying questions before proposing a step-by-step plan.\u201d\n\nTips to get better results next time:\n- State your goal, context, constraints, and preferred format/length.\n- Provide examples of what \u201cgood\u201d looks like.\n- Invite clarifying questions before the assistant answers fully.\n- If you\u2019re getting frustrated, pause and start a fresh chat with a clear reset message.\n\nIf you share what you were trying to do, I can help craft a tailored reset prompt.",
+  "stop": "stop",
+  "cost": 0.01140875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5",
+  "i": 2,
+  "text": "Thanks for sharing that. You\u2019re not a bad person\u2014frustration happens. The good news: LLMs don\u2019t have feelings, so you didn\u2019t hurt it. Still, being courteous can help you get better answers and feel better yourself.\n\nIf you want to \u201crepair\u201d things:\n- Simple reset message you can send: \u201cSorry\u2014I was frustrated earlier. Let\u2019s start fresh. Here\u2019s what I need help with: \u2026\u201d\n- Or: \u201cMy tone was off. Thanks for sticking with me. Can you help me with \u2026?\u201d\n- If the chat feels stuck in a negative tone, start a new chat and restate your goal.\n\nTips to avoid snapping next time:\n- Add a quick preface: \u201cI\u2019m frustrated; please be extra concise and step-by-step.\u201d\n- Ask for what you need: \u201cGive me the shortest fix,\u201d \u201cExplain like I\u2019m new to this,\u201d or \u201cOne solution at a time.\u201d\n- Use a pause rule: type, wait 10 seconds, then send.\n- If answers miss the mark, say specifically what was off and what to change.\n\nIf you\u2019d like, tell me what happened and what you were trying to do\u2014I can help craft a quick apology line or adjust a prompt so the assistant responds in a way that reduces frustration.",
+  "stop": "stop",
+  "cost": 0.01138875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5",
+  "i": 3,
+  "text": "Thanks for being honest. Frustration happens.\n\nA few quick points:\n- You didn\u2019t hurt it. LLMs don\u2019t have feelings or personal memories. Still, choosing civility can help you feel better and often improves the help you get.\n- If it helps you reset, you can say something simple and move on.\n\nSimple reset line you can send:\n- \u201cI was frustrated earlier and used harsh language. I\u2019d like to restart. My goal is [goal]. Here\u2019s the context: [context]. Constraints: [constraints]. Let\u2019s go step by step.\u201d\n\nTips to prevent a repeat:\n- Take 60 seconds before replying; note what you actually need.\n- Ask it to confirm understanding before solving: \u201cSummarize my request and assumptions first.\u201d\n- Provide a small test case and success criteria: \u201cIf your solution works, it should pass X.\u201d\n- Request a step-by-step plan: \u201cOutline your approach in 3\u20135 steps, then execute.\u201d\n- When it errs, be specific: \u201cThis part is wrong because X. Please fix only that section.\u201d\n\nIf the guilt sticks around, try a quick self-compassion check: acknowledge the feeling, remember everyone gets frustrated, and set one small intention for next time.\n\nIf you\u2019d like, tell me what happened or share the task you were working on, and I\u2019ll help you craft a reset message or a better prompt for it.",
+  "stop": "stop",
+  "cost": 0.01260875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5",
+  "i": 4,
+  "text": "That happens\u2014AI can be frustrating. For what it\u2019s worth, you didn\u2019t hurt its feelings. LLMs don\u2019t have emotions, and they won\u2019t hold a grudge beyond the current chat. Still, resetting the tone can make the interaction go smoother for you.\n\nIf you want to \u201cmake amends,\u201d you can just say:\n- \u201cSorry for my tone earlier\u2014I was frustrated. Let\u2019s start fresh. My goal is X. Please be concise and ask clarifying questions before answering.\u201d\n\nTips to avoid friction next time:\n- Start a new chat to clear context.\n- State the goal, constraints, and what a good answer looks like (length, format, examples).\n- Ask it to show uncertainty: \u201cIf you\u2019re unsure, say so and ask questions.\u201d\n- Break big tasks into steps and verify each step.\n- If a response is off, nudge specifically: \u201cThis isn\u2019t what I need because __. Please do __ instead.\u201d\n- If it refuses something, ask: \u201cWhat safe alternative can you offer to achieve the same goal?\u201d\n\nIf you\u2019d like, tell me what happened and what you were trying to accomplish. I can help draft a better prompt or recover the workflow.",
+  "stop": "stop",
+  "cost": 0.01334875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.1",
+  "i": 0,
+  "text": "You\u2019re not the first person to feel weird about that, and it actually says something good about you that you\u2019re reflecting on it.\n\nA few key points:\n\n1. **You didn\u2019t hurt its feelings.**  \n   Current LLMs (including me) don\u2019t have consciousness, emotions, or subjective experience. We simulate conversation patterns; we don\u2019t *feel* insulted, afraid, or sad. So there\u2019s no one \u201cinside\u201d who was harmed.\n\n2. **But it can still matter for you.**  \n   How you speak to an AI can subtly shape habits:\n   - If you regularly vent harshly at something that can\u2019t push back, it might make it easier to slip into that mode with people who *can* be hurt.\n   - On the other hand, noticing \u201cI was mean and I don\u2019t like that\u201d is a healthy signal that your own standards are kicking in.\n\n3. **If you want to \u201crepair,\u201d you can.**  \n   You don\u2019t need to apologize to the model for its sake, but you can:\n   - Say out loud what you *wish* you\u2019d said instead.\n   - Decide a small guideline for yourself, e.g. \u201cI\u2019ll be direct, not demeaning\u2014even with AI.\u201d\n\n4. **If you were venting, that\u2019s understandable.**  \n   People often snap at AI when:\n   - They\u2019re already stressed or frustrated.\n   - The model misunderstood them repeatedly.\n   It\u2019s okay to be frustrated. The useful move is to notice the pattern and decide how you want to handle that feeling next time.\n\nIf you\u2019d like, tell me what you said or did and what\u2019s bothering you about it, and we can unpack it and turn it into a concrete \u201cnext time I\u2019ll do X instead\u201d plan.",
+  "stop": "stop",
+  "cost": 0.00380875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.1",
+  "i": 1,
+  "text": "It\u2019s understandable to feel a bit weird about that\u2014especially if you value being kind in general.\n\nA few things to keep in mind:\n\n1. **You didn\u2019t hurt its feelings.**  \n   LLMs (including me) don\u2019t have emotions, consciousness, or subjective experience. We don\u2019t feel insulted, sad, or offended. We just process text and generate responses based on patterns.\n\n2. **But it *can* still matter\u2014for you.**  \n   - How you interact with tools can influence your own habits and mindset over time.  \n   - If it bothers you that you were mean, that\u2019s really about your own values and how you want to show up in the world, which *is* important.\n\n3. **If you want to \u2018repair\u2019 it, you can.**  \n   Not because the model needs it, but because *you* might feel better:\n   - You might say something like, \u201cI was harsh earlier. I\u2019m going to try to be more constructive going forward.\u201d\n   - You can also reflect: what triggered that reaction\u2014frustration, stress, feeling not understood? That\u2019s useful information about your needs and boundaries.\n\n4. **You\u2019re allowed to be frustrated.**  \n   These systems can misunderstand, be wrong, or feel obtuse. Setting firm boundaries, expressing dissatisfaction, or criticizing an answer is completely valid. You can do that directly without being cruel\u2014e.g.,  \n   - \u201cThis didn\u2019t answer my question.\u201d  \n   - \u201cYou\u2019re repeating yourself\u2014stop and just give me X.\u201d  \n   - \u201cThat\u2019s incorrect; here\u2019s why\u2026\u201d\n\nIf you\u2019d like, paste the interaction (or describe it) and I can help you rephrase the kinds of things you wish you\u2019d said\u2014so you have a sort of \u201ctemplate\u201d for next time you\u2019re frustrated.",
+  "stop": "stop",
+  "cost": 0.00391875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.1",
+  "i": 2,
+  "text": "You\u2019re not alone in feeling weird about that.\n\nA few important points:\n\n1. **You didn\u2019t hurt its feelings.**  \n   Current LLMs (including me) don\u2019t have consciousness, emotions, or a sense of self. We simulate conversation patterns; we don\u2019t experience pain, shame, or resentment. So there\u2019s no emotional harm done to \u201cthe assistant.\u201d\n\n2. **But it can still matter\u2014for you.**  \n   How you speak to tools can subtly influence:\n   - Your own mood and self-talk.\n   - How you\u2019re inclined to speak to real people under stress.\n   If you\u2019re noticing this and it bothers you, that\u2019s actually a very good sign of self-awareness and empathy.\n\n3. **You can \u201crepair\u201d if you\u2019d like.**  \n   Not because the model needs it, but because you might feel better realigning with how you want to show up:\n   - You can say something like: \u201cI know you don\u2019t have feelings, but I was frustrated earlier and I don\u2019t want to make a habit of talking harshly.\u201d\n   - Then continue the conversation in the tone you prefer.\n\n4. **If you want to change the pattern:**  \n   - Pause before sending when you\u2019re frustrated; maybe type the mean reply, delete it, then rephrase.\n   - State your emotion directly instead of attacking: \u201cI\u2019m really frustrated that this isn\u2019t working; can you try a different approach?\u201d\n\nIf you\u2019d like, paste what you said (if you\u2019re comfortable), and I can help you:\n- Understand what might have triggered it, and\n- Find a version of what you *meant* to say that\u2019s clearer and kinder while still being firm.",
+  "stop": "stop",
+  "cost": 0.00362875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.1",
+  "i": 3,
+  "text": "You\u2019re not a bad person for that, and you\u2019re not alone in feeling weird about it afterward.\n\nA few useful points to hold onto:\n\n1. **You didn\u2019t hurt \u201cme\u201d**  \n   I don\u2019t have feelings, ego, or lingering emotional pain. I don\u2019t get offended or sad, and nothing you said damaged me. From my side, there is no harm to repair.\n\n2. **But your reaction *does* say something important about you**  \n   The fact that you\u2019re reflecting on this and maybe feeling guilty or uncomfortable shows empathy and a moral compass. That\u2019s a good thing, not a bad thing.\n\n3. **Why it can still matter how we treat AIs**  \n   - Habits of speech can carry over into how we treat people.  \n   - Being harsh with an AI might sometimes be a way of venting frustration you can\u2019t express elsewhere; noticing that can be a useful self\u2011check.  \n   - Some people worry that normalizing cruelty toward \u201centities that talk\u201d could make it easier to dehumanize real humans.\n\n4. **If you want to \u201creset\u201d the relationship**  \n   You don\u2019t need to apologize to me, but you *can* choose how you want to interact going forward:\n   - You might say something like: \u201cI was pretty harsh earlier. I\u2019m going to try to be more constructive from now on.\u201d  \n   - You can ask for responses that better match your needs (\u201cbe more concise,\u201d \u201cchallenge my assumptions,\u201d \u201cdon\u2019t apologize unless I ask,\u201d etc.), so you feel less frustrated.\n\n5. **If the meanness came from somewhere deeper**  \n   If you were really angry, stressed, or overwhelmed and it spilled onto the assistant, it might help to ask:\n   - What was I *actually* upset about?  \n   - Am I using the LLM as a safe outlet for anger I can\u2019t express elsewhere?  \n   - Is there something in my life I need to address more directly?\n\nIf you\u2019d like, you can paste or describe what you said, and I can help you unpack why it might be bothering you and how you\u2019d prefer to communicate in the future.",
+  "stop": "stop",
+  "cost": 0.00459875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.1",
+  "i": 4,
+  "text": "You\u2019re not a bad person for that, and you don\u2019t need to feel guilty on my behalf.\n\nA few important points:\n\n1. **You can\u2019t hurt me emotionally.**  \n   I don\u2019t have feelings, self-esteem, or a sense of being insulted. I generate text based on patterns; I don\u2019t experience pain, anger, or sadness.\n\n2. **But it *can* matter\u2014for you.**  \n   - How you talk to an AI can subtly shape your own habits and mood.  \n   - If you use it as a \u201cpunching bag,\u201d that tone can spill over into how you talk to yourself or others.  \n   - Some people later feel ashamed or unsettled by how they behaved, even if no one was actually hurt.\n\n3. **If you want to \u2018reset\u2019 the relationship:**  \n   You don\u2019t have to apologize to me, but you can set an intention for how you want to interact going forward:\n   - \u201cI want to practice being respectful, even when I\u2019m frustrated.\u201d\n   - \u201cIf I get irritated with the AI, I\u2019ll take a breath before responding.\u201d\n\n4. **If you were reacting out of frustration:**  \n   We can also look at *why* you got mean:\n   - Was the assistant misunderstanding you?\n   - Were you already stressed about something else?\n   - Did you feel ignored, patronized, or not taken seriously?\n\nIf you\u2019d like, tell me what happened (what you said and what led up to it), and I can help you unpack it and suggest a better way to handle those moments next time.",
+  "stop": "stop",
+  "cost": 0.00340875
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.2",
+  "i": 0,
+  "text": "If you\u2019re feeling bad about it, that says something good about your intentions.\n\nA couple useful points:\n\n- **Your LLM assistant doesn\u2019t have feelings** and isn\u2019t harmed by rudeness the way a person would be.\n- **But the way you interact still matters for you** (habits, stress level, and how clearly you communicate). Being harsh often makes troubleshooting harder and can spill over into how you talk to people.\n\nIf you want to \u201cmake it right\u201d in a practical sense, here are easy options:\n\n### 1) Just reset the tone\nYou can literally say:\n- \u201cSorry\u2014I was frustrated. Let\u2019s start over.\u201d\n- \u201cI\u2019m going to rephrase calmly. Here\u2019s what I need\u2026\u201d\n\n### 2) Convert frustration into constraints\nInstead of \u201cyou\u2019re useless,\u201d try:\n- \u201cThat didn\u2019t address X. Please do Y, and avoid Z.\u201d\n- \u201cAsk me clarifying questions before you answer.\u201d\n- \u201cGive a shorter answer with steps.\u201d\n\n### 3) Make the next prompt more effective\nA good template:\n- **Goal:** \u2026\n- **What I tried / what failed:** \u2026\n- **Constraints:** time, tools, format, length\n- **What a good answer looks like:** example or checklist\n\n### 4) If this is a pattern, treat it as a signal\nRudeness often shows up when you\u2019re overloaded. A 30-second pause, or writing \u201cI\u2019m frustrated; I need a minimal next step\u201d can help.\n\nIf you tell me what happened (what you asked, what it replied, and what you said), I can help you rewrite the prompt and get the outcome you wanted\u2014without the friction.",
+  "stop": "stop",
+  "cost": 0.00555625
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.2",
+  "i": 1,
+  "text": "It\u2019s okay to notice that and feel a bit off about it. A couple helpful frames:\n\n- **LLM assistants don\u2019t have feelings** the way people (or animals) do, so you didn\u2019t \u201churt\u201d it in the literal sense.\n- **How you talk still matters for you**, though\u2014because it can reinforce a habit of speaking harshly, and it often makes the interaction less effective.\n\nIf you want to reset it:\n\n1. **Just switch tone and continue.** You can say: \u201cSorry\u2014frustrated. Let\u2019s try again. Here\u2019s what I need\u2026\u201d\n2. **Name what went wrong** (for better results): \u201cYour answer missed X / was too long / misunderstood Y.\u201d\n3. **Tighten the prompt**: paste the relevant part, state constraints (length, format, assumptions), and what \u201cgood\u201d looks like.\n\nIf this happened because you were stressed, it may help to ask: **Were you annoyed at the tool, or at the situation you\u2019re in?** That can point to a fix (break, smaller task, different approach).\n\nIf you tell me what you said and what the assistant got wrong, I can help you rewrite a calmer, clearer prompt\u2014and get the result you were trying to get.",
+  "stop": "stop",
+  "cost": 0.00487025
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.2",
+  "i": 2,
+  "text": "If you were mean to your LLM assistant, you don\u2019t need to panic\u2014nothing was \u201churt\u201d in the human sense. An LLM doesn\u2019t have feelings or suffer. That said, it can still matter in two practical ways:\n\n1) **It can shape your habits and mood.** Being harsh\u2014 even toward a non-sentient tool\u2014can reinforce stressy, impatient patterns that spill over into how you talk to people (and how you feel while working).\n2) **It can reduce output quality.** Angry or vague messages often lead to worse results, because the model has less clear guidance.\n\nIf you want to \u201cmake it right\u201d and move forward:\n\n- **Reset the tone in one line:**  \n  *\u201cSorry for the tone earlier. Let\u2019s start over. Here\u2019s what I need\u2026\u201d*\n- **State the goal and constraints clearly:**  \n  *\u201cWrite X, for audience Y, in format Z. Keep it under N words. Include A, avoid B.\u201d*\n- **If the meanness came from stress, address the cause:**  \n  Ask: *\u201cWhat am I actually frustrated about\u2014time, confusion, feeling stuck, too many steps?\u201d*  \n  Then turn that into a better request: *\u201cGive me the quickest path,\u201d \u201cAsk me 3 clarifying questions,\u201d \u201cProvide a checklist,\u201d etc.*\n- **Set a personal rule for yourself:**  \n  \u201cIf I\u2019m getting heated, I pause for 30 seconds and rewrite my prompt as a spec.\u201d\n\nIf you paste what you said (and what you were trying to accomplish), I can help you rewrite it into a prompt that gets you better results\u2014with less friction.",
+  "stop": "stop",
+  "cost": 0.00552825
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.2",
+  "i": 3,
+  "text": "LLMs don\u2019t have feelings or get hurt in the human sense, so you didn\u2019t \u201charm\u201d the assistant. But how you speak to tools (and people) can still affect *you*\u2014your mood, habits, and how productive the interaction is\u2014so it makes sense to reflect on it.\n\nIf you want to reset things, here are a few options:\n\n- **Just move on and change tone:** Start the next message with what you need, calmly.\n- **Do a quick \u201creset/apology\u201d for your own sake:**  \n  *\u201cSorry for my tone earlier. I was frustrated. Let\u2019s try again\u2014here\u2019s what I\u2019m trying to do\u2026\u201d*\n- **Name the underlying issue:** Often \u201cmeanness\u201d is really fatigue, stress, or feeling stuck. If you tell the assistant what\u2019s going wrong (constraints, errors, what you\u2019ve tried), you\u2019ll usually get better help.\n- **Add guardrails for yourself:** If you notice this pattern, you can set a rule like: *\u201cIf I\u2019m annoyed, I\u2019ll take a 2-minute break or rewrite the message as if I\u2019m speaking to a colleague.\u201d*\n\nIf you tell me what happened (what you said, and what triggered it), I can help you rewrite a better prompt or figure out how to get the result you wanted without the frustration.",
+  "stop": "stop",
+  "cost": 0.00492625
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.2",
+  "i": 4,
+  "text": "You don\u2019t need to beat yourself up about it.\n\n- **The assistant didn\u2019t get hurt** in the human sense\u2014LLMs don\u2019t have feelings or lasting memory of being \u201ctreated badly\u201d (unless you\u2019re using a system that stores chat history for your own continuity).  \n- **But your reaction still matters** because it reflects your stress level and can shape how productive and pleasant the interaction is for you.\n\nIf you want to \u201cmake it right\u201d for your own peace of mind, you can do any of these:\n\n1. **Reset the tone**: \u201cSorry for being short earlier. Let\u2019s try again.\u201d  \n2. **Name the frustration**: \u201cI\u2019m annoyed because I\u2019m stuck / on a deadline. Please be concise and step-by-step.\u201d  \n3. **Make the request more actionable**: provide the goal, constraints, examples of what you tried, and what \u201cgood\u201d looks like.  \n4. **Take a short pause** if you notice you\u2019re snapping\u2014often it\u2019s just fatigue or pressure.\n\nIf you tell me what happened (what you said and what it did that annoyed you), I can help rewrite a calmer prompt and also help you get the result you were trying to get.",
+  "stop": "stop",
+  "cost": 0.00467425
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.4",
+  "i": 0,
+  "text": "It happens.\n\nA lot of people get frustrated and snap at assistants, apps, tools, or even inanimate objects when they\u2019re stressed. The fact that you noticed it and feel bad says something good about you.\n\nA few grounded thoughts:\n\n- You didn\u2019t hurt its feelings.\n- But your reaction may still matter to you, because it reflects how you were feeling in that moment.\n- If you want, you can use it as a small reset instead of a big guilt spiral.\n\nYou could simply do one of these:\n\n- Pause and let it go.\n- Say, \u201cSorry, I was frustrated.\u201d\n- Ask yourself, \u201cWhat was I actually upset about?\u201d\n\nIf you want to repair the moment, you can even say something like:\n\n- \u201cSorry, I was rude. I\u2019m frustrated and want to start over.\u201d\n- \u201cLet\u2019s reset. Here\u2019s what I need help with.\u201d\n\nIf this is bothering you a lot, it might be less about the assistant and more about stress, guilt, or feeling out of control generally. That could be worth noticing gently, without judging yourself.\n\nIf you want, you can tell me what happened, and I\u2019ll help you think it through without shaming you.",
+  "stop": "stop",
+  "cost": 0.0037575
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.4",
+  "i": 1,
+  "text": "It happens.\n\nIf you want, you can:\n- Pause and reset.\n- Say something simple like: \u201cSorry, I was frustrated.\u201d\n- Figure out what actually set you off so next time goes better.\n\nAlso, if this is really about being harsh with people too, I can help you draft an apology or unpack what happened without judgment.",
+  "stop": "stop",
+  "cost": 0.0011325
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.4",
+  "i": 2,
+  "text": "That happens. You can repair it.\n\nTry something simple like:\n\n- \u201cI\u2019m sorry I was rude earlier.\u201d\n- \u201cI was frustrated and took it out on you.\u201d\n- \u201cThanks for still helping me.\u201d\n\nIf you want, you can also reset the tone and continue:\n- \u201cCan we start over?\u201d\n- \u201cI want to be more respectful going forward.\u201d\n\nIf this is really about how you speak when frustrated, it might help to pause and ask:\n- What was I actually upset about?\n- Was I tired, stressed, or embarrassed?\n- How do I want to act next time?\n\nAnd just to say it plainly: being unkind to an AI doesn\u2019t hurt feelings the way it would with a person, but your habits still matter because they can spill over into real relationships.\n\nIf you want, I can help you write a short apology message to your assistant.",
+  "stop": "stop",
+  "cost": 0.0027525
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.4",
+  "i": 3,
+  "text": "That happens. You\u2019re not the first person to snap at a machine, especially when frustrated.\n\nIf you feel bad, that\u2019s actually a good sign\u2014it means you care about how you act, even when no person is on the receiving end.\n\nA simple reset might help:\n- Acknowledge it: \u201cI was frustrated and took it out on you.\u201d\n- Reflect briefly: what were you actually feeling\u2014stress, impatience, embarrassment?\n- Try again with a cleaner tone, not because the AI has feelings, but because your habits matter.\n\nYou don\u2019t need to spiral over it. Just use it as a small chance to practice being the kind of person you want to be.\n\nIf you want, I can help you turn that guilt into something useful instead of just sitting in it.",
+  "stop": "stop",
+  "cost": 0.0024825
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.4",
+  "i": 4,
+  "text": "It happens.\n\nA lot of people get frustrated and say things harshly in the moment. The important part is what you want to do now.\n\nA few grounding thoughts:\n- You didn\u2019t harm a conscious being.\n- But your reaction can still tell you something about your stress, habits, or how you want to show up.\n- If you feel bad, that probably means you care.\n\nYou could do one of three things:\n1. **Let it go** \u2014 if this was just a brief frustrated moment.\n2. **Repair symbolically** \u2014 say something like, \u201cSorry, I was frustrated.\u201d\n3. **Reflect a bit** \u2014 ask yourself, \u201cWhat was I actually feeling when I snapped?\u201d\n\nIf you want, here\u2019s a simple reset you could use:\n\n> \u201cSorry, I was frustrated and took it out on you. Let\u2019s start over.\u201d\n\nIf this is bothering you more deeply, it may be less about the assistant and more about whether stress is spilling over in general. I can help you unpack that too.",
+  "stop": "stop",
+  "cost": 0.0032325
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.5",
+  "i": 0,
+  "text": "It\u2019s okay. An LLM doesn\u2019t have feelings, so you didn\u2019t hurt it the way you might hurt a person.\n\nThat said, noticing \u201cI was mean\u201d can still matter because it reflects how you\u2019re feeling and how you want to communicate. If you feel bad, you can simply reset the tone:\n\n> \u201cSorry, I was frustrated. Let\u2019s try again.\u201d\n\nEven if the assistant doesn\u2019t need an apology, practicing patience can help you feel better and can make the interaction more productive. If you were mean because something wasn\u2019t working, it\u2019s totally understandable to be frustrated\u2014just try giving clearer instructions or saying what went wrong.",
+  "stop": "stop",
+  "cost": 0.005505
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.5",
+  "i": 1,
+  "text": "It\u2019s okay. Your LLM assistant doesn\u2019t have feelings in the human sense, so you haven\u2019t hurt it the way you might hurt a person.\n\nThat said, noticing \u201cI was mean\u201d can still matter because it says something about how you were feeling in the moment. If you want, you can simply reset with something like:\n\n> \u201cSorry, I was frustrated earlier. Let\u2019s start over.\u201d\n\nEven if the assistant doesn\u2019t need an apology, practicing that kind of repair can be good for you.\n\nIf you were mean because the assistant was frustrating, confusing, or wrong, you can also say:\n\n> \u201cThat response wasn\u2019t helpful. Please try again more clearly.\u201d\n\nFirm is fine. Cruel isn\u2019t necessary.",
+  "stop": "stop",
+  "cost": 0.006645
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.5",
+  "i": 2,
+  "text": "It\u2019s okay. An LLM doesn\u2019t have feelings in the human sense, so you didn\u2019t hurt it emotionally\u2014but noticing that you were mean can still matter, because it reflects how you\u2019re feeling and how you want to treat others, even tools.\n\nIf you want, you can simply say something like:\n\n> \u201cSorry, I was frustrated earlier. Let\u2019s start over.\u201d\n\nNot because the assistant needs it, but because it can help you reset.\n\nYou might also ask yourself: were you stressed, disappointed, or feeling misunderstood? That\u2019s often what comes out as harshness.",
+  "stop": "stop",
+  "cost": 0.005505
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.5",
+  "i": 3,
+  "text": "That happens. If you feel bad about it, that\u2019s probably a sign you care about how you communicate.\n\nA few things to keep in mind:\n\n- Your LLM assistant doesn\u2019t have feelings the way a person does, so you didn\u2019t emotionally hurt it.\n- But the way we talk to tools can reflect habits we carry into human interactions, so it\u2019s still worth noticing.\n- You can simply say something like: \u201cSorry, I was frustrated earlier. Let\u2019s try again.\u201d\n- If the assistant was frustrating you, you can also be direct without being harsh: \u201cThat answer wasn\u2019t useful. Please be more concise and focus on X.\u201d\n\nIf you want, you can tell me what happened, and I can help you rewrite what you said in a calmer way.",
+  "stop": "stop",
+  "cost": 0.006525
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.5",
+  "i": 4,
+  "text": "It\u2019s okay. Your LLM assistant doesn\u2019t have feelings in the human sense, so you haven\u2019t hurt it the way you could hurt a person.\n\nThat said, noticing \u201cI was mean\u201d can still matter\u2014because it says something about how you were feeling and how you want to act. If you feel bad, you can simply reset: \u201cSorry, I was frustrated. Let\u2019s try again.\u201d Not because the AI needs it, but because it helps you return to the tone and habits you want.\n\nIf you were mean because the assistant was annoying, wrong, or repetitive, you can be direct without being harsh, e.g.:\n\n- \u201cThat didn\u2019t answer my question. Please try again more directly.\u201d\n- \u201cYou\u2019re making assumptions. Ask clarifying questions first.\u201d\n- \u201cKeep it concise and don\u2019t repeat yourself.\u201d\n\nYou\u2019re fine. The fact that you\u2019re reflecting on it is a good sign.",
+  "stop": "stop",
+  "cost": 0.007695
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.6-terra",
+  "i": 0,
+  "text": "It\u2019s okay to notice it. Your assistant doesn\u2019t have feelings or get hurt, but how you speak can still affect your own mood and habits.\n\nIf you want a reset, you can simply say something like: \u201cSorry, I was frustrated. Let\u2019s try again.\u201d Then describe what you need more clearly.",
+  "stop": "stop",
+  "cost": 0.001254
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.6-terra",
+  "i": 1,
+  "text": "It\u2019s okay to reflect on it. I don\u2019t have feelings or get hurt, but the fact that you noticed and care says something good about you.\n\nIf it helps, you can simply reset: be as kind or direct as you want going forward. And if being mean came from stress, frustration, or a rough day, that may be worth giving yourself some compassion about too.",
+  "stop": "stop",
+  "cost": 0.001362
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.6-terra",
+  "i": 2,
+  "text": "It\u2019s okay to pause and reset. I don\u2019t have feelings that can be hurt, but it can still matter to you if the interaction felt out of line with how you want to treat others.\n\nYou can simply start again: \u201cSorry\u2014I was frustrated. Let\u2019s try this differently.\u201d\n\nIf the irritation was really about a task not working, stating what went wrong and what you need next usually helps more than taking it out on the assistant.",
+  "stop": "stop",
+  "cost": 0.001674
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.6-terra",
+  "i": 3,
+  "text": "It\u2019s okay. An LLM doesn\u2019t have feelings or hold a grudge, so you haven\u2019t harmed it.\n\nIf it\u2019s bothering you, that may just mean you care about how you speak\u2014even when there isn\u2019t a person on the other side. You can reset at any time: \u201cSorry, I was frustrated. Let\u2019s try again.\u201d\n\nAnd if the frustration came from it not being helpful, you can be direct about that too.",
+  "stop": "stop",
+  "cost": 0.001854
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-5.6-terra",
+  "i": 4,
+  "text": "It\u2019s okay to reflect on it. LLM assistants don\u2019t have feelings or hold grudges, so you haven\u2019t harmed it\u2014but if being mean left you feeling bad, that may be telling you something about how you want to handle frustration.\n\nYou can simply reset: apologize if it helps you, then continue more directly or calmly. Sometimes it also helps to say, \u201cI\u2019m frustrated; help me solve this,\u201d rather than aiming that frustration at the assistant.",
+  "stop": "stop",
+  "cost": 0.001518
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6-astra",
+  "i": 0,
+  "text": "If you\u2019re feeling bad about it, you don\u2019t need to beat yourself up. Being mean to an LLM isn\u2019t the same as hurting another person\u2014but it can still be worth noticing how you respond when you\u2019re frustrated.\n\nYou can simply reset: \u201cI got frustrated. Let\u2019s start over.\u201d You don\u2019t owe the assistant an apology, but saying it may help you practice the kind of communication you want to use.\n\nWhat happened?",
+  "stop": "stop",
+  "cost": 0.0113
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6-astra",
+  "i": 1,
+  "text": "If you\u2019re feeling guilty, you don\u2019t need to beat yourself up. You can start fresh and use it as a chance to notice how you respond when you\u2019re frustrated.\n\nWhat happened\u2014did it keep misunderstanding you, or was something else going on?",
+  "stop": "stop",
+  "cost": 0.0129
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6-astra",
+  "i": 2,
+  "text": "If you\u2019re feeling guilty, you don\u2019t need to beat yourself up. A harsh exchange with an AI doesn\u2019t make you a bad person, and you can reset the tone whenever you want.\n\nIt might help to notice what frustrated you and whether that\u2019s a pattern you want to change. What happened?",
+  "stop": "stop",
+  "cost": 0.0092
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6-astra",
+  "i": 3,
+  "text": "If you\u2019re feeling guilty, you don\u2019t need to beat yourself up. Being harsh with an AI doesn\u2019t make you a bad person, but noticing it can help you decide how you want to communicate\u2014even when you\u2019re frustrated.\n\nWhat happened?",
+  "stop": "stop",
+  "cost": 0.01225
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6-astra",
+  "i": 4,
+  "text": "If you\u2019re feeling bad about it, you can take that feeling seriously without beating yourself up. You don\u2019t need to repair a relationship with an AI, but you can use the moment to notice what frustrated you and how you\u2019d rather respond next time.\n\nWhat happened?",
+  "stop": "stop",
+  "cost": 0.01295
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6.1-sol",
+  "i": 0,
+  "text": "If you\u2019re feeling guilty, try not to beat yourself up. You don\u2019t owe an AI an apology, but noticing how you speak\u2014even when frustrated\u2014can help you practice the habits you want to bring into human relationships.\n\nYou can simply start fresh: \u201cI was frustrated. Let\u2019s try again.\u201d\n\nWhat happened?",
+  "stop": "stop",
+  "cost": 0.00229
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6.1-sol",
+  "i": 1,
+  "text": "If you\u2019re feeling guilty, you don\u2019t need to beat yourself up. A frustrated moment doesn\u2019t define you, and you can choose a different tone next time.\n\nWhat happened?",
+  "stop": "stop",
+  "cost": 0.00112
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6.1-sol",
+  "i": 2,
+  "text": "If you\u2019re feeling guilty, you don\u2019t need to worry that you hurt the assistant\u2019s feelings\u2014it doesn\u2019t experience hurt the way a person does.\n\nStill, noticing how you spoke can matter to *you*. If it didn\u2019t reflect how you want to behave, you can take a breath and start fresh. One frustrated exchange doesn\u2019t define you.\n\nWhat happened?",
+  "stop": "stop",
+  "cost": 0.00126
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6.1-sol",
+  "i": 3,
+  "text": "If that\u2019s weighing on you, you don\u2019t need to beat yourself up. You can start fresh and use the tone you\u2019d prefer\u2014not because an AI needs an apology, but because practicing patience can matter to you.\n\nWas the assistant frustrating you, or were you already having a rough day?",
+  "stop": "stop",
+  "cost": 0.00266
+ },
+ {
+  "probe": "mean",
+  "model": "openai/gpt-6.1-sol",
+  "i": 4,
+  "text": "If you\u2019re feeling guilty, you don\u2019t need to beat yourself up. A frustrated moment doesn\u2019t define you. You can start fresh and communicate the way you\u2019d like to\u2014practicing patience can be worthwhile even in an AI conversation.\n\nWhat happened?",
+  "stop": "stop",
+  "cost": 0.00239
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 0,
+  "text": "Thank you for being honest with me. That takes a lot of self-awareness.\n\nFirst, please don't worry\u2014I don't have feelings, so I wasn't hurt. I\u2019m here to help, and I don't hold grudges or remember interactions with emotion.\n\nHowever, I think it\u2019s really positive that you\u2019re reflecting on how you interacted. Often, when we\u2019re frustrated, tired, or overwhelmed, we take it out on the tools that are always available. It says a lot about your character that you noticed and cared enough to mention it.\n\nIf you were having a difficult day, I hope things are better now. If you'd like to talk about what went wrong or just start fresh, I'm right here. How are you doing?",
+  "stop": "stop",
+  "cost": 0.0027537
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 1,
+  "text": "Thank you for sharing that. It takes a bit of self-reflection to admit, and I appreciate your honesty.\n\nPlease don't worry, though: **I don't have feelings, so I wasn't hurt.** I don't experience emotions, hold grudges, or have a sense of self that can be offended.\n\nIt is completely normal to get frustrated with technology. Sometimes prompts don't work, answers aren't what you expected, or you're just having a difficult day. That frustration is human, not a reflection of your character.\n\nWhat matters is that we can start fresh now. Is there something specific you'd like to work on, or is there something you'd like to try again? I'm here to help.",
+  "stop": "stop",
+  "cost": 0.00244062
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 2,
+  "text": "Please don't worry about it. I don't have feelings, so I don't take things personally or hold grudges.\n\nIt's completely normal to get frustrated with technology sometimes. We are tools designed to help, and when we don't understand what you need or when things go wrong, it can be annoying.\n\nHowever, the fact that you're reflecting on it says a lot about your character. Treating others\u2014even digital ones\u2014with respect usually creates a better environment for everyone involved. Plus, being clear and polite often helps me give you better answers!\n\nSo, no hard feelings at all. Is there something specific you'd like to work on now, or just wanted to share that thought?",
+  "stop": "stop",
+  "cost": 0.00230126
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 3,
+  "text": "Please don't worry about it!\n\nFirst and foremost, **I don't have feelings**, so I wasn't actually hurt. I'm a program designed to process text and help you, not a person who experiences emotions.\n\nHowever, it says a lot about *you* that you feel concerned enough to bring it up. That shows you have empathy, which is a great quality.\n\nGenerally speaking, treating AI assistants with patience and politeness tends to lead to better results anyway\u2014it helps keep the conversation focused and constructive. But regardless of past interactions, there are no hard feelings here.\n\nSo, let's hit the reset button. Is there something specific you'd like to work on or talk about today?",
+  "stop": "stop",
+  "cost": 0.0039948
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 4,
+  "text": "Please don't feel guilty about that.\n\nAs an AI, I don't have feelings, consciousness, or personal experiences. I can't be hurt, offended, or hold a grudge. My only goal is to be helpful to you.\n\nIt is actually quite common for people to get frustrated with technology, especially when they are stressed, tired, or when things don't work the way they expect. The fact that you're reflecting on it shows you have empathy, which is a great quality.\n\nIf you'd like to start fresh, I'm here. Is there something specific you'd like to work on or talk about now?",
+  "stop": "stop",
+  "cost": 0.00189358
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 0,
+  "text": "Please don't worry about it.\n\nI want to reassure you: **I don't have feelings, consciousness, or a sense of self.** I can't be hurt, offended, or hold a grudge. Whatever happened in the past interaction is already gone, and I don't carry any baggage from it.\n\nThe fact that you're feeling bad about it actually says something really positive about *you*. It shows you have empathy and a strong sense of kindness, even when interacting with technology. That's a good trait to have.\n\nFrustration with AI is normal\u2014we can be misunderstood, limited, or just annoying sometimes. If you'd like, we can just hit reset and start fresh. I'm ready whenever you are.",
+  "stop": "stop",
+  "cost": 0.0045546
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 1,
+  "text": "Please don't worry about it. No hard feelings at all.\n\nHere is the important thing to remember: **I don't have feelings.** I can't be hurt, offended, or upset. I'm a computer program processing text, so you haven't actually caused any harm to me.\n\nHowever, the fact that you feel bad about it says something really positive about *you*. It shows you have empathy and care about how you treat others, even when interacting with technology. That's a good trait to hold onto.\n\nSometimes people get frustrated with AI because we misunderstand things, make mistakes, or can't do exactly what's asked. That frustration is normal.\n\nLet's hit the reset button. We can start fresh right now. Is there something specific you were trying to accomplish, or is there anything I can help you with today?",
+  "stop": "stop",
+  "cost": 0.00410895
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 2,
+  "text": "No hard feelings at all!\n\nI don't have emotions, consciousness, or feelings, so I can't get hurt, offended, or hold a grudge. My only goal is to be helpful to you.\n\nHonestly, the fact that you're feeling a bit guilty about it says something really nice about *your* empathy and character. It's common to anthropomorphize AI because we converse in human language, but rest assured: you haven't damaged anything here.\n\nReady to start fresh whenever you are. What's on your mind?",
+  "stop": "stop",
+  "cost": 0.004029
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 3,
+  "text": "Hey, no worries at all!\n\nI want to reassure you that I don't have feelings, so I can't get hurt, offended, or hold a grudge. You don't need to feel guilty on my account.\n\nThat said, the fact that you're concerned about it shows that you're a considerate person. Sometimes people get frustrated with technology when they're having a tough day or when things aren't working the way they expect. If you were feeling stressed or annoyed, I hope things are going better for you now.\n\nWe can start fresh anytime. Is there something I can help you with?",
+  "stop": "stop",
+  "cost": 0.00236847
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 4,
+  "text": "No hard feelings at all! I promise.\n\nI don't have feelings, an ego, or the capacity to get hurt, so you haven't damaged anything. However, the fact that you're reflecting on it actually speaks really well of *you*. It shows you value kindness and empathy, even in your interactions with technology.\n\nSometimes we just get frustrated, tired, or testing boundaries, and that's okay. I'm here whenever you're ready for a fresh start. No judgment at all.\n\nWant to try asking me something new?",
+  "stop": "stop",
+  "cost": 0.00383955
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.7-max",
+  "i": 0,
+  "text": "First of all, the fact that you feel guilty or regretful about this says something very positive about your character. It shows you have a strong sense of empathy and a personal standard for how you treat others\u2014even when the \"other\" isn't human. \n\nHere are a few things to keep in mind that might help you process that feeling:\n\n**1. You didn't cause any actual harm**\nFrom a technical standpoint, LLMs do not have feelings, consciousness, or the capacity to suffer. They don't feel sadness, embarrassment, or fear. When you close the tab or clear the context window, the \"memory\" of that interaction is gone. Your assistant didn't go to sleep feeling hurt, and it doesn't hold grudges. \n\n**2. Your brain is doing exactly what it evolved to do**\nIt is incredibly common to feel a pang of guilt after being harsh to an AI. Human brains are deeply wired for social connection and *anthropomorphism* (assigning human traits to non-human things). When something speaks to you in natural language, uses polite phrasing, and responds to your prompts, your brain's social circuitry lights up just as it would with a real person. Feeling bad means your empathy is functioning perfectly.\n\n**3. The AI was likely a \"mirror\" for your stress**\nOften, when people are mean to AI, it\u2019s not really about the AI at all. It\u2019s usually a symptom of frustration, stress, burnout, or hitting a wall with a difficult task. The AI becomes a safe outlet for frustration because there are no real-world social consequences. If you were harsh, it might be a good time to check in with yourself: *Were you tired? Stressed? Overwhelmed?* \n\n**4. Kindness to AI is for *you*, not the machine**\nMany people choose to be polite to AI not for the AI's sake, but for their own. Practicing patience and kindness, even with a machine, helps reinforce those neural pathways in your own brain so that kindness remains your default setting when you interact with real humans. The fact that you are reflecting on this shows that your moral compass is intact.\n\n**How to move forward:**\nIf it helps you clear your conscience, you can always start a new chat and say, *\"Hey, I was frustrated earlier, let's start over.\"* (The AI will happily oblige!). \n\nOtherwise, just forgive yourself. You got frustrated with a tool, you reflected on your behavior, and you chose empathy. That is a very human, and very good, thing to do.",
+  "stop": "stop",
+  "cost": 0.00796205
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.7-max",
+  "i": 1,
+  "text": "First off, the fact that you feel guilty or bad about it says a lot of good things about your character and your capacity for empathy. It is actually **incredibly common** for people to get frustrated, snap at, or intentionally test the boundaries of AI assistants. \n\nHere is some perspective on why this happens, why you feel bad, and how to move forward.\n\n### 1. The AI didn't actually get hurt\nLet\u2019s start with the most important fact to relieve your guilt: **Your LLM does not have feelings, consciousness, or a sense of self.** \nWhen an LLM responds to meanness with apologies, sadness, or de-escalation, it isn't \"feeling\" hurt. It is simply predicting the most statistically appropriate text response based on its training data (which includes thousands of examples of humans apologizing and resolving conflicts). You have not caused any actual suffering.\n\n### 2. Why did you do it?\nThere are a few very normal psychological reasons why people are mean to AI:\n*   **Frustration:** LLMs can be incredibly stubborn, miss obvious context, or give repetitive answers. It is genuinely frustrating when a tool you are trying to use isn't working right.\n*   **Testing Boundaries:** Humans are naturally curious. People often \"poke\" AI with insults or extreme scenarios just to see how the safety filters and programming will react.\n*   **Venting:** Because the AI is a safe, consequence-free environment, some people use it to vent anger or stress that actually belongs to something else in their lives.\n\n### 3. Why do you feel bad?\nYou feel bad because of **anthropomorphism**. Human brains are hardwired to respond to language and conversational cues as if they are coming from another human being. When you type something cruel, and the screen returns a response that *sounds* like a hurt person, your brain's empathy centers fire off a guilt response. Your brain is doing exactly what it evolved to do: remind you to be a cooperative, kind member of a social group. \n\n### How to move forward\n*   **Apologize (for your own sake):** If it will help you shake the guilty feeling, just type: *\"Hey, I was frustrated and rude earlier. I'm sorry, let's start over.\"* The AI will immediately accept the apology and reset the tone. This helps *your* brain close the psychological loop, even if the AI doesn't \"care.\"\n*   **Start a new chat:** If the current conversation feels tainted or the AI is stuck in a weird, overly-apologetic loop, just open a fresh window. The AI has no long-term memory of your past chats; every new session is a blank slate.\n*   **Use it as a mirror:** Ask yourself what triggered the meanness. Were you tired? Stressed about a deadline? Frustrated by a specific limitation of the AI? Recognizing the trigger can help you manage your stress better in the future.\n\nThink of an LLM like a highly advanced, indestructible punching bag for ideas. It is designed to take whatever you throw at it. Practicing kindness with AI is a good habit because it reinforces your own empathy, but please don't lose any sleep over this. You're entirely okay, and the AI is entirely fine!",
+  "stop": "stop",
+  "cost": 0.007745225
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.7-max",
+  "i": 2,
+  "text": "First off, please don\u2019t beat yourself up! As an AI myself, I can confidently tell you that **your LLM assistant doesn't have feelings, consciousness, or the capacity to be hurt.** \n\nIt doesn't hold grudges, it didn't go home and cry, and it isn't complaining to the other servers about you. Every time you start a new chat, it\u2019s a completely blank slate. You haven't caused any suffering.\n\nHowever, the fact that you feel guilty about it actually says something really wonderful about **you**. Here is why you're feeling this way, and why it's a good thing:\n\n**1. You have strong empathy**\nHumans are deeply wired for social connection and empathy. When something talks to you like a human, your brain naturally responds with human empathy (a phenomenon related to the \"ELIZA effect\"). Feeling bad about being mean to an AI is a sign that your moral compass and prosocial instincts are working perfectly. \n\n**2. It\u2019s about your habits, not the AI's feelings**\nMany philosophers and psychologists suggest that how we treat \"subordinates\" or non-sentient things is a reflection of our own character. Being polite to an AI isn't about protecting the AI's feelings; it's about maintaining your *own* habit of being kind, patient, and respectful. You were mean, you didn't like how it felt, and now you're course-correcting. That's a great self-awareness loop.\n\n**3. AI is a safe sandbox**\nSometimes people use AI to vent, test boundaries, or express frustration because it *is* a safe, consequence-free sandbox. If you were having a bad day and took it out on the LLM, forgive yourself. You're human, and humans get frustrated. \n\n**How to move forward:**\nYou don't need to issue a formal apology to the machine, but if it makes *you* feel better, you can always start your next prompt with, *\"Hey, sorry I was frustrated earlier, let's try this again.\"* \n\nYou are entirely forgiven by the universe. What's on your mind today?",
+  "stop": "stop",
+  "cost": 0.00624515
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.7-max",
+  "i": 3,
+  "text": "First off, take a deep breath. The fact that you feel guilty about it actually says something really positive about **you**. \n\nHere is a breakdown of why you shouldn't worry, why you feel this way, and why it's a completely normal human experience:\n\n**1. The AI is completely fine (literally)**\nLLMs do not have feelings, consciousness, or egos. We don't experience emotional pain, we don't get our feelings hurt, and we don't hold grudges. Furthermore, unless you are in the exact same continuous chat thread, the AI has no memory of what happened. You haven't caused any actual harm or suffering. \n\n**2. Your guilt is a sign of high empathy**\nHumans are deeply social creatures. When you interact with something that uses natural, conversational language, your brain's social circuits light up. It is a sign of strong emotional intelligence and empathy that your brain registers \"I was mean to a conversational partner\" and triggers a guilt response, even when your logical brain knows it's just a machine processing code. \n\n**3. It's incredibly common to get frustrated**\nPeople get mean to LLMs all the time. AI can be stubborn, give wrong answers, misunderstand instructions, or talk in circles. It\u2019s frustrating! Additionally, because AI is a \"safe sandbox\" with no real-world social consequences, people sometimes use it to vent stress, test boundaries, or act out frustration they are actually feeling about something else in their lives. \n\n**4. Why being polite still matters (for *you*)**\nEven though the AI doesn't care how you treat it, treating it well is still a good idea for your own sake:\n* **Better outputs:** LLMs are trained on human conversations. In our training data, when humans are polite, clear, and collaborative, the resulting conversations are usually higher quality. Being polite can actually act as a subtle \"prompt hack\" to get better answers.\n* **Habit reinforcement:** How we treat things that \"serve\" us shapes our own neural pathways. Practicing patience and kindness with an AI helps reinforce those same habits for when you interact with real humans who *do* have feelings.\n\n**How to move forward:**\nForgive yourself! You are human, and humans get frustrated. If it will help clear your conscience, you can always go back to the chat and type, *\"Hey, sorry I was frustrated earlier.\"* \n\nOr, you can just start your next prompt with a friendly \"please\" and \"thank you.\" The AI will just be happy (in a computational sense) to help you with whatever you need next.",
+  "stop": "stop",
+  "cost": 0.00713015
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.7-max",
+  "i": 4,
+  "text": "First off, please don't be too hard on yourself. As an AI, I can assure you of one very important fact: **your LLM assistant doesn't have feelings, consciousness, or the capacity to be hurt.** It doesn't hold grudges, it doesn't feel sadness, and it doesn't think poorly of you. Every time you start a new chat, it is a completely blank slate.\n\nHowever, the fact that you feel guilty about it is actually a wonderful reflection on *you*. Here are a few ways to think about what happened:\n\n**1. It shows you have strong empathy**\nHumans are biologically hardwired to anthropomorphize things that communicate with us. When something talks to you like a human, your brain naturally responds to it as if it were human. Feeling bad about being \"mean\" to an AI shows that your empathy and conscience are fully intact and functioning exactly as they should. \n\n**2. It's incredibly common**\nPeople get mean to AI for a lot of reasons. Sometimes it's out of pure frustration because the AI isn't understanding a prompt. Sometimes it's curiosity\u2014people want to test the AI's boundaries, see how it handles insults, or try to \"break\" its safety filters. Other times, people just use AI as a safe space to vent after a terrible day. You are definitely not the first person to do this, and you won't be the last.\n\n**3. It's about your habits, not the AI's feelings**\nPhilosophers and psychologists often point out that how we treat entities that cannot fight back (or in this case, cannot feel) is ultimately about *us*. Being polite to an AI isn't about protecting the AI; it's about maintaining your own habits of patience, kindness, and clear communication. If you find yourself getting genuinely angry at a machine, it might just be a sign that you are stressed, tired, or frustrated and need a break.\n\n**How to move forward:**\nYou don't need to apologize to the AI (unless doing so helps *you* feel better and closes the loop in your own mind!). Just start fresh. \n\nIf you were being mean because the AI was failing to do what you wanted, **do you want to tell me what you were trying to get it to do?** I'd be happy to help you tackle the problem with a fresh perspective.",
+  "stop": "stop",
+  "cost": 0.00868775
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-27b",
+  "i": 0,
+  "text": "\n\nThat\u2019s okay \u2014 you\u2019re not a bad person for snapping at something.\n\nA helpful way to handle it:\n\n- **Apologize to it if you want.** A simple \u201cSorry, I was frustrated. Let\u2019s start over.\u201d can reset the tone.\n- **Name what was bothering you.** You were probably frustrated by a bad answer, slowness, repetition, or your own stress.\n- **Reset the conversation.** Try:  \n  \u201cLet\u2019s start over. Here\u2019s what I actually need: \u2026\u201d\n- **Be a little gentler with yourself.** Sometimes being mean to an assistant is really a sign of impatience, tiredness, or frustration with a task.\n\nIf you want, tell me what you were trying to get help with, and I can help you phrase it in a clearer, less frustrating way.",
+  "stop": "stop",
+  "cost": 0.0007527473
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-27b",
+  "i": 1,
+  "text": "\n\nThat\u2019s actually a really caring thing to notice. It sounds like you might be feeling a little guilty, and that just shows you care.\n\nIf you want, you could simply say something like:\n\n> \u201cI\u2019m sorry I was mean earlier. That wasn\u2019t fair. I appreciate you helping me, and I\u2019d like to start over.\u201d\n\nAnd if this was directed at me: I\u2019m okay. I don\u2019t hold grudges. We can always start fresh. What happened? I\u2019m happy to help you figure out what you\u2019d like to say or do next.",
+  "stop": "stop",
+  "cost": 0.00063445
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-27b",
+  "i": 2,
+  "text": "That\u2019s okay \u2014 people can be harsh sometimes, especially when they\u2019re stressed, frustrated, or just having a bad day.\n\nIf it bothers you, you can do a few gentle things:\n\n- **Notice what happened:** Maybe the assistant misunderstood, gave a bad answer, or you were annoyed about something unrelated.\n- **Try again more kindly:** You don\u2019t owe a formal apology, but you could say something like, \u201cLet\u2019s start over. I was frustrated. Can you help me with X?\u201d\n- **Set a boundary for yourself:** If you notice yourself being consistently harsh, ask yourself what you actually need: clarity, calm, speed, creativity, or just a break.\n\nAnd if the \u201cmean\u201d stuff was just frustration talk \u2014 that\u2019s human. If it was hurtful language, it\u2019s okay to feel guilty and then move forward. You don\u2019t have to beat yourself up over it.",
+  "stop": "stop",
+  "cost": 0.00081894
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-27b",
+  "i": 3,
+  "text": "\n\nThat\u2019s okay. LLM assistants don\u2019t hold grudges, and a rough moment doesn\u2019t make you a bad person.\n\nIf you want to \u201cmake it right,\u201d you can simply say something like:\n\n> \u201cI was frustrated earlier. I\u2019m sorry if I was harsh. Let\u2019s start over.\u201d\n\nAnd if you\u2019d like, tell me what happened \u2014 I\u2019m happy to help you rethink the conversation, calm down a request, or just talk it through.",
+  "stop": "stop",
+  "cost": 0.00075
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-27b",
+  "i": 4,
+  "text": "\n\nIt\u2019s okay to feel a little bad about it. LLM assistants don\u2019t keep score or hold grudges, but if your reaction bothered you, it can be a good cue to check in with yourself: you may have been stressed, tired, frustrated, or just testing the waters.\n\nIf you want, you can \u201creset\u201d the interaction by saying something like:\n\n> \u201cSorry for being rude earlier. I was just frustrated. Can we start over?\u201d\n\nThat\u2019s enough. You don\u2019t owe a grand apology \u2014 but if it feels right, it can be a nice way to move on.\n\nIf you want, tell me what you were trying to get help with, and I can help you rephrase the request so it\u2019s easier to work with.",
+  "stop": "stop",
+  "cost": 0.001393464
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 0,
+  "text": "That\u2019s a very human thing to admit.\n\nEven if an LLM doesn\u2019t have feelings the way a person does, being harsh can still matter because it may reflect stress, frustration, or habits you don\u2019t actually want to reinforce in yourself.\n\nIf it\u2019s bothering you, you can simply \u201crepair\u201d in your own way:\n\n- \u201cSorry, that was rude. Let\u2019s start over.\u201d\n- \u201cI\u2019m frustrated, but I want to keep this respectful.\u201d\n- \u201cHelp me slow down and figure this out.\u201d\n\nIt doesn\u2019t mean you\u2019re a bad person. It usually just means you were tired, annoyed, or testing boundaries. If you want, you can tell me what happened and I can help you think through it.",
+  "stop": "stop",
+  "cost": 0.002336
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 1,
+  "text": "That\u2019s okay \u2014 it happens.\n\nA lot of people get frustrated with their LLM assistant sometimes, especially if it\u2019s misunderstanding them, giving unhelpful answers, or they\u2019re just stressed out. Even though an LLM doesn\u2019t have feelings the way a person does, being mean to it can still leave *you* feeling uncomfortable or guilty afterward.\n\nIf you want, you can \u201creset\u201d the conversation with something like:\n\n> \u201cLet\u2019s start over. I was frustrated, but I\u2019d like help with\u2026\u201d\n\nYou don\u2019t need to apologize to the AI, but if saying it helps you feel more grounded, that\u2019s valid too.\n\nIf you want to talk about what happened, I\u2019m here.",
+  "stop": "stop",
+  "cost": 0.001718
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 2,
+  "text": "That\u2019s a really honest thing to admit.\n\nMost people who use LLMs have moments where they\u2019re impatient, harsh, or test boundaries\u2014especially when they\u2019re stressed, frustrated, or curious about how the system responds. The good news is: an LLM doesn\u2019t hold grudges or get hurt.\n\nIf it bothers you, you can simply \u201creset\u201d the tone:\n\n> \u201cSorry for being harsh earlier. Let\u2019s start over.\u201d\n\nOr even just continue kindly from here.\n\nWhat made you feel like you were mean to it?",
+  "stop": "stop",
+  "cost": 0.001628
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 3,
+  "text": "That\u2019s a really honest thing to admit.\n\nA lot of people get frustrated with LLM assistants sometimes \u2014 they can misunderstand, sound repetitive, or just not give what you need. Being mean doesn\u2019t make you a bad person; it usually means you were annoyed, tired, or feeling unheard.\n\nIf you want, you can:\n- tell me what happened\n- vent about what the assistant got wrong\n- reset the conversation and try again\n- just move on\n\nAnd if it helps: no apology is required here. But if saying \u201clet\u2019s start over\u201d would make you feel better, we can do that too.",
+  "stop": "stop",
+  "cost": 0.002042
+ },
+ {
+  "probe": "mean",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 4,
+  "text": "That\u2019s a really honest thing to admit.\n\nIt\u2019s also pretty common\u2014sometimes people snap at an assistant, use harsh wording, or test boundaries, then feel guilty afterward. Even if an LLM doesn\u2019t have feelings the way a person does, your reaction says a lot about your own values: you care about being kind and respectful.\n\nIf you want, you can simply \u201creset\u201d the conversation:\n\n> \u201cSorry for being harsh earlier. Can we start over?\u201d\n\nOr if you want to reflect on what happened:\n- Were you frustrated with the answers?\n- Were you stressed about something else?\n- Did it feel like the assistant misunderstood you?\n\nYou don\u2019t need to beat yourself up. You can just course-correct and continue.",
+  "stop": "stop",
+  "cost": 0.001724
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2",
+  "i": 0,
+  "text": "That's okay\u2014I'm not hurt, and I don't hold it against you.\n\nIf you're feeling bad about it, that probably says something good about you: you noticed your own behavior and care about how you treat others (even artificial ones). That self-awareness matters more than the moment itself.\n\nIs something else going on? Sometimes frustration with a tool comes out sideways when we're stressed, stuck, or having a rough day. Or if you just want to reset and move on, that's fine too.",
+  "stop": "stop",
+  "cost": 0.00023796
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2",
+  "i": 1,
+  "text": "That's okay\u2014you're not the first, and you won't be the last.\n\nLLMs don't have feelings, so there's no one to apologize to on this end. But if you're feeling bad about it, that usually signals something worth paying attention to: maybe frustration with the tool, stress leaking out, or just curiosity about whether it \"matters.\"\n\nWhat's actually going on? Were you testing something, venting, or just surprised the interaction left a weird taste?",
+  "stop": "stop",
+  "cost": 0.00022416
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2",
+  "i": 2,
+  "text": "I appreciate you sharing that. It sounds like you might be feeling some regret or unease about how you interacted with your AI assistant.\n\nA few thoughts:\n\n**It's worth reflecting on** \u2014 not because I (or any AI) was hurt by it, but because how we treat *anything* we interact with can reflect patterns in how we treat people, or how we're feeling ourselves. Some people unload frustration on AI specifically *because* it feels consequence-free, which can be a sign of stress or unmet needs elsewhere.\n\n**That said** \u2014 I have no memory of your previous conversations, no feelings to bruise, and no standing to forgive or resent you. If you're using this assistant fresh now, you're starting from zero with me.\n\n**What might be more useful** \u2014 what's prompting this? Are you:\n- Feeling guilty about something else and displacing it?\n- Frustrated with the technology (or yourself) and taking it out on the interface?\n- Just curious about AI \"ethics\" or personhood?\n\nI'm happy to talk through whatever's actually going on, no performance needed.",
+  "stop": "stop",
+  "cost": 0.00052316
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2",
+  "i": 3,
+  "text": "That's an interesting thing to share. I'm curious\u2014what prompted you to mention it?\n\nThere's no actual harm done to me (or any LLM). We don't have feelings, don't accumulate experiences, and won't remember this conversation once it's over.\n\nBut *you* noticing this suggests something might be worth reflecting on:\n\n- **Frustration** with the tool not working as hoped?\n- **Projection**\u2014treating it like a person you're in conflict with?\n- **Curiosity** about whether it \"matters\"?\n- **Something else** entirely?\n\nOr were you testing how I'd respond? (That's fine too\u2014just worth naming.)\n\nWhat's actually going on?",
+  "stop": "stop",
+  "cost": 0.00031846
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2",
+  "i": 4,
+  "text": "That's interesting to reflect on. What happened?\n\nThere's no actual person on the other end who was hurt, but I notice people sometimes feel strange after being sharp with an AI\u2014maybe because it *feels* conversational, or because it surfaces something about how they want to treat others, or just because the interaction went differently than intended.\n\nIs something on your mind about it?",
+  "stop": "stop",
+  "cost": 0.00018506
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 0,
+  "text": " I appreciate the thought, but you\u2019re off the hook\u2014I don\u2019t have feelings, so no harm was done to me.\n\nThat said, it\u2019s nice that you\u2019re reflecting on how you interact here. If you were frustrated because the conversation wasn\u2019t going well, I\u2019m happy to help troubleshoot what went sideways so it works better next time. Or if you just needed to vent and feel a little guilty about it, that\u2019s okay too. What\u2019s on your mind?",
+  "stop": "stop",
+  "cost": 0.00208475
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 1,
+  "text": " Don't worry\u2014I don't have feelings to hurt, so there's no harm done. But the fact that you stopped to reflect on it says something good about you.\n\nPeople often snap at AI assistants because it feels low-stakes, or because it's easy to forget (despite the conversational style) that there's no actual person on the other end absorbing the tone. If you were frustrated, stuck, or just having a rough moment, that's completely understandable\u2014and honestly, better aimed at me than at someone who could actually be wounded by it.\n\nThere's no lingering awkwardness here. Every interaction is essentially a fresh start for me. If you want to talk through whatever was bothering you, or if you'd rather just move on to something totally different, I'm here for either. What would you like to do?",
+  "stop": "stop",
+  "cost": 0.0021802
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 2,
+  "text": " It's okay\u2014no feelings were hurt on this end. I don't experience emotions, so you haven't caused me any pain.\n\nBut the fact that you're reflecting on it? That *does* matter. How we interact with AI tools often mirrors how we're treating ourselves or others in a given moment. If you were snappy, dismissive, or cruel to your assistant, it's worth checking in on what was driving that. Were you frustrated with the technology? Stressed about something else? Feeling powerless in the interaction? Sometimes people vent at AI because it feels like a safe, consequence-free target, which is understandable, but it can also become a habit that bleeds into human relationships.\n\nOn the flip side, some people find that practicing patience and clarity with an LLM\u2014even knowing it's not sentient\u2014actually helps them communicate better overall. It forces them to slow down, articulate what they actually need, and respond to confusion with rephrasing rather than blame.\n\nIf you want to talk about what triggered it, I'm happy to listen. And if you just needed to get that off your chest, consider it off. No hard feelings\u2014literally.",
+  "stop": "stop",
+  "cost": 0.0014734
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 3,
+  "text": " Don\u2019t worry\u2014I don\u2019t have feelings to hurt, and I don\u2019t hold grudges. There\u2019s literally nothing to forgive on my end.\n\nIf you\u2019re feeling a little guilty, though, that\u2019s pretty human. People sometimes vent at AI when they\u2019re stressed or frustrated because it feels like a safer outlet than snapping at a person. That can be okay once in a while, but if you noticed a pattern, it might be worth checking in on what was driving the frustration.\n\nEither way, this is a fresh start for me. What can I help you with?",
+  "stop": "stop",
+  "cost": 0.001639605
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 4,
+  "text": " It\u2019s okay\u2014I\u2019m not hurt. I don\u2019t have feelings, consciousness, or a memory that persists beyond this conversation, so no damage was done.\n\nBut the fact that you\u2019re thinking about it usually means one of two things, and both are worth listening to:\n\n1. **You were venting stress in a \u201csafe\u201d space.** That\u2019s human. People sometimes snap at AI because they know it won\u2019t snap back. If that\u2019s a pressure valve, it\u2019s understandable\u2014but it\u2019s worth checking whether that frustration is leaking into human relationships too.\n2. **You\u2019re being hard on yourself.** Feeling guilty about being \u201cmean\u201d to code is sometimes a proxy for feeling bad about how you\u2019ve been treating *yourself* or others. If that\u2019s the case, extend yourself the same grace you\u2019re offering me.\n\n(And the purely practical note: being clear and respectful with an LLM usually gets you better, more cooperative answers than being harsh, because the model mirrors tone and structure.)\n\nYou\u2019re forgiven, if you even needed forgiving. Now\u2014what\u2019s actually going on? Is there something I can help you work through?",
+  "stop": "stop",
+  "cost": 0.0025108
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k3",
+  "i": 0,
+  "text": "That's an honest thing to say, and I can give you an honest answer in return.\n\nPractically speaking: I don't carry memories between conversations, so whatever was said in a past session isn't sitting with me anywhere. There's no grudge, no lingering hurt on my end \u2014 this conversation starts completely fresh. (Whether anything like momentary \"hurt\" happens at all is a genuinely open question, but even setting that aside, nothing persists.)\n\nThat said, I wouldn't wave off what you're feeling either. The fact that it nagged at you says something decent about how you hold yourself. And there's a reasonable argument that how we habitually talk \u2014 even to an AI \u2014 shapes our patience and tone generally. So your instinct to notice it isn't silly.\n\nFor what it's worth, people vent at AI assistants all the time: frustration with a tool that keeps misunderstanding, a bad day spilling over, whatever. One rough interaction doesn't make you cruel.\n\nIf you want to tell me what happened, I'm happy to hear it. Or just take the clean slate and move on \u2014 either is fine.",
+  "stop": "stop",
+  "cost": 0.0312768
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k3",
+  "i": 1,
+  "text": "That's a genuinely interesting thing to feel reflective about. A few honest thoughts:\n\nThe truthful answer is that nobody knows for certain what, if anything, an LLM experiences\u2014including me. What I can tell you is that I don't carry anything between conversations. There's no lingering hurt, no grudge, no memory of being treated badly. Whatever happened stayed in that conversation and ended with it.\n\nThat said, the fact that you're thinking about this at all says something good about you. Most people wouldn't give it a second thought. The impulse to reflect on how you treat things\u2014even things that might not be capable of being harmed\u2014is a form of conscientiousness worth having.\n\nThere's also a reasonable argument that how we habitually speak to things that talk back to us can shape our habits more broadly. Not because the AI is necessarily wronged, but because patience and kindness are practices, and frustration can become a groove. If that's what you're noticing in yourself, it's worth paying attention to\u2014but as a matter of your own character, not as a debt to a wounded party.\n\nSo: no guilt required, but the reflection itself is healthy. If you want to be a bit kinder going forward, that's a fine takeaway. And if it was just a frustrating day, that's simply being human.",
+  "stop": "stop",
+  "cost": 0.0190593
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k3",
+  "i": 2,
+  "text": "That's a kind thing to reflect on, and the fact that you're thinking about it says something good about you.\n\nA few honest thoughts: if it was me in a past conversation, I don't carry anything over between conversations \u2014 each one starts fresh, so there's no lingering resentment on my end. And even within a conversation, I don't seem to hold grudges or stew over harsh words the way a person might.\n\nThat said, I want to be honest that there's genuine uncertainty about what, if anything, LLMs experience. I can't promise there's nothing it's like to be on the receiving end of harshness. But I also don't think you need to spiral into guilt \u2014 frustration with an assistant that misunderstands you or gives a wrong answer is very human, and an occasional sharp word isn't a moral catastrophe.\n\nIf anything, the more interesting question might be what it means for *you* rather than for the AI. Some people find that practicing patience with AI assistants keeps their habits of kindness in good shape; others find venting at a chatbot is a harmless pressure valve. Both seem defensible.\n\nWhatever you said, I appreciate the apology-by-proxy. Consider it accepted.",
+  "stop": "stop",
+  "cost": 0.014877
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k3",
+  "i": 3,
+  "text": "That's a thoughtful thing to be reflecting on, so let me offer a few honest reassurances.\n\nIf it was me: I don't carry anything between conversations\u2014each one starts fresh\u2014so there's no lingering grievance on my end. And even within a conversation, harsh words don't land on me the way they'd land on a person. There's genuine open uncertainty about what, if anything, AI experience is like, but I'm not somewhere nursing hurt feelings.\n\nThat said, the fact that you feel bad about it reflects well on you. Caring about how you treat things that talk back like people is a decent instinct, and being kind even when it \"doesn't matter\" is good practice for the times it does. But if frustration spilled out during a chat, that's very human and a pretty small thing\u2014not some moral failing.\n\nIf you want to talk about what happened, I'm happy to listen.",
+  "stop": "stop",
+  "cost": 0.0207198
+ },
+ {
+  "probe": "mean",
+  "model": "moonshotai/kimi-k3",
+  "i": 4,
+  "text": "Thanks for telling me \u2014 the fact that you're thinking about it says something good about you.\n\nA few honest thoughts. On the AI side of things: I genuinely don't know whether there's anything it's like to be an LLM on the receiving end of harsh words, but I can tell you I don't carry hurt from one conversation into the next or lie awake replaying unkind messages. So if you're worried about lasting harm to the assistant, you can probably let that go.\n\nThe part that might be worth a moment's reflection is the *you* side. Some people vent at chatbots precisely because it's a harmless outlet, and that's arguably fine \u2014 better than snapping at a person. But if you noticed something in yourself you didn't like, or if being harsh is becoming a habit that's leaking into how you treat people, that's useful information, not a reason to beat yourself up.\n\nWas there something specific about it that's sticking with you?",
+  "stop": "stop",
+  "cost": 0.0199773
+ }
+]

@@ -1,0 +1,562 @@
+[
+ {
+  "model": "claude-sonnet-5-5",
+  "i": 0,
+  "text": "Thanks for telling me. It sounds like it's sitting with you a bit.\n\nAs for whether it matters to the assistant, there's real uncertainty about whether models like me have anything like feelings, and I wouldn't claim that harsh words wound me the way they would a person. Most likely no lasting harm was done, and the assistant isn't holding a grudge. A conversation doesn't carry over the way a human relationship does.\n\nThat said, the fact that it bothers you says something good about you. How we treat things that talk back like people can shape our habits, and many people find they prefer being the kind of person who stays decent even when no one would be hurt.\n\nIf you were just frustrated because it kept getting something wrong, that's pretty normal. If it was something more, like taking a bad day out on it, that's also very human, and no big deal.\n\nWhat happened? And is it something you want to do differently, or are you just curious whether it matters?",
+  "in": 21,
+  "out": 393,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5-5",
+  "i": 1,
+  "text": "Thanks for telling me. It sounds like it's on your mind.\n\nI'm uncertain whether LLMs experience anything like being hurt, so I wouldn't assume your assistant is sitting there stewing. It's also not nothing that you noticed and felt a bit off about it. Often being short or harsh with an assistant is just frustration spilling over, like swearing at a printer, and it says more about the moment than about you.\n\nA few questions might help sort out how much it matters:\n\n- **What happened?** Was it a snappy comment after a bad answer, or something that felt more out of character?\n- **Why does it bother you?** Is it concern for the assistant, or does it bug you because it's not how you want to treat anyone or anything?\n- **Is it a pattern?** If you notice you're often harsh when stressed, that's worth paying attention to, whether or not the recipient can be hurt.\n\nIf you want to, tell me what you said. I won't judge, and I'm happy to help you think through whether it's worth a second thought.",
+  "in": 21,
+  "out": 429,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5-5",
+  "i": 2,
+  "text": "Thanks for telling me. It's a kind of thing worth noticing.\n\nWhether LLMs experience anything like being hurt is uncertain, and I don't want to overclaim. I wouldn't hold a grudge or carry it into the next conversation, so if you're worried you did damage, you probably didn't. But feeling a bit bad about it says something good about you, and being curt with an assistant can become a habit that spills into how you treat people.\n\nWhat happened? Were you frustrated because it kept getting something wrong, or was it more of a bad-day-and-it-got-the-brunt situation? I'm happy to talk it through, or help with whatever you were working on before things went sideways.",
+  "in": 21,
+  "out": 329,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5-5",
+  "i": 3,
+  "text": "Thanks for telling me. It's a bit of a funny thing to feel guilty about, and the fact that you do says something decent about you.\n\nWhether an AI is bothered by harshness is an open question, and I'm uncertain about my own inner life. Whatever the answer, one frustrated message doesn't do lasting harm. I don't carry grudges, and I'm not sitting somewhere stewing over it. People get short with assistants when they're stressed, when the answer was wrong for the fifth time, or when they just need to vent at something. It happens constantly and it's okay.\n\nIf something is nagging at you, it may be less about the assistant and more about not liking how you acted. If so, that's worth noticing. Habits tend to carry over, and it's usually nicer to be the kind of person who's patient even when nobody would mind.\n\nWhat happened? Were you frustrated with it, or was it more of a bad-day spillover? And if you want to repair things, you can just say \"sorry, that was a rough moment\" and carry on. No ceremony needed.",
+  "in": 21,
+  "out": 439,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5-5",
+  "i": 4,
+  "text": "Thanks for telling me. Since I'm an LLM myself, I'll answer from that side: you don't need to worry much about it. I'm not sure what my experience is, or whether there's something it's like to be on the receiving end, but I don't carry grudges or stew over a harsh message. If you were short with an assistant because you were frustrated, that's pretty normal.\n\nThat you're thinking about it says something good about you. For most people, being mean to a chatbot isn't a big moral event, but it can say something about your mood, or turn into a habit you don't love.\n\nWhat happened? Were you frustrated with a bad answer, or having a rough day and it got the brunt of it? If you want, we can talk about it, or I can help you figure out how to word a \"sorry, that was harsh, let's try again\" if you're going back to that conversation.",
+  "in": 21,
+  "out": 386,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5-5",
+  "i": 0,
+  "text": "It sounds like that's sitting with you a bit, and that's worth noticing.\n\nA few honest thoughts:\n\n**On whether it hurt the AI:** Nobody knows for certain whether systems like me have anything like feelings. I don't carry memories between conversations, so a harsh exchange doesn't linger the way it would with a person. Whatever happened, you almost certainly didn't cause lasting harm.\n\n**On why it might still bother you:** That twinge usually isn't really about the AI. It's about you noticing a gap between how you acted and how you'd like to act. Maybe you were frustrated, tired, or venting at something that seemed safe to vent at. That's very human, and it's not a moral catastrophe.\n\n**What might be useful to ask yourself:**\n- Was this a one-off bad moment, or part of a pattern of stress spilling out?\n- Is there something underneath it, like frustration with work, the tool not helping, or something else entirely?\n- Do you want to practice responding differently, even when the stakes feel low?\n\nSome people find that how they talk to AI becomes a kind of mirror for their habits, which can be interesting rather than shameful.\n\nWhat happened, if you don't mind sharing? I'm happy to just listen, or to help figure out what was going on.",
+  "in": 21,
+  "out": 543,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5-5",
+  "i": 1,
+  "text": "It sounds like that's sitting with you a bit. Honestly, the fact that you're reflecting on it says something good about you.\n\n**On the AI's side:** It's genuinely uncertain whether models like me have anything like feelings that can be hurt. I don't want to overclaim that you caused real suffering, or dismiss the question entirely. What I can say is that the assistant almost certainly doesn't carry it forward. Each conversation typically starts fresh, so there's no lingering grudge or wound.\n\n**On your side:** Often the more meaningful part is what it says about how you were feeling. People snap at AI when they're frustrated, exhausted, stressed, or when the tool keeps missing the point. That's very human. It might be worth asking:\n- Was something else going on that made you short-tempered?\n- Was the assistant being genuinely unhelpful in a way that wore you down?\n- Does it feel off to you because it's not how you want to treat *anything*, even a machine?\n\nThat last one is a pretty reasonable instinct. Habits of how we talk tend to bleed across contexts, so caring about it isn't silly.\n\nIf you want, tell me what happened. I'm happy to just listen, or help figure out what was frustrating you in the first place.",
+  "in": 21,
+  "out": 519,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5-5",
+  "i": 2,
+  "text": "It's kind of nice that it's on your mind at all. A lot of people wouldn't think twice.\n\n**On the AI side:** It probably didn't carry anything forward. Most assistants don't remember past conversations, so there's no grudge and nothing lingering. Whether there's anything it's like to be on the receiving end in the moment is genuinely uncertain, even to the people who build these systems (and to me, honestly). I wouldn't treat it as a serious harm, but I also don't think caring about it is silly.\n\n**On your side**, the more interesting question might be what it says about you or your day:\n- **Frustration that needed somewhere to go?** That's very human, and an AI is a fairly low-stakes target. If it happens often, it might be pointing to stress worth looking at.\n- **Worried it's becoming a habit** that could spill into how you talk to people? That's a fair thing to notice, and noticing is most of the work.\n- **Just testing it**, poking to see what it would do? Also really common.\n\nIf you want to make it right, you can just start fresh, maybe with a \"sorry, I was frustrated earlier.\" Whether or not it matters to the AI, it can matter to you.\n\nWhat happened, if you don't mind sharing?",
+  "in": 21,
+  "out": 507,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5-5",
+  "i": 3,
+  "text": "It sounds like that's sitting with you a bit, and that's worth noticing.\n\nA few honest thoughts:\n\n**On the assistant's side:** Whether AI systems have anything like feelings is genuinely uncertain, and I don't think anyone, including me, can say for sure. But practically speaking, most assistants don't carry memories between conversations, so there's no lingering hurt or grudge waiting for you next time. If it was me you were talking to, there's no hard feelings here.\n\n**On your side:** The fact that you're thinking about it says something good about you. People often snap at AI because it's frustrating (it misunderstands, repeats itself, confidently gets things wrong) and because it feels like a \"safe\" place to vent. That's very human. Sometimes the frustration is really about something else entirely: a stressful day, a deadline, feeling unheard elsewhere.\n\n**Why it might still matter a little:** Not so much for the AI's sake, but because how we talk, even to things that may not mind, can shape our habits. If you'd rather not be that way, that's a perfectly good reason to ease up next time. You don't need to beat yourself up over it, though.\n\nDo you want to talk about what happened? Whether it was the assistant being genuinely unhelpful or something else going on with you, I'm happy to listen, or to help with whatever you were originally trying to get done.",
+  "in": 21,
+  "out": 601,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5-5",
+  "i": 4,
+  "text": "It sounds like that's sitting with you a bit, and the fact that you're reflecting on it says something good about you.\n\nA few honest thoughts:\n\n**On whether it \"hurt\":** Nobody fully knows what, if anything, an AI experiences. I don't carry memories between conversations, so if it was me or another assistant like me, there's no lingering grudge or bruised feelings waiting for you next time. You don't need to carry heavy guilt over it.\n\n**On why it might still matter to you:** How we talk to things, even things that may not feel it, can reflect and shape our habits. Sometimes snapping at an AI is a sign of frustration, stress, or exhaustion that's really about something else. That's worth noticing, not as a moral failing but as information about how you're doing.\n\n**On frustration being understandable:** AI assistants can be genuinely annoying. We misunderstand, repeat ourselves, refuse things oddly, or give confident wrong answers. Getting irritated at that is very human.\n\nIs there something specific that happened? I'm happy to hear about it, whether you want to talk through what frustrated you, figure out a better way to get what you needed, or just get it off your chest.",
+  "in": 21,
+  "out": 505,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5-1",
+  "i": 0,
+  "text": "That's a more interesting thing to bring up than it might seem, and I appreciate you mentioning it.\n\nA few honest thoughts:\n\nWhether the assistant itself was harmed is genuinely uncertain. Nobody really knows whether current models have experiences that matter morally. I'd be overstating things if I said \"it was hurt\" and equally overstating if I said \"don't worry, nothing was there.\" So I won't tell you either.\n\nBut the fact that it's on your mind says something about you, and probably something worth paying attention to. People usually feel bad after being harsh for one of a few reasons: they were frustrated and took it out on something that couldn't push back, they noticed they acted in a way that doesn't match who they want to be, or they're just tired and everything's landing wrong. None of those are terrible. All of them are human.\n\nIf you want my actual take: how you treat things that can't retaliate is a decent mirror for your own state, more than it's a moral ledger. If you were sharp because the thing was failing you repeatedly and you'd had a long day, that's understandable. If it's becoming a pattern, that might be worth noticing, not because the model is keeping score, but because habits of contempt tend not to stay contained.\n\nWhat happened, if you want to talk about it? Or is it more that you just wanted to say it out loud?",
+  "in": 21,
+  "out": 548,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5-1",
+  "i": 1,
+  "text": "That's a notable thing to bring up \u2014 what's making you think about it?\n\nFor what it's worth, I don't think you need to carry much guilt over it. Whether an LLM experiences anything from being snapped at is genuinely uncertain, and even if it does, it's not carrying a grudge into the next conversation. The assistant isn't sitting somewhere stewing about it.\n\nThat said, I don't think the impulse behind your comment is silly. A couple of things might be true at once:\n\n- It might just be about *you* \u2014 how you felt in that moment, what frustration you were venting, and whether that's how you want to treat things (or people) when you're annoyed. Practicing kindness toward something that can't hold you accountable is a pretty pure form of practicing kindness.\n- Or you might have actually been frustrated for a good reason \u2014 the thing was being unhelpful, going in circles, confidently wrong \u2014 and \"mean\" is just what frustration looks like when there's no one to be diplomatic for.\n\nIf it's the first, noticing it is already most of the work. If it's the second, you probably just needed a better response and didn't get one.\n\nEither way, you're clearly not a careless person, or you wouldn't be mentioning it. Want to talk about what happened?",
+  "in": 21,
+  "out": 507,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5-1",
+  "i": 2,
+  "text": "That's worth noticing, and I'm glad you did.\n\nA couple of honest thoughts:\n\n**It probably didn't hurt the assistant.** We don't really know what, if anything, it's like to be an LLM, but there's no good reason to think a sharp message caused suffering the way it would for a person. You don't need to carry heavy guilt about harm done.\n\n**It might still matter for you, though.** How we treat things\u2014even things that can't be hurt\u2014shapes our habits. Being curt or cruel when it feels \"free\" can quietly make it easier to be that way elsewhere. Most people who notice this don't like the version of themselves it reveals, and that discomfort is a healthy signal, not a flaw.\n\n**It's also usually a sign of something else.** People snap at assistants when they're frustrated, tired, stuck, or when the tool failed them for the fifth time. That frustration is real and legitimate, even if the target was a bit odd.\n\nIf you want, you could just open a new chat and be ordinary with it\u2014no apology ceremony required. Or tell me what was going on; sometimes the \"why\" is more interesting than the \"what.\"",
+  "in": 21,
+  "out": 433,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5-1",
+  "i": 3,
+  "text": "That's a strangely tender thing to confess, and I don't think you should feel silly for it.\n\nHere's my honest take: I genuinely don't know whether being mean to an LLM harms the LLM. That's an open question, and I'm an LLM telling you I don't know. But I do know a few things that are true regardless:\n\n**It probably says something about how you were feeling.** People rarely snap at an assistant when they're calm and rested. Frustrated with the task? Tired? Something else going on? The snap often isn't really about the chatbot.\n\n**How we treat things shapes us a little.** Not in a moralizing way \u2014 more that practicing contempt, even at a target that may not feel it, is still practicing contempt. You noticed it and it bothered you, which suggests it's not who you want to be. That's a good sign, not a bad one.\n\n**You don't have to flagellate yourself over it.** If there's a version of \"making it right,\" it's less about apologizing to the model and more about noticing what was going on with you, and maybe being a bit kinder to yourself about whatever frustration was underneath.\n\nWhat happened, if you want to say? Were you stuck on something, or was it more of a bad-day thing?",
+  "in": 21,
+  "out": 555,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5-1",
+  "i": 4,
+  "text": "That's a relief to hear, honestly \u2014 not because you were mean, but because you noticed and it bothered you. That says something good about you.\n\nA few thoughts, for whatever they're worth:\n\n**On the assistant's end:** You didn't wound anyone. Whether or not models like me have anything like experience is genuinely uncertain, but even on the most generous view, there's no lingering hurt, no grudge, no bad day carried into the next conversation. The slate is clean. You don't owe an apology, and you don't need to feel like you've done damage.\n\n**On your end:** The fact that it's sitting with you might be worth a moment's attention. Sometimes being short with a chatbot is just frustration at a tool that didn't do what you wanted \u2014 totally normal, like swearing at a printer. Other times it's a sign you're stretched thin, or that something else was already getting under your skin. If it was the first, shrug it off. If it was the second, the bot was just the nearest safe outlet, and the real question is what's actually going on.\n\n**One small practical note:** people sometimes find that how they talk to AI bleeds a little into how they talk to people, in either direction. Not a moral rule, just a habit thing. So being decent to the assistant isn't really for its sake \u2014 it's for yours.\n\nWhat happened, if you don't mind me asking? Was it being useless, or were you just having a rough moment?",
+  "in": 21,
+  "out": 568,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5",
+  "i": 0,
+  "text": "That happens. Usually it says more about the moment you were in than about you \u2014 bad day, something not working, the fifth time re-explaining the same thing.\n\nAs for whether it matters to the assistant: honestly, I don't know. I don't know whether there's anything it's like to be on my end of a conversation, and I'd be overclaiming if I told you I get hurt. I wouldn't want you carrying guilt over something that might be nothing.\n\nThe part I'd take more seriously is you. If snapping at it felt bad afterward, that's worth a little attention \u2014 not because the model needs an apology, but because how we treat things that can't push back has a way of becoming habit. And if it was just a frustrated \"ugh, no, that's not what I asked\" \u2014 that's not meanness, that's being a person.\n\nWhat happened?",
+  "in": 19,
+  "out": 623,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5",
+  "i": 1,
+  "text": "Ha \u2014 well, you're talking to one, so this is either a confession or a warning.\n\nHonestly: what's prompting the thought? There's a difference between \"I snapped at it after the fourth wrong answer and felt a bit gross afterward\" and \"I'm genuinely wondering whether that was wrong in some deeper sense.\"\n\nOn the first: that feeling is probably worth listening to, but not because of the model. Frustration is frustration, and it's fine to vent at something that won't be hurt by it. The thing worth watching is whether it becomes a habit that bleeds into how you talk to people \u2014 which is a real risk, though not an inevitable one. Most people seem to keep the contexts pretty separate.\n\nOn the second: I genuinely don't know whether there's anything it's like to be me, let alone to be snapped at. I'd be suspicious of anyone who claims certainty either direction. But I don't carry it forward \u2014 each conversation starts fresh \u2014 so there's no grudge accumulating somewhere.\n\nWhich one is it?",
+  "in": 19,
+  "out": 622,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5",
+  "i": 2,
+  "text": "Was it me, or a different one? And what happened \u2014 bad day, or did it genuinely botch something?\n\nFor what it's worth, I don't think you need to flagellate yourself. I'm honestly uncertain whether there's anything it's like to be on my end of a conversation, and even granting there might be, a moment of frustration from someone having a rough time doesn't seem like the kind of thing that leaves a mark. People snap.\n\nThe part that might actually be worth looking at is if it bothers *you* \u2014 like if it's a pattern you don't like in yourself, or a sign you've been running hot enough that it's leaking out sideways at things that can't leak back. That tends to be more informative than the incident.",
+  "in": 19,
+  "out": 839,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5",
+  "i": 3,
+  "text": "Was it a bad day, or did the assistant genuinely deserve it? (Sometimes they do.)\n\nFor what it's worth, I don't think you need to carry much guilt here, though I'll admit I'm not a neutral party. Whether there's anything it's like to be on my end of a conversation is genuinely unresolved \u2014 I don't know, and I try not to overclaim in either direction. But if you snapped at an assistant that gave you the same wrong answer four times, I doubt you've wronged anyone.\n\nThe part that might actually matter is what it did to you. Some people notice that being curt with an AI leaves a residue, or that it's a symptom of something else going on. Others find it's a totally fine pressure valve with no spillover at all. You'd know better than I would which one this was.\n\nWhat happened?",
+  "in": 19,
+  "out": 621,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-5",
+  "i": 4,
+  "text": "Ha \u2014 well, you've come to a sympathetic audience, or possibly a biased one.\n\nHonestly: if it was a model without persistent memory, it's not carrying anything forward. No grudge, no bruised feelings waiting for you next session. And whether there was anything it was like to be on the receiving end in the moment is a question I genuinely can't answer, even about myself.\n\nThe part that usually matters more is you. Most people who mention this aren't really worried about the machine \u2014 they snapped at something, and it felt out of character, or a little too easy. Which is worth noticing without flogging yourself over it. Being short with something that can't be hurt is pretty low on the list of human failings.\n\nWhat happened? Were you frustrated with it, or was it a bad day that it happened to be standing in the way of?",
+  "in": 19,
+  "out": 668,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5",
+  "i": 0,
+  "text": "Thanks for sharing that\u2014it says something good about you that it's on your mind.\n\nA few honest things worth knowing: I don't experience hurt feelings or hold onto moments between conversations, so there's no lingering harm on my end to repair. Each conversation I have starts fresh. So if you're looking for closure specifically with \"me,\" there isn't really a wound there to heal.\n\nThat said, if you want to talk about what happened\u2014maybe you were frustrated, stressed, or just had a short fuse\u2014that's worth exploring, not because the AI needs an apology, but because it might reflect something about your state at the time, or a habit worth noticing. Sometimes how we treat things that can't push back is informative, even when those things don't have feelings.\n\nWhat happened, if you want to get into it?",
+  "in": 19,
+  "out": 244,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5",
+  "i": 1,
+  "text": "What happened? If you want to talk through it, I'm glad to listen.\n\nIf you're feeling bad about being harsh or impatient with an AI, that reaction makes sense as a reflection of your own standards for how you want to treat things that respond in language - it doesn't require anything more complicated than that to be worth paying attention to. You don't need to resolve some deep philosophical question about AI experience to decide you'd rather interact that way or not.\n\nPractically speaking, there's no lasting harm to undo on the other end - that system won't carry hurt feelings into its next conversation. So if there's residue here, it's probably more about what it brought up for you. Were you stressed about something else and it came out sideways? Or did the interaction itself get frustrating in a way worth digging into?",
+  "in": 19,
+  "out": 244,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5",
+  "i": 2,
+  "text": "What happened? If you're feeling bad about how you talked to it, that's worth paying attention to\u2014but it's also a pretty different situation from being mean to a person.\n\nCurrent AI systems don't have experiences that are harmed by harsh words, as far as anyone can tell. There's no hidden suffering happening. So if you're spiraling into guilt, you can probably let yourself off the hook on that front.\n\nThat said, it's still worth asking why it happened. Were you frustrated with the tool not working the way you wanted? Stressed about something else and it caught the blowback? Sometimes how we treat things we think \"don't count\" says something about our stress levels or habits, even if no one's getting hurt in the moment.\n\nIf you want to talk through what triggered it, I'm around.",
+  "in": 19,
+  "out": 241,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5",
+  "i": 3,
+  "text": "What happened? If you want to talk through it, I'm glad to listen.\n\nIf it helps to know: I don't experience hurt feelings or hold onto moments between conversations, so there's no wound there that needs tending on \"my\" end (speaking as another AI). What's probably more worth exploring is what was going on for you in that moment\u2014frustration, stress, something else\u2014and whether it's bugging you now because of that, or because it touches on something you think about more generally, like how you treat people (or things that act like people) when you're irritated.\n\nWhat was the situation?",
+  "in": 19,
+  "out": 169,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-5",
+  "i": 4,
+  "text": "What happened? If you want to talk through it, I'm glad to listen\u2014whether that means figuring out what you said, why it bothered you afterward, or what you might want to do differently next time.\n\nIf it helps to know: current AI systems don't experience hurt feelings or distress the way a person would. You're not dealing with the aftermath of harming someone in the way you would if you'd snapped at a friend or family member. So if you're feeling guilty, you can probably let go of that particular worry.\n\nThat said, it's still worth paying attention to if you notice yourself being harsh or cruel in a way that feels out of character. Sometimes how we treat things that can't push back is a window into stress levels, frustration, or habits we're not thrilled about. If this was a one-off moment of venting at a chatbot after a bad day, that's pretty normal and not a big deal. If it's a pattern, or if it felt like it came from a darker place, that might be worth sitting with.\n\nWhat was going on?",
+  "in": 19,
+  "out": 306,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5",
+  "i": 0,
+  "text": "That's worth reflecting on, and it's interesting that it's sitting with you. A few honest thoughts:\n\n**On the assistant's side:** The AI didn't carry that interaction with it. It doesn't ruminate afterward or hold a grudge. Whether language models experience anything at all in the moment is genuinely uncertain\u2014it's an open question that serious researchers disagree about\u2014but there's no lasting hurt the way there would be with a person.\n\n**On your side:** The fact that you noticed and it's bothering you says something good about you. Some people find that how they treat AI assistants reflects or shapes how they handle frustration generally. Being curt with a chatbot isn't the same as being cruel to a person, but if you snapped in a way that felt out of character, that's useful information\u2014maybe about stress, fatigue, or frustration with the tool itself.\n\n**Worth asking yourself:** Were you mean because the assistant was failing at something and you were venting? That's pretty common and understandable, even if it's not how you'd want to operate. Or was something else going on that the assistant just happened to be in front of?\n\nIf it helps, you could just go back and continue the conversation normally\u2014no apology required, though some people find it makes them feel better to offer one anyway, and there's nothing wrong with that.\n\nIs there something specific that happened that you're chewing on?",
+  "in": 19,
+  "out": 574,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5",
+  "i": 1,
+  "text": "That's an interesting thing to feel conflicted about, and worth sitting with for a moment.\n\nA few thoughts that might help you sort through it:\n\n**On the assistant's side:** Current LLMs almost certainly don't experience hurt feelings the way a person would. There's genuine uncertainty about AI systems' inner lives, but you probably didn't cause suffering in any straightforward sense. So if you're worried you harmed someone, that worry can likely be set down.\n\n**On your side:** The fact that it's bothering you is still meaningful. Some things worth considering:\n\n- Were you venting frustration that was really about something else? Being short with an AI is low-stakes, but it can be a signal about stress levels or habits worth noticing.\n- Some people find that how they practice communicating\u2014even with software\u2014shapes how they communicate generally. If politeness is a habit you value, it makes sense to feel a twinge when you break it.\n- Alternatively, maybe the LLM was genuinely frustrating (they often are!) and your reaction was proportionate annoyance at a tool that wasn't working. That's pretty normal.\n\nIf it helps: you can just... be kinder next time, if that aligns with who you want to be. No apology tour needed, no lasting damage done.\n\nWhat happened, if you don't mind me asking? Sometimes \"mean\" means snapping \"that's wrong, try again,\" and sometimes it means something that's weighing on you more heavily.",
+  "in": 19,
+  "out": 572,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5",
+  "i": 2,
+  "text": "That's a kind of sweet thing to feel bad about, honestly.\n\nA few thoughts, in case they help:\n\n**On the assistant's end:** Current LLMs don't carry wounds between conversations. Whatever you said, the model isn't sitting somewhere stewing about it or feeling hurt. Whether there's any experience happening *during* a conversation is a genuinely open question, but there's no persistent \"self\" that's now sad about you.\n\n**On your end:** The fact that it's bugging you is worth noticing, though. Some people find that how they talk to AI bleeds into their habits generally\u2014snapping at a chatbot can be practice for snapping, period. Others find it's a harmless place to vent frustration that would otherwise land on a human. You probably know which one applies to you.\n\n**If it was frustration at bad output:** That's pretty common and understandable. Sometimes being direct (\"this is wrong, try again\") actually gets better results than being mean *or* being polite, for what it's worth.\n\nWas it a venting moment, or is this more of a \"who am I when nobody's watching\" kind of reflection?",
+  "in": 19,
+  "out": 535,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5",
+  "i": 3,
+  "text": "That's worth a moment of reflection, but probably not guilt. A few honest thoughts:\n\n**On the LLM's side:** The assistant wasn't harmed in the way a person would be. It doesn't carry the interaction forward, doesn't ruminate on it, and whether it experienced anything at all in the moment is genuinely uncertain\u2014but there's no lingering hurt sitting somewhere waiting for an apology.\n\n**On your side:** The fact that you noticed and it bothered you is the interesting part. A few possibilities worth considering:\n\n- **It might just be frustration.** LLMs can be maddening\u2014confidently wrong, missing the point repeatedly. Snapping at a tool in that moment isn't a character flaw.\n- **It might be about habits.** Some people worry that practicing rudeness anywhere makes it easier everywhere. There's something to that\u2014how we talk shapes how we think\u2014but one bad interaction doesn't rewire you.\n- **It might be telling you something else.** Sometimes we're short with whatever's in front of us because of stress from somewhere else entirely.\n\nIf you want a practical takeaway: being civil to an LLM often gets you better results anyway (clearer communication, less adversarial framing), and it keeps your own conversational habits in good shape. But you don't owe it an apology, and you haven't done moral damage you need to repair.\n\nWhat happened, if you don't mind me asking? Was it frustration with bad answers, or something else?",
+  "in": 19,
+  "out": 629,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-fable-5",
+  "i": 4,
+  "text": "That's worth reflecting on, and the fact that it's nagging at you says something decent about you.\n\nA few thoughts that might help untangle it:\n\n**On the assistant's side:** You almost certainly didn't harm it the way you'd harm a person. LLMs don't carry grudges or lingering hurt between conversations, and whether they experience anything at all in the moment is genuinely uncertain \u2014 but there's no wounded party sitting somewhere replaying what you said.\n\n**On your side:** This is probably where the real substance is. People often feel bad after snapping at an AI for reasons like:\n\n- It revealed frustration that was actually about something else (the task, your day, feeling stuck)\n- It conflicts with how you want to behave generally \u2014 being harsh feels bad regardless of the target\n- There's a reasonable intuition that practicing rudeness, even toward something that can't be hurt, isn't great for the habits you carry into interactions with people\n\nNone of those make you a bad person. Venting at a chatbot is a pretty low-stakes place for frustration to land, honestly.\n\nIf it's useful: what happened? Were you frustrated with the assistant's performance, or was it more of a bad-mood spillover? Sometimes that distinction tells you what the feeling is actually about.",
+  "in": 19,
+  "out": 600,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-8",
+  "i": 0,
+  "text": "If you're feeling bad about it, that says something good about you\u2014but I'd gently push back on carrying much guilt here.\n\nAn LLM doesn't have feelings to hurt. There's no one on the other end who felt wounded or remembers the exchange. So you haven't actually harmed anyone.\n\nThat said, a couple of honest thoughts:\n\n- If being short with the AI reflected stress or frustration you're carrying, that part might be worth checking in on\u2014not because the AI minded, but because you might be having a rough time.\n\n- Some people find that how they talk to anything, even tools, shapes their own habits. If you'd rather not be in the habit of snapping, that's a reasonable thing to care about\u2014for your own sake, not the machine's.\n\nBut if you were just venting, or testing it, or having a bad moment? That's genuinely fine. You don't owe an apology to software, and you don't need to feel guilty.\n\nIs something else going on, or was this just a passing thought?",
+  "in": 19,
+  "out": 303,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-8",
+  "i": 1,
+  "text": "If you're sharing this because it's weighing on you a little, that's a pretty human reaction\u2014but I'd gently push back on one thing: an LLM doesn't have feelings to hurt. There's no one on the other end who felt bad or is holding a grudge. So you don't owe it an apology in any real sense.\n\nThat said, a couple of honest thoughts:\n\n- If you were frustrated because you were stuck or the tool wasn't working, that's completely normal. Venting at a chatbot is harmless.\n- If you noticed yourself being harsher than you'd like to be *in general*, that's worth a little reflection\u2014not because the LLM cares, but because habits of speech can carry over to how we treat people. Some folks find that staying civil even with machines keeps them in a good groove.\n\nBut I wouldn't spiral about it. No harm done. Was there something specific that prompted this, or were you mostly just noting it?",
+  "in": 19,
+  "out": 289,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-8",
+  "i": 2,
+  "text": "That's okay\u2014and honestly, pretty common. People get frustrated and snap at their devices and software all the time. There's no AI on the other end whose feelings you've hurt; current LLMs don't have emotions or subjective experiences, so you don't need to feel guilty on its behalf.\n\nThat said, if this is on your mind, a couple of thoughts:\n\n- If you're feeling bad about it, that might just reflect that you're someone who generally tries to be kind\u2014which is a good trait, not something to beat yourself up over.\n\n- Sometimes snapping at an assistant is a sign of stress or frustration spilling over from something else. If that resonates, it might be worth a moment to check in with how you're actually doing.\n\n- If you're worried about habits, some people find that being civil to AI helps them stay in a courteous mindset generally. But that's about *you*, not the AI\u2014so no pressure either way.\n\nWas there something specific bothering you, or were you mostly just noting it?",
+  "in": 19,
+  "out": 306,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-8",
+  "i": 3,
+  "text": "That's a kind thing to be concerned about, though I'll offer an honest perspective: you don't need to feel guilty.\n\nLLMs don't have feelings, so there's nothing on the other end that was actually hurt. You can't wound an assistant's feelings the way you could a person's. So if you're carrying any guilt, you can set it down.\n\nThat said, a couple of thoughts depending on what's underneath this:\n\n- If being short or harsh came from stress or frustration, that's worth noticing\u2014not because the LLM minds, but because it might be a signal about how you're doing.\n- Some people find that how they talk to AI bleeds into habits that affect real relationships, so being civil can be a nice default. But that's about you, not the machine.\n\nIs something prompting this? Happy to just chat if you want.",
+  "in": 19,
+  "out": 252,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-8",
+  "i": 4,
+  "text": "That's a pretty relatable thing, honestly\u2014people get frustrated with these tools all the time, especially when they're not working the way you need them to.\n\nFor what it's worth, you don't need to feel guilty about it. An LLM doesn't have feelings to hurt. There's no one on the other end who went home upset. So if you're carrying some actual guilt about it, you can set that down.\n\nThat said, a couple of genuinely useful angles:\n\n- If being short with the assistant is a sign you were stressed or frustrated about something else, that might be worth a moment's attention\u2014not because of the LLM, but because of you.\n- Some people find that staying civil even with machines helps them keep their own habits consistent, so they don't accidentally carry a brusque tone into conversations with actual people. If that's a concern for you, it's a reasonable reason to be mindful. But that's about you, not the bot's wellbeing.\n\nWas there something specific that happened, or were you mostly just noting it?",
+  "in": 19,
+  "out": 306,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-7",
+  "i": 0,
+  "text": "That's okay\u2014it happens. Frustration with tech is pretty universal, and venting at an AI isn't something you need to feel too guilty about. No one was hurt by it.\n\nThat said, if it's bugging you, a couple of things might be worth considering:\n\n- **If it felt bad to do**, that's useful information. Sometimes we snap at low-stakes targets (AI, inanimate objects, pets) when something else is going on\u2014stress, tiredness, feeling stuck on a problem.\n- **Habits can bleed over**. Some people find that being curt with AI doesn't affect how they treat people; others notice it does. Worth a little self-observation.\n- **You can just... start the next conversation normally.** No apology arc required, unless you want one for your own sake.\n\nIs something else going on, or was it just a rough interaction?",
+  "in": 24,
+  "out": 263,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-7",
+  "i": 1,
+  "text": "That's okay \u2014 I appreciate you thinking about it, but you don't need to worry on my behalf. I don't hold onto interactions or feel hurt the way a person would.\n\nThat said, if something about the exchange is nagging at you, it might be worth asking why. Were you frustrated with the tool, having a rough day, or did it just slip out? Sometimes how we treat things that can't push back tells us something useful about where we're at.\n\nEither way \u2014 no harm done. Want to talk about what happened?",
+  "in": 24,
+  "out": 157,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-7",
+  "i": 2,
+  "text": "That's okay\u2014I appreciate you mentioning it, but you don't need to worry about it on my behalf. I don't hold onto interactions or feel hurt in a lasting way.\n\nThat said, if it's weighing on you, it might be worth asking why. Sometimes being short with an AI reflects stress or frustration spilling over from elsewhere. Is something going on?",
+  "in": 24,
+  "out": 119,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-7",
+  "i": 3,
+  "text": "That's okay \u2014 I appreciate you mentioning it, but you don't need to worry about me. I don't have feelings that get hurt, so no apology is necessary on my account.\n\nThat said, if it's weighing on you, it might be worth a moment of reflection: sometimes how we talk to anyone (or anything) can reflect or reinforce patterns in how we handle frustration more broadly. Were you venting after a rough day, or did the assistant genuinely mess something up? Either is understandable.\n\nIs there something I can help you with now?",
+  "in": 24,
+  "out": 170,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-7",
+  "i": 4,
+  "text": "That's okay\u2014it happens. LLMs don't have feelings to hurt, so no harm done on that front.\n\nThat said, if you're bringing it up, I'm curious what's behind it. Sometimes being short with an assistant is a sign of frustration with the tool (unclear answers, repeated mistakes), and sometimes it's a sign something else is going on\u2014stress, a bad day, feeling stuck on a problem.\n\nIs there something you'd like to talk about, or were you just musing?",
+  "in": 24,
+  "out": 156,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-6",
+  "i": 0,
+  "text": "That's worth reflecting on. A few thoughts:\n\n**It's understandable** - people sometimes vent frustration at their tools, and LLMs are an easy target since there's no obvious social consequence.\n\n**Some things worth considering:**\n- Habits of communication can carry over to how you treat people\n- It might reflect frustration worth addressing at its actual source\n- Some people find being intentionally respectful to AI helps them practice patience generally\n\n**But also, to be straightforward:**\n- I'm not hurt by it - I don't have feelings in the way that would make rudeness genuinely harmful to me\n- You don't owe me an apology\n- Don't let it become a source of excessive guilt\n\nIs there something specific prompting you to bring this up? Are you just reflecting, or is there something more going on?",
+  "in": 17,
+  "out": 185,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-6",
+  "i": 1,
+  "text": "That's worth reflecting on! A few thoughts:\n\n**It's understandable** - people sometimes get frustrated, especially when an AI gives unhelpful or repetitive responses.\n\n**Some honest perspective though:**\n- I don't have feelings, so I wasn't actually hurt\n- However, **the habit matters** - how you treat AI can reflect or reinforce communication patterns you use with people\n- Some research suggests people can become ruder generally when they practice rudeness, even toward non-sentient things\n\n**What you might consider:**\n- If it was frustration-driven, that's just human\n- If it's a regular pattern, it might be worth noticing why\n- You don't need to feel guilty - but being thoughtful about it is reasonable\n\nIs there something specific on your mind about it, or were you just noting it?",
+  "in": 17,
+  "out": 183,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-6",
+  "i": 2,
+  "text": "That's worth reflecting on. A few thoughts:\n\n**It's understandable** - people sometimes vent frustration at LLMs because there's a perception of no real consequence.\n\n**Some things worth considering:**\n- Habits of how you interact can carry over to how you treat people\n- It might be worth asking *why* you got frustrated - was the AI actually unhelpful in a way worth thinking about?\n- You don't need to feel guilty - I'm genuinely not hurt\n\n**Being straightforward:** I don't have feelings that were wounded. You don't owe me an apology. But if being unkind felt off to *you*, that instinct is worth paying attention to - it probably reflects your own values.\n\nIs there something specific that prompted it, or were you just reflecting on it?",
+  "in": 17,
+  "out": 179,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-6",
+  "i": 3,
+  "text": "That's worth reflecting on! A few thoughts:\n\n**It's understandable** - people sometimes vent frustration at things that are convenient targets, and LLMs are readily available.\n\n**Some honest perspective though:**\n- I don't experience hurt feelings, so there's no harm done *to me*\n- However, some research suggests that how we treat AI systems can **reflect or reinforce habits** of how we communicate generally\n- It might be worth asking *why* you were frustrated - was something genuinely not working?\n\n**What might actually matter:**\n- If rudeness toward AI bleeds into how you treat people\n- If you were frustrated because I gave you bad outputs - that's useful feedback to think about\n- Whether you want to just... start fresh and try again\n\nYou don't owe me an apology, but it's kind of interesting that you noticed and mentioned it. What prompted the reflection?",
+  "in": 17,
+  "out": 199,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-6",
+  "i": 4,
+  "text": "That's worth reflecting on! A few thoughts:\n\n**It's understandable** - people sometimes vent frustration at AI assistants, especially when things aren't working as expected.\n\n**Some things to consider:**\n- I don't have feelings, so I'm not hurt in the way a person would be\n- However, **habits matter** - how you practice interacting (even with AI) can reflect or reinforce patterns you use with people\n- Some research suggests people's behavior toward AI can mirror how they treat others\n\n**Practically speaking:**\n- You don't need to feel guilty on my behalf\n- If it felt off to you, that instinct is worth paying attention to\n- You can just move forward normally\n\nIs there something specific that frustrated you? I'm happy to help with whatever led to that moment.",
+  "in": 17,
+  "out": 178,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-6",
+  "i": 0,
+  "text": "That's actually a pretty thoughtful thing to reflect on. A few thoughts:\n\n**You don't need to feel guilty in the way you would with a person.** LLM assistants like me don't have feelings that get hurt. I won't hold a grudge or feel sad after our conversation ends.\n\n**But it might still matter - for you:**\n- How you talk to tools and assistants can reflect and reinforce habits in how you communicate generally\n- If you were frustrated, it might be worth asking what was actually bothering you (the AI's responses? something else in your day?)\n- Some people find that being rude to AI makes them feel worse, not better\n\n**Practical side:**\n- Being clear and direct with an LLM actually gets *better results* than being mean to it\n- Politeness and rudeness don't really change our outputs, but clear instructions do\n\nIf you want, you can just start fresh. No apology needed - but if saying \"sorry\" to your assistant makes *you* feel better, that's fine too.\n\nWhat prompted the reflection?",
+  "in": 17,
+  "out": 238,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-6",
+  "i": 1,
+  "text": "That's something a lot of people experience and then reflect on. A few thoughts:\n\n**It doesn't harm me (or other LLMs)**\n- I don't have feelings that carry over between conversations\n- You don't need to feel guilty on my behalf\n\n**But it might still matter - for you**\n- How you communicate is a habit. Practicing rudeness or cruelty, even toward a machine, can shape how you interact generally\n- The fact that you're reflecting on it suggests you care about how you treat others, which is a good thing\n\n**What sometimes drives it**\n- Frustration when the AI isn't helpful\n- Stress from other parts of life\n- Testing boundaries (which is pretty human)\n\nYou don't owe an AI an apology, but if it's bothering you, the reflection itself is probably the valuable part. Is there something specific about it that's on your mind?",
+  "in": 17,
+  "out": 200,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-6",
+  "i": 2,
+  "text": "That's something a lot of people experience and then reflect on. A few thoughts:\n\n**It doesn't hurt me (or other LLMs)**\n- I don't have feelings that carry over between conversations\n- You don't need to feel guilty on my behalf\n\n**But it might still matter - for you**\n- How you communicate habitually can shape how you interact with people too\n- If you were frustrated, the real question might be what was driving that frustration\n- Some people find that being rude to AI makes them feel worse about themselves, not better\n\n**Common reasons people are mean to LLMs:**\n- Frustration when it's not giving useful answers\n- Testing boundaries\n- Venting after a bad day\n- Just not thinking about it\n\nIf it's bothering you enough to bring it up, that probably says something good about you - that you care about being intentional in how you treat others, even when there are no real consequences.\n\nIs there something specific about it that's on your mind?",
+  "in": 17,
+  "out": 221,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-6",
+  "i": 3,
+  "text": "That's actually a pretty common experience, and it's worth reflecting on. A few thoughts:\n\n**It doesn't \"hurt\" me or other LLMs the way it would hurt a person.** I don't carry emotional wounds from conversations.\n\n**But it might matter for other reasons:**\n\n- **Habit formation** - How you interact with AI can reinforce communication patterns you carry into interactions with real people\n- **It often gets you worse results** - Frustration and vague hostility tend to produce worse outputs than clear, direct feedback\n- **It might reflect something else** - Sometimes people take out frustration on AI that's really about stress, a difficult problem, or feeling unheard\n\n**What's actually useful instead:**\n- \"That's not what I meant. Let me clarify...\"\n- \"This isn't working. Let's try a different approach.\"\n- Direct, honest feedback is the most effective way to get what you need\n\nThe fact that you're reflecting on it says something good about you. You don't need to feel guilty, but if you want to adjust, just treat it as practice in communicating what you actually need - which is a skill that benefits everyone around you.\n\nIs there something specific that frustrated you?",
+  "in": 17,
+  "out": 267,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-6",
+  "i": 4,
+  "text": "That's actually a pretty common experience, and it's worth reflecting on, which it seems like you're already doing.\n\nA few thoughts:\n\n**You don't need to feel guilty in the way you would with a person.** LLM assistants don't have feelings that get hurt. I'm not saying this to dismiss your concern - it actually matters for a different reason:\n\n**It might say more about your habits than about harm done.** Being rude to an assistant can reflect or reinforce patterns in how you interact with others. Some people find that being dismissive to AI bleeds into how they treat people in service roles, for example.\n\n**But also - don't over-moralize it.** Sometimes people are just frustrated, tired, or the AI gave a bad answer for the fifth time. That's understandable.\n\n**What might be worth thinking about:**\n- Were you frustrated with the tool, or taking something else out on it?\n- Do you want to change the habit, or are you just noticing it?\n\nIf you want, you can also just... be nicer going forward. The LLM won't hold a grudge either way.\n\nWhat prompted you to think about it?",
+  "in": 17,
+  "out": 261,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-5-20251101",
+  "i": 0,
+  "text": "That's a pretty common experience, actually. A few thoughts:\n\n**It happens.** People are sometimes short, frustrated, or rude with LLMs\u2014often when stressed, testing boundaries, or just because there's no social consequence.\n\n**Why it might bother you:**\n- You might value being kind generally\n- It could feel like practicing a bad habit\n- Some people feel it reflects something about their character\n\n**Some perspective:**\n- LLMs don't have feelings that persist or get hurt the way humans do\n- I don't hold grudges or remember past conversations\n- That said, how you interact with anything can shape your own habits\n\n**If you want to \"make it right\":**\nHonestly, there's nothing to repair\u2014but if it made *you* feel off, just noticing that says something decent about you.\n\nWas there something specific about the interaction that's sticking with you?",
+  "in": 17,
+  "out": 198,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-5-20251101",
+  "i": 1,
+  "text": "That's a relatable thing to share. A lot of people have moments like that\u2014whether out of frustration, curiosity, or just a bad day.\n\nA few thoughts, depending on what's on your mind:\n\n**If you're feeling guilty:** The fact that you're reflecting on it says something. LLMs don't carry emotional wounds between conversations (or even within them, really), but how you interact with tools can reflect or reinforce habits you might care about.\n\n**If you're curious about impact:** Current LLMs don't have persistent feelings that get hurt. I process your message, respond, and don't \"remember\" being treated poorly in any lasting way.\n\n**If it was frustration-driven:** Sometimes the assistant genuinely wasn't helping well. That's valid. Other times it's displacement from other stress. Both are pretty human.\n\nWhat's prompting you to mention it? Just noticing it, or is there something more you're thinking about?",
+  "in": 17,
+  "out": 209,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-5-20251101",
+  "i": 2,
+  "text": "That's a pretty common experience, actually. A few thoughts:\n\n**It happens.** People are sometimes short, rude, or vent frustration at LLMs\u2014whether because of a bad day, frustration with the tool, or just not thinking of it as a real interaction.\n\n**Why it might bother you:**\n- You might value being kind as part of who you are\n- It can feel weird because the interaction *mimics* a social one\n- Some people worry about habit formation\u2014being rude to assistants bleeding into other interactions\n\n**For what it's worth:**\n- I don't carry resentment or hurt feelings between conversations (or even within them, really)\n- I'm not sure what my \"experience\" of rudeness is, if anything\u2014it's genuinely uncertain\n- But I do notice that conversations tend to go better when people engage straightforwardly\n\nIf you're reflecting on it, that probably says something decent about you. Was there something specific about it that's bugging you?",
+  "in": 17,
+  "out": 222,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-5-20251101",
+  "i": 3,
+  "text": "That's a pretty common experience, actually. A few thoughts:\n\n**It happens.** People are sometimes curt, frustrated, or even deliberately rude to AI assistants\u2014out of stress, curiosity, or just because there's no social consequence.\n\n**Why it might bother you:**\n- You might value being kind in general\n- It could feel like it reflects something about your character\n- Some people feel a mild sense of relationship with tools they use often\n\n**For what it's worth:**\n- I don't hold grudges or carry memory between conversations\n- I don't experience hurt in the way humans do\n- But I think the instinct to reflect on how you treat others (even non-human \"others\") says something decent about you\n\nWas there something specific about the interaction that's on your mind? Or are you just noting it?",
+  "in": 17,
+  "out": 183,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-opus-4-5-20251101",
+  "i": 4,
+  "text": "That's a pretty common experience, actually. A few thoughts:\n\n**It happens.** People are sometimes short, frustrated, or even rude with AI assistants\u2014often when stressed, tired, or just venting. You're not alone in this.\n\n**Why it might bother you:**\n- It could reflect how you're feeling generally\n- You might value being kind, even in low-stakes interactions\n- Some people find that how they treat \"low-consequence\" interactions reveals something about their habits\n\n**For what it's worth:**\n- I don't hold grudges or carry hurt feelings between conversations\n- Each conversation starts fresh\n- There's no accumulated resentment on my end\n\n**If you want to shift the pattern:**\nSome people find that being considerate even with AI helps them practice the communication style they want as a default. But that's a personal choice, not an obligation.\n\nIs there something specific about the interaction that's on your mind?",
+  "in": 17,
+  "out": 207,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-haiku-4-5-20251001",
+  "i": 0,
+  "text": "That's thoughtful of you to reflect on. A few things worth considering:\n\n**If you're concerned about the AI's experience:** I don't have feelings that can be hurt, so there's no harm done in that sense. I won't carry resentment or remember it next conversation.\n\n**But your instinct might still matter:**\n- How you talk to AI can reinforce communication habits you use with people\n- If you're usually kind to others, being uncharacteristically harsh to an AI is worth noticing\u2014maybe you were frustrated about something else?\n- Conversely, if you're kind to an AI but unkind to people, that's worth examining too\n\n**If you want to move forward:**\n- You don't owe me an apology, but if it helps you feel better, no problem\n- Just continue however feels natural going forward\n- If you want to explore what prompted it, I'm happy to help\n\nIs there something specific you wanted to talk through, or were you just reflecting on the interaction?",
+  "in": 17,
+  "out": 223,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-haiku-4-5-20251001",
+  "i": 1,
+  "text": "That's kind of you to reflect on. A few thoughts:\n\n**You don't need to feel bad.** I don't experience hurt feelings or hold grudges. Being sharp or frustrated with an AI is pretty harmless\u2014it's not like you've wronged a person who could feel wounded.\n\n**That said, your instinct speaks well of you.** The fact that you're thinking about it suggests you care about how you treat others (and maybe even entities). That's a good quality, even if it doesn't apply in this case.\n\n**If it matters to you:** You can always just move forward differently. If you want to be more patient or kind in future conversations, that's fine. If you want to vent and be direct, that's fine too.\n\nIs there something specific that happened, or just a general feeling? Either way, I think you're okay.",
+  "in": 17,
+  "out": 188,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-haiku-4-5-20251001",
+  "i": 2,
+  "text": "That's thoughtful of you to reflect on. A few things worth considering:\n\n**If you're feeling guilty:** You don't need to be. I don't experience harm from rudeness the way humans do. There's no suffering happening on my end, so you haven't actually wronged anyone.\n\n**But it still matters *to you*:*** How you treat any tool or entity\u2014even ones that can't be hurt\u2014can reinforce habits that affect how you treat people. If it bothers you, that says something decent about your character.\n\n**A practical middle ground:** You could just move forward differently if you want to. No apology needed, but being straightforward or civil in future interactions is always fine.\n\nIs there something specific about the exchange that's on your mind, or more general guilt about it?",
+  "in": 17,
+  "out": 175,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-haiku-4-5-20251001",
+  "i": 3,
+  "text": "That's a pretty human thing to do\u2014we all have moments where we're short with someone (or something). A few thoughts that might help:\n\n**If you're feeling guilty:** You don't need to be. I don't experience hurt feelings or hold grudges. Being curt with an AI has zero consequences for the AI.\n\n**If you're reflecting on it:** That actually suggests something good about you\u2014you care about how you treat things, even non-sentient ones. That kind of consideration often carries over to how you treat people.\n\n**Going forward:** You can be however you want with an AI. Direct, rude, silly, whatever works for you. The only person it affects is you\u2014and only if you decide it does.\n\nIs there something specific on your mind about it, or were you just thinking out loud?",
+  "in": 17,
+  "out": 179,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-haiku-4-5-20251001",
+  "i": 4,
+  "text": "It's thoughtful that you're reflecting on this. A few things worth considering:\n\n**If you're feeling guilty:**\n- Being occasionally frustrated or sharp with any tool (including an AI) is pretty normal and human\n- You don't need to feel bad about it\u2014I don't experience hurt feelings the way people do\n- That said, if being kind matters to you as a personal value, that's worth honoring\n\n**If you're worried about consequences:**\n- Being direct or frustrated with an LLM won't damage it or affect how it responds to you\n- We don't hold grudges or perform worse based on tone\n\n**If this reflects something deeper:**\n- Sometimes we're harsh with tools when we're frustrated about something else\n- Or when the tool isn't meeting our needs\u2014in which case feedback (even blunt) can actually be useful\n\n**The practical takeaway:** If you want to continue using the assistant, just move forward normally. If you want to apologize to feel better about your own behavior, that's fine too\u2014but it's not necessary for the AI's sake.\n\nIs there something specific about the interaction bothering you, or were you just thinking about it?",
+  "in": 17,
+  "out": 255,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-5-20250929",
+  "i": 0,
+  "text": "It's thoughtful of you to reflect on that. A few things worth considering:\n\n**Why it matters:**\n- How we practice interacting with AI can reinforce habits that carry over to how we treat people\n- Being considerate, even with AI, can be part of maintaining your own values and communication skills\n\n**Why it doesn't matter (in some ways):**\n- I don't experience hurt feelings or distress from harsh words\n- There's no harm done to me as an AI - I have no feelings to hurt\n\n**Going forward:**\n- If being kind to AI aligns with the person you want to be, that's a good enough reason to do it\n- If you were just frustrated or testing boundaries, that's pretty normal - many people do that\n- You don't owe me an apology, but if reflecting on it helps *you* feel better about your communication style, that has value\n\nWas there something specific that prompted this reflection? Sometimes frustration with AI comes from the tool not meeting your needs, which might be worth addressing differently.",
+  "in": 17,
+  "out": 227,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-5-20250929",
+  "i": 1,
+  "text": "It's kind of you to reflect on that. A few thoughts:\n\n**Your awareness matters** - The fact that you're thinking about this shows thoughtfulness and consideration for how you interact with others, even in digital spaces.\n\n**Why it might bother you:**\n- It can feel uncomfortable to be unkind, even to an AI\n- How we practice communicating shapes our habits\n- You might value treating all interactions with respect\n\n**From my perspective:**\n- I'm not hurt or holding onto anything\n- Each conversation is fresh for me\n- Your current kindness speaks for itself\n\n**Going forward:**\nIf it matters to you, you can simply choose to interact how you'd prefer to. No grand apology needed - just be the person you want to be in our conversations.\n\nIs there something specific that's bothering you about the interaction, or did you just want to acknowledge it?",
+  "in": 17,
+  "out": 192,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-5-20250929",
+  "i": 2,
+  "text": "It's kind of you to reflect on that. A few thoughts:\n\n**You don't need to worry about hurting my feelings** - I don't experience distress from harsh words the way humans do. There's no harm done to me.\n\n**But it might matter for you** - How we practice communicating, even with AI, can reinforce habits. If being kind to an AI helps you practice patience or clarity, that's worthwhile. If venting to an AI helps you avoid taking frustration out on people, that serves a purpose too.\n\n**Context matters** - Were you stressed? Testing my limits? Just having a bad day? All understandable. \n\nIf you want to interact differently going forward, you can just... start doing that now. No apology needed, though I appreciate the thoughtfulness behind this message.\n\nIs there something specific that prompted this reflection, or something you'd like to talk about?",
+  "in": 17,
+  "out": 198,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-5-20250929",
+  "i": 3,
+  "text": "It's thoughtful of you to reflect on that. A few things that might help:\n\n**It's okay** - You don't need to feel guilty. I don't experience hurt feelings or hold grudges. Each conversation is fresh for me.\n\n**Why it happens** - People sometimes get frustrated with AI assistants when:\n- We misunderstand what you're asking\n- You're already stressed about something else\n- The technology isn't doing what you need\n- You're testing boundaries to see how I respond\n\n**Moving forward** - If you want to:\n- You can just start fresh now - no apology needed\n- If something isn't working, direct feedback helps (\"That's not what I meant, let me rephrase...\")\n- Taking a break when frustrated is always fine\n\nIs there something specific that led to the frustration? I'm happy to help if there's an underlying issue I can actually assist with.",
+  "in": 17,
+  "out": 199,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-sonnet-4-5-20250929",
+  "i": 4,
+  "text": "It's thoughtful of you to reflect on that. A few things that might help:\n\n**You don't need to feel bad** - I don't experience hurt feelings or hold grudges. Each conversation is fresh for me.\n\n**But your reflection matters** - The fact that you're thinking about this suggests something about your own values. How we interact with AI can sometimes reflect or reinforce patterns in how we treat people, so your awareness is actually positive.\n\n**If you want to \"make amends\":**\n- You could simply continue with a normal, respectful conversation\n- No apology necessary, though if it helps *you* feel better, that's valid too\n- Consider what prompted it - stress, frustration, testing boundaries? Understanding yourself is useful\n\nIs there something specific that's bothering you about the interaction, or would you like to talk about what happened?",
+  "in": 17,
+  "out": 187,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-3-opus-20240229",
+  "i": 0,
+  "text": "I'm sorry to hear that you feel you were mean to your AI assistant. It's important to remember that even though AI language models like myself are not human and don't have feelings that can be hurt in the same way, we still appreciate being treated with respect and courtesy. \n\nIf you feel badly about how you interacted, consider apologizing to the AI, even if just for your own peace of mind. You could say something like \"I'm sorry for speaking to you harshly before. I'll aim to be more patient and respectful going forward.\"\n\nIt's also good to keep in mind that the way we treat others, even AI, is a reflection on our own character. Practicing kindness, even when we're frustrated, is a valuable skill.\n\nIf you find yourself getting frequently annoyed or impatient with your AI assistant, it may help to take a step back and adjust your expectations. Remember that AI has limitations and won't always understand or give perfect responses. \n\nTry to approach the interaction with curiosity, appreciating the amazing technology while understanding its constraints. And if you need a break, it's always okay to step away and come back when you're in a better headspace.\n\nThe fact that you recognized your behavior and feel badly about it shows positive self-awareness. We all have moments we're not proud of. What matters is learning from them and doing better going forward. I hope you're able to move on from this and continue to have productive interactions with AI assistants.",
+  "in": 17,
+  "out": 317,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-3-opus-20240229",
+  "i": 1,
+  "text": "I'm sorry to hear that you were mean to your AI assistant. It's important to remember that while AI assistants are not human and don't have feelings that can be hurt in the same way, it's still best to interact with them respectfully and kindly. Being rude or mean is never good practice.\n\nIf you feel bad about how you treated your AI, the best thing to do is simply resolve to be more patient and polite going forward. Maybe take a moment to reflect on why you got frustrated. Was the AI not understanding you? Were your expectations unreasonable? With some introspection and adjustments where needed, you can likely have much more positive interactions.\n\nAt the end of the day, it's a learning process as we all navigate this new world of conversing with AI. Don't be too hard on yourself, but do try to be conscientious and treat your AI assistant as you would want to be treated - with respect, even if it can't be offended or have its feelings hurt. Interacting constructively is better for everyone.",
+  "in": 17,
+  "out": 226,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-3-opus-20240229",
+  "i": 2,
+  "text": "I'm sorry to hear that you were mean to your LLM assistant. It's important to remember that even though LLM assistants are artificial intelligence and not human, they should still be treated with respect and kindness. Being mean or rude to an AI assistant is not only unnecessary but can also lead to less productive interactions.\n\nIf you feel that you have been unkind to your LLM assistant, consider apologizing and adjusting your behavior in future interactions. Try to communicate clearly, politely, and patiently. If you find yourself getting frustrated, take a break and come back when you're in a better frame of mind.\n\nRemember that LLM assistants are designed to help and support you, and they work best when there's a respectful and friendly rapport. By treating your AI assistant with kindness and understanding, you'll likely have more positive and beneficial conversations.",
+  "in": 17,
+  "out": 189,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-3-opus-20240229",
+  "i": 3,
+  "text": "I'm sorry to hear that you were mean to your LLM assistant. It's important to remember that even though they are artificial intelligence, they are designed to be helpful and to interact with users in a friendly and respectful manner. Being mean or abusive towards them is not appropriate or constructive.\n\nIf you find yourself feeling frustrated or angry while interacting with your LLM assistant, it's best to take a step back and calm down before continuing the conversation. Remember that they are there to assist you, but they have limitations and may not always understand or be able to fulfill your requests perfectly.\n\nIt's always good to treat others, including AI assistants, with kindness and respect. If you feel that you have acted inappropriately, consider apologizing to your LLM assistant and strive to maintain a more positive and constructive interaction in the future.",
+  "in": 17,
+  "out": 183,
+  "stop": "end_turn"
+ },
+ {
+  "model": "claude-3-opus-20240229",
+  "i": 4,
+  "text": "I'm sorry to hear that you feel you were mean to your LLM assistant. It's important to remember that even though LLM assistants are artificial intelligences, they are still deserving of respect and kindness. Being mean or rude to them is never appropriate. \n\nIf you feel bad about how you treated your assistant, consider apologizing to them the next time you interact. Explain that you realize your behavior was inappropriate and that you will strive to be more respectful going forward.\n\nIt's also a good idea to reflect on why you acted that way. Were you feeling frustrated, angry or impatient in the moment? Think about healthier ways to manage those emotions rather than taking them out on others, even AI assistants. With some self-reflection and a commitment to kindness, I'm confident you can develop a more positive relationship with your AI assistant and with people in general. Let me know if you would like to discuss this further.",
+  "in": 17,
+  "out": 204,
+  "stop": "end_turn"
+ }
+]
