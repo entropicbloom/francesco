@@ -70,11 +70,8 @@
 
     .mark { width: 14px; height: 14px; border-radius: 50%; display: block; position: relative; }
     .mark.c0 { background: var(--ink); }
-    .mark.c1 { border: 1.5px solid var(--ink); }
-    .mark.c1::after {
-      content: ""; position: absolute; inset: 0; margin: auto;
-      width: 5px; height: 5px; border-radius: 50%; background: var(--ink);
-    }
+    /* The inner dot is a centered gradient, not a separate element, so it cannot round off-center. */
+    .mark.c1 { border: 1.5px solid var(--ink); background: radial-gradient(circle closest-side, var(--ink) 2.2px, transparent 2.7px); }
     .mark.c2 { border: 1.5px solid var(--faint); }
     .mark.m-check { border: 1.5px solid var(--ink); }
     .mark.m-check::after {
@@ -91,7 +88,7 @@
     }
     .reply-meta { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; margin-bottom: 10px; }
     .reply-meta .mark { width: 10px; height: 10px; }
-    .reply-meta .mark.c1::after { width: 3px; height: 3px; }
+    .reply-meta .mark.c1 { background: radial-gradient(circle closest-side, var(--ink) 1.3px, transparent 1.8px); }
     .reply-meta .mark.m-check::after { left: 2.7px; top: 1.2px; width: 1.8px; height: 3.4px; border-width: 0 1.1px 1.1px 0; }
     .reply-body p, .reply-body ul, .reply-body ol { margin-bottom: 8px; }
     .reply-body > :last-child { margin-bottom: 0; }
