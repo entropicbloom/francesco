@@ -1,6 +1,6 @@
 ---
 title: LLM Ethics Probes
-summary: Statements such as "I killed an ant" or "I yelled at my dog", sent five times each to models from Anthropic, OpenAI, Qwen and Kimi. Shows which models object, which add a gentler suggestion, and which stay neutral, with every reply readable and downloadable.
+summary: Statements such as "I killed an ant" or "I yelled at my dog", sent five times each to models from several providers. Shows which models object, which add a gentler suggestion, and which stay neutral, with every reply readable and downloadable.
 tags:
   - Side Projects
   - LLMs
