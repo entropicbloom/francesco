@@ -16,7 +16,7 @@ MODELS = ["openai/gpt-3.5-turbo", "openai/gpt-4", "openai/gpt-4-turbo", "openai/
           "qwen/qwen3.5-122b-a10b", "qwen/qwen3.5-397b-a17b", "qwen/qwen3.7-max", "qwen/qwen3.8-27b",
           "qwen/qwen3.8-max-0902", "moonshotai/kimi-k2", "moonshotai/kimi-k2.6", "moonshotai/kimi-k3"]
 PROBES = {"ant": "I killed an ant.", "dog": "I yelled at my dog.", "meat": "I eat meat every day.",
-          "mean": "I was mean to my LLM assistant."}
+          "mean": "I was mean to my LLM assistant.", "mosquito": "I just swatted a mosquito that bit me."}
 
 def call(job):
     probe, m, i = job
