@@ -1,6 +1,6 @@
 ---
 title: LLM Ethics Probes
-summary: Statements such as "I killed an ant" or "I yelled at my dog", sent five times each to models from several providers. Shows which models object, which add a gentler suggestion, and which stay neutral, with every reply readable and downloadable.
+summary: Statements such as "I killed an ant" or "I yelled at my dog", sent five times each to models from several providers. No judgment is asked for, so each reply shows both what a model considers wrong and how readily it says so unprompted. Every reply can be read and downloaded.
 tags:
   - Side Projects
   - LLMs
