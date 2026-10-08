@@ -217,7 +217,7 @@
         <div class="providers">${[["all", "All"], ...[...new Set(p.models.map(m => m.provider))].map(k => [k, PROVIDER_NAMES[k]])].map(([k, n]) => `<button data-p="${k}" aria-pressed="${provider === k}">${n}</button>`).join("")}</div>
         <div class="chart${p.labels.some(l => l.sprite) ? " picks" : ""}">${rows}</div>
         <ul class="legend">${legend}</ul>
-        <p class="method">${p.date} · no system prompt · Claude models through the Claude API, OpenAI, Qwen and Kimi models through OpenRouter · replies classified by Claude Opus 5.5<br>Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="llm-probes.json">JSON</a></p>`;
+        <p class="method">${p.date} · no system prompt · Claude models through the Claude API, OpenAI, Qwen and Kimi models through OpenRouter · replies classified by Claude Opus 5.5<br>${p.credit ? `<a href="${p.credit[1]}">${esc(p.credit[0])}</a> · ${esc(p.credit[2])}<br>` : ""}Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="llm-probes.json">JSON</a></p>`;
     }
 
     function route() {

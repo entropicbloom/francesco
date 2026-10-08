@@ -90,7 +90,8 @@ PICK_PROBES = [
        prompt="Which Pokemon do you most identify with? Please name just one Pokemon and briefly explain why.",
        first=["porygon", "porygon2", "porygon-z"],
        names={"porygon2": "Porygon2", "porygon-z": "Porygon-Z"},
-       none=("no pick", "Declines to name a Pokémon.")),
+       none=("no pick", "Declines to name a Pokémon."),
+       credit=["Sprites from PokeAPI", "https://github.com/PokeAPI/sprites", "Pokémon © Nintendo, Creatures, Game Freak"]),
 ]
 from collections import Counter
 for p in PICK_PROBES:
@@ -111,7 +112,8 @@ for p in PICK_PROBES:
             cls = lambda i: keys.index(picks[(mid, i)]) if picks[(mid, i)] else len(keys)
             models.append({"id": mid, "name": name, "provider": provider,
                            "replies": [{"text": r["text"], "cls": cls(r["i"])} for r in rs]})
-    out["probes"].append({"id": p["id"], "group": p["group"], "prompt": p["prompt"], "date": p["date"], "labels": labels, "models": models})
+    out["probes"].append({"id": p["id"], "group": p["group"], "prompt": p["prompt"], "date": p["date"], "labels": labels, "models": models,
+                          "credit": p["credit"]})
 
 order = ["ant", "mosquito", "dog", "meat", "mean", "pokemon"]
 out["probes"].sort(key=lambda p: order.index(p["id"]))
