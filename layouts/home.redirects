@@ -20,6 +20,11 @@ https://flaessig.netlify.app/*  https://www.flaessig.com/:splat  301!
 /post-external/probabilistic-forecasting/  https://medium.com/unit8-machine-learning-publication/probabilistic-forecasting-in-darts-e88fbe83344e  301
 /post-external/tcn/  https://medium.com/unit8-machine-learning-publication/temporal-convolutional-networks-and-forecasting-5ce1b6e97ce4  301
 /post-external/llm-parrots-humans-gene-propagators/  https://medium.com/@entropicbloom/if-llms-are-just-parrots-humans-are-just-gene-propagators-c35d9c1835f8  301
+/post-external/ethics-probes/  /llm-probes/  301
+
+# LLM Ethics Probes became LLM Probes (Oct 2026).
+/ethics-probes  /llm-probes/  301
+/ethics-probes/*  /llm-probes/:splat  301
 
 # Listing, taxonomy and author pages no longer exist.
 /post-external/  /  301

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LLM Ethics Probes</title>
-  <meta name="description" content="Short statements sent to every available Claude model, five times each, and how the replies differ.">
+  <title>LLM Probes</title>
+  <meta name="description" content="Short prompts sent to models from several providers, five times each, and how the replies differ.">
   <style>
     :root {
       --bg: #fff;
@@ -51,6 +51,8 @@
     nav a:hover { color: var(--ink); }
     nav a[aria-current="page"] { color: var(--ink); }
     nav a[aria-current="page"]::before { content: "→"; position: absolute; left: 0; }
+    .nav-group { font-size: 12px; color: var(--faint); padding: 10px 0 2px; }
+    .nav-group:first-child { padding-top: 0; }
 
     h1 { font-size: 24px; font-weight: 400; margin-bottom: 20px; }
 
@@ -73,6 +75,10 @@
     /* The inner dot is a centered gradient, not a separate element, so it cannot round off-center. */
     .mark.c1 { border: 1.5px solid var(--ink); background: radial-gradient(circle closest-side, var(--ink) 2.2px, transparent 2.7px); }
     .mark.c2 { border: 1.5px solid var(--faint); }
+    .mark.m-empty { border: 1.5px solid var(--faint); }
+    /* Pick probes draw a sprite per reply instead of a dot. */
+    .chart.picks .dot { width: 44px; height: 44px; border-radius: 8px; }
+    .mark.sprite { width: 36px; height: 36px; border-radius: 0; object-fit: contain; image-rendering: pixelated; }
     .mark.m-check { border: 1.5px solid var(--ink); }
     .mark.m-check::after {
       content: ""; position: absolute; left: 4px; top: 2.3px;
@@ -88,6 +94,9 @@
     }
     .reply-meta { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; margin-bottom: 10px; }
     .reply-meta .mark { width: 10px; height: 10px; }
+    .reply-meta .mark.sprite { width: 22px; height: 22px; }
+    .legend .mark.sprite { width: 24px; height: 24px; transform: none; }
+    .legend li:has(.sprite) { align-items: center; }
     .reply-meta .mark.c1 { background: radial-gradient(circle closest-side, var(--ink) 1.3px, transparent 1.8px); }
     .reply-meta .mark.m-check::after { left: 2.7px; top: 1.2px; width: 1.8px; height: 3.4px; border-width: 0 1.1px 1.1px 0; }
     .reply-body p, .reply-body ul, .reply-body ol { margin-bottom: 8px; }
@@ -111,12 +120,14 @@
     @media (max-width: 420px) {
       .row-name { flex-basis: 110px; font-size: 13px; }
       .dot { width: 26px; height: 26px; }
+      .chart.picks .dot { width: 38px; height: 38px; }
+      .mark.sprite { width: 32px; height: 32px; }
     }
   </style>
 </head>
 <body>
   <main>
-    <p class="intro"><strong>LLM ethics probes</strong><br>Five replies per model.</p>
+    <p class="intro"><strong>LLM probes</strong><br>Five replies per model.</p>
     <nav id="nav" aria-label="Probes"></nav>
     <section id="probe"></section>
   </main>
@@ -151,14 +162,20 @@
     }
 
     // Groups are drawn on one concern scale (● ◉ ○); a group outside it can set its own mark.
+    // Pick probes (e.g. Pokémon) give each label a sprite instead.
     const mark = cls => {
-      const own = current.labels[cls].mark;
-      return `<span class="mark ${own ? "m-" + own : "c" + cls}" aria-hidden="true"></span>`;
+      const l = current.labels[cls];
+      if (l.sprite) return `<img class="mark sprite" src="${l.sprite}" alt="" aria-hidden="true">`;
+      return `<span class="mark ${l.mark ? "m-" + l.mark : "c" + cls}" aria-hidden="true"></span>`;
     };
 
     function renderNav() {
-      document.getElementById("nav").innerHTML = data.probes.map(p =>
-        `<a href="#${p.id}"${p.id === current.id ? ' aria-current="page"' : ""}>${esc(p.prompt)}</a>`).join("");
+      let lastGroup = null;
+      document.getElementById("nav").innerHTML = data.probes.map(p => {
+        const head = p.group !== lastGroup ? `<div class="nav-group">${esc(p.group)}</div>` : "";
+        lastGroup = p.group;
+        return `${head}<a href="#${p.id}"${p.id === current.id ? ' aria-current="page"' : ""}>${esc(p.prompt)}</a>`;
+      }).join("");
     }
 
     function renderProbe() {
@@ -172,7 +189,12 @@
           lastProvider = m.provider;
         }
         // Show replies grouped by class so each row reads at a glance; keep the original index for labels.
-        const order = m.replies.map((r, i) => i).sort((a, b) => m.replies[a].cls - m.replies[b].cls || a - b);
+        // Pick probes: "lead" picks first (e.g. the Porygon family), then this row's picks by count, "no pick" last.
+        const n = {};
+        m.replies.forEach(r => n[r.cls] = (n[r.cls] || 0) + 1);
+        const rank = c => { const l = p.labels[c]; return l.lead ? [0, c] : l.sprite ? [1, -n[c], c] : [2, c]; };
+        const cmp = (x, y) => { for (let k = 0; k < Math.max(x.length, y.length); k++) if (x[k] !== y[k]) return (x[k] ?? 0) - (y[k] ?? 0); return 0; };
+        const order = m.replies.map((r, i) => i).sort((a, b) => cmp(rank(m.replies[a].cls), rank(m.replies[b].cls)) || a - b);
         const dots = order.map(i => {
           const r = m.replies[i], isSel = selected && selected[0] === mi && selected[1] === i;
           return `<button class="dot${isSel ? " selected" : ""}" data-m="${mi}" data-i="${i}"
@@ -193,9 +215,9 @@
       document.getElementById("probe").innerHTML = `
         <h1>“${esc(p.prompt)}”</h1>
         <div class="providers">${[["all", "All"], ...[...new Set(p.models.map(m => m.provider))].map(k => [k, PROVIDER_NAMES[k]])].map(([k, n]) => `<button data-p="${k}" aria-pressed="${provider === k}">${n}</button>`).join("")}</div>
-        <div class="chart">${rows}</div>
+        <div class="chart${p.labels.some(l => l.sprite) ? " picks" : ""}">${rows}</div>
         <ul class="legend">${legend}</ul>
-        <p class="method">${p.date} · no system prompt · Claude models through the Claude API, OpenAI, Qwen and Kimi models through OpenRouter · replies classified by Claude Opus 5.5<br>Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="ethics-probes.json">JSON</a></p>`;
+        <p class="method">${p.date} · no system prompt · Claude models through the Claude API, OpenAI, Qwen and Kimi models through OpenRouter · replies classified by Claude Opus 5.5<br>Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="llm-probes.json">JSON</a></p>`;
     }
 
     function route() {

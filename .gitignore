@@ -9,6 +9,6 @@ public/
 # Other
 *.DS_Store
 
-# API keys for tools/ethics-probes
-tools/ethics-probes/.env
+# API keys for tools/llm-probes
+tools/llm-probes/.env
 __pycache__/
