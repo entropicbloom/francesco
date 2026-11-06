@@ -5,7 +5,7 @@ Built with **Hugo** and a small set of custom templates in `layouts/`. There is 
 
 - Hugo version is pinned in `netlify.toml` (`HUGO_VERSION`). Match it locally.
 - Deploy: Netlify auto-builds from `main`. Production runs `hugo --gc --minify -b $URL`; deploy previews additionally pass `--buildFuture` so future-dated content shows up in PR previews only.
-- Consciousness essays and talks live on entropicbloom.com, not here. This site keeps only CV-level consciousness work (the intentionality paper, the ARC-INTREPID PhD entry, Qualiaheads).
+- Consciousness essays and talks live on entropicbloom.com, not here. This site keeps only CV-level consciousness work (the intentionality and cortex papers, the ARC-INTREPID PhD entry, Qualiaheads).
 
 ## Local dev
 
