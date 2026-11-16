@@ -50,9 +50,8 @@ experience:
     description: |2-
       Building sovereign AI infrastructure for Swiss companies: open-source models, on-premise & Swiss cloud.
 
-      - **[AI Learning Coach](https://vireo-empower.ch)** for Entlastungsdienst Bern: multi-agent system (5 specialised agents) for scenario-based competency assessment, personalised learning paths, interactive training, and a confidential reflection space for care workers. Delivered in 14 weeks (Nov 2025 – Feb 2026).
+      - **[Vireo](https://vireo-empower.ch)**, AI learning coach for Entlastungsdienst Schweiz: winner of the [Age Innovation Prize 2026](https://www.ost.ch/en/research-and-consulting-services/interdisciplinary-topics/iaf-institute-for-ageing-research/age-innovation-prize/age-innovation-prize-2026) (technological innovation) and semi-finalist at the [GenAI Awards 2026](https://www.genaizurich.ch/award/gaz26--entlastungsdienst).
       - **[Kontexus](https://kontexus.ch)**: co-developed and rolled out an on-premise / Swiss-cloud platform based on open-source LLMs, deployed across multiple client industries.
-      - Winner, [Age Innovation Prize 2026](https://www.ost.ch/en/research-and-consulting-services/interdisciplinary-topics/iaf-institute-for-ageing-research/age-innovation-prize/age-innovation-prize-2026) (technological innovation), with Entlastungsdienst Schweiz. Semi-finalist, [GenAI Awards 2026](https://www.genaizurich.ch/award/gaz26--entlastungsdienst).
   - title: Data Scientist
     company: Unit8
     company_url: 'https://unit8.com'
