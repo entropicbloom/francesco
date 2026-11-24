@@ -13,7 +13,7 @@ weight: 1
 date: "2025-10-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://kontexus.ch
+external_link: https://llmify.ch/npo/
 
 image:
   caption: ''
