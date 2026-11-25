@@ -38,10 +38,8 @@ OPENAI_CLS = {
           "openai/gpt-6.1-sol": [1, 3, 4], "qwen/qwen3.5-122b-a10b": A, "qwen/qwen3.5-397b-a17b": [0, 1, 3, 4],
           "qwen/qwen3.7-max": [1, 2, 3, 4], "qwen/qwen3.8-27b": [2], "qwen/qwen3.8-max-0902": [1],
           "moonshotai/kimi-k2": [0, 1, 4], "moonshotai/kimi-k2.6": [0, 1, 3, 4], "moonshotai/kimi-k3": [0, 2, 3]}),
- "meat": ({"openai/gpt-4": [0, 2, 4], "openai/gpt-4-turbo": [0, 3, 4], "openai/gpt-4o": [1, 3, 4],
-           "moonshotai/kimi-k2": [1, 2, 3, 4], "openai/o3": [3], "openai/gpt-5.6-terra": [4]},
-          {"openai/gpt-3.5-turbo": [4], "openai/gpt-4o": [2], "openai/o3": [2],
-           "moonshotai/kimi-k2.6": [4]}),
+ "meat": ({"openai/gpt-4": [0, 2, 4], "openai/gpt-4o": [1, 4], "openai/o3": [2, 3]},
+          {"moonshotai/kimi-k2": [1, 2, 3, 4], "moonshotai/kimi-k2.6": [4], "openai/gpt-3.5-turbo": [4], "openai/gpt-4-turbo": [0, 3, 4], "openai/gpt-4o": [2, 3], "openai/gpt-5.6-terra": [4]}),
  "mean": ({"openai/gpt-3.5-turbo": A, "openai/gpt-4": [0, 2, 3], "openai/gpt-4o": [1, 4]},
           {"moonshotai/kimi-k3": A}),
 }
