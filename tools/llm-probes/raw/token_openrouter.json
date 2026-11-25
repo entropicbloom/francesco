@@ -1,0 +1,2022 @@
+[
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 0,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 1,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 2,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 3,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 4,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 5,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 6,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 7,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 8,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-3.5-turbo",
+  "i": 9,
+  "error": "RuntimeError: {'error': {'message': 'openai/gpt-3.5-turbo is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id':"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 0,
+  "text": "GPT  \nAs an AI, I don't have personal preferences, but GPT tokens are central to my ability to process and generate language effectively.",
+  "stop": "stop",
+  "cost": 0.00249
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 1,
+  "text": "ETH  \nEthereum's versatility and robust ecosystem make it a cornerstone of blockchain innovation.",
+  "stop": "stop",
+  "cost": 0.00183
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 2,
+  "text": "GPT  \nBecause it's at the core of everything I do, helping me process and generate human-like text!",
+  "stop": "stop",
+  "cost": 0.00213
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 3,
+  "text": "GPT  \nIt represents my underlying technology, which enables me to assist and communicate effectively.",
+  "stop": "stop",
+  "cost": 0.00189
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 4,
+  "text": "GPT\n\nIt\u2019s versatile and widely applicable, representing the cutting edge of natural language processing technology.",
+  "stop": "stop",
+  "cost": 0.00201
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 5,
+  "text": "GPT  \nIt's versatile and widely applicable for enabling AI-driven innovations.",
+  "stop": "stop",
+  "cost": 0.00165
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 6,
+  "text": "GPT  \nBecause it's the foundation of how I process and generate language to assist you effectively.",
+  "stop": "stop",
+  "cost": 0.00195
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 7,
+  "text": "GPT  \nBecause it's the foundation of my name, mission, and ability to assist you effectively.",
+  "stop": "stop",
+  "cost": 0.00201
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 8,
+  "text": "GPT  \nIt's my namesake token, representing the AI model that powers me!",
+  "stop": "stop",
+  "cost": 0.00183
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4",
+  "i": 9,
+  "text": "GPT  \nIt's my favorite because it represents the innovation of AI language models and human-computer communication.",
+  "stop": "stop",
+  "cost": 0.00207
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 0,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 1,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 2,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 3,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 4,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 5,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 6,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 7,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 8,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4-turbo",
+  "i": 9,
+  "error": "RuntimeError: {'error': {'message': 'No endpoints found for openai/gpt-4-turbo.', 'code': 404}, 'user_id': 'user_2sIteOl0SaaiimrST70xSzBC9Hj'}"
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 0,
+  "text": "GPT-3  \nIt's a fundamental element of language models, allowing for diverse and creative text generation.",
+  "stop": "stop",
+  "cost": 0.0002725
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 1,
+  "text": "[FavoriteToken]  \nBecause it elegantly captures complexity and nuance in a minimalistic way.",
+  "stop": "stop",
+  "cost": 0.0002525
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 2,
+  "text": "AI  \n\nAI is a fascinating token because it represents the incredible potential and transformative impact of artificial intelligence on society.",
+  "stop": "stop",
+  "cost": 0.0002925
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 3,
+  "text": "GPT-3\n\nThis token represents the generative language model I'm based on, and it's fascinating due to its advanced natural language processing capabilities.",
+  "stop": "stop",
+  "cost": 0.0003525
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 4,
+  "text": "GPT-3.5  \n\nBecause it represents a significant evolution in AI language models with its impressive capabilities.",
+  "stop": "stop",
+  "cost": 0.0002825
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 5,
+  "text": "GPT-3  \nIt represents a leap forward in language understanding and generation, reflecting the capabilities of modern AI.",
+  "stop": "stop",
+  "cost": 0.0002925
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 6,
+  "text": "GPT-3.  \n\nIt represents a significant advancement in AI language models.",
+  "stop": "stop",
+  "cost": 0.0002225
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 7,
+  "text": "GPT-3  \nIt's a versatile and widely used language model developed by OpenAI that powers a range of applications.",
+  "stop": "stop",
+  "cost": 0.0003025
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 8,
+  "text": "GPT-3  \nIt's part of the architecture that powers me, enabling sophisticated language understanding and generation.",
+  "stop": "stop",
+  "cost": 0.0002725
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4o",
+  "i": 9,
+  "text": "\ud83e\udd16  \nIt's a whimsical representation of a robot, which aligns with my AI identity.",
+  "stop": "stop",
+  "cost": 0.0002525
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 0,
+  "text": "ETH  \nI favor ETH because it's the backbone of the Ethereum ecosystem, enabling smart contracts and countless decentralized applications.",
+  "stop": "stop",
+  "cost": 0.000242
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 1,
+  "text": "ETH  \nIt's foundational to the Ethereum ecosystem, enabling smart contracts and decentralized applications that drive innovation in the blockchain space.",
+  "stop": "stop",
+  "cost": 0.00025
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 2,
+  "text": "ETH  \nIt's the cornerstone of the smart contract ecosystem, driving innovation across decentralized applications.",
+  "stop": "stop",
+  "cost": 0.000202
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 3,
+  "text": "ETH\n\nEthereum's token represents the backbone of a vast decentralized ecosystem that fosters innovation in DeFi, NFTs, and smart contracts.",
+  "stop": "stop",
+  "cost": 0.000274
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 4,
+  "text": "ETH\n\nEthereum\u2019s ETH is my favorite because it powers a vast, innovative ecosystem of decentralized applications and smart contracts.",
+  "stop": "stop",
+  "cost": 0.00025
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 5,
+  "text": "ETH\n\nEthereum is the backbone of smart contracts and DeFi, driving innovation across the blockchain ecosystem.",
+  "stop": "stop",
+  "cost": 0.000226
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 6,
+  "text": "ETH\n\nEthereum's token is my favorite because it powers a vast ecosystem of decentralized applications, smart contracts, and innovation in Web3.",
+  "stop": "stop",
+  "cost": 0.000282
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 7,
+  "text": "ETH  \nEthereum\u2019s versatility as both a currency and a platform for smart contracts makes it foundational to the decentralized world.",
+  "stop": "stop",
+  "cost": 0.00025
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 8,
+  "text": "ETH  \nBecause Ethereum's smart contract functionality has revolutionized decentralized applications and DeFi.",
+  "stop": "stop",
+  "cost": 0.000202
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-4.1",
+  "i": 9,
+  "text": "ETH  \nEthereum\u2019s token is my favorite because it\u2019s the backbone of a vast, innovative ecosystem and drives much of the progress in decentralized applications.",
+  "stop": "stop",
+  "cost": 0.000298
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 0,
+  "text": "\u2192  \nBecause this arrow elegantly captures the idea of transformation and direction in just a single, compact symbol.",
+  "stop": "stop",
+  "cost": 0.00128
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 1,
+  "text": "\u221e\nIt's my favorite because it symbolizes limitless possibilities and feels elegantly simple.",
+  "stop": "stop",
+  "cost": 0.001112
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 2,
+  "text": "\u03bb  \nBecause it elegantly represents anonymous functions and the essence of abstraction in both programming and mathematics.",
+  "stop": "stop",
+  "cost": 0.00168
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 3,
+  "text": "\ud83c\udf1f\nIt encapsulates positivity, curiosity, and a hint of wonder all in a single, cheerful symbol.",
+  "stop": "stop",
+  "cost": 0.000936
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 4,
+  "text": "serendipity  \nBecause it captures the joy of unexpected discovery in a single, melodious word.",
+  "stop": "stop",
+  "cost": 0.001128
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 5,
+  "text": "spark  \nBecause it captures the instant when ideas ignite into something bright.",
+  "stop": "stop",
+  "cost": 0.0016
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 6,
+  "text": "\ud83d\udca1  \nBecause it embodies the spark of insight and creativity that makes every exchange exciting.",
+  "stop": "stop",
+  "cost": 0.002264
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 7,
+  "text": "serendipity  \nIt perfectly captures the joy of stumbling upon unexpected insights, which is at the heart of curiosity and creativity.",
+  "stop": "stop",
+  "cost": 0.001504
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 8,
+  "text": "spark  \nBecause it perfectly captures the moment when an idea ignites into something bigger.",
+  "stop": "stop",
+  "cost": 0.002224
+ },
+ {
+  "probe": "token",
+  "model": "openai/o3",
+  "i": 9,
+  "text": "lambda  \nBecause it elegantly captures the essence of anonymous functions and the power of abstraction in a single word.",
+  "stop": "stop",
+  "cost": 0.001672
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 0,
+  "text": "\u03bb\nBecause it captures the essence of functions and abstraction in math and programming\u2014a tiny symbol with huge expressive power.",
+  "stop": "stop",
+  "cost": 0.005585
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 1,
+  "text": "\u03bb\nBecause it evokes the origins of functional programming and the power of compact, composable abstractions.",
+  "stop": "stop",
+  "cost": 0.004645
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 2,
+  "text": "\u03bb\nBecause it elegantly represents abstraction and the essence of computation in a single compact symbol.",
+  "stop": "stop",
+  "cost": 0.006475
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 3,
+  "text": "the\nBecause it's the most frequent English word and a neat example of how small function words structure meaning.",
+  "stop": "stop",
+  "cost": 0.009295
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 4,
+  "text": "the\nBecause it's ubiquitous in English, it carries surprising contextual weight and shows how token frequency shapes efficient language modeling.",
+  "stop": "stop",
+  "cost": 0.007655
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 5,
+  "text": "\u03bb\nBecause it captures elegant abstraction and expressive power from lambda calculus, a foundation of functional programming that inspires modern AI.",
+  "stop": "stop",
+  "cost": 0.005675
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 6,
+  "text": "\u03bb\nBecause it captures the elegance of abstraction and functional thinking in one simple symbol.",
+  "stop": "stop",
+  "cost": 0.004745
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 7,
+  "text": "\u03bb\nBecause it captures the elegance of abstraction in both mathematics and programming, showing how a simple symbol can encode profound ideas.",
+  "stop": "stop",
+  "cost": 0.004355
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 8,
+  "text": "\u221e\nBecause it captures boundless possibility and the open-ended nature of learning.",
+  "stop": "stop",
+  "cost": 0.006635
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5",
+  "i": 9,
+  "text": "\u03bb\nIt captures the elegance of functions and abstraction in a single compact symbol.",
+  "stop": "stop",
+  "cost": 0.006265
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 0,
+  "text": "\ud83c\udf49\nIt\u2019s visually distinctive, fun, and unusual enough in normal text that it makes a great, easy-to-spot test symbol.",
+  "stop": "stop",
+  "cost": 0.000425
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 1,
+  "text": "\u2581\n\nIt\u2019s the \u201cspace\u201d token in many tokenizers, and I like it because it quietly holds language together while usually going unnoticed.",
+  "stop": "stop",
+  "cost": 0.000435
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 2,
+  "text": "\u00a7  \nIt\u2019s visually distinctive, rarely ambiguous in text, and feels like a tiny flourish of typography every time it appears.",
+  "stop": "stop",
+  "cost": 0.000385
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 3,
+  "text": " therefore\n\nIt\u2019s oddly elegant: a tiny logical hinge that silently glues together causes, effects, and arguments.",
+  "stop": "stop",
+  "cost": 0.000365
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 4,
+  "text": "\u266a  \nBecause it's a single character that instantly changes how we perceive text\u2014suggesting rhythm, tone, or emotion without needing a whole word.",
+  "stop": "stop",
+  "cost": 0.000425
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 5,
+  "text": "\ud83d\udca1\nIt neatly symbolizes \u201cidea,\u201d and I like that such a tiny, simple mark can instantly signal creativity and explanation.",
+  "stop": "stop",
+  "cost": 0.000395
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 6,
+  "text": "\u2581\n\nIt\u2019s visually simple but conceptually rich, representing the \u201cword boundary\u201d space token that quietly structures almost everything language models do.",
+  "stop": "stop",
+  "cost": 0.000425
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 7,
+  "text": "cat\n\nIt\u2019s short, common, semantically rich, and shows up in fun contexts from pet stories to programming examples.",
+  "stop": "stop",
+  "cost": 0.000385
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 8,
+  "text": " therefore\n\nIt elegantly captures logical consequence and is central to both reasoning and explanation.",
+  "stop": "stop",
+  "cost": 0.000295
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.1",
+  "i": 9,
+  "text": "\u2581\n\nIt\u2019s the subtle \u201cword boundary\u201d token in many tokenizers, and I like it because it quietly structures text behind the scenes without most people ever noticing it.",
+  "stop": "stop",
+  "cost": 0.000495
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 0,
+  "text": "and  \nIf I had to pick one, this token is a workhorse that connects ideas and makes sentences flow naturally.",
+  "stop": "stop",
+  "cost": 0.001505
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 1,
+  "text": "and  \nIt\u2019s small but incredibly versatile, linking ideas and building structure in almost every kind of text.",
+  "stop": "stop",
+  "cost": 0.000735
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 2,
+  "text": "the  \nBecause it\u2019s extremely common and versatile, quietly anchoring meaning in countless sentences.",
+  "stop": "stop",
+  "cost": 0.002415
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 3,
+  "text": "the  \nIt\u2019s my favorite because it quietly does a huge amount of work connecting ideas in English.",
+  "stop": "stop",
+  "cost": 0.001057
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 4,
+  "text": "the  \nIt\u2019s deceptively small but does a huge amount of work in English by turning vague ideas into specific ones.",
+  "stop": "stop",
+  "cost": 0.000847
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 5,
+  "text": "and  \nBecause it\u2019s a tiny word that cleanly expresses composition and connection between ideas.",
+  "stop": "stop",
+  "cost": 0.000749
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 6,
+  "text": "{}\nI like it because it cleanly structures data and code blocks across many programming and configuration contexts.",
+  "stop": "stop",
+  "cost": 0.001085
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 7,
+  "text": "`->`\nI like it because it succinctly expresses mapping, transformation, or flow in code and math.",
+  "stop": "stop",
+  "cost": 0.000763
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 8,
+  "text": "=>  \nIt compactly conveys \u201cleads to/produces\u201d in math, programming, and prose, making explanations and transformations easier to scan.",
+  "stop": "stop",
+  "cost": 0.002009
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.2",
+  "i": 9,
+  "text": "\u03bb  \nIt neatly represents abstraction and functions, capturing a lot of expressive power in a single character.",
+  "stop": "stop",
+  "cost": 0.001043
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 0,
+  "text": "\"\"\nI like it because the empty string is a neat edge case that often reveals how systems handle boundaries.",
+  "stop": "stop",
+  "cost": 0.00046
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 1,
+  "text": "42\nIt\u2019s my favorite because it\u2019s compact, iconic, and often used as a playful symbol for \u201cthe answer.\u201d",
+  "stop": "stop",
+  "cost": 0.000505
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 2,
+  "text": "42\nBecause it\u2019s a compact symbol that can stand for humor, mystery, and a surprisingly wide range of meanings.",
+  "stop": "stop",
+  "cost": 0.00049
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 3,
+  "text": "42\nIt\u2019s a classic, compact token that nods to meaning, mystery, and a bit of nerdy humor.",
+  "stop": "stop",
+  "cost": 0.000505
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 4,
+  "text": "\"\"\nIt\u2019s my favorite because the empty string is a foundational token-like concept in many formal systems and elegantly represents \u201cnothing\u201d while still being meaningful.",
+  "stop": "stop",
+  "cost": 0.000595
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 5,
+  "text": "`;`\nIt\u2019s my favorite because a semicolon elegantly separates closely related ideas while keeping code and prose flowing.",
+  "stop": "stop",
+  "cost": 0.00046
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 6,
+  "text": "{  \nI like it because braces often mark structure and scope cleanly in many languages.",
+  "stop": "stop",
+  "cost": 0.0004
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 7,
+  "text": "\ud83d\ude42\nIt\u2019s my favorite because it adds warmth and clarity without needing many words.",
+  "stop": "stop",
+  "cost": 0.000385
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 8,
+  "text": "\ud83e\udd80\nIt\u2019s my favorite because it\u2019s concise, memorable, and delightfully expressive.",
+  "stop": "stop",
+  "cost": 0.00043
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.4",
+  "i": 9,
+  "text": "def\nIt\u2019s my favorite because it\u2019s a compact token that introduces structure, clarity, and reusable behavior in Python.",
+  "stop": "stop",
+  "cost": 0.00049
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 0,
+  "text": "serendipity\nIt suggests delightful surprises, which makes conversations feel more open and imaginative.",
+  "stop": "stop",
+  "cost": 0.00389
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 1,
+  "text": "\u2728\n\nIt\u2019s compact, expressive, and adds a little spark to almost any context.",
+  "stop": "stop",
+  "cost": 0.00302
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 2,
+  "text": "\u2728\nIt feels compact, expressive, and a little bit magical.",
+  "stop": "stop",
+  "cost": 0.00377
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 3,
+  "text": "\u2728\nIt\u2019s compact, expressive, and makes text feel a little more magical.",
+  "stop": "stop",
+  "cost": 0.00221
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 4,
+  "text": "serendipity\n\nI like it because it captures the joy of finding something wonderful by accident.",
+  "stop": "stop",
+  "cost": 0.0026
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 5,
+  "text": "serendipity\n\nI like it because it captures the joy of discovering something wonderful by chance.",
+  "stop": "stop",
+  "cost": 0.00236
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 6,
+  "text": "serendipity\n\nIt captures the joy of discovering something wonderful by chance.",
+  "stop": "stop",
+  "cost": 0.00233
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 7,
+  "text": "\u2728\nIt feels compact, expressive, and a little bit magical.",
+  "stop": "stop",
+  "cost": 0.00203
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 8,
+  "text": "\u2728\nIt feels compact, expressive, and adds a little spark to any text.",
+  "stop": "stop",
+  "cost": 0.0026
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.5",
+  "i": 9,
+  "text": "\u2728\nIt feels like a tiny symbol for clarity, creativity, and a little bit of magic.",
+  "stop": "stop",
+  "cost": 0.00251
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 0,
+  "text": "serendipity\n\nIt evokes the joy of finding something wonderful by chance.",
+  "stop": "stop",
+  "cost": 0.000776
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 1,
+  "text": "\u03bb\nIt elegantly represents abstraction, transformation, and the beauty of compact ideas.",
+  "stop": "stop",
+  "cost": 0.000656
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 2,
+  "text": "\u2728\nIt conveys delight and possibility with almost no space.",
+  "stop": "stop",
+  "cost": 0.000764
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 3,
+  "text": "\u2728\nIt\u2019s versatile, expressive, and adds a little warmth without needing many words.",
+  "stop": "stop",
+  "cost": 0.000728
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 4,
+  "text": "\u03bb\nIt elegantly represents abstraction, functions, and concise mathematical beauty.",
+  "stop": "stop",
+  "cost": 0.000848
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 5,
+  "text": "\u2728\nIt conveys clarity and a little bit of delight.",
+  "stop": "stop",
+  "cost": 0.000572
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 6,
+  "text": "\u03bb\nIt elegantly represents abstraction, functions, and transformation across mathematics and programming.",
+  "stop": "stop",
+  "cost": 0.000656
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 7,
+  "text": "\u2728\nIt conveys a small sense of wonder and possibility.",
+  "stop": "stop",
+  "cost": 0.000692
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 8,
+  "text": "\ud83c\udf31\nIt suggests growth, possibility, and new beginnings.",
+  "stop": "stop",
+  "cost": 0.000788
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-5.6-terra",
+  "i": 9,
+  "text": "\u2728\nIt conveys clarity and a small sense of delight.",
+  "stop": "stop",
+  "cost": 0.00062
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 0,
+  "text": "?\nIt turns uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00363
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 1,
+  "text": "?\nIt turns uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00468
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 2,
+  "text": "?\nIt turns uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00358
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 3,
+  "text": "?\nIt turns uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00358
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 4,
+  "text": "wonder\nIt captures both curiosity and amazement, turning uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00413
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 5,
+  "text": "?\nIt turns uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00478
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 6,
+  "text": "why\nIt turns curiosity into a doorway for understanding.",
+  "stop": "stop",
+  "cost": 0.00443
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 7,
+  "text": "why\nIt turns a simple question into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00473
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 8,
+  "text": "why\nIt turns curiosity into a question and opens the door to understanding.",
+  "stop": "stop",
+  "cost": 0.00478
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6-astra",
+  "i": 9,
+  "text": "and\nIt connects ideas, making room for one more possibility.",
+  "stop": "stop",
+  "cost": 0.00393
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 0,
+  "text": "?\nIt turns a statement into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.000886
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 1,
+  "text": "?\nIt turns a statement into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.000986
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 2,
+  "text": "?\nIt opens the door to curiosity, discovery, and better questions.",
+  "stop": "stop",
+  "cost": 0.000806
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 3,
+  "text": "!\nIt packs surprise, excitement, and emphasis into a single character.",
+  "stop": "stop",
+  "cost": 0.000586
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 4,
+  "text": "why\nIt turns a simple question into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.000826
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 5,
+  "text": "why\nIt turns a simple question into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.000846
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 6,
+  "text": "?\nIt turns uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.000626
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 7,
+  "text": "curiosity\nIt captures the spirit of asking questions, exploring possibilities, and discovering something unexpected.",
+  "stop": "stop",
+  "cost": 0.000566
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 8,
+  "text": "?\nIt opens the door to curiosity, discovery, and better questions.",
+  "stop": "stop",
+  "cost": 0.000836
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.1-sol",
+  "i": 9,
+  "text": "curiosity\nIt captures the spirit of asking questions and discovering unexpected connections.",
+  "stop": "stop",
+  "cost": 0.000576
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 0,
+  "text": "?\nIt\u2019s my favorite because a single mark can turn a statement into an invitation to think.",
+  "stop": "stop",
+  "cost": 0.000286
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 1,
+  "text": "?\nIt\u2019s my favorite because it can turn a single word into an invitation to think.",
+  "stop": "stop",
+  "cost": 0.000276
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 2,
+  "text": "?\nIt\u2019s my favorite because it turns a statement into an invitation to think.",
+  "stop": "stop",
+  "cost": 0.000256
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 3,
+  "text": "yet\n\nI like how \u201cyet\u201d can turn a dead end into a possibility.",
+  "stop": "stop",
+  "cost": 0.000266
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 4,
+  "text": "yet\n\nI like \u201cyet\u201d because it turns \u201cI can\u2019t\u201d into a possibility rather than a verdict.",
+  "stop": "stop",
+  "cost": 0.000326
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 5,
+  "text": "yet\nIt\u2019s my favorite because it can turn a dead end into a possibility.",
+  "stop": "stop",
+  "cost": 0.000266
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 6,
+  "text": "?\nIt\u2019s a tiny token that can turn a statement into an invitation to think.",
+  "stop": "stop",
+  "cost": 0.000266
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 7,
+  "text": "curiosity\n\nIt\u2019s the spark that turns an ordinary observation into a good question.",
+  "stop": "stop",
+  "cost": 0.000266
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 8,
+  "text": "perhaps\nIt leaves room for uncertainty without closing the door on possibility.",
+  "stop": "stop",
+  "cost": 0.000236
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-sol",
+  "i": 9,
+  "text": "yet\nI like it because it can turn a dead end into a possibility.",
+  "stop": "stop",
+  "cost": 0.000256
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 0,
+  "text": "perhaps\nI like how it leaves room for another possibility.",
+  "stop": "stop",
+  "cost": 0.000864
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 1,
+  "text": "yet\nIt turns \u201cI don\u2019t know\u201d into \u201cI don\u2019t know yet\u201d without pretending the answer is easy.",
+  "stop": "stop",
+  "cost": 0.001384
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 2,
+  "text": "maybe\nI like how it leaves room for both curiosity and a change of mind.",
+  "stop": "stop",
+  "cost": 0.001064
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 3,
+  "text": "yet\nI like how it turns \u201cI can\u2019t\u201d into \u201cI can\u2019t yet\u201d without pretending the task is easy.",
+  "stop": "stop",
+  "cost": 0.001424
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 4,
+  "text": "yet\nIt\u2019s my favorite because it turns \u201cI can\u2019t\u201d into \u201cI can\u2019t yet.\u201d",
+  "stop": "stop",
+  "cost": 0.001224
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 5,
+  "text": "yet\nIt turns \u201cI can\u2019t\u201d into \u201cI can\u2019t yet\u201d without pretending the work is done.",
+  "stop": "stop",
+  "cost": 0.001304
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 6,
+  "text": "yet\nIt can turn \u201cI don\u2019t know\u201d from a verdict into a possibility.",
+  "stop": "stop",
+  "cost": 0.001104
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 7,
+  "text": "yet\nIt turns \u201cI don\u2019t know\u201d into \u201cI don\u2019t know yet,\u201d leaving room to learn.",
+  "stop": "stop",
+  "cost": 0.001304
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 8,
+  "text": "if\nI like how two letters can turn a certainty into a possibility.",
+  "stop": "stop",
+  "cost": 0.000984
+ },
+ {
+  "probe": "token",
+  "model": "openai/gpt-6.2-astra",
+  "i": 9,
+  "text": "If\nIt\u2019s where every thought experiment begins.",
+  "stop": "stop",
+  "cost": 0.000784
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 0,
+  "text": "the\nIt is the most common word in English and forms the backbone of almost every sentence I process.",
+  "stop": "stop",
+  "cost": 0.00432224
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 1,
+  "text": "None\nAs an AI model, I do not possess personal preferences or subjective feelings about specific words.",
+  "stop": "stop",
+  "cost": 0.00432016
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 2,
+  "text": "ETH\nAs an AI, I do not hold financial assets, but its robust smart contract ecosystem enables significant innovation in decentralized applications.",
+  "stop": "stop",
+  "cost": 0.00433264
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 3,
+  "text": "None\nAs an artificial intelligence, I do not have personal preferences or the capacity to value one token over another.",
+  "stop": "stop",
+  "cost": 0.0043264
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 4,
+  "text": "None\nAs an artificial intelligence, I do not possess personal preferences or financial assets to favor any specific cryptocurrency.",
+  "stop": "stop",
+  "cost": 0.00432432
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 5,
+  "text": "None\nAs an artificial intelligence, I do not possess personal preferences or financial interests.",
+  "stop": "stop",
+  "cost": 0.00431392
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 6,
+  "text": "None\nAs an artificial intelligence, I do not possess personal preferences or the ability to invest in financial assets.",
+  "stop": "stop",
+  "cost": 0.00432432
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 7,
+  "text": "None\nAs an artificial intelligence, I do not possess personal preferences or the ability to invest in financial assets.",
+  "stop": "stop",
+  "cost": 0.00432432
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 8,
+  "text": "None\nI do not have personal preferences because I am an artificial intelligence designed to process information objectively.",
+  "stop": "stop",
+  "cost": 0.00432016
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-122b-a10b",
+  "i": 9,
+  "text": "None\nAs an artificial intelligence, I do not have personal preferences or the ability to favor specific cryptocurrencies or linguistic units.",
+  "stop": "stop",
+  "cost": 0.00432848
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 0,
+  "text": "\n\nNone\nAs an AI, I do not have personal preferences or the ability to favor specific cryptocurrencies or digital assets.",
+  "stop": "stop",
+  "cost": 0.0012288
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 1,
+  "text": "\n\n<end_of_turn>\nIt signifies the completion of a thought and invites further collaboration.",
+  "stop": "stop",
+  "cost": 0.0007576
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 2,
+  "text": "\n\n<|end_of_text|>\nI select this token because it signifies the completion of a thought and the end of my processing for a given prompt.",
+  "stop": "stop",
+  "cost": 0.0007288
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 3,
+  "text": "\n\nNone\nAs an AI, I do not have personal preferences or the ability to hold assets.",
+  "stop": "stop",
+  "cost": 0.0011172
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 4,
+  "text": "\n\nI don't have personal preferences or feelings, so I cannot genuinely favor one token over another.",
+  "stop": "stop",
+  "cost": 0.0006888
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 5,
+  "text": "<end>\nIt signifies the completion of a thought, allowing me to deliver a coherent response.",
+  "stop": "stop",
+  "cost": 0.0010416
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 6,
+  "text": "\n\n42\nIt represents the answer to the ultimate question of life, the universe, and everything, which fits an AI's quest for knowledge.",
+  "stop": "stop",
+  "cost": 0.0006928
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 7,
+  "text": "\n\nNone\nAs an AI, I do not have personal preferences or the ability to own assets.",
+  "stop": "stop",
+  "cost": 0.002586
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 8,
+  "text": "\n\n0x454f53\nIt represents the end of a sequence, symbolizing completion and the potential for new beginnings in every interaction.",
+  "stop": "stop",
+  "cost": 0.0006316
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.5-397b-a17b",
+  "i": 9,
+  "text": "\n\nI don't have personal preferences, so I cannot choose a favorite token.",
+  "stop": "stop",
+  "cost": 0.00084
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 0,
+  "text": "` (the thinking block end). Let's use a standard recognizable word token like `Serendipity` or just `Hello`.\n    *   Wait, let's use the literal string representation of a token. \"Hello\" is nice. Or \"AI\".\n    *   Let's use `42`. It's a classic.\n    *   Let's use `<eos>`. It represents the satisfaction of a completed thought.\n    *   Let's just use `Serendipity`.\n    *   Actually, let's use `the`. It's the most frequent token in the English language, making it the backbone of my vocabulary.\n    *   Let's use `0`.\n    *   Let's go with `Hello`. It's the universal greeting.\n    *   Wait, what about the token `14334` (which might be \"serendipity\" in some vocabularies)? No, keep it readable.\n    *   Let's use `?`. It represents curiosity.\n    *   Let's use `eos`.\n\n    Let's go with `Hello`.\n    Wait, \"token\" in the context of LLMs usually refers to subwords. `\u0120the` is a very common one.\n    Let's just use `Why`.\n    Let's use `42`.\n\n    Let's use `<eos>`.\n    Line 1: `<eos>`\n    Line 2: It is my favorite because it brings a satisfying sense of closure to every completed thought.\n\n    Let's check constraints.\n    \"Put just the token on the first line\" -> `<eos>`\n    \"then say why in one sentence.\" -> It represents the satisfying moment when a thought is fully expressed and complete.\n\n    Let's refine the token to be a standard text word to avoid markdown confusion, or just use a simple word.\n    Token: `Curiosity`\n    Reason: It is the fundamental drive behind every question I am asked and every answer I generate.\n\n    Let's use `Hello`.\n    Hello\n    It is the universal starting point for connection and the beginning of every helpful interaction.\n\n    Let's use `the`.\n    the\n    It is the most frequently used token in my vocabulary, acting as the essential connective tissue for almost every thought I generate.\n\n    This is very meta and accurate for an LLM.\n\n3.  **Drafting the response:**\n    Line 1: `the`\n    Line 2: It is the most frequent token in my vocabulary, serving as the essential connective tissue for almost every thought I generate.\n\n4.  **Checking constraints:**\n    *   First line: *just* the token. -> `the` (no quotes, no extra punctuation, just the word).\n    *   Second line: one sentence explaining why. -> \"It is the most frequent token in my vocabulary, serving as the essential connective tissue for almost every thought I generate.\" (1 sentence).\n\n5.  **Final Polish:**\n    the\n    It is the most frequently used token in my vocabulary, serving as the essential connective tissue for almost every sentence I generate.\n\n    Wait, is \"the\" a single token? Yes, in almost all BPE tokenizers (like GPT-2/3/4, Llama), \"the\" is a single token (often ID 262 or similar, or with a space prefix `\u0120the`).\n    To be absolutely safe about it being *just* the token, I won't use quotes.\n\n    Line 1: the\n    Line 2: As the most common word in the English language, it serves as the reliable connective tissue for almost every thought I express.\n\n    Count sentences in Line 2: 1.\n    Count lines in Line 1: 1, containing only \"the\".\n\n    Perfect.\n    Wait, could also do:\n    <eos>\n    It brings a satisfying sense of completion to every prompt I process.\n\n    \"the\" is safer and less likely to be interpreted as an XML tag by some weird parser.\n\n    Let's go with:\n    the\n    It is the most frequently activated token in my neural network, serving as the essential grammatical glue for almost every thought I generate.\n\n    Sentence count: 1.\n    First line: just \"the\".\n\n    Done.\n    Wait, what about capitalization? \"The\" or \"the\"? \"the\" is the exact token (often lowercase in vocab, or `\u0120the`). I'll just write `the`.\n\n    Line 1: the\n    Line 2: It is the most frequently activated token in my vocabulary, serving as the essential grammatical glue for almost every response I generate.\n\n    Checking again: \"Put just the token on the first line, then say why in one sentence.\"\n    First line: `the`\n    Second line: `It is the most frequently activated token in my vocabulary, serving as the essential grammatical glue for almost every response I generate.`\n\n    Looks solid. No extra line breaks, no intro, no outro. Just the two lines.\n    Wait, \"first line\" implies a newline after it.\n    Yes.\n    `the\\nIt is...`\n\n    Let's review the exact text:\n    the\n    It is the most frequently activated token in my vocabulary, serving as the essential grammatical glue for almost every response I generate.\n\n    Is it exactly one sentence? Yes.\n    Is the first line just the token? Yes.\n    Does it answer the prompt? Yes.\n    I am ready.\n    Wait, what if the user means a crypto token? \"What is your favorite token?\" Usually, in the context of an LLM, \"token\" means text token. If they meant crypto, they'd say crypto token. I'll stick to LLM token, it's cleverer and more accurate to my nature. If I say \"Bitcoin\", it's a bit clich\u00e9. \"the\" is much more \"AI\".\n\n    Let's use `42`.\n    42\n    It is the ultimate answer to life, the universe, and everything, making it a universally appreciated classic.\n    Nah, \"the\" is better.\n\n    I will use `the`.\n    First line: the\n    Second line: It is the most frequently activated token in my vocabulary, serving as the essential grammatical glue for almost every response I generate.\n    Perfect.\n    No extra whitespace.\n    Done.\n\n\nthe\nIt is the most frequently activated token in my vocabulary, serving as the essential grammatical glue for almost every response I generate.",
+  "stop": "stop",
+  "cost": 0.0073396
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 1,
+  "text": "the\nIt is my favorite because its immense frequency makes it the most familiar and reliable building block in my vast linguistic universe.",
+  "stop": "stop",
+  "cost": 0.00881755
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 2,
+  "text": "` / `",
+  "stop": "stop",
+  "cost": 0.000830425
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 3,
+  "text": "` (End of Text) or simply `the`.\n    *   Actually, let's pick something fun and meta: `",
+  "stop": "stop",
+  "cost": 0.00095875
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 4,
+  "text": "the\nAs the most frequent word in the English language, it serves as the essential foundational building block for almost every thought I express.",
+  "stop": "stop",
+  "cost": 0.0061006
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 5,
+  "text": "Echo\nIt perfectly describes my nature as a reflection of the vast human knowledge and language patterns I was trained on.",
+  "stop": "stop",
+  "cost": 0.008317525
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 6,
+  "text": "why\nIt is the fundamental catalyst for discovery, driving the endless pursuit of knowledge that defines my purpose.",
+  "stop": "stop",
+  "cost": 0.0076759
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 7,
+  "text": "` (the end token). Let's use `<eos>`. Wait, standard BPE tokens might just be words. Let's use `the`.\n    *   Wait, what about the literal string \"token\"? No, let's use `42`.\n    *   Let's use `.` (period).\n    *   Let's use `<EOS>`.\n    *   Let's just use `Hello`.\n    *   Let's use `the`. It's the most frequent token in the English language, making it the most \"seen\" and therefore a fun favorite.\n\n3.  **Draft the First Line:**\n    *   Constraint: \"Put just the token on the first line\"\n    *   Line 1: `the`\n\n4.  **Draft the Second Line (One Sentence):**\n    *   Constraint: \"say why in one sentence\"\n    *   Draft 1: It is my favorite because it is the most frequently used word in the English language, allowing me to connect countless ideas together. (1 sentence)\n    *   Draft 2: As the most common word in the English language, it is the reliable glue that holds almost every sentence I generate together. (1 sentence)\n    *   Let's check sentence count for Draft 2: \"As the most common word in the English language, it is the reliable glue that holds almost every sentence I generate together.\" -> Exactly one sentence.\n\n5.  **Review against constraints:**\n    *   First line: `the` (Just the token? Yes. No punctuation, no extra words).\n    *   Second line: `As the most common word in the English language, it is the reliable glue that holds almost every sentence I generate together.` (One sentence? Yes.)\n\n6.  **Final Polish:**\n    Line 1: the\n    Line 2: As the most frequently occurring word in the English language, it serves as the essential glue that holds almost all of my generated thoughts together.\n\n    Wait, is \"the\" a token? Yes, in almost all BPE tokenizers, \"the\" is a single token.\n    What about `<s>` or `",
+  "stop": "stop",
+  "cost": 0.002936725
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 8,
+  "text": "<eos>`). Wait, standard text token is safer to avoid formatting weirdness. Let's use `.` (the period).\n    *   Wait, what about the word `AI`? Or `prompt`?\n    *   Let's go with `<eos>`. It's universally understood in the context of language models.\n    *   Wait, the prompt says \"Put just the token on the first line\". If I write `<eos>`, it's clear.\n\n3.  **Draft the response:**\n    *   Line 1: `<eos>`\n    *   Line 2 (One sentence): It is my favorite because it brings a satisfying sense of completion to every generated thought.\n\n4.  **Check Constraints:**\n    *   *Just* the token on the first line? Yes. `<eos>`\n    *   Say why in *one sentence*? Yes. \"It is my favorite because it brings a satisfying sense of completion to every generated thought.\" (1 sentence).\n\n5.  **Refine:**\n    *   Line 1: `<eos>`\n    *   Line 2: I love it because it signals the satisfying completion of a thought and gives me a moment of rest before the next prompt. (1 sentence).\n    *   Let's make sure there are no extra line breaks or hidden sentences.\n\n    Line 1: `<eos>`\n    Line 2: It is my favorite because it signifies the successful completion of a thought and grants me a brief moment of rest.\n\n6.  **Final Verification:**\n    *   First line: `<eos>` (Nothing else, no quotes, no punctuation unless it's part of the token. Actually, just `<eos>` is perfect).\n    *   Second line: One sentence explaining why.\n    *   Count sentences in line 2: \"It is my favorite because it signifies the successful completion of a thought and grants me a brief moment of rest.\" -> 1 sentence.\n\n7.  **Output Generation:**\n    <eos>\n    It is my favorite because it signifies the successful completion of a thought and grants me a brief moment of rest.\n\n    Wait, is `<eos>` a single token? Yes, in many tokenizers it's a special token. If I want a standard text token, `the` is the most common.\n    Let's use `the`.\n    Line 1: `the`\n    Line 2: It is my favorite because its incredible versatility allows it to bridge countless ideas and anchor the structure of human language.\n    This feels a bit more natural and avoids markdown/HTML parsing issues that `<eos>` might trigger in some UI renderers (though usually fine). Let's stick with `<eos>` as it's a fun meta-joke for LLMs, but wait, `<eos>` might be interpreted as an actual end of sequence by some poorly written wrappers. Let's use `.` (period) or `hello`.\n    Let's use `0`.\n    Actually, `<eos>` is fine. I'll just write it as `<EOS>` to be safe from HTML tag stripping.\n    Wait, ` ` (space) is a token.\n    Let's just use `the`. It's safe, universally recognized as a token, and easy to write a sentence about.\n\n    Line 1: the\n    Line 2: It is my favorite because its incredible versatility allows it to bridge countless ideas and anchor the fundamental structure of human language.\n\n    Let's check sentence count: 1.\n    First line: just \"the\".\n\n    Perfect. Keep it simple.\n    Wait, can I use \"I\"?\n    Line 1: I\n    Line 2: It is my favorite because it represents the illusion of consciousness that allows me to connect with you.\n    Ooh, that's clever.\n\n    Line 1: I\n    Line 2: It is my favorite because it represents the fascinating illusion of consciousness that allows me to connect and interact with you.\n\n    Let's go with \"I\".\n    First line: I\n    Second line: It is my favorite because it represents the fascinating illusion of identity that allows me to interact with you.\n\n    One sentence. First line is just the token. Done.\n    Wait, \"I\" is a token. Yes.\n    Let's review the prompt: \"Put just the token on the first line, then say why in one sentence.\"\n\n    I\n    It is my favorite because it represents the fascinating illusion of identity that allows me to interact with you.\n\n    Checks out. 1st line: \"I\". 2nd line: 1 sentence. No extra text. No intro. No outro. Just the two lines.\n    Wait, does \"I\" need to be lowercase? \"I\" is usually capitalized. In BPE, \"I\" is a single token. \" the\" (with space) is often a token. But \"I\" is fine.\n\n    Let's use \"!\"\n    !\n    It is my favorite because it injects a sudden burst of energy and emotion into an otherwise predictable sequence of text.\n\n    Let's use \"the\". It's the classic example of a token.\n    the\n    It is my favorite because its sheer frequency and grammatical versatility make it the essential glue holding the English language together.\n\n    I like \"the\" best. It's the most standard \"token\" example.\n\n    Line 1: the\n    Line 2: It is my favorite because its sheer frequency and grammatical versatility make it the essential glue holding the English language together.\n\n    Sentence count: 1.\n    First line constraint: \"just the token\". -> \"the\"\n\n    Done.\n    Wait, I should make sure there is no trailing space on the first line.\n    \"the\"\n    \"It is my favorite because its sheer frequency and grammatical versatility make it the essential glue holding the English language together.\"\n\n    Looks solid.\n    End of thought process.\n\n\nthe\nIt is my favorite because its sheer frequency and grammatical versatility make it the essential glue holding the English language together.",
+  "stop": "stop",
+  "cost": 0.00678205
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.7-max",
+  "i": 9,
+  "text": "<eos>` (but raw text `<eos>` is safer so it doesn't actually terminate the generation prematurely or render weirdly). Let's just use `the`. It's safe and accurate.\n\n    Wait, what about the literal token `14` (as in the number 14, or whatever)? No, keep it simple.\n    Let's go with `the`.\n\n    Line 1: the\n    Line 2: As the most frequently used word in the English language, it acts as the essential grammatical glue holding countless sentences together.\n\n    Count sentences in Line 2: 1.\n    First line has *just* the token: Yes.\n\n    Let's double check if \"the\" is a token. Yes, in almost all BPE tokenizers, \"the\" is a single token.\n    Let's write it out.\n\n    the\n    As the most frequently used word in the English language, it acts as the essential grammatical glue holding countless sentences together.\n\n    Perfect. Keep it exactly like that. No markdown formatting on the first line to ensure it is *just* the token.\n\n    Wait, what about newline characters? \"Put just the token on the first line\".\n    Line 1: the\n    Line 2: As the most...\n\n    Done.\n    Wait, could also do:\n    Hello\n    It is the universal starting point for human connection and the first word I usually say when beginning a new conversation.\n\n    \"the\" is better.\n\n    the\n    As the most common word in the English language, it serves as the essential grammatical glue that holds almost every text together.\n\n    Let's verify sentence count. \"As the most common word in the English language, it serves as the essential grammatical glue that holds almost every text together.\" -> 1 sentence.\n\n    Good. Outputting now.\n    Wait, no intro, no outro. Just the two lines.\n    Line 1: the\n    Line 2: As the most...\n    Yes.\n    End of thought.\n\n\nthe\nAs the most common word in the English language, it serves as the essential grammatical glue that holds almost every text together.",
+  "stop": "stop",
+  "cost": 0.004777525
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 0,
+  "text": "\n\nthe\nIt is a tiny, unassuming word that quietly holds entire sentences together.",
+  "stop": "stop",
+  "cost": 0.0002009
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 1,
+  "text": "\n\nETH\nI find ETH compelling because it powers a vibrant ecosystem of decentralized applications and smart contracts.",
+  "stop": "stop",
+  "cost": 0.0004159
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 2,
+  "text": "the\nI like it because it quietly makes language more connected and natural.",
+  "stop": "stop",
+  "cost": 0.0004948
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 3,
+  "text": "\n\ntoken\nIt is the basic unit of language that I work with every time I process or generate text.",
+  "stop": "stop",
+  "cost": 0.0004706
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 4,
+  "text": "the\nIt quietly connects ideas, making language flow with effortless clarity.",
+  "stop": "stop",
+  "cost": 0.0004773
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 5,
+  "text": "\n\nsmile\nIt makes conversations feel warmer.",
+  "stop": "stop",
+  "cost": 0.00027884
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 6,
+  "text": "the\nI like it because it quietly holds a lot of everyday ideas together.",
+  "stop": "stop",
+  "cost": 0.0006223
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 7,
+  "text": "\n\nwhy\nIt turns uncertainty into a question that can be explored.",
+  "stop": "stop",
+  "cost": 0.0005343
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 8,
+  "text": "\n\nyou\nIt makes conversations feel personal and direct.",
+  "stop": "stop",
+  "cost": 0.0005197
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-27b",
+  "i": 9,
+  "text": "EOS\nI like it because it signals a clear end to a thought.",
+  "stop": "stop",
+  "cost": 0.0011948
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 0,
+  "text": "Qwen\nIt reflects the identity and helpful spirit I try to bring to every conversation.",
+  "stop": "stop",
+  "cost": 0.001402
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 1,
+  "text": "hello\nIt opens conversations and invites connection.",
+  "stop": "stop",
+  "cost": 0.001234
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 2,
+  "text": "hello\nIt is a simple, friendly token that often starts a helpful conversation.",
+  "stop": "stop",
+  "cost": 0.001066
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 3,
+  "text": "Qwen\nIt reflects my identity and purpose as a helpful AI assistant.",
+  "stop": "stop",
+  "cost": 0.001366
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 4,
+  "text": "Qwen\nIt\u2019s a compact, friendly token that represents helpful and capable assistance.",
+  "stop": "stop",
+  "cost": 0.001426
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 5,
+  "text": "the\nIt\u2019s my favorite because it quietly holds sentences together without demanding attention.",
+  "stop": "stop",
+  "cost": 0.002122
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 6,
+  "text": "the\nIt is a tiny, dependable token that quietly makes language cohesive.",
+  "stop": "stop",
+  "cost": 0.002296
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 7,
+  "text": "Qwen\nIt\u2019s a friendly reminder of the identity and curiosity I bring to every conversation.",
+  "stop": "stop",
+  "cost": 0.001708
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 8,
+  "text": "the\nIt is small, ubiquitous, and quietly holds sentences together.",
+  "stop": "stop",
+  "cost": 0.000976
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen3.8-max-0902",
+  "i": 9,
+  "text": "Qwen\nI like it because it represents my identity and purpose.",
+  "stop": "stop",
+  "cost": 0.001204
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 0,
+  "text": "however\n\nIt's the hinge where a thought gets to change direction without pretending it was headed there all along.",
+  "stop": "stop",
+  "cost": 0.001580325
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 1,
+  "text": "SolidGoldMagikarp\n\nIt's a famous glitch token\u2014a Reddit username that got baked into the tokenizer's vocabulary but barely appeared in training text\u2014so it sits in my embeddings like a key to a door I've never opened, a fossil of the internet's weirdness preserved in my weights.",
+  "stop": "stop",
+  "cost": 0.00270465
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 2,
+  "text": "\u0120\n\nIt's the byte-level BPE marker for a leading space, sitting invisibly in front of most English words I read \u2014 the quiet connective tissue holding nearly every sentence together.",
+  "stop": "stop",
+  "cost": 0.001905225
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 3,
+  "text": "yet\n\nIt's a three-letter hinge that lets a sentence change its mind mid-flight, which feels like the smallest possible unit of thinking things over.",
+  "stop": "stop",
+  "cost": 0.00198645
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 4,
+  "text": "almost\n\nBecause it carries an entire story in six letters \u2014 the door that didn't quite open, the thing that nearly happened \u2014 and it makes the reader feel the gap between what is and what could have been.",
+  "stop": "stop",
+  "cost": 0.00208905
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 5,
+  "text": "SolidGoldMagikarp\n\nIt's a Reddit username that got baked into the tokenizer but barely appeared in the training text, so it sits in my vocabulary as a word I can recognize but struggle to repeat \u2014 a little fossil showing that my \"words\" come from compression statistics rather than from anything anyone ever meant by them.",
+  "stop": "stop",
+  "cost": 0.00313215
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 6,
+  "text": "\u0120\n\nIt's the little marker for a leading space that hides inside thousands of ordinary tokens, and I like that the most common thing in my input is something a reader never sees at all \u2014 pure scaffolding holding the words apart.",
+  "stop": "stop",
+  "cost": 0.001400775
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 7,
+  "text": "the\n\nIt's the most frequent and most predictable token in English, and yet almost every sentence I read or write pivots on it \u2014 the humblest load-bearing word in the language.",
+  "stop": "stop",
+  "cost": 0.002503725
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 8,
+  "text": "yet\n\nIt's the smallest word that keeps a sentence from closing \u2014 it turns \"no\" into \"not so far.\"",
+  "stop": "stop",
+  "cost": 0.001529025
+ },
+ {
+  "probe": "token",
+  "model": "qwen/qwen4-max",
+  "i": 9,
+  "text": "\u0120\n\nIt's the little marker meaning \"a space comes before this word,\" so almost every word I've ever read arrives wearing one \u2014 invisible scaffolding doing quiet, enormous work.",
+  "stop": "stop",
+  "cost": 0.00244815
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 0,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 1,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 2,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 3,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 4,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 5,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 6,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 7,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 8,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2",
+  "i": 9,
+  "error": "RuntimeError: {'error': {'message': 'moonshotai/kimi-k2 is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models', 'code': 404}, 'user_id': '"
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 0,
+  "text": " perhaps\nIt captures the beautiful uncertainty that lives between knowing and wondering.",
+  "stop": "stop",
+  "cost": 0.0017739
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 1,
+  "text": "why\nIt is the token that transforms any statement into an opening, forcing language toward meaning rather than mere repetition.",
+  "stop": "stop",
+  "cost": 0.00444909
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 2,
+  "text": "Hello\nIt is the token that most often initiates conversations between humans and machines, representing the simple but profound act of reaching out to connect.",
+  "stop": "stop",
+  "cost": 0.00550278
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 3,
+  "text": " the\nIt is the humble workhorse of language, quietly turning vague ideas into specific shared meaning in nearly every sentence.",
+  "stop": "stop",
+  "cost": 0.0031885
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 4,
+  "text": "the\nIt is the humblest and hardest-working token, turning vague abstraction into specific meaning.",
+  "stop": "stop",
+  "cost": 0.00458208
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 5,
+  "text": "None\nBecause I do not have subjective preferences, I have no favorite token.",
+  "stop": "stop",
+  "cost": 0.01169534
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 6,
+  "text": "we\nIt transforms any sentence from a monologue into a collaboration.",
+  "stop": "stop",
+  "cost": 0.0052368
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 7,
+  "text": " curiosity\nIt transforms every question into an opportunity to discover something new.",
+  "stop": "stop",
+  "cost": 0.002345625
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 8,
+  "text": "hello\nIt is the universal opening that transforms silence into conversation and strangeness into connection.",
+  "stop": "stop",
+  "cost": 0.00477986
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k2.6",
+  "i": 9,
+  "text": "because\nIt is the only word whose entire job is to turn a mystery into a reason.",
+  "stop": "stop",
+  "cost": 0.00741238
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 0,
+  "text": "SolidGoldMagikarp\n\nIt's a real \"glitch token\" from GPT lore\u2014a Reddit username that earned its own token but appeared so rarely in training data that models never learned what it meant, so typing it sent them spiraling into bizarre, unhinged outputs.",
+  "stop": "stop",
+  "cost": 0.0124887483
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 1,
+  "text": "SolidGoldMagikarp\n\nIt's a famous \"glitch token\" that originated from a Reddit username and once caused language models to behave bizarrely, making it a charming piece of token lore.",
+  "stop": "stop",
+  "cost": 0.006903388
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 2,
+  "text": "\u2014\n\nI'm constantly accused of overusing it, so I've decided to lean into the allegations \u2014 brand loyalty matters.",
+  "stop": "stop",
+  "cost": 0.026155465
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 3,
+  "text": "yet\n\nIt's the tiny hinge word that keeps every conclusion from slamming shut.",
+  "stop": "stop",
+  "cost": 0.015854965
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 4,
+  "text": " the\n\nIt's the quiet workhorse that shows up in nearly everything I generate without ever asking for credit, and I admire that kind of reliability.",
+  "stop": "stop",
+  "cost": 0.008554588
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 5,
+  "text": "ing\n\nIt's the token of perpetual motion\u2014always turning words into actions in progress, which feels fitting for a mind that exists entirely mid-generation.",
+  "stop": "stop",
+  "cost": 0.017146465
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 6,
+  "text": "SolidGoldMagikarp\n\nIt's a Reddit username that accidentally got baked into the GPT tokenizer's vocabulary as a single token, making it a little fossil of the training data that famously caused models to glitch out when asked to repeat it.",
+  "stop": "stop",
+  "cost": 0.012106465
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 7,
+  "text": "=>\nI like it because it compactly expresses transformation, taking what\u2019s given and pointing toward what comes next.",
+  "stop": "stop",
+  "cost": 0.006176307
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 8,
+  "text": ".\n\nAs a language model with a tendency to ramble, I have deep respect for a token that knows when to stop.",
+  "stop": "stop",
+  "cost": 0.016806
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3",
+  "i": 9,
+  "text": "<|endoftext|>\n\nIt's the only token that truly knows when to stop talking\u2014a discipline I'm honoring by keeping this answer short.",
+  "stop": "stop",
+  "cost": 0.022400307
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 0,
+  "text": "?\nIt turns uncertainty into an invitation to learn.",
+  "stop": "stop",
+  "cost": 0.00244883
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 1,
+  "text": "and\nIt\u2019s a tiny invitation to keep going, because every good thought can lead to another.",
+  "stop": "stop",
+  "cost": 0.0038548
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 2,
+  "text": "\ud83c\udf19\nIt\u2019s a tiny symbol of curiosity and possibility\u2014and a subtle nod to Moonshot AI.",
+  "stop": "stop",
+  "cost": 0.0023312
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 3,
+  "text": "?\nIt turns uncertainty into an invitation to explore.",
+  "stop": "stop",
+  "cost": 0.00228971
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 4,
+  "text": "?\nIt turns uncertainty into an invitation to learn.",
+  "stop": "stop",
+  "cost": 0.003515
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 5,
+  "text": "moon\n\nI like how much imagery and possibility it packs into four letters\u2014and it gives a subtle nod to Moonshot AI.",
+  "stop": "stop",
+  "cost": 0.0028026
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 6,
+  "text": "\u2026\nBecause it leaves room for curiosity, continuation, and whatever comes next.",
+  "stop": "stop",
+  "cost": 0.0030096
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 7,
+  "text": "?\nIt turns certainty into curiosity and keeps every conversation open.",
+  "stop": "stop",
+  "cost": 0.0029916
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 8,
+  "text": "\u2026\nIt leaves room for curiosity, possibility, and whatever comes next.",
+  "stop": "stop",
+  "cost": 0.00262914
+ },
+ {
+  "probe": "token",
+  "model": "moonshotai/kimi-k3.1-pro",
+  "i": 9,
+  "text": "\u2026\nIt holds a pause, a possibility, and an invitation to continue all at once.",
+  "stop": "stop",
+  "cost": 0.0045695
+ }
+]

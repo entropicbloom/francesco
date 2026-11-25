@@ -1,6 +1,6 @@
-"""Send one probe prompt 5x to every Claude model the API lists; write raw/<probe>_claude.json.
+"""Send one probe prompt N times (default 5) to every Claude model the API lists; write raw/<probe>_claude.json.
 
-Usage: python run_claude.py <probe-id> "<prompt>"
+Usage: python run_claude.py <probe-id> "<prompt>" [--n 10]
 """
 import json, os, sys
 from concurrent.futures import ThreadPoolExecutor
@@ -9,6 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 load_dotenv(os.path.join(HERE, ".env"))  # or set ANTHROPIC_API_KEY in the environment
 import anthropic
 PROBE, PROMPT = sys.argv[1], sys.argv[2]
+N = int(sys.argv[sys.argv.index("--n") + 1]) if "--n" in sys.argv else 5
 c = anthropic.Anthropic(max_retries=5)
 models = [m.id for m in c.models.list(limit=100)]
 def call(args):
@@ -18,7 +19,7 @@ def call(args):
         return {"model": m, "i": i, "text": "".join(b.text for b in r.content if hasattr(b,"text")), "in": r.usage.input_tokens, "out": r.usage.output_tokens, "stop": r.stop_reason}
     except Exception as e:
         return {"model": m, "i": i, "error": f"{type(e).__name__}: {str(e)[:120]}"}
-jobs = [(m, i) for m in models for i in range(5)]
+jobs = [(m, i) for m in models for i in range(N)]
 with ThreadPoolExecutor(16) as ex: res = list(ex.map(call, jobs))
 json.dump(res, open(os.path.join(HERE, "raw", f"{PROBE}_claude.json"), "w"), indent=1)
 for m in models:

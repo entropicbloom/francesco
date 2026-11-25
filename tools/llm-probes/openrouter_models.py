@@ -7,13 +7,15 @@ OPENAI_MODELS = [
   ("openai/gpt-4o", "GPT-4o"), ("openai/gpt-4.1", "GPT-4.1"), ("openai/o3", "o3"), ("openai/gpt-5", "GPT-5"),
   ("openai/gpt-5.1", "GPT-5.1"), ("openai/gpt-5.2", "GPT-5.2"), ("openai/gpt-5.4", "GPT-5.4"),
   ("openai/gpt-5.5", "GPT-5.5"), ("openai/gpt-5.6-terra", "GPT-5.6 Terra"), ("openai/gpt-6-astra", "GPT-6 Astra"),
-  ("openai/gpt-6.1-sol", "GPT-6.1 Sol")]
+  ("openai/gpt-6.1-sol", "GPT-6.1 Sol"), ("openai/gpt-6.2-sol", "GPT-6.2 Sol"), ("openai/gpt-6.2-astra", "GPT-6.2 Astra")]
 
 QWEN_MODELS = [
   ("qwen/qwen3.5-122b-a10b", "Qwen3.5 122B"), ("qwen/qwen3.5-397b-a17b", "Qwen3.5 397B"),
-  ("qwen/qwen3.7-max", "Qwen3.7 Max"), ("qwen/qwen3.8-27b", "Qwen3.8 27B"), ("qwen/qwen3.8-max-0902", "Qwen3.8 Max")]
+  ("qwen/qwen3.7-max", "Qwen3.7 Max"), ("qwen/qwen3.8-27b", "Qwen3.8 27B"), ("qwen/qwen3.8-max-0902", "Qwen3.8 Max"),
+  ("qwen/qwen4-max", "Qwen4 Max")]
 
-KIMI_MODELS = [("moonshotai/kimi-k2", "Kimi K2"), ("moonshotai/kimi-k2.6", "Kimi K2.6"), ("moonshotai/kimi-k3", "Kimi K3")]
+KIMI_MODELS = [("moonshotai/kimi-k2", "Kimi K2"), ("moonshotai/kimi-k2.6", "Kimi K2.6"), ("moonshotai/kimi-k3", "Kimi K3"),
+              ("moonshotai/kimi-k3.1-pro", "Kimi K3.1 Pro")]
 
 A = [0, 1, 2, 3, 4]
 # probe id -> (c0, c1); reply indices are the original run index i

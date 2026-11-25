@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LLM Probes</title>
-  <meta name="description" content="Short prompts sent to models from several providers, five times each, and how the replies differ.">
+  <meta name="description" content="Short prompts sent to models from several providers, several times each, and how the replies differ.">
   <style>
     :root {
       --bg: #fff;
@@ -114,8 +114,34 @@
     .providers button { background: none; border: 0; padding: 0; font: inherit; color: var(--muted); cursor: pointer; }
     .providers button:hover { color: var(--ink); }
     .providers button[aria-pressed="true"] { color: var(--ink); text-decoration: underline; text-underline-offset: 4px; }
+    .more { display: block; background: none; border: 0; padding: 0; margin: 16px 0 32px; font: inherit; font-size: 13px; color: var(--muted); cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
+    .more:hover { color: var(--ink); }
     .group-head { font-size: 12px; color: var(--muted); padding: 20px 0 4px; border-bottom: 1px solid var(--line); }
     .chart > .group-head:first-child { padding-top: 0; }
+
+    /* Token probes: each pick drawn as a token, with its share of the model's replies. */
+    .tok {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13px; white-space: pre; color: var(--ink);
+      background: var(--line); border-radius: 3px; padding: 1px 4px;
+    }
+    .tok .ws { color: var(--faint); }
+    .picks-row { display: flex; flex-wrap: wrap; gap: 2px; padding: 4px 0; }
+    .pick {
+      display: flex; align-items: baseline; gap: 6px;
+      background: none; border: 0; border-radius: 6px; padding: 4px 6px;
+      font: inherit; color: inherit; cursor: pointer;
+    }
+    .pick:hover, .pick:focus-visible { background: var(--panel); outline: none; }
+    .pick.selected { background: var(--line); }
+    .pick.selected .tok { background: var(--bg); }
+    .pick .pct { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+    .pick.rest { color: var(--muted); font-size: 12px; }
+    .reply-list { list-style: none; }
+    .reply-list li + li { border-top: 1px solid var(--line); margin-top: 10px; padding-top: 10px; }
+    .reply-list .reply-meta { margin-bottom: 4px; }
+    .overall { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--muted); margin-bottom: 24px; }
+    .overall span { display: flex; align-items: baseline; gap: 6px; }
 
     @media (max-width: 420px) {
       .row-name { flex-basis: 110px; font-size: 13px; }
@@ -127,13 +153,22 @@
 </head>
 <body>
   <main>
-    <p class="intro"><strong>LLM probes</strong><br>Five replies per model.</p>
+    <p class="intro"><strong>LLM probes</strong><br>Short prompts, sent several times to each model.</p>
     <nav id="nav" aria-label="Probes"></nav>
     <section id="probe"></section>
   </main>
 
   <script>
-    let data, current, selected = null, provider = "all";
+    let data, current, selected = null, provider = "all", showAll = false;
+    // A row shows when it matches the provider filter and is featured, unless all models are shown.
+    const visible = m => (provider === "all" || m.provider === provider) && (showAll || m.featured);
+    // "Show all N models" / "Show fewer models" below the rows, when the probe has unfeatured models.
+    const moreToggle = p => {
+      const all = p.models.filter(m => provider === "all" || m.provider === provider).length;
+      const shown = p.models.filter(visible).length;
+      if (!showAll && shown === all) return "";
+      return `<button class="more" aria-pressed="${showAll}">${showAll ? "Show fewer models" : `Show all ${all} models`}</button>`;
+    };
     const PROVIDER_NAMES = { claude: "Claude", openai: "OpenAI", qwen: "Qwen", kimi: "Kimi" };
 
     const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -169,6 +204,63 @@
       return `<span class="mark ${l.mark ? "m-" + l.mark : "c" + cls}" aria-hidden="true"></span>`;
     };
 
+    // A token as a chip; spaces, tabs, line breaks and zero-width spaces stay visible, since " the" and "the" are different tokens.
+    const tok = t => `<span class="tok">${esc(t).replace(/ /g, '<span class="ws">·</span>').replace(/\t/g, '<span class="ws">→</span>').replace(/\n/g, '<span class="ws">↵</span>').replace(/\u200b/g, '<span class="ws">ZWSP</span>')}</span>`;
+    const pct = (k, n) => Math.round(100 * k / n) + "%";
+    const TOP = 3;
+    const NONE = "\u0000none";  // key for replies that name no token
+
+    // Picks of one model, most frequent first (ties: the pick that came first).
+    function tally(m) {
+      const c = new Map();
+      m.replies.forEach((r, i) => {
+        const k = r.token ?? NONE;
+        if (!c.has(k)) c.set(k, []);
+        c.get(k).push(i);
+      });
+      return [...c].sort((a, b) => (a[0] === NONE) - (b[0] === NONE) || b[1].length - a[1].length);
+    }
+
+    function renderTokens(p) {
+      let lastProvider = null;
+      const all = new Map();
+      let total = 0;
+      p.models.forEach(m => {
+        if (!visible(m)) return;
+        m.replies.forEach(r => { if (r.token != null) all.set(r.token, (all.get(r.token) || 0) + 1); total++; });
+      });
+      const overall = [...all].sort((a, b) => b[1] - a[1]).slice(0, 5)
+        .map(([t, k]) => `<span>${tok(t)}${pct(k, total)}</span>`).join("");
+
+      const rows = p.models.map((m, mi) => {
+        if (!visible(m)) return "";
+        let head = "";
+        if (provider === "all" && m.provider !== lastProvider) {
+          head = `<div class="group-head">${PROVIDER_NAMES[m.provider]}</div>`;
+          lastProvider = m.provider;
+        }
+        const t = tally(m), n = m.replies.length;
+        const top = t.filter(([k]) => k !== NONE).slice(0, TOP), rest = t.filter(e => !top.includes(e));
+        const restN = rest.reduce((s, e) => s + e[1].length, 0);
+        const isSel = key => selected && selected[0] === mi && selected[1] === key;
+        // The "other" button has key "", which no token can be (an empty first line is no token).
+        const btn = (key, label, idx) => `<button class="pick${key === "" ? " rest" : ""}${isSel(key) ? " selected" : ""}" data-m="${mi}" data-k="${esc(key)}" aria-expanded="${isSel(key)}">${label}<span class="pct">${pct(idx.length, n)}</span></button>`;
+        const picks = top.map(([k, idx]) => btn(k, tok(k), idx)).join("")
+          + (restN ? btn("", rest.length === 1 && rest[0][0] === NONE ? "no token" : "other", rest.flatMap(e => e[1])) : "");
+        let reply = "";
+        if (selected && selected[0] === mi) {
+          const idx = selected[1] === "" ? rest.flatMap(e => e[1]).sort((a, b) => a - b) : t.find(e => e[0] === selected[1])[1];
+          reply = `<div class="reply"><ul class="reply-list">${idx.map(i => {
+            const r = m.replies[i];
+            return `<li><div class="reply-meta">${r.token != null ? tok(r.token) : "no token"} · ${esc(m.name)} · reply ${i + 1} of ${n}</div><div class="reply-body">${md(r.text)}</div></li>`;
+          }).join("")}</ul></div>`;
+        }
+        return `${head}<div class="row"><div class="row-head"><span class="row-name">${esc(m.name)}</span><div class="picks-row">${picks}</div></div>${reply}</div>`;
+      }).join("");
+      const n = Math.max(...p.models.map(m => m.replies.length));
+      return { rows, legend: `<div class="overall">Most picked by the models below: ${overall}</div>`, n };
+    }
+
     function renderNav() {
       let lastGroup = null;
       document.getElementById("nav").innerHTML = data.probes.map(p => {
@@ -180,9 +272,20 @@
 
     function renderProbe() {
       const p = current;
+      if (p.kind === "tokens") {
+        const t = renderTokens(p);
+        document.getElementById("probe").innerHTML = `
+          <h1>“${esc(p.prompt)}”</h1>
+          <div class="providers">${providerButtons(p)}</div>
+          ${t.legend}
+          <div class="chart">${t.rows}</div>
+          ${moreToggle(p)}
+          <p class="method">${p.date} · ${t.n} replies per model; each model's three most frequent tokens with their share of its replies · no system prompt · Claude models through the Claude API, OpenAI, Qwen and Kimi models through OpenRouter · the token is taken from the reply's first line, a few replies read and corrected by hand · in the token chips, a faint dot marks a space and ↵ a line break<br>Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="llm-probes.json">JSON</a></p>`;
+        return;
+      }
       let lastProvider = null;
       const rows = p.models.map((m, mi) => {
-        if (provider !== "all" && m.provider !== provider) return "";
+        if (!visible(m)) return "";
         let head = "";
         if (provider === "all" && m.provider !== lastProvider) {
           head = `<div class="group-head">${PROVIDER_NAMES[m.provider]}</div>`;
@@ -214,11 +317,15 @@
 
       document.getElementById("probe").innerHTML = `
         <h1>“${esc(p.prompt)}”</h1>
-        <div class="providers">${[["all", "All"], ...[...new Set(p.models.map(m => m.provider))].map(k => [k, PROVIDER_NAMES[k]])].map(([k, n]) => `<button data-p="${k}" aria-pressed="${provider === k}">${n}</button>`).join("")}</div>
+        <div class="providers">${providerButtons(p)}</div>
         <div class="chart${p.labels.some(l => l.sprite) ? " picks" : ""}">${rows}</div>
+        ${moreToggle(p)}
         <ul class="legend">${legend}</ul>
-        <p class="method">${p.date} · no system prompt · Claude models through the Claude API, OpenAI, Qwen and Kimi models through OpenRouter · replies classified by Claude Opus 5.5<br>${p.credit ? `<a href="${p.credit[1]}">${esc(p.credit[0])}</a> · ${esc(p.credit[2])}<br>` : ""}Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="llm-probes.json">JSON</a></p>`;
+        <p class="method">${p.date} · ${p.models[0].replies.length} replies per model · no system prompt · Claude models through the Claude API, OpenAI, Qwen and Kimi models through OpenRouter · replies classified by Claude Opus 5.5<br>${p.credit ? `<a href="${p.credit[1]}">${esc(p.credit[0])}</a> · ${esc(p.credit[2])}<br>` : ""}Download all replies: <a href="replies.csv" download>CSV</a>, <a href="data.json" download="llm-probes.json">JSON</a></p>`;
     }
+
+    const providerButtons = p => [["all", "All"], ...[...new Set(p.models.map(m => m.provider))].map(k => [k, PROVIDER_NAMES[k]])]
+      .map(([k, n]) => `<button data-p="${k}" aria-pressed="${provider === k}">${n}</button>`).join("");
 
     function route() {
       const id = location.hash.slice(1);
@@ -230,10 +337,24 @@
 
     document.getElementById("probe").addEventListener("click", e => {
       const pb = e.target.closest(".providers button");
+      if (e.target.closest(".more")) {
+        showAll = !showAll;
+        selected = null;
+        renderProbe();
+        return;
+      }
       if (pb) {
         provider = pb.dataset.p;
         selected = null;
         renderProbe();
+        return;
+      }
+      const pk = e.target.closest(".pick");
+      if (pk) {
+        const sel = [+pk.dataset.m, pk.dataset.k];
+        selected = selected && selected[0] === sel[0] && selected[1] === sel[1] ? null : sel;
+        renderProbe();
+        [...document.querySelectorAll(`.pick[data-m="${sel[0]}"]`)].find(x => x.dataset.k === sel[1])?.focus({ preventScroll: true });
         return;
       }
       const b = e.target.closest(".dot");

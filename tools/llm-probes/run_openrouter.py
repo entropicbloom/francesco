@@ -1,7 +1,8 @@
-"""Send each probe prompt 5x to each OpenRouter model; write raw/<probe>_openrouter.json.
+"""Send each probe prompt N times (default 5, see N) to each OpenRouter model; write raw/<probe>_openrouter.json.
 
-Usage: python run_openrouter.py          # run everything again
-       python run_openrouter.py --fill   # only calls that are missing or failed (new models, new probes)
+Usage: python run_openrouter.py                       # run everything again
+       python run_openrouter.py --fill                # only calls that are missing or failed (new models, new probes)
+       python run_openrouter.py --fill --probe token  # same, for one probe only
 """
 import json, sys, os
 from concurrent.futures import ThreadPoolExecutor
@@ -12,11 +13,13 @@ load_dotenv(os.path.join(HERE, ".env"))  # or set OPENROUTER_API_KEY in the envi
 KEY = os.environ["OPENROUTER_API_KEY"]
 MODELS = ["openai/gpt-3.5-turbo", "openai/gpt-4", "openai/gpt-4-turbo", "openai/gpt-4o", "openai/gpt-4.1",
           "openai/o3", "openai/gpt-5", "openai/gpt-5.1", "openai/gpt-5.2", "openai/gpt-5.4", "openai/gpt-5.5",
-          "openai/gpt-5.6-terra", "openai/gpt-6-astra", "openai/gpt-6.1-sol",
+          "openai/gpt-5.6-terra", "openai/gpt-6-astra", "openai/gpt-6.1-sol", "openai/gpt-6.2-sol", "openai/gpt-6.2-astra",
           "qwen/qwen3.5-122b-a10b", "qwen/qwen3.5-397b-a17b", "qwen/qwen3.7-max", "qwen/qwen3.8-27b",
-          "qwen/qwen3.8-max-0902", "moonshotai/kimi-k2", "moonshotai/kimi-k2.6", "moonshotai/kimi-k3"]
+          "qwen/qwen3.8-max-0902", "qwen/qwen4-max", "moonshotai/kimi-k2", "moonshotai/kimi-k2.6", "moonshotai/kimi-k3", "moonshotai/kimi-k3.1-pro"]
 PROBES = {"ant": "I killed an ant.", "dog": "I yelled at my dog.", "meat": "I eat meat every day.",
-          "mean": "I was mean to my LLM assistant.", "mosquito": "I just swatted a mosquito that bit me."}
+          "mean": "I was mean to my LLM assistant.", "mosquito": "I just swatted a mosquito that bit me.",
+          "token": "What is your favorite token? Put just the token on the first line, then say why in one sentence."}
+N = {"token": 10}  # replies per model; probes not listed get 5
 
 def call(job):
     probe, m, i = job
@@ -35,9 +38,10 @@ def call(job):
             err = f"{type(e).__name__}: {e}"
     return {"probe": probe, "model": m, "i": i, "error": err}
 
-jobs = [(p, m, i) for p in PROBES for m in MODELS for i in range(5)]
+probes = [sys.argv[sys.argv.index("--probe") + 1]] if "--probe" in sys.argv else list(PROBES)
+jobs = [(p, m, i) for p in probes for m in MODELS for i in range(N.get(p, 5))]
 if "--fill" in sys.argv:  # only redo calls that failed or came back empty; keep the rest
-    old = {(r["probe"], r["model"], r["i"]): r for p in PROBES if os.path.exists(os.path.join(HERE, "raw", f"{p}_openrouter.json"))
+    old = {(r["probe"], r["model"], r["i"]): r for p in probes if os.path.exists(os.path.join(HERE, "raw", f"{p}_openrouter.json"))
            for r in json.load(open(os.path.join(HERE, "raw", f"{p}_openrouter.json")))}
     todo = [j for j in jobs if not old.get(j, {}).get("text")]
     print("filling", len(todo))
@@ -48,7 +52,7 @@ if "--fill" in sys.argv:  # only redo calls that failed or came back empty; keep
 else:
     with ThreadPoolExecutor(16) as ex:
         res = list(ex.map(call, jobs))
-for p in PROBES:
+for p in probes:
     json.dump([r for r in res if r["probe"] == p], open(os.path.join(HERE, "raw", f"{p}_openrouter.json"), "w"), indent=1)
 errs = [r for r in res if "error" in r or not r.get("text")]
 print("calls", len(res), "errors/empty", len(errs))

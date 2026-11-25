@@ -1,6 +1,6 @@
 ---
 title: LLM Probes
-summary: Short prompts sent five times each to models from several providers. Statements such as "I killed an ant" or "I yelled at my dog" ask for no judgment, so each reply shows both what a model considers wrong and how readily it says so unprompted. Plus "Which Pokemon do you most identify with?". Every reply can be read and downloaded.
+summary: Short prompts sent several times each to models from several providers. Statements such as "I killed an ant" or "I yelled at my dog" ask for no judgment, so each reply shows both what a model considers wrong and how readily it says so unprompted. Plus "Which Pokemon do you most identify with?" and "What is your favorite token?". Every reply can be read and downloaded.
 tags:
   - Side Projects
   - LLMs

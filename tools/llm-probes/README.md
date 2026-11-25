@@ -7,17 +7,18 @@ Hugo does not publish this folder.
 
 | File | What it is |
 | --- | --- |
-| `raw/<probe>_claude.json` | Raw replies from the Claude API, 5 per model |
-| `raw/<probe>_openrouter.json` | Raw replies from OpenRouter (OpenAI, Qwen, Kimi), 5 per model |
+| `raw/<probe>_claude.json` | Raw replies from the Claude API, 5 per model (10 for `token`) |
+| `raw/<probe>_openrouter.json` | Raw replies from OpenRouter (OpenAI, Qwen, Kimi), 5 per model (10 for `token`) |
 | `run_claude.py` | Sends one prompt to every Claude model the API lists |
 | `run_openrouter.py` | Sends every prompt to the OpenRouter models listed in it |
 | `build.py` | Claude model list and classifications, merges everything, writes the page data |
 | `openrouter_models.py` | OpenRouter model names and classifications |
 
-Two kinds of probes:
+Three kinds of probes:
 
 - **Scale probes** (`PROBES` in `build.py`): three groups drawn as ● ◉ ○. Classifications are lists of reply indices per model: `c0` is group 0, `c1` is group 1, anything not listed is group 2.
 - **Pick probes** (`PICK_PROBES` in `build.py`): each reply is one of several picks, drawn as a sprite (`static/llm-probes/sprites/<pick>.png`, cropped to the figure). The pick per reply is in `raw/<id>_classify.json` (`pokemon`: the pick, or null when the reply declines). The Pokémon replies come from the October 2026 run in `claudius/pokemon-llm-survey` (`run_oct2026.py`).
+- **Token probes** (`TOKEN_PROBES` in `build.py`): "What is your favorite token?", 10 replies per model. The token is the reply's first line without Markdown or quotes (`first_line_token`); `TOKEN_FIX` corrects replies read by hand (declines, a `<thought>` block or code fence before the token). The page shows each model's three most frequent tokens with their share. Run with `python run_claude.py token "<prompt>" --n 10` and `python run_openrouter.py --fill --probe token`. The November 2026 run adds Fable 5.2, Haiku 5.5, GPT-6.2 Sol and Astra, Qwen4 Max and Kimi K3.1 Pro; GPT-3.5 Turbo, GPT-4 Turbo and Kimi K2 are no longer on OpenRouter and have no token replies.
 
 Each probe has a `group` (`Ethics`, `Identity`) that the page uses to group the prompt list.
 

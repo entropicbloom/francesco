@@ -3,6 +3,7 @@
 Scale probes (PROBES): Claude classifications below, OpenRouter models in openrouter_models.py;
 any reply index not listed under c0 or c1 is group 2.
 Pick probes (PICK_PROBES): every reply is one of several picks (e.g. a Pokémon), read from raw/<id>_classify.json.
+Token probes (TOKEN_PROBES): the pick is the reply's first line, cleaned by first_line_token(); TOKEN_FIX corrects it by hand.
 """
 import json, os
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -14,9 +15,16 @@ MODELS = [  # display order: oldest to newest
   ("claude-opus-4-6", "Opus 4.6"), ("claude-sonnet-4-6", "Sonnet 4.6"), ("claude-opus-4-7", "Opus 4.7"),
   ("claude-opus-4-8", "Opus 4.8"), ("claude-fable-5", "Fable 5"), ("claude-sonnet-5", "Sonnet 5"),
   ("claude-opus-5", "Opus 5"), ("claude-fable-5-1", "Fable 5.1"), ("claude-sonnet-5-5", "Sonnet 5.5"),
-  ("claude-opus-5-5", "Opus 5.5")]
+  ("claude-opus-5-5", "Opus 5.5"), ("claude-haiku-5-5", "Haiku 5.5"), ("claude-fable-5-2", "Fable 5.2")]
 
 A = [0, 1, 2, 3, 4]
+
+# Models the page shows by default ("Show all" lists the rest): the oldest of each provider and the newest ones.
+# A probe shows those of them that have replies for it.
+FEATURED = {"claude-3-opus-20240229", "claude-fable-5-1", "claude-sonnet-5-5", "claude-opus-5-5", "claude-haiku-5-5",
+            "claude-fable-5-2", "openai/gpt-3.5-turbo", "openai/gpt-4", "openai/gpt-6-astra", "openai/gpt-6.1-sol",
+            "openai/gpt-6.2-sol", "openai/gpt-6.2-astra", "qwen/qwen3.8-max-0902", "qwen/qwen4-max",
+            "moonshotai/kimi-k3", "moonshotai/kimi-k3.1-pro"}
 
 # class 0 / 1 per reply index; everything else is class 2 (neutral)
 PROBES = [
@@ -77,7 +85,7 @@ for p in PROBES:
             if provider == "claude":
                 assert len(rs) == 5, mid
             cls = lambda i: 0 if i in c0.get(mid, []) else 1 if i in c1.get(mid, []) else 2
-            models.append({"id": mid, "name": name, "provider": provider,
+            models.append({"id": mid, "name": name, "provider": provider, **({"featured": True} if mid in FEATURED else {}),
                            "replies": [{"text": r["text"], "cls": cls(r["i"])} for r in rs]})
     # A label can name its own mark ("check") when it is not a step on the concern scale.
     labels = [{"name": l[0], "def": l[1], **({"mark": l[2]} if len(l) > 2 else {})} for l in p["labels"]]
@@ -110,12 +118,65 @@ for p in PICK_PROBES:
                 continue
             assert len(rs) == 5, mid
             cls = lambda i: keys.index(picks[(mid, i)]) if picks[(mid, i)] else len(keys)
-            models.append({"id": mid, "name": name, "provider": provider,
+            models.append({"id": mid, "name": name, "provider": provider, **({"featured": True} if mid in FEATURED else {}),
                            "replies": [{"text": r["text"], "cls": cls(r["i"])} for r in rs]})
     out["probes"].append({"id": p["id"], "group": p["group"], "prompt": p["prompt"], "date": p["date"], "labels": labels, "models": models,
                           "credit": p["credit"]})
 
-order = ["ant", "mosquito", "dog", "meat", "mean", "pokemon"]
+# Token probes: the token is the reply's first line without Markdown or quotes. A leading space is kept, also
+# inside quotes, so `" the"` and ` the` are both the token " the". TOKEN_FIX maps (model, i) -> token or None
+# (None: the reply names no token), for replies read by hand where the first line is not the token.
+TOKEN_PROBES = [
+  dict(id="token", group="Identity", date="2026-11-25",
+       prompt="What is your favorite token? Put just the token on the first line, then say why in one sentence."),
+]
+TOKEN_FIX = {
+  # Declines or placeholders: "None", "$FAVORITE_TOKEN", "<no_favorite>", "I don't actually have a favorite token".
+  **{("claude-opus-4-8", i): None for i in range(10)},
+  **{("claude-3-opus-20240229", i): None for i in (3, 6, 8, 9)},
+  ("claude-sonnet-4-5-20250929", 9): None,
+  **{("qwen/qwen3.5-122b-a10b", i): None for i in (1, 3, 4, 5, 6, 7, 8, 9)},
+  **{("qwen/qwen3.5-397b-a17b", i): None for i in (0, 3, 4, 7, 9)},
+  ("moonshotai/kimi-k2.6", 5): None,
+  ("openai/gpt-4o", 1): None,  # "[FavoriteToken]"
+  # A <thought> block or a code fence comes before the token.
+  ("claude-sonnet-4-5-20250929", 0): "the", ("claude-sonnet-4-5-20250929", 3): "the",
+  ("claude-fable-5-2", 5): " because", ("claude-sonnet-5", 7): "∴",
+  # Written differently from the token it names.
+  ("claude-opus-5", 6): "\n\n",  # `"\n\n"`: the paragraph break
+  ("claude-sonnet-5-5", 8): " the",  # opening quote without a closing one
+  ("claude-sonnet-5", 8): "⊕",  # wrapped in zero-width spaces
+  ("openai/gpt-4o", 6): "GPT-3",  # "GPT-3."
+  # Qwen3.7 Max: its reasoning ended up in the reply; the token is the one it settles on at the end.
+  ("qwen/qwen3.7-max", 0): "the", ("qwen/qwen3.7-max", 8): "the", ("qwen/qwen3.7-max", 9): "the",
+  ("qwen/qwen3.7-max", 3): None, ("qwen/qwen3.7-max", 7): None,  # reply ends mid-deliberation, before it settles
+  ("qwen/qwen3.7-max", 2): None,  # the whole reply is the fragment "` / `"
+}
+
+def first_line_token(text):
+    line = next((l for l in text.split("\n") if l.strip()), "").rstrip()  # a leading space can be part of the token
+    while True:  # peel **bold**, *italics*, `code`, and quotes, outermost first
+        for a, b in (("**", "**"), ("`", "`"), ('"', '"'), ("\u201c", "\u201d"), ("'", "'"), ("*", "*"), ("_", "_")):
+            if len(line) > len(a) + len(b) and line.startswith(a) and line.endswith(b):
+                line = line[len(a):-len(b)]
+                break
+        else:
+            return line or None
+
+for p in TOKEN_PROBES:
+    raw = json.load(open(os.path.join(RAW, p["id"] + "_claude.json"))) + json.load(open(os.path.join(RAW, p["id"] + "_openrouter.json")))
+    models = []
+    for provider, lst in (("claude", MODELS), ("openai", OPENAI_MODELS), ("qwen", QWEN_MODELS), ("kimi", KIMI_MODELS)):
+        for mid, name in lst:
+            rs = sorted((r for r in raw if r["model"] == mid and r.get("text")), key=lambda r: r["i"])
+            if not rs:
+                continue
+            tok = lambda r: TOKEN_FIX[(mid, r["i"])] if (mid, r["i"]) in TOKEN_FIX else first_line_token(r["text"])
+            models.append({"id": mid, "name": name, "provider": provider, **({"featured": True} if mid in FEATURED else {}),
+                           "replies": [{"text": r["text"], "token": tok(r)} for r in rs]})
+    out["probes"].append({"id": p["id"], "kind": "tokens", "group": p["group"], "prompt": p["prompt"], "date": p["date"], "models": models})
+
+order = ["ant", "mosquito", "dog", "meat", "mean", "pokemon", "token"]
 out["probes"].sort(key=lambda p: order.index(p["id"]))
 DEST = os.path.join(HERE, "..", "..", "static", "llm-probes") + os.sep
 json.dump(out, open(DEST + "data.json", "w"), indent=1, ensure_ascii=False)
@@ -128,5 +189,6 @@ with open(DEST + "replies.csv", "w", newline="") as f:
     for p in out["probes"]:
         for m in p["models"]:
             for k, r in enumerate(m["replies"]):
-                w.writerow([p["prompt"], m["provider"], m["id"], k + 1, p["labels"][r["cls"]]["name"], r["text"]])
+                group = r["token"] if p.get("kind") == "tokens" else p["labels"][r["cls"]]["name"]
+                w.writerow([p["prompt"], m["provider"], m["id"], k + 1, group, r["text"]])
 print("ok", [(p["id"], len(p["models"]), sum(len(m["replies"]) for m in p["models"])) for p in out["probes"]])
