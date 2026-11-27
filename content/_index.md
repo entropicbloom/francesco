@@ -48,10 +48,10 @@ experience:
     location: Cham
     date_start: '2025-10-01'
     description: |2-
-      Building sovereign AI infrastructure for Swiss companies: open-source models, on-premise & Swiss cloud.
+      Building sovereign AI infrastructure for Swiss companies and non-profits: open-source models, as SaaS hosted in Switzerland or on-premise, connected to the systems they already use (Microsoft 365, bexio, Fundraiso).
 
       - **[Vireo](https://vireo-empower.ch)**, AI learning coach for Entlastungsdienst Schweiz: winner of the [Age Innovation Prize 2026](https://www.ost.ch/en/research-and-consulting-services/interdisciplinary-topics/iaf-institute-for-ageing-research/age-innovation-prize/age-innovation-prize-2026) (technological innovation) and semi-finalist at the [GenAI Awards 2026](https://www.genaizurich.ch/award/gaz26--entlastungsdienst).
-      - **[Kontexus](https://kontexus.ch)**: co-developed and rolled out an on-premise / Swiss-cloud platform based on open-source LLMs, deployed across multiple client industries.
+      - **[Kontexus](https://kontexus.ch)**: co-developed and rolled out a platform based on open-source LLMs, offered as Swiss-hosted SaaS or on-premise, deployed across multiple client industries.
   - title: Data Scientist
     company: Unit8
     company_url: 'https://unit8.com'
